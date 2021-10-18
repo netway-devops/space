@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "path": "./cms.main"
+    },
+    {
+      "path": "./cdn.rvtheme.com.main"
+    }
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/docker": true,
+      "**/cdn": true,
+      "**/.devcontainer": true
+    },
+    "emeraldwalk.runonsave": {
+      "commands": [
+        {
+          "match": "\\.php$",
+          "cmd": "vendor/bin/ecs check ${file} --fix"
+        },
+        {
+          "match": "\\.php$",
+          "cmd": "vendor/bin/rector process ${file}"
+        }
+      ]
+    },
+    "ecs.executablePath": "vendor/bin/ecs",
+    "ecs.configPath": "ecs.php",
+    "svn.ignoreMissingSvnWarning": true
+  }
+}

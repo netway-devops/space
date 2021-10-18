@@ -1,0 +1,8 @@
+[submodule "cms/main/cms.main"]
+	path = cms/main/cms.main
+	url = https://github.com/rvsitebuilder/cms.git
+	branch = main
+[submodule "cms/main/cdn.rvtheme.com.main"]
+	path = cms/main/cdn.rvtheme.com.main
+	url = https://github.com/rvsitebuilder-service/cdn.git
+	branch = main
