@@ -1,0 +1,20 @@
+{
+    "name": "billing.netway.co.th Main",
+    "dockerComposeFile": "../../../../laradock-multisite/docker-compose-billing-netway-main.yml",
+    "remoteUser": "laradock",
+    "runServices": [
+        "apache2",
+        "php-fpm",
+        "mysql",
+        "mariadb",
+        "phpmyadmin",
+        "workspace",
+        "docker-in-docker",
+        "mailhog"
+    ],
+    "service": "workspace",
+    "workspaceFolder": "/var/www/domains/netwaymain",
+    "shutdownAction": "stopCompose",
+    "postStartCommand": ". /var/www/domains/netwaymain/devscript.sh",
+    "postCreateCommand": "unlink /var/www/domains/main; ln -s /var/www/domains/netwaymain /var/www/domains/main;",
+}

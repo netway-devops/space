@@ -6,3 +6,7 @@
 	path = cms/main/cdn.rvtheme.com.main
 	url = https://github.com/rvsitebuilder-service/cdn.git
 	branch = main
+[submodule "netway/main/billing.netway.co.th"]
+	path = netway/main/billing.netway.co.th
+	url = https://github.com/netway/billing.netway.co.th.git
+	branch = main
