@@ -10,3 +10,7 @@
 	path = rvglobalsoft/main/rvglobalsoft.com
 	url = https://github.com/netway/rvglobalsoft.com.git
 	branch = main
+[submodule "netway/main/billing.netway.co.th"]
+	path = netway/main/billing.netway.co.th
+	url = https://github.com/netway/billing.netway.co.th.git
+	branch = main
