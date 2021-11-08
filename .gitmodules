@@ -10,3 +10,7 @@
 	path = netway/main/billing.netway.co.th
 	url = https://github.com/netway/billing.netway.co.th.git
 	branch = main
+[submodule "cms/main/cdn.rvtheme.com.main"]
+	path = cms/main/cdn.rvtheme.com.main
+	url = https://github.com/netway/cdn.rvtheme.com.git
+	branch = main
