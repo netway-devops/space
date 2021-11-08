@@ -2,10 +2,6 @@
 	path = cms/main/cms.main
 	url = https://github.com/rvsitebuilder/cms.git
 	branch = main
-[submodule "cms/main/cdn.rvtheme.com.main"]
-	path = cms/main/cdn.rvtheme.com.main
-	url = https://github.com/rvsitebuilder-service/cdn.git
-	branch = main
 [submodule "rvglobalsoft/main/rvglobalsoft.com"]
 	path = rvglobalsoft/main/rvglobalsoft.com
 	url = https://github.com/netway/rvglobalsoft.com.git
@@ -13,4 +9,8 @@
 [submodule "netway/main/billing.netway.co.th"]
 	path = netway/main/billing.netway.co.th
 	url = https://github.com/netway/billing.netway.co.th.git
+	branch = main
+[submodule "cms/main/cdn.rvtheme.com.main"]
+	path = cms/main/cdn.rvtheme.com.main
+	url = https://github.com/netway/cdn.rvtheme.com.git
 	branch = main
