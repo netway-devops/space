@@ -1,1 +1,0 @@
-ALTER TABLE `hb_admin_log` ADD INDEX (`lastvisit`);

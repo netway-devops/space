@@ -1,1 +1,0 @@
- {include file="`$cdndir`metered_table.tpl"}

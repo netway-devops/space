@@ -1,1 +1,0 @@
- {include file="`$onappdir`metered_table.tpl"}

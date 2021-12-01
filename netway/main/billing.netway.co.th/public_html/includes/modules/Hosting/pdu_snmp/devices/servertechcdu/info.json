@@ -1,4 +1,0 @@
-{
-  "name": "Servertech CDU",
-  "description": "Driver to work with ServerTech CDU/PDU that does not support monitoring outlet power/voltage/amps. Tested on: CW-24VDX454A1. <br><br><strong>Note about power billing</strong><br>If you plan to bil for power using this driver/device note, that it measures & bills for entire inlet. So if customer have two ports assigned on one inlet (and connected as ports in HostBill) HostBill will bill for power consuption just on inlet customer port is on. Power billing use/require HostBill PowerCollector module."
-}

@@ -1,1 +1,0 @@
-Upload hb_api.php to html dir of your LibreNMS install (by default /opt/librenms/html)

@@ -1,1 +1,0 @@
-{if $do=='metered_history'}{include file='_common/accounts_meteredtable.tpl'}{/if}

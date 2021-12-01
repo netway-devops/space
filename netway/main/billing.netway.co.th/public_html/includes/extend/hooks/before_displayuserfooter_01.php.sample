@@ -1,6 +1,0 @@
-<?php
-
-/**
- * This event is called when clientarea footer is rendered -
- * use this to inject your custom scripts/meta tags etc.
- */

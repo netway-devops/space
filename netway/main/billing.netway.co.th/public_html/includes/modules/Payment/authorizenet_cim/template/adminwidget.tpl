@@ -1,1 +1,0 @@
-<a href="?cmd=authorizenet_cim&action=paynow&invoice_id={$invoice.id}&security_token={$security_token}" class="btn btn-sm btn-info" onclick="return confirm('Are you sure?');">Charge existing AuthorizeNET reference</a>

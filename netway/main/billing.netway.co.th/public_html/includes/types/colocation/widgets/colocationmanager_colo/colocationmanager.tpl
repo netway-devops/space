@@ -1,1 +1,0 @@
-{include file=$colocation_widget_dir}

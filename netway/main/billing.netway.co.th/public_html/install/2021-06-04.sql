@@ -1,2 +1,0 @@
-INSERT INTO `hb_cron_tasks` (`task`, `name`, `lastrun`, `status`, `count`, `metadata`, `output`, `run_every`, `run_every_time`) VALUES
-('addDomainRedemptionFee', 'Add a redemption fee for a domain', NOW(), 1, 0, '', '', 'Hour', '1200');

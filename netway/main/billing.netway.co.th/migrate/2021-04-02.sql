@@ -1,2 +1,0 @@
-#เพิ่มการเช็ค Deal ตอนสร้าง estimate ไม่ให้ซ้ำกับตอนที่convert เป็น Invoice
-ALTER TABLE `hb_estimates` ADD `deal_id` VARCHAR(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT 'Netway' AFTER `options`;

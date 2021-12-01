@@ -1,7 +1,0 @@
-<?php
-
-/**
- * Client contact (profile) has been deleted by customer
- */
-
-$contact_id = $details;

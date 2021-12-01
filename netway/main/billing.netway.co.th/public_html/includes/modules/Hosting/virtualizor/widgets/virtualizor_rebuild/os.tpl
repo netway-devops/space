@@ -1,1 +1,0 @@
-{include file="`$onappdir`reinstall.tpl"}

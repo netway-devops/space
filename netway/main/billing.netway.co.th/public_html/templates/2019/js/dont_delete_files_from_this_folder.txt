@@ -1,2 +1,0 @@
-Please, do not delete the file from this folder.
-Even if these files will be compiled to dist/js folder

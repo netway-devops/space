@@ -1,1 +1,0 @@
-{include file="ajax.list_wizard.tpl"}

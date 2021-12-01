@@ -1,1 +1,0 @@
-ALTER TABLE `hb_invoices` CHANGE `status` `status` ENUM('Paid','Unpaid','Cancelled','Draft','Recurring','Refunded','Credited','Creditnote','CreditnoteDraft','Collections','Receiptunpaid','Receiptpaid','Receiptcanceled','PaymentInprogress') CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT 'Draft';

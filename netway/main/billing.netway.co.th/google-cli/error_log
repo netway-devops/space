@@ -1,2 +1,0 @@
-[23-Jan-2020 06:44:11 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/managene/public_html/includes/modules/Other/googleresellerprogramhandle/libs/vendor/monolog/monolog/src/Monolog/Logger.php on line 1
-[23-Jan-2020 06:44:11 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting variable (T_VARIABLE) in /home/managene/public_html/includes/modules/Other/googleresellerprogramhandle/libs/vendor/monolog/monolog/src/Monolog/Logger.php on line 33

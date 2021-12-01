@@ -1,1 +1,0 @@
-{include file="`$template_path`services/history.tpl"}

@@ -1,1 +1,0 @@
-service[rsyslogd]=x,x,x,/home/rvglobal/sslsoapserv/app.py,rsyslogd,root

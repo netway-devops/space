@@ -1,7 +1,0 @@
-{
-  "cp_select": "Control Panel",
-  "cp_install": "Install",
-  "cp_install_note": "Starting control panel installation will reboot your server.",
-  "cp_install_info" : "Started control panel installation",
-  "cp_install_error" : "Failed to start control panel installation"
-}

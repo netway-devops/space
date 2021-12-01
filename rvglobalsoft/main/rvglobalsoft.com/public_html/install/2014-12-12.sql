@@ -1,1 +1,0 @@
-ALTER TABLE `hb_client_billing` ADD `taxrateoverride` TINYINT(1) NOT NULL DEFAULT '0' , ADD `taxrate` DECIMAL(10,2) NOT NULL DEFAULT '0.00' ;

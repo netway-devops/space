@@ -1,1 +1,0 @@
-{include file='ajax.domain_bulkregister.tpl'}

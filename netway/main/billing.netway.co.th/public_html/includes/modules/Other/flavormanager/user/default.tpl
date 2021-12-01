@@ -1,1 +1,0 @@
-{include file="ajax.default.tpl"}

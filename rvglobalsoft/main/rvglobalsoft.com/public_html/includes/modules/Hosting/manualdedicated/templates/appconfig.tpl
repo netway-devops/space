@@ -1,1 +1,0 @@
-This module do not connect to external resources , it requires adding app connection only arbitrary. Just App name is required.

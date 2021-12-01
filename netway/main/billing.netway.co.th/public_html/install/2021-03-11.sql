@@ -1,1 +1,0 @@
-INSERT INTO `hb_configuration` (`setting`, `value`) VALUES ('TicketPollInterval', '15');

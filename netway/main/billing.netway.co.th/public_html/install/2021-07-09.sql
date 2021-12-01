@@ -1,1 +1,0 @@
-ALTER TABLE `hb_ticket_replies` CHANGE `type` `type` ENUM('Client','Admin','Email','Unregistered','System')   NULL  DEFAULT 'Client';

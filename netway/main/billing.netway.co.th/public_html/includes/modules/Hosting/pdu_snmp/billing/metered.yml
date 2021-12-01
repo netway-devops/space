@@ -1,7 +1,0 @@
----
-variables:
-  power:
-    name: Power
-    unit_name: kWh
-    scheme: volume
-    description: Total consumed power of outlets assigned to customer returned from SNMP. Check whether PDU device driver supports this feature

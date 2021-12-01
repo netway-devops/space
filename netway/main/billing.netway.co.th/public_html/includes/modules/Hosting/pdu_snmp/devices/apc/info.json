@@ -1,4 +1,0 @@
-{
-  "name": "APC",
-  "description": "Generic SNMP driver for APC PDU devices.  Power billing use/require HostBill PowerCollector module."
-}

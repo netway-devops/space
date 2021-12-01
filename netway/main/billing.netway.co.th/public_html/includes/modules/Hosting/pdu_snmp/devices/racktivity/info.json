@@ -1,4 +1,0 @@
-{
-  "name": "Ractivity PDU",
-  "description": "Driver for fetching Ractivity PDU outlet states/list over SNMP"
-}

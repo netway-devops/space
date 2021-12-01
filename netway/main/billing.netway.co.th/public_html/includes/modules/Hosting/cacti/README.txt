@@ -1,1 +1,0 @@
-Use hb_api.php.* version that matches your Cacti version most and rename it to hb_api.php

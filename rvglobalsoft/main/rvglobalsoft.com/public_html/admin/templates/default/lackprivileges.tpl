@@ -1,1 +1,0 @@
-{include file='ajax.lackprivileges.tpl'}

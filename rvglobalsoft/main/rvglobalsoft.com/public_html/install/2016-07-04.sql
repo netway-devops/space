@@ -1,1 +1,0 @@
-REPLACE INTO hb_configuration VALUE('MergeDomainRenewals', 'off'),('RecurringAddPeriod','off');

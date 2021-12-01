@@ -1,1 +1,0 @@
-{include file='../common/dnsmodules/clientarea.tpl'}

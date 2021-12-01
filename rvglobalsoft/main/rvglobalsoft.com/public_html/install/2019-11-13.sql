@@ -1,1 +1,0 @@
-ALTER TABLE `hb_aff_commisions` ADD COLUMN `applicable_client_groups` VARCHAR(255) NOT NULL DEFAULT 'all' AFTER `applicable_products`;

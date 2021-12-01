@@ -1,6 +1,0 @@
----
-suggestions:
-  value: 10
-  name: Suggestions
-  description: Number of maximum sugested domain names
-  type: input

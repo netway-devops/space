@@ -1,1 +1,0 @@
-UPDATE hb_language_locales SET `value`= "Generate renewal order for client" WHERE `keyword`='domainautorenew';

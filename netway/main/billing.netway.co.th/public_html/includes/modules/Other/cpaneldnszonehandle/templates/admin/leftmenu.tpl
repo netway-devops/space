@@ -1,2 +1,0 @@
-<a class="tstyled {if $action == '' || $action == 'default'}selected{/if}" href="?cmd=module&module=cpaneldnszonehandle">Home</a>
-<a class="tstyled {if $action == 'userdomains'}selected{/if}" href="?cmd=module&module=cpaneldnszonehandle&action=userdomains">Error exim panic</a>

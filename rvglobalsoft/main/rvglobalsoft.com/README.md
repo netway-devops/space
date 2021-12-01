@@ -1,3 +1,0 @@
-# rvglobalsoft.com
-
-rvglobalsoft hostbill

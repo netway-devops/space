@@ -1,1 +1,0 @@
-{include file="`$widget_dir`../resellerwidget.tpl"}

@@ -1,4 +1,0 @@
-{
-  "name": "Raritan Dominion PX",
-  "description": "Driver for fetching/controlling Raritan Dominion PX-series devices. Power billing use/require HostBill PowerCollector module."
-}

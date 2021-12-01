@@ -1,1 +1,0 @@
-{foreach from=$c.items item=cit}<input name="custom[{$kk}][{$cit.id}]"  value="{$c.data[$cit.id]|htmlspecialchars}"  {if $fieldlogic}id="custom_field_{$c.id}"{/if}/> {$cit.name}  {/foreach}

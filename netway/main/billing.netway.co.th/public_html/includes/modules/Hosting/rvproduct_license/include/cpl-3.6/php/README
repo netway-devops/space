@@ -1,1 +1,0 @@
-the cpanelLicensing PHP class requires that PHP 5.0+ compiled with simplexml support (simplexml is compiled-in by default)

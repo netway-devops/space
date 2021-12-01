@@ -1,2 +1,0 @@
-
-<rvtwofactorcodefoot>{/if}</rvtwofactorcodefoot>

@@ -1,1 +1,0 @@
-ALTER TABLE `hb_estimates` ADD `options` INT(5) DEFAULT 0;
