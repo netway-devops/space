@@ -5,6 +5,9 @@
     }
   ],
   "settings": {
-    "search.exclude": {}
+    "files.watcherExclude": {
+      "/var/www/domains/netwaymain/billing.netway.co.th/public_html/7944web": true,
+      "/var/www/domains/netwaymain/billing.netway.co.th/public_html/admin/7944web": true
+    }
   }
 }
