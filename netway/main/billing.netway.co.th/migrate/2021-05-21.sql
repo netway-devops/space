@@ -1,0 +1,2 @@
+# vendor มีการ insert ข้อมูลแล้วไม่มี login ต้องเปลี่ยนค่า default ให้เพื่อป้องกัน error
+ALTER TABLE `hb_admin_failed_login` CHANGE `login` `login` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;

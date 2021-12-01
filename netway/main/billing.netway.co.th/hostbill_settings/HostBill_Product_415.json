@@ -1,0 +1,590 @@
+{
+    "product": {
+        "id": "415",
+        "category_id": "1",
+        "type": "9",
+        "name": ".in",
+        "description": "",
+        "visible": "1",
+        "domain_options": "0",
+        "qty": "0",
+        "autosetup": "1",
+        "subdomain": "",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "153",
+        "autohostname": "",
+        "p_options": [
+            "0"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": ".in",
+        "contract_id": "0",
+        "dbcItemType": "Inventory",
+        "baseUnitOfMeasureCode": "YEAR",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "3",
+        "line_group_id": "3",
+        "codeName": "IN",
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "DomainRegular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": "0.00",
+        "m": "0.00",
+        "q": "0.00",
+        "s": "0.00",
+        "a": "0.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": "0.00",
+        "ptype": "DomainsType",
+        "tlds": null,
+        "periods": {
+            "1": {
+                "period": "1",
+                "register": "600.00",
+                "transfer": "600.00",
+                "renew": "600.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "2": {
+                "period": "2",
+                "register": "1200.00",
+                "transfer": "1200.00",
+                "renew": "1200.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "3": {
+                "period": "3",
+                "register": "1710.00",
+                "transfer": "1710.00",
+                "renew": "1710.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "4": {
+                "period": "4",
+                "register": "2280.00",
+                "transfer": "2280.00",
+                "renew": "2280.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "5": {
+                "period": "5",
+                "register": "2850.00",
+                "transfer": "2850.00",
+                "renew": "2850.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "6": {
+                "period": "6",
+                "register": "3240.00",
+                "transfer": "3240.00",
+                "renew": "3240.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "7": {
+                "period": "7",
+                "register": "3780.00",
+                "transfer": "3780.00",
+                "renew": "3780.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "8": {
+                "period": "8",
+                "register": "4320.00",
+                "transfer": "4320.00",
+                "renew": "4320.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "9": {
+                "period": "9",
+                "register": "4860.00",
+                "transfer": "4860.00",
+                "renew": "4860.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "10": {
+                "period": "10",
+                "register": "5400.00",
+                "transfer": "5400.00",
+                "renew": "5400.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            }
+        },
+        "category_name": "Domain Names",
+        "module": "0",
+        "domain_op": [],
+        "free_domain": "0",
+        "not_renew": "0",
+        "epp": true,
+        "ns": [
+            "ns1.netwaygroup.com",
+            "ns2.netwaygroup.com",
+            "ns3.netwaygroup.com",
+            "ns4.netwaygroup.com",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "nsips": "203.78.107.96|165.227.12.3|203.78.103.254|167.71.51.45||||",
+        "tld": ".in",
+        "nsip": [
+            "203.78.107.96",
+            "165.227.12.3",
+            "203.78.103.254",
+            "167.71.51.45",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "asciimode": false,
+        "app_id": 0,
+        "emails": {
+            "AfterRegistrarRegistration": "28",
+            "AfterRegistrarRenewal": "29",
+            "AfterRegistrarTransfer": "30",
+            "after_domaininsertregister": "0",
+            "after_domaininserttransfer": "0",
+            "expiringDomain": "54"
+        },
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Domain",
+        "modules": [
+            {
+                "product_id": "415",
+                "main": 1,
+                "modname": null,
+                "filename": null,
+                "module": "0",
+                "options": "1",
+                "default": "1",
+                "server": null
+            }
+        ],
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1DomainReminder": "0",
+            "1OverdueReminder": "0",
+            "2DomainReminder": "0",
+            "2OverdueReminder": "7",
+            "3DomainReminder": "15",
+            "3OverdueReminder": "0",
+            "4DomainReminder": "7",
+            "5DomainReminder": "3",
+            "AddLateFeeAfter": "6",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoDeleteDomainDays": "20",
+            "AutoDeleteDomainType": "after",
+            "AutoRegisterDomainType": "0",
+            "AutoTransferDomainType": "0",
+            "CreditFailedRenewals": "off",
+            "CreditOnDowngradeOverride": "",
+            "DomainGracePeriod": "20",
+            "DomainRedemptionPeriod": "0",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoDeleteDomain": "off",
+            "EnableAutoRegisterDomain": "on",
+            "EnableAutoRenewDomain": "on",
+            "EnableAutoTransferDomain": "on",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "0",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "RenewInvoice": "1",
+            "RenewOnOrder": "",
+            "SendPaymentReminderEmails": "on",
+            "InvoiceCustomReminder": null
+        }
+    },
+    "addons": [],
+    "tasks": [],
+    "widgets": [
+        {
+            "id": "356",
+            "widget": "nameservers",
+            "name": "Manage Nameservers",
+            "location": "includes\/types\/domains\/widgets\/nameservers\/",
+            "ptype": "9",
+            "config": {
+                "smallimg": "includes\/types\/domains\/widgets\/nameservers\/small.png",
+                "bigimg": "includes\/types\/domains\/widgets\/nameservers\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "14",
+            "override_defaults": "0",
+            "target_id": "415",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "357",
+            "widget": "contactinfo",
+            "name": "Contacts Information",
+            "location": "includes\/types\/domains\/widgets\/contactinfo\/",
+            "ptype": "9",
+            "config": {
+                "smallimg": "includes\/types\/domains\/widgets\/contactinfo\/small.png",
+                "bigimg": "includes\/types\/domains\/widgets\/contactinfo\/big.png"
+            },
+            "options": "1",
+            "group": "sidemenu",
+            "widget_id": "6",
+            "override_defaults": "0",
+            "target_id": "415",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        }
+    ],
+    "forms": [
+        {
+            "id": "770",
+            "type": "input",
+            "required": "0",
+            "name": "Country",
+            "key": "",
+            "variable": "locality",
+            "description": "Two-lettered Country code",
+            "category": "",
+            "product_id": "415",
+            "copy_of": "770",
+            "options": "3",
+            "config": [],
+            "sort_order": "4",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "2468",
+                    "category_id": "770",
+                    "copy_of": "2468",
+                    "pricing": true
+                }
+            ]
+        },
+        {
+            "id": "771",
+            "type": "select",
+            "required": "0",
+            "name": "Legal Entity Type",
+            "key": "",
+            "variable": "legalentitytype",
+            "description": "",
+            "category": "",
+            "product_id": "415",
+            "copy_of": "771",
+            "options": "3",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "5",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "2469",
+                    "category_id": "771",
+                    "name": "Natural Person",
+                    "variable_id": "naturalPerson ",
+                    "copy_of": "2469",
+                    "pricing": true
+                },
+                {
+                    "id": "2470",
+                    "category_id": "771",
+                    "name": "Corporation",
+                    "variable_id": "corporation ",
+                    "sort_order": "1",
+                    "copy_of": "2470",
+                    "pricing": true
+                },
+                {
+                    "id": "2471",
+                    "category_id": "771",
+                    "name": "Cooperative",
+                    "variable_id": "cooperative ",
+                    "sort_order": "2",
+                    "copy_of": "2471",
+                    "pricing": true
+                },
+                {
+                    "id": "2472",
+                    "category_id": "771",
+                    "name": "Partnership",
+                    "variable_id": "partnership ",
+                    "sort_order": "3",
+                    "copy_of": "2472",
+                    "pricing": true
+                },
+                {
+                    "id": "2473",
+                    "category_id": "771",
+                    "name": "Government",
+                    "variable_id": "government ",
+                    "sort_order": "4",
+                    "copy_of": "2473",
+                    "pricing": true
+                },
+                {
+                    "id": "2474",
+                    "category_id": "771",
+                    "name": "Political Party",
+                    "variable_id": "politicalParty  ",
+                    "sort_order": "5",
+                    "copy_of": "2474",
+                    "pricing": true
+                },
+                {
+                    "id": "2475",
+                    "category_id": "771",
+                    "name": "Society",
+                    "variable_id": "society  ",
+                    "sort_order": "6",
+                    "copy_of": "2475",
+                    "pricing": true
+                },
+                {
+                    "id": "2476",
+                    "category_id": "771",
+                    "name": "Institution",
+                    "variable_id": "institution   ",
+                    "sort_order": "7",
+                    "copy_of": "2476",
+                    "pricing": true
+                },
+                {
+                    "id": "2477",
+                    "category_id": "771",
+                    "name": "Other",
+                    "variable_id": "other  ",
+                    "sort_order": "8",
+                    "copy_of": "2477",
+                    "pricing": true
+                }
+            ]
+        },
+        {
+            "id": "772",
+            "type": "input",
+            "required": "0",
+            "name": "Other Legal Entity Type",
+            "key": "",
+            "variable": "otherlegalentitytype",
+            "description": "Mandatory if Legal Entity Type chosen as 'Other'",
+            "category": "",
+            "product_id": "415",
+            "copy_of": "772",
+            "options": "2",
+            "config": [],
+            "sort_order": "6",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "2478",
+                    "category_id": "772",
+                    "copy_of": "2478",
+                    "pricing": true
+                }
+            ]
+        },
+        {
+            "id": "773",
+            "type": "select",
+            "required": "0",
+            "name": "Identity form",
+            "key": "",
+            "variable": "identform",
+            "description": "",
+            "category": "",
+            "product_id": "415",
+            "copy_of": "773",
+            "options": "3",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "7",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "2479",
+                    "category_id": "773",
+                    "name": "Passport",
+                    "variable_id": "passport ",
+                    "copy_of": "2479",
+                    "pricing": true
+                },
+                {
+                    "id": "2480",
+                    "category_id": "773",
+                    "name": "Certificate",
+                    "variable_id": "certificate ",
+                    "sort_order": "1",
+                    "copy_of": "2480",
+                    "pricing": true
+                },
+                {
+                    "id": "2481",
+                    "category_id": "773",
+                    "name": "Legislation",
+                    "variable_id": "legislation ",
+                    "sort_order": "2",
+                    "copy_of": "2481",
+                    "pricing": true
+                },
+                {
+                    "id": "2482",
+                    "category_id": "773",
+                    "name": "Society Registry",
+                    "variable_id": "societyRegistry ",
+                    "sort_order": "3",
+                    "copy_of": "2482",
+                    "pricing": true
+                },
+                {
+                    "id": "2483",
+                    "category_id": "773",
+                    "name": "Political Party Registry",
+                    "variable_id": "politicalPartyRegistry ",
+                    "sort_order": "4",
+                    "copy_of": "2483",
+                    "pricing": true
+                },
+                {
+                    "id": "2484",
+                    "category_id": "773",
+                    "name": "Other",
+                    "variable_id": "other  ",
+                    "sort_order": "5",
+                    "copy_of": "2484",
+                    "pricing": true
+                }
+            ]
+        },
+        {
+            "id": "774",
+            "type": "input",
+            "required": "0",
+            "name": "Other Identity form",
+            "key": "",
+            "variable": "otheridentform",
+            "description": "Mandatory if Identity form chosen as 'Other'",
+            "category": "",
+            "product_id": "415",
+            "copy_of": "774",
+            "options": "2",
+            "config": [],
+            "sort_order": "8",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "2485",
+                    "category_id": "774",
+                    "copy_of": "2485",
+                    "pricing": true
+                }
+            ]
+        },
+        {
+            "id": "775",
+            "type": "input",
+            "required": "0",
+            "name": "Identification Number",
+            "key": "",
+            "variable": "identnumber",
+            "description": "",
+            "category": "",
+            "product_id": "415",
+            "copy_of": "775",
+            "options": "2",
+            "config": [],
+            "sort_order": "9",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "2486",
+                    "category_id": "775",
+                    "copy_of": "2486",
+                    "pricing": true
+                }
+            ]
+        },
+        {
+            "id": "1645",
+            "type": "checkbox",
+            "required": "0",
+            "name": "Lock Domain",
+            "key": "",
+            "variable": "lock_domain",
+            "description": "Registrar: srsplus Read Only",
+            "category": "",
+            "product_id": "415",
+            "copy_of": "1645",
+            "options": "4",
+            "config": {
+                "minvalue": "",
+                "maxvalue": "99999"
+            },
+            "sort_order": "10",
+            "group_id": "0",
+            "ftype": "checkbox",
+            "premade": true,
+            "items": [
+                {
+                    "id": "4542",
+                    "category_id": "1645",
+                    "name": "Yes",
+                    "variable_id": "1",
+                    "copy_of": "4542"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

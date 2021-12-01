@@ -1,0 +1,350 @@
+
+
+/* CSS Document */
+
+li {
+	list-style: none;
+}
+
+* {
+	zoom:1;
+	margin: 0px;
+	padding: 0px;
+}
+a {text-decoration: none;}
+.cen {
+	text-align: center;
+} 
+.clear {
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+	clear: both;
+}
+.fix {
+	clear: both;
+}
+.con {
+	margin: 0px auto auto;
+	min-height: 604px;
+	background-color: #f2f2f2;
+    padding: 10px;
+    width: 871px;	
+}
+.c-part {
+	min-height: 20px;
+	float: left;
+	padding: 0 10px 0 0;
+}
+.title01 {
+	font: bold 30px  Arial;
+	padding-bottom: 5px;
+	display: block;
+}
+.title01 span {
+	color: #4bafd9;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: 57px;
+	width: 33px;
+	height: 33px;
+	display: block;
+	margin-left: -16px;
+	background: url("images/slid.png") no-repeat scroll 0px 0px transparent;
+}
+.slider-content {
+	background: url("images/slider_prog.jpg") no-repeat scroll 0px 12px transparent;
+	width: 483px;
+	padding-right: 4px;
+	padding-left: 3px;
+	margin-top: 30px;
+	margin-bottom: 31px;
+}
+
+.line-shadow {
+	height: 13px;
+	width: 515px;
+	background: url("images/line_shadow.gif") no-repeat 0 0 transparent;
+}
+.title-plan {
+	margin-bottom: 5px;
+	font: bold 24px Arial;	
+}
+.plan-list li ul li {
+	min-height: 33px;
+	font: bold 18px Arial;
+	display: block;
+	clear: both;
+	padding-left: 22px;	
+	background: url("images/star.gif") no-repeat 0 5px transparent;
+}
+.plan-list li ul li span {
+	color: #fd5427;
+}
+.prod-sum {
+	width: 277px;
+	float:left;
+	margin: 0 0 15px 10px;
+}
+.prod-sum-top {
+	padding: 25px 60px 0 16px;
+    width: 195px;
+	min-height: 52px;
+	background: url("images/sum_top.png") no-repeat 0 5px transparent;
+	font: bold 15px Arial;
+	color: #ffffff;
+}
+.prod-sum-top div {
+	font: bold 12px Arial;
+}
+.prod-sum {
+	min-height: 300px;
+}
+.prod-sum-middle {
+	overflow: hidden;
+	width: 269px;
+        background: #fff;
+	border: 1px #e5e3e3 solid;
+	border-width: 0px 1px;
+	min-height: 50px; 
+}
+.prod-sum-bottom {
+	width: 271px;
+	height: 13px;
+	background: url("images/sum_bottom.png") repeat-y 0 0 transparent;
+}
+.sum-list {
+	margin:0 0 13px 0;
+}
+.sum-list ol, .sum-list ul {
+    margin:0;
+}
+.sum-list li ul li{
+	font: bold 18px Arial;
+	display: block;
+	clear: both;
+	padding-left: 18px;	
+	background: url("images/sum_repeat.jpg") repeat-x 0 5px transparent;
+	border-bottom: 1px #e2e2e2 solid;
+	font: bold 14px/34px Arial;
+	min-height: 35px;
+	word-wrap: break-word;
+}
+.sum-list li ul li span {
+	color: #357c9a;
+}
+.sum-list li ol li.first{
+    border-bottom: 1px solid #E2E2E2;
+    color: #000000;
+    font: bold 14px/20px Arial;
+    padding: 2em 0 4px 20px;
+	background:none
+}
+.sum-list li ol li{
+    border-bottom: 1px solid #E2E2E2;
+    color: #999999;
+    font: 12px/14px Arial;
+    padding: 4px 0 4px 35px;
+	background: url('images/bulet.png') no-repeat  22px center
+}
+.sum-list li ol li span{
+    color: #f80;
+	font-weight: bold;
+}
+.prod-sum-z {
+	padding-bottom: 10px;
+	font: bold 15px Arial;
+	text-align: center;
+}
+.prod-sum-z .z1{
+	font: bold 30px Arial;
+}
+.prod-sum-z .z2{
+	font: bold 12px Arial;
+	color: #999999;
+}
+.prom-code-top {
+	height: 8px;
+	background: url("images/bell.jpg") no-repeat 0 0 transparent;
+	padding-left: 10px;
+}
+.prom-code-top div{
+	height: 8px;
+	background: url("images/bell.jpg") no-repeat 100% 0 transparent;
+	padding-right: 10px;
+}
+.prom-code-bottom {
+	height: 7px;
+	background: url("images/bell.jpg") no-repeat 0 -24px transparent;
+	padding-left: 10px;
+}
+.prom-code-bottom div{
+	height: 7px;
+	background: url("images/bell.jpg") no-repeat 100% -24px transparent;
+	padding-right: 10px;
+}
+.prom-code-middle {
+	color: #404040;
+	font: normal 14px Arial;
+	background: url("images/bell2.jpg") repeat-y 0px 0px transparent;
+	padding-left: 10px;
+}
+.prom-code-middle div {
+	background: url("images/bell2.jpg") repeat-y 100% 0px transparent;
+	padding-right: 10px;
+}
+.prom-code {
+	margin: 0px 10px 20px 10px;
+}
+.prom-code-middle div span {
+	color: #ff5527;
+	font-weight: bold
+}
+.line-shadow2 {
+	margin-bottom: 25px;
+	height: 14px;
+	min-width: 240px;
+	background: url("images/sum_shadow.jpg") no-repeat 15px 0px transparent;
+}
+.button-sub,
+.button-sub span {
+	padding: 0px 0px 0px 10px;
+	height: 41px;
+	cursor: pointer;		
+	background: url("images/button.jpg") no-repeat 0px 0px transparent;
+	overflow: hidden;
+	margin: auto;
+	display: inline-block;
+}
+.button-sub span{
+	float: left;
+	padding: 0px 10px 0px 0px;
+	background: url("images/button.jpg") no-repeat 100% 0px transparent;
+}
+.button-sub a {
+	text-shadow:  1px -1px 1px #9a9a9a;
+	text-decoration: none;
+	display: block;
+	padding: 0px 47px; 
+	height: 41px;
+	margin: 0px -10px;
+	border: none;
+	background: none;
+	cursor: pointer;
+	font: bold 24px Arial;
+	color: #ffffff;
+	overflow: visible;
+	float: left;
+	line-height: 36px;
+}
+.prod-sum {
+	position: relative;
+}
+.tab-or {
+	width: 145px;	
+	height: 118px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: red;	
+	background: url("images/zakl.png") no-repeat 29px -1px transparent;
+	font: bold 24px Arial;
+	color: #ffffff;
+	text-shadow:  -1px -1px 1px #9a9a9a;
+}
+.tab-or div {
+	padding-left: 60px;
+	padding-top: 13px;
+	/* for firefox, safari, chrome, etc. */
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg) !important;
+	/* for ie */
+    -ms-transform: rotate(45deg);
+	position: absolute;
+	right: -20px;
+	top: -5px;		
+}
+.tab-or div span {
+	float: left;
+}
+.tab-or div .tab-or2{
+	font:normal 12px Arial;
+	overflow: hidden;
+	display: block;
+}
+.tab-or div .tab-or1{
+	 width: 50px;
+}
+span.clear {
+	display: block;
+}
+.con-inner {
+	padding-left: 5px;
+}
+.menu-prod {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.menu-prod span a {
+	text-decoration: none;
+	font:bold 12px/37px Arial;
+	padding: 0 2px;
+	color: #097bfb;
+}
+
+.menu-prod span.active a{
+	color: #333333;
+	font-weight: bold;
+}
+
+.menu-order {
+	display: block;
+	padding-top: 7px;
+	position: relative;
+	overflow: hidden;
+	padding-left: 10px;
+	border-bottom: 2px #ffffff solid;
+	height: 25px;
+}
+.menu-order li {
+	display: block;
+	float: left;
+	padding-left: 10px;
+	margin-right: -4px;
+}
+.menu-order li a {
+	text-decoration: none;
+	font:bold 12px/28px Arial;
+	color: #252525;
+	padding-right: 10px;
+}
+.menu-order li.active {
+	background: url("images/tab_top.gif") no-repeat 0px 0px transparent;
+	
+}
+.menu-order li.active a{
+	background: url("images/tab_top.gif") no-repeat 100% 0px transparent;
+	float: left;
+}
+.menu-order a {
+	height: 24px;
+}
+#submenu {
+	height: 31px;
+}
+.title-b {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font: bold 24px Arial;
+}
+#submenu {
+	border-bottom: 1px solid #FFFFFF;
+}
+#currform select option{
+	padding: 0 10px 0 3px
+}
+.ie8 .tab-or div, .ie6 .tab-or div, .ie7 .tab-or div{
+    display:none
+}

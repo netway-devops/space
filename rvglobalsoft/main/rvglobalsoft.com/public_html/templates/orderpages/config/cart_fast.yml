@@ -1,0 +1,16 @@
+---
+productfeatures:
+  value: ulli+features
+imgpreview:
+  value: '../templates/orderpages/fast/howto.png'
+  name: View editable areas
+  type: link
+footer:
+  value: |
+         <h1>Need something special?</h1>
+         <p><i>
+         HostBill lets you choose a template for every order page you have. You can create your own Order Page template or use one from templates that come with HostBill.
+         </i></p>
+  name: Custom footer
+  description: HTML is allowed.
+  type: textarea

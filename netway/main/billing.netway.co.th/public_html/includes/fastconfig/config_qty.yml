@@ -1,0 +1,20 @@
+---
+-
+  type: slider
+  name: IP Addresses
+  key: cf_ip
+  variable: ipaddresses
+  description:
+  category: network
+  copy_of: 0
+  options: 2
+  config:
+    minvalue: 1
+    maxvalue: 50
+    step: 1
+    initialval: 1
+  items:
+    -
+      name:
+      m: 1.00
+      pricing: 1

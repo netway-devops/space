@@ -1,0 +1,8 @@
+---
+name: 14 Days Free trial, change to monthly afterwards
+task: changeBillingCycle
+event: AccountCreate
+when: after
+interval: 14
+config:
+  new_cycle: Monthly

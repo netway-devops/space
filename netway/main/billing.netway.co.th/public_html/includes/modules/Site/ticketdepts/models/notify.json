@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "label": "{$lang.hostbillmail}"
+  },
+  {
+    "value": "2",
+    "label": "{$lang.phpmail}"
+  },
+  {
+    "value": "3",
+    "label": "{$lang.smtpmail}"
+  },
+  {
+    "value": "4",
+    "label": "{$lang.MailUseTransactional}"
+  },
+  {
+    "value": "0",
+    "label": "{$lang.none}"
+  }
+]

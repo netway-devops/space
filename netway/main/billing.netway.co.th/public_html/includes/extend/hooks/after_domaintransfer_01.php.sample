@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * HostBill succesfully transfered domain
+ * $details = array('id'=>RELATED DOMAIN ID IN HOSTBILL,
+ * 'name'=>DOMAIN NAME);
+ * Following variable is available to use in this file:  $details
+ */

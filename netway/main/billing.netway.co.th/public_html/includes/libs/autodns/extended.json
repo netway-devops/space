@@ -1,0 +1,667 @@
+{
+    ".aero": [
+        {
+            "name": ".aero ID Number",
+            "variable": "aero_ens_auth_id",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": ".aero Password",
+            "variable": "aero_ens_key",
+            "type": "input",
+            "options": 2
+        }
+    ],
+    ".dk": [
+        {
+            "name": "TAX or VAT number",
+            "variable": "vatnumber",
+            "type": "input",
+            "options": 2
+        }
+    ],
+    ".es": [
+        {
+            "name": "Identification number of the personal id card",
+            "variable": "idnumber",
+            "type": "input",
+            "options": 2
+        }
+    ],
+    ".se": [
+        {
+            "name": "Identification number of the personal id card",
+            "variable": "idnumber",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Company number",
+            "variable": "companynumber",
+            "type": "input",
+            "options": 2
+        }
+    ],
+    ".fr": [
+        {
+            "name": "Owner birth date",
+            "variable": "birthday",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Owner birth place",
+            "variable": "birthplace",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Owner birth country",
+            "variable": "birthcountry",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Identification number of the personal id card",
+            "variable": "idnumber",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Company number",
+            "variable": "companynumber",
+            "type": "input",
+            "options": 2
+        }
+    ],
+    ".au": [
+        {
+            "name": "Registrant ID",
+            "variable": "au_registrant_id",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": "ACN", "name": "ACN"},
+                {"variable_id": "ABN", "name": "ABN"},
+                {"variable_id": "OTHER", "name": "OTHER"}
+            ]
+        },
+        {
+            "name": "Registrant ID Type",
+            "variable": "au_registrant_id_type",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Eligibility Type",
+            "variable": "au_eligibility_type",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": "Company", "name": "Company"},
+                {"variable_id": "Registered Business", "name": "Registered Business"},
+                {"variable_id": "Sole Trader", "name": "Sole Trader"},
+                {"variable_id": "Partnership", "name": "Partnership"},
+                {"variable_id": "Trademark Owner", "name": "Trademark Owner"},
+                {"variable_id": "Pending TM Owner", "name": "Pending TM Owner"},
+                {"variable_id": "Citizen/Resident", "name": "Citizen/Resident"},
+                {"variable_id": "Incorporated Association", "name": "Incorporated Association"},
+                {"variable_id": "Unincorporated Association", "name": "Unincorporated Association"},
+                {"variable_id": "Club", "name": "Club"},
+                {"variable_id": "non-profit Organisation", "name": "Non-profit Organisation"},
+                {"variable_id": "Charity", "name": "Charity"},
+                {"variable_id": "Trade Union", "name": "Trade Union"},
+                {"variable_id": "Industry Body", "name": "Industry Body"},
+                {"variable_id": "Commercial Statutory Body", "name": "Commercial Statutory Body"},
+                {"variable_id": "Political Party", "name": "Political Party"},
+                {"variable_id": "Religious/Church Groups", "name": "Religious/Church Groups"},
+                {"variable_id": "Other", "name": "Other"}
+            ]
+        },
+        {
+            "name": "Eligibility name",
+            "variable": "au_eligibility_name",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Eligibility ID",
+            "variable": "au_eligibility_id",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Eligibility ID Type",
+            "variable": "au_eligibility_id_type",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": "ACN", "name": "ACN"},
+                {"variable_id": "ABN", "name": "ABN"},
+                {"variable_id": "VIC BN", "name": "VIC BN"},
+                {"variable_id": "nSW BN", "name": "NSW BN"
+                },
+                {"variable_id": "SA BN", "name": "SA BN"},
+                {"variable_id": "nT BN", "name": "NT BN"
+                },
+                {"variable_id": "WA BN", "name": "WA BN"},
+                {"variable_id": "TAS BN", "name": "TAS BN"},
+                {"variable_id": "ACT BN", "name": "ACT BN"},
+                {"variable_id": "QLD BN", "name": "QLD BN"},
+                {"variable_id": "TM", "name": "TM"},
+                {"variable_id": "OTHER", "name": "OTHER"}
+            ]
+        },
+        {
+            "name": "Eligibility Reason",
+            "variable": "au_policy_reason",
+            "type": "radio",
+            "options": 2,
+            "items": [
+                {"variable_id": "1", "name": "Domain Name is an exact match, abbreviation or acronym of the registrant s name or trade mark. "},
+                {"variable_id": "2", "name": "For commercial purposes. Includes commercial entities, currently registered and trading in Australia, as well as commercial products and services."}
+            ]
+        }
+    ],
+    ".ca": [
+        {
+            "name": "CPR Category",
+            "variable": "cira_cpr",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": "CCO", "name": "Corporation"},
+                {"variable_id": "CCT", "name": "Canadian citizen"},
+                {"variable_id": "RES", "name": "Canadian resident"},
+                {"variable_id": "GOV", "name": "Government entity"},
+                {"variable_id": "EDU", "name": "Educational"},
+                {"variable_id": "ASS", "name": "Unincorporated Association"},
+                {"variable_id": "HOP", "name": "Hospital"},
+                {"variable_id": "TDM", "name": "Trade-mark"},
+                {"variable_id": "PRT", "name": "Partnership"},
+                {"variable_id": "TRD", "name": "Trade Union"},
+                {"variable_id": "PLT", "name": "Political Party"},
+                {"variable_id": "LAM", "name": "Libraries, Archives and Museums"},
+                {"variable_id": "TRS", "name": "Trust"},
+                {"variable_id": "ABO", "name": "Aboriginal Peoples"},
+                {"variable_id": "INB", "name": "Indian Band"},
+                {"variable_id": "LGR", "name": "Legal Representative"},
+                {"variable_id": "OMK", "name": "Official Mark"},
+                {"variable_id": "MAJ", "name": "The Queen"}
+            ]
+        },
+        {
+            "name": "Official Representative",
+            "variable": "cira_official_representative",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Trustee Percentage",
+            "variable": "cira_trustee_percentage",
+            "type": "input",
+            "options": 2
+        }
+    ],
+    ".cat": [
+        {
+            "name": "ENS AuthID",
+            "variable": "cat_ens_auth_id",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "ENS Key",
+            "variable": "cat_ens_key",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Sponsor 1",
+            "variable": "cat_first_sponsor",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Sponsor 2",
+            "variable": "cat_second_sponsor",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Sponsor 3",
+            "variable": "cat_third_sponsor",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Referenz-URL",
+            "variable": "cat_ref_url",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Intended Use",
+            "variable": "cat_intended_use",
+            "type": "input",
+            "options": 2
+        }
+    ],
+    ".co.uk": [
+        {
+            "name": "UK Type",
+            "variable": "uk_type",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": "LTD", "name": "UK Limited Company"},
+                {"variable_id": "PLC", "name": "UK Public Limited Company"},
+                {"variable_id": "PTNR", "name": "UK Partnership"},
+                {"variable_id": "STRA", "name": "UK Sole Trader"},
+                {"variable_id": "LLP", "name": "UK Limited Liability Partnership"},
+                {"variable_id": "IP", "name": "UK Industrial/Provident Registered Company"},
+                {"variable_id": "IND", "name": "UK Individual (representing self)"},
+                {"variable_id": "SCH", "name": "UK School"},
+                {"variable_id": "RCHAR", "name": "UK Registered Charity"},
+                {"variable_id": "GOV", "name": "UK Government Body"},
+                {"variable_id": "CRC", "name": "UK Corporation by Royal Charter"},
+                {"variable_id": "STAT", "name": "UK Statutory Body"},
+                {"variable_id": "OTHER", "name": "UK Entity that does not fit into any of the above (e.g. clubs, associations, many universities)"},
+                {"variable_id": "FIND", "name": "Non-UK Individual (representing self)"},
+                {"variable_id": "FCORP", "name": "Non-UK Corporation"},
+                {"variable_id": "FOTHER", "name": "Non-UK Entity that does not fit into any of the above (e.g. charities, schools, clubs, associations) "}
+            ]
+        }
+    ],
+    ".hk": [
+        {
+            "name": "Document Type",
+            "variable": "hk_document_type",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": "HKID", "name": "Hong Kong Identity Number"},
+                {"variable_id": "OTHID", "name": "Other's Country Identity Number"},
+                {"variable_id": "PASSNO", "name": "Passport No."},
+                {"variable_id": "BIRTHCERT", "name": "Birth Certificate "},
+                {"variable_id": "OTHIDV", "name": "Others Individual Document"},
+                {"variable_id": "BR", "name": "Business Registration Certificate"},
+                {"variable_id": "CI", "name": "Certificate or Incorporation"},
+                {"variable_id": "CRS", "name": "Certificate of Registration (school)"},
+                {"variable_id": "HKSARG", "name": "Hong Kong Special Administrative Region Government Department"},
+                {"variable_id": "HKORDINANCE", "name": "Ordinance of Hong Kong"},
+                {"variable_id": "OTHORG", "name": "Other Organization Document"}
+            ]
+        },
+        {
+            "name": "Specifiy the Organization Type",
+            "variable": "hk_others",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Industry Type",
+            "variable": "hk_industry_type",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": "010100", "name": "Plastics, Petro-Chemicals, Chemicals - Plastics & Plastic Products"},
+                {"variable_id": "010200", "name": "Plastics, Petro-Chemicals, Chemicals - Rubber & Rubber Products"},
+                {"variable_id": "010300", "name": "Plastics, Petro-Chemicals, Chemicals - Fibre Materials & Products"},
+                {"variable_id": "010400", "name": "Plastics, Petro-Chemicals, Chemicals - Petroleum, Coal & Other Fuels"},
+                {"variable_id": "010500", "name": "Plastics, Petro-Chemicals, Chemicals - Chemicals & Chemical Products"},
+                {"variable_id": "020100", "name": "Metals, Machinery, Equipment - Metal Materials & Treatment"},
+                {"variable_id": "020200", "name": "Metals, Machinery, Equipment - Metal Products"},
+                {"variable_id": "020300", "name": "Metals, Machinery, Equipment - Industrial Machinery &Supplies"},
+                {"variable_id": "020400", "name": "Metals, Machinery, Equipment - Precision & Optical Equipment"},
+                {"variable_id": "020500", "name": "Metals, Machinery, Equipment - Moulds & Dies"},
+                {"variable_id": "030100", "name": "Printing, Paper, Publishing - Printing, Photocopying, Publishing"},
+                {"variable_id": "030200", "name": "Printing, Paper, Publishing - Paper, Paper Products"},
+                {"variable_id": "040100", "name": "Construction, Decoration, Environmental Engineering - Construction Contractors"},
+                {"variable_id": "040200", "name": "Construction, Decoration, Environmental Engineering - Construction Materials"},
+                {"variable_id": "040300", "name": "Construction, Decoration, Environmental Engineering - Decoration Materials"},
+                {"variable_id": "040400", "name": "Construction, Decoration, Environmental Engineering - Construction, Safety Equipment & Supplies"},
+                {"variable_id": "040500", "name": "Construction, Decoration, Environmental Engineering - Decoration, Locksmiths, Plumbing & Electrical Works"},
+                {"variable_id": "040600", "name": "Construction, Decoration, Environmental Engineering - Fire Protection Equipment & Services"},
+                {"variable_id": "040700", "name": "Construction, Decoration, Environmental Engineering - Environmental Engineering, Waste Reduction"},
+                {"variable_id": "050100", "name": "Textiles, Clothing & Accessories - Textiles, Fabric"},
+                {"variable_id": "050200", "name": "Textiles, Clothing & Accessories - Clothing"},
+                {"variable_id": "050300", "name": "Textiles, Clothing & Accessories - Uniforms, Special Clothing"},
+                {"variable_id": "050400", "name": "Textiles, Clothing & Accessories - Clothing Manufacturing Accessories"},
+                {"variable_id": "050500", "name": "Textiles, Clothing & Accessories - Clothing Processing & Equipment"},
+                {"variable_id": "050600", "name": "Textiles, Clothing & Accessories - Fur, Leather & Leather Goods"},
+                {"variable_id": "050700", "name": "Textiles, Clothing & Accessories - Handbags, Footwear, Optical Goods, Personal Accessories"},
+                {"variable_id": "060100", "name": "Electronics, Electrical Appliances - Electronic Equipment & Supplies"},
+                {"variable_id": "060200", "name": "Electronics, Electrical Appliances - Electronic Parts & Components"},
+                {"variable_id": "060300", "name": "Electronics, Electrical Appliances - Electrical Appliances, Audio-Visual Equipment"},
+                {"variable_id": "070100", "name": "Houseware, Watches, Clocks, Jewellery, Toys, Gifts - Kitchenware, Tableware"},
+                {"variable_id": "070200", "name": "Houseware, Watches, Clocks, Jewellery, Toys, Gifts - Bedding"},
+                {"variable_id": "070300", "name": "Houseware, Watches, Clocks, Jewellery, Toys, Gifts - Bathroom, Cleaning Accessories"},
+                {"variable_id": "070400", "name": "Houseware, Watches, Clocks, Jewellery, Toys, Gifts - Household Goods"},
+                {"variable_id": "070500", "name": "Houseware, Watches, Clocks, Jewellery, Toys, Gifts - Wooden, Bamboo & Rattan Goods"},
+                {"variable_id": "070600", "name": "Houseware, Watches, Clocks, Jewellery, Toys, Gifts - Home Furnishings, Arts & Crafts"},
+                {"variable_id": "070700", "name": "Houseware, Watches, Clocks, Jewellery, Toys, Gifts - Watches, Clocks"},
+                {"variable_id": "070800", "name": "Houseware, Watches, Clocks, Jewellery, Toys, Gifts - Jewellery Accessories"},
+                {"variable_id": "070900", "name": "Houseware, Watches, Clocks, Jewellery, Toys, Gifts - Toys, Games, Gifts"},
+                {"variable_id": "080100", "name": "Business & Professional Services, Finance - Accounting, Legal Services"},
+                {"variable_id": "080200", "name": "Business & Professional Services, Finance - Advertising, Promotion Services"},
+                {"variable_id": "080300", "name": "Business & Professional Services, Finance - Consultancy Services"},
+                {"variable_id": "080400", "name": "Business & Professional Services, Finance - Translation, Design Services"},
+                {"variable_id": "080500", "name": "Business & Professional Services, Finance - Cleaning, Pest Control Services"},
+                {"variable_id": "080600", "name": "Business & Professional Services, Finance - Security Services"},
+                {"variable_id": "080700", "name": "Business & Professional Services, Finance - Trading, Business Services"},
+                {"variable_id": "080800", "name": "Business & Professional Services, Finance - Employment Services"},
+                {"variable_id": "080900", "name": "Business & Professional Services, Finance - Banking, Finance, Investment"},
+                {"variable_id": "081000", "name": "Business & Professional Services, Finance - Insurance"},
+                {"variable_id": "081100", "name": "Business & Professional Services, Finance - Property, Real Estate"},
+                {"variable_id": "090100", "name": "Transportation, Logistics - Land Transport, Motorcars"},
+                {"variable_id": "090200", "name": "Transportation, Logistics - Sea Transport, Boats"},
+                {"variable_id": "090300", "name": "Transportation, Logistics - Air Transport"},
+                {"variable_id": "090400", "name": "Transportation, Logistics - Moving, Warehousing, Courier & Logistics Services"},
+                {"variable_id": "090500", "name": "Transportation, Logistics - Freight Forwarding"},
+                {"variable_id": "100100", "name": "Office Equipment, Furniture, Stationery, Information Technology - Office, Commercial Equipment & Supplies"},
+                {"variable_id": "100200", "name": "Office Equipment, Furniture, Stationery, Information Technology - Office & Home Furniture"},
+                {"variable_id": "100300", "name": "Office Equipment, Furniture, Stationery, Information Technology - Stationery & Educational Supplies"},
+                {"variable_id": "100400", "name": "Office Equipment, Furniture, Stationery, Information Technology - Telecommunication Equipment & Services"},
+                {"variable_id": "100500", "name": "Office Equipment, Furniture, Stationery, Information Technology - Computers, Information Technology"},
+                {"variable_id": "110100", "name": "Food, Flowers, Fishing & Agriculture - Food Products & Supplies"},
+                {"variable_id": "110200", "name": "Food, Flowers, Fishing & Agriculture - Beverages, Tobacco"},
+                {"variable_id": "110300", "name": "Food, Flowers, Fishing & Agriculture - Restaurant Equipment & Supplies"},
+                {"variable_id": "110400", "name": "Food, Flowers, Fishing & Agriculture - Flowers, Artificial Flowers, Plants"},
+                {"variable_id": "110500", "name": "Food, Flowers, Fishing & Agriculture - Fishing"},
+                {"variable_id": "110600", "name": "Food, Flowers, Fishing & Agriculture - Agriculture"},
+                {"variable_id": "120100", "name": "Medical Services, Beauty, Social Services - Medicine & Herbal Products"},
+                {"variable_id": "120200", "name": "Medical Services, Beauty, Social Services - Medical & Therapeutic Services"},
+                {"variable_id": "120300", "name": "Medical Services, Beauty, Social Services - Medical Equipment & Supplies"},
+                {"variable_id": "120400", "name": "Medical Services, Beauty, Social Services - Beauty, Health"},
+                {"variable_id": "120500", "name": "Medical Services, Beauty, Social Services - Personal Services"},
+                {"variable_id": "120600", "name": "Medical Services, Beauty, Social Services - Organizations, Associations"},
+                {"variable_id": "120700", "name": "Medical Services, Beauty, Social Services - Information, Media"},
+                {"variable_id": "120800", "name": "Medical Services, Beauty, Social Services - Public Utilities"},
+                {"variable_id": "120900", "name": "Medical Services, Beauty, Social Services - Religion, Astrology, Funeral Services"},
+                {"variable_id": "130100", "name": "Culture, Education - Music, Arts"},
+                {"variable_id": "130200", "name": "Culture, Education - Learning Instruction & Training"},
+                {"variable_id": "130300", "name": "Culture, Education - Elementary Education"},
+                {"variable_id": "130400", "name": "Culture, Education - Tertiary Education, Other Education Services"},
+                {"variable_id": "130500", "name": "Culture, Education - Sporting Goods"},
+                {"variable_id": "130600", "name": "Culture, Education - Sporting, Recreational Facilities & Venues"},
+                {"variable_id": "130700", "name": "Culture, Education - Hobbies, Recreational Activities"},
+                {"variable_id": "130800", "name": "Culture, Education - Pets, Pets Services & Supplies"},
+                {"variable_id": "140101", "name": "Dining, Entertainment, Shopping, Travel - Restaurant Guide - Chinese"},
+                {"variable_id": "140102", "name": "Dining, Entertainment, Shopping, Travel - Restaurant Guide - Asian"},
+                {"variable_id": "140103", "name": "Dining, Entertainment, Shopping, Travel - Restaurant Guide - Western"},
+                {"variable_id": "140200", "name": "Dining, Entertainment, Shopping, Travel - Catering Services, Eateries"},
+                {"variable_id": "140300", "name": "Dining, Entertainment, Shopping, Travel - Entertainment Venues"},
+                {"variable_id": "140400", "name": "Dining, Entertainment, Shopping, Travel - Entertainment Production & Services"},
+                {"variable_id": "140500", "name": "Dining, Entertainment, Shopping, Travel - Entertainment Equipment & Facilities"},
+                {"variable_id": "140600", "name": "Dining, Entertainment, Shopping, Travel - Shopping Venues"},
+                {"variable_id": "140700", "name": "Dining, Entertainment, Shopping, Travel - Travel, Hotels & Accommodation"}
+            ]
+        },
+        {
+            "name": "Document Number",
+            "variable": "hk_document_number",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Document Origin Country",
+            "variable": "hk_document_origin",
+            "type": "select",
+            "options": 2,
+            "items": "list_contirues"
+        },
+        {
+            "name": "Are you 18 years of age or older?",
+            "variable": "hk_above_18",
+            "type": "radio",
+            "options": 2,
+            "items": [
+                {"variable_id": "1", "name": "Yes"},
+                {"variable_id": "0", "name": "No"}
+            ]
+        }
+    ],
+    ".it": [
+        {
+            "name": "IT Entity Type",
+            "variable": "it_entity_type",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": 1, "name": "Italian and foreign natural persons"},
+                {"variable_id": 7, "name": "Foreign non natural persons"},
+                {"variable_id": 2, "name": "Italian companies/one man companies"},
+                {"variable_id": 3, "name": "Italian freelance workers/professionals"},
+                {"variable_id": 4, "name": "Italian non-profit organizations"},
+                {"variable_id": 5, "name": "Italian public organizations"},
+                {"variable_id": 6, "name": "Italian other subjects"}
+            ]
+        },
+        {
+            "name": "TAX or VAT number",
+            "variable": "vatnumber",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "ID number",
+            "variable": "idnumber",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Company number",
+            "variable": "companynumber",
+            "type": "input",
+            "options": 2
+        }
+    ],
+    ".jobs": [
+        {
+            "name": "Position",
+            "variable": "jobs_contact_title",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Website",
+            "variable": "jobs_website",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Industry Class",
+            "variable": "jobs_industry_class",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": "2", "name": "Accounting/Banking/Finance"},
+                {"variable_id": "3", "name": "Agriculture/Farming"},
+                {"variable_id": "21", "name": "Biotechnology/Science"},
+                {"variable_id": "5", "name": "Computer/Information Technology"},
+                {"variable_id": "4", "name": "Construction/Building Services"},
+                {"variable_id": "12", "name": "Consulting"},
+                {"variable_id": "6", "name": "Education/Training/Library"},
+                {"variable_id": "7", "name": "Entertainment"},
+                {"variable_id": "13", "name": "Environmental"},
+                {"variable_id": "19", "name": "Hospitality"},
+                {"variable_id": "10", "name": "Government/Civil Service"},
+                {"variable_id": "11", "name": "Healthcare"},
+                {"variable_id": "15", "name": "HR/Recruiting"},
+                {"variable_id": "16", "name": "Insurance"},
+                {"variable_id": "17", "name": "Legal"},
+                {"variable_id": "18", "name": "Manufacturing"},
+                {"variable_id": "20", "name": "Media/Advertising"},
+                {"variable_id": "9", "name": "Parks & Recreation"},
+                {"variable_id": "26", "name": "Pharmaceutical"},
+                {"variable_id": "22", "name": "Real Estate"},
+                {"variable_id": "14", "name": "Restaurant/Food Service"},
+                {"variable_id": "23", "name": "Retail"},
+                {"variable_id": "8", "name": "Telemarketing"},
+                {"variable_id": "24", "name": "Transportation"},
+                {"variable_id": "25", "name": "Other"}
+            ]
+        },
+        {
+            "name": "HR Member",
+            "variable": "jobs_hr_member",
+            "type": "radio",
+            "options": 2,
+            "items": [
+                {"variable_id": "1", "name": "Yes"},
+                {"variable_id": "0", "name": "No"}
+            ]
+        },
+        {
+            "name": "Adminstrative Contact",
+            "variable": "jobs_admin_type",
+            "type": "radio",
+            "options": 2,
+            "items": [
+                {"variable_id": "yes", "name": "Yes"},
+                {"variable_id": "no", "name": "No"
+                },
+                {"variable_id": "n/a", "name": "Not specified"
+                }
+            ]
+        }
+    ],
+    ".jp": [
+        {
+            "name": "First variable",
+            "variable": "jp_fvariable_b64",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Last variable",
+            "variable": "jp_lvariable_b64",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Organization",
+            "variable": "jp_organization_b64",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Address1",
+            "variable": "jp_address1_b64",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Address2",
+            "variable": "jp_address2_b64",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Address3",
+            "variable": "jp_address3_b64",
+            "type": "input",
+            "options": 2
+        }
+    ],
+    ".pro": [
+        {
+            "name": "PRO Profession",
+            "variable": "pro_profession",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "PRO Authority variable",
+            "variable": "pro_authority_variable",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "PRO Authority URL",
+            "variable": "pro_authority_url",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "PRO License Number",
+            "variable": "pro_license_number",
+            "type": "input",
+            "options": 2
+        }
+    ],
+    ".pt": [
+        {
+            "name": "Legitimacy",
+            "variable": "pt_legitimacy",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": "OI", "name": "International Organization"},
+                {"variable_id": "OSFL", "name": "Nonprofit Organization"},
+                {"variable_id": "PC", "name": "Corporate Entity"},
+                {"variable_id": "PS", "name": "Individual Entity"},
+                {"variable_id": "PST", "name": "Telecommunications Service Provider"},
+                {"variable_id": "RD", "name": "Diplomatic Representations"}
+            ]
+        },
+        {
+            "name": "Registration Base",
+            "variable": "pt_registration_base",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": "6A", "name": "Coincides with the name, abbreviation or acronym of the domain holder"},
+                {"variable_id": "6B", "name": "Coincides with the requested/registered brand"},
+                {"variable_id": "6C", "name": "Corresponds to the name of the project or temporary action of the holder"},
+                {"variable_id": "6D", "name": "Coincides with the name, abbreviation or acronym of the Teaching Establishment designation"},
+                {"variable_id": "6E", "name": "Coincides with the name, abbreviation or acronym registered with ANACOM"},
+                {"variable_id": "6F", "name": "Coincides with the requested/registered brand in the 38th class"},
+                {"variable_id": "6G", "name": "Coincides with the name, abbreviation or acronym on the ID or residence card"},
+                {"variable_id": "6H", "name": "Coincides with the literary, artistic, scientific or professional name"},
+                {"variable_id": "6I", "name": "Coincides with the name, abbreviation or acronym registered with the ICS"},
+                {"variable_id": "6J", "name": "Coincides with the name, abbreviation or acronym of a Self-employed Person"},
+                {"variable_id": "6K", "name": "Coincides with the document as Liberal Professional"},
+                {"variable_id": "D", "name": "Periodic Publication"},
+                {"variable_id": "E", "name": "Statement of the Education Ministry"}
+            ]
+        }
+    ],
+    ".ro": [
+        {
+            "name": "RO Person Type",
+            "variable": "ro_person_type",
+            "type": "select",
+            "options": 2,
+            "items": [
+                {"variable_id": "p", "name": "Private Person"},
+                {"variable_id": "ap", "name": "Authorized Person"},
+                {"variable_id": "nc", "name": "Non-Commercial Organization"
+                },
+                {"variable_id": "c", "name": "Commercial"},
+                {"variable_id": "gi", "name": "Government Institute"},
+                {"variable_id": "pi", "name": "Public Institute"},
+                {"variable_id": "o", "name": "Other Juridical"}
+            ]
+        }
+    ],
+    ".xxx": [
+        {
+            "name": ".XXX",
+            "variable": "xxx_non_resolver_domain",
+            "type": "checkbox",
+            "options": 2,
+            "items": [
+                {"variable_id": "1", "name": "Blocking Registration"}
+            ]
+        },
+        {
+            "name": "Membership ID",
+            "variable": "xxx_membership_id",
+            "type": "input",
+            "options": 2
+        }
+    ]
+}

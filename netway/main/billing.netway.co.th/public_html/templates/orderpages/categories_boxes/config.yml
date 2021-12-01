@@ -1,0 +1,13 @@
+---
+productfeatures:
+  value: ulli+spec
+headertext:
+  value: |
+    Setup your new server
+  name: Header text
+  type: input
+subheadertext:
+  value: |
+    Quickly setup your prefered plan and start your new business.
+  name: Sub-header text
+  type: input

@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Customer rated staff response
+ * $details = array('reply_id'=>REPLY ID,
+ * 'ticket_id'=>RELATED TICKET ID,
+ * 'ticket_number'=>RELATED TICKET NUMBER,
+ * 'replier_id'=>REPLIER ID (IF ANY),
+ * 'name'=>REPLIER NAME,
+ * 'body'=>REPLY MESSAGE BODY,
+ * 'rating'=>REPLY RATING
+ * 'date'=>RATING DATE)
+ * Following variable is available to use in this file:  $details
+ */

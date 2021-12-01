@@ -1,0 +1,81 @@
+.dns-table th{
+    text-align: left;
+    padding: 10px 0;
+}
+a.dns-btn,
+button.dns-btn{
+    padding: 4px 8px;
+    line-height: 15px;
+    background: #ffffff;
+    background-image: linear-gradient(#ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+    border: solid 1px #b0b0b0;
+    border-radius: 3px;
+    color: #000;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+    white-space: nowrap;
+    text-shadow: 0 1px 0 #FFFFFF;
+    line-height: 14px;
+    display: inline-block;
+    font-weight: bold;
+}
+#dnsimport{
+    padding: 20px; 
+    min-height: 200px
+}
+#dnsimport select{
+    min-width: 200px;
+}
+#dnsimport h2 {
+    margin: 0 0 10px;
+    font-size: 15px;
+}
+#dnsitems tr td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd
+}
+#dnsitems tr + tr.placeholder{
+    display: none;
+}
+#dnsitems .placeholder td{
+    padding: 15px;
+    color: #ccc;
+    border: 2px dashed #ddd;
+}
+#dnsitems code{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #35779E;
+    background-color: #F2F4F9;
+    border-radius: 4px;
+}
+p.info,
+p.error{
+    padding: 10px;
+}
+p.error{
+    color: #c7254e;
+    background-color: #f9f2f4;
+}
+p.info{
+    color: #35779E;
+    background-color: #F2F4F9;
+}
+.zone-status{
+    padding: 5px;
+}
+.zone-status:nth-child(2n){
+    background: #efefef;
+}
+.zone-failed{
+    color: #de5959;
+    font-family: monospace;
+    margin-top: 5px;
+}
+.zone-log{
+    color: #777;
+    font-size: 90%;
+    font-family: monospace;
+    white-space: pre-wrap;
+}

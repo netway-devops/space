@@ -1,0 +1,78 @@
+[
+    {
+        "name": "mollie/mollie-api-php",
+        "version": "1.8.0",
+        "version_normalized": "1.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mollie/mollie-api-php.git",
+            "reference": "faf5c2b014c6f47f01dc9b935ee62489a3fa8e32"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mollie/mollie-api-php/zipball/faf5c2b014c6f47f01dc9b935ee62489a3fa8e32",
+            "reference": "faf5c2b014c6f47f01dc9b935ee62489a3fa8e32",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-openssl": "*",
+            "php": ">=5.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^3.7 || ^4.8 || ^5.4"
+        },
+        "suggest": {
+            "mollie/oauth2-mollie-php": "Use OAuth to authenticate with the Mollie API. This is needed for some endpoints. Visit https://mollie.com/en/docs for more information."
+        },
+        "time": "2016-10-31 12:25:51",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Mollie": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Mollie B.V.",
+                "email": "info@mollie.com"
+            }
+        ],
+        "description": "Mollie API client library for PHP",
+        "homepage": "https://github.com/mollie/mollie-api-php",
+        "keywords": [
+            "CBC",
+            "api",
+            "bancontact",
+            "banktransfer",
+            "belfius",
+            "belfius direct net",
+            "bitcoin",
+            "charges",
+            "creditcard",
+            "direct debit",
+            "gateway",
+            "ideal",
+            "kbc",
+            "mistercash",
+            "mollie",
+            "payment",
+            "payments",
+            "paypal",
+            "paysafecard",
+            "podiumcadeaukaart",
+            "recurring",
+            "refunds",
+            "sepa",
+            "service",
+            "sofort",
+            "sofortbanking",
+            "subscriptions"
+        ]
+    }
+]

@@ -1,0 +1,377 @@
+.tpl_nextgen input.styled,
+.tpl_nextgen select.styled {
+    margin-bottom: 9px !important;
+}
+
+ul.checkers {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.checkers li {
+    background: url("check.png") no-repeat scroll 2px 4px;
+    padding: 3px 0 3px 25px;
+}
+
+#progress-indicator {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.progress-el {
+    float: left;
+    border-bottom: solid #f5f5f5 5px;
+    width: 169px;
+    margin-right: 6px;
+    height: 20px;
+    padding: 10px 0px 5px 0px;
+    color: #bbbbbb;
+}
+
+.progress-el a {
+    text-decoration: none;
+    color: #bbbbbb;
+}
+
+.progress-el a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+#servers_types {
+    height: 200px;
+    width: 100%;
+    font-size: 12px;
+}
+
+#csrbox {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 200px;
+    width: 98%;
+    font-size: 10px;
+}
+
+.progress-last {
+    margin: 0px !important;
+    width: 169px;
+}
+
+.progress-active {
+    border-bottom: solid #cccccc 5px !important;
+    color: #000000 !important;
+}
+
+.progress-done {
+    border-bottom: solid 5px #eaeaea !important;
+    color: #9c9c9c !important;
+}
+
+.ntable {
+    margin-bottom: 20px;
+}
+
+.ntable td {
+    padding: 0px;
+}
+
+.niselected {
+    background: #E0ECFF;
+}
+
+.nitem strong, .clicky {
+    cursor: pointer;
+}
+
+.nitem {
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.orderbox1 {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: url("../../default/img/bg_slide1.gif") repeat-x scroll left top #F0F0F0;
+    border: solid 1px #D2D2D2;
+    padding: 10px !important;
+}
+
+.orderbox12, .orderbox2.orderbox12 {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #D2D2D2 !important;
+    background: url("../../default/img/bg_slide1.gif") repeat-x scroll left top #F0F0F0;
+    clear: both;
+}
+
+.orderbox2 {
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: solid 1px #D2D2D2;
+
+    border-top: none;
+}
+.csr-label {
+    width: 33%;
+    text-align: right;
+    margin: 5px;
+    padding: 14px !important;
+}
+
+.csr-form {
+    width: 98%;
+    margin: 5px 0;
+}
+
+.contacttables td {
+    padding: 3px;
+
+}
+
+.orderbox3 {
+    padding: 10px !important;
+    background: #f0f0f0;
+}
+
+.csubmit {
+    background: #6c9d2c url("../../default/img/c_submit.gif") repeat-x scroll left top;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+.disabled, .csubmit.disabled {
+    background: url("../../default/img/bg_wbox_header.gif") repeat-x scroll left top #E5E5E5;
+}
+
+.disabled a, .csubmit.disabled a {
+    text-shadow: -1px -1px 1px #D2D2D2;
+    cursor: default !important;
+}
+
+.csubmit a {
+    text-shadow: 1px 1px 1px #3E3E3E;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    text-align: right;
+    text-decoration: none;
+}
+
+#right {
+    width: 240px;
+    float: right;
+}
+
+#left {
+    width: 620px;
+    float: left;
+}
+
+.sslcert-table {
+    width: 100%;
+}
+
+.sslcert-table td {
+    padding: 5px 10px;
+}
+
+.sslcert-table td.required {
+    font-weight: 700;
+}
+
+.sslcert-table td:first-child {
+    text-align: right;
+}
+
+.sslcert-table td input.styled,
+.sslcert-table td select.styled {
+    margin-bottom: 0 !important;
+}
+
+input.contact-org,
+input.contact-state {
+    width: 115px;
+}
+
+input.contact-job,
+input.contact-zip {
+    width: 72px;
+}
+
+input.contact-prefix {
+    width: 46px;
+}
+
+.form-container {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: -15px;
+}
+
+.form-container::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.form-container [class^=grid-] {
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.form-container .grid-6 {
+    width: 50%;
+}
+
+.form-container .grid-12 {
+    width: 100%;
+}
+
+.wbox .form-control {
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.form-group.required label::after {
+    content: "*";
+    color: red;
+}
+
+#cart .loading {
+    position: relative;
+}
+
+#cart .loading::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.7) url(img/ajax-loading.gif) center center no-repeat;
+}
+
+.step-info {
+    padding: 10px
+}
+
+.template_2019 .enomssl_products {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .template_2019 .priv_table td {
+        width: auto !important;
+        display: block !important;
+    }
+
+    .template_2019 table.stackable:not(.table-responsive) {
+        width: 100%;
+    }
+
+    .template_2019 table.stackable:not(.table-responsive) tbody,
+    .template_2019 table.stackable:not(.table-responsive) tr:not(.hidden),
+    .template_2019 table.stackable:not(.table-responsive) tr:not(.hidden) > th,
+    .template_2019 table.stackable:not(.table-responsive) tr:not(.hidden) > td {
+        width: auto !important;
+        display: block !important;
+    }
+
+    .template_2019 table.stackable:not(.table-responsive) tbody.noncrucial,
+    .template_2019 table.stackable:not(.table-responsive) tr:not(.hidden).noncrucial,
+    .template_2019 table.stackable:not(.table-responsive) tr:not(.hidden) > th.noncrucial,
+    .template_2019 table.stackable:not(.table-responsive) tr:not(.hidden) > td.noncrucial {
+        display: none !important;
+    }
+
+    .template_2019 table.stackable:not(.table-responsive) thead {
+        border-bottom: 0.07rem solid #EBECF0;
+    }
+
+    .template_2019 table.stackable:not(.table-responsive) thead th {
+        border-bottom: none;
+        height: auto;
+    }
+
+    .template_2019 table.stackable:not(.table-responsive) thead.noncrucial {
+        display: none !important;
+    }
+
+    .template_2019 table.stackable:not(.table-responsive) tbody td:before {
+        content: attr(data-label);
+        float: left;
+        color: #AFB2C1;
+        padding-right: 5px;
+    }
+
+    .template_2019 table.stackable:not(.table-responsive) tbody td:not(.inline-row):not(.inline-row-right) {
+        clear: both;
+    }
+
+    .template_2019 table.stackable:not(.table-responsive) tbody td.inline-row {
+        float: left;
+    }
+
+    .template_2019 table.stackable:not(.table-responsive) tbody td.inline-row-right {
+        float: right;
+    }
+
+    .template_2019 table.stackable:not(.table-responsive) thead,
+    .template_2019 table.stackable:not(.table-responsive) tfoot {
+        display: block;
+    }
+}

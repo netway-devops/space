@@ -1,0 +1,1039 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+	/* More than standard 960 (devices and browsers) */
+		
+
+	@media only screen and (min-width: 960px) {
+	iframe {
+			
+	  		max-width: 100%;
+			max-height:auto;
+		}
+		#mainmenu{
+			padding:0;
+			margin:0; 
+			background:#002c62; 
+		}
+		#mainmenu a, #mainmenu a:visited, #mainmenu a:hover, #mainmenu a:active, #mainmenu a.active , #mainmenu a.active:hover, #mainmenu .nav-partner a, #mainmenu .nav-partner a:visited, #mainmenu .nav-partner a:hover, #mainmenu .nav-partner a:active{
+			padding:12px 20px; 
+			float:left;
+			font-family:'Oswald', tahoma, Verdana, Arial, Helvetica, sans-serif; 
+		}
+		#mainmenu .active-vip, #mainmenu .active-vip:visited{
+			padding:12px 20px; 
+			float:left;
+		}
+		.rv_header .topmenu{ 
+			color:#606060; 
+			float:right; 
+			padding-top:60px;
+		}
+		
+		div#rvbottom .block a:link, div#rvbottom .block a:visited, div#rvbottom .block a:active, div#rvbottom .block a:hover{ 
+			font-size:11px; 
+		}
+		#rvbottom div.col-md-3{ 
+			width:21%; 
+			float:left; 
+		}
+		.sub, .res-sub{ 
+			width:920px; 
+		}
+		.sub a, .sub a:visited, .sub a:hover, .sub a:active{  
+			font-size:12px; 
+			display: inline; 
+			border-right: #cccccc solid 1px; 
+		}
+		.sub a:hover, .sub a:active{  
+			font-size:12px; 
+		}
+		.rv_news .rv_content a, .rv_news .rv_content a:visited, .rv_news .rv_content a:hover, .rv_news .rv_content a:active{ 
+			font-size:11px;    
+		}
+		.desktop-menu{ 
+			display:block;
+		}
+		.mobile-menu{ 
+			display: none;
+		}   
+		.ssl, .partner, .reseller, .cpanel, .rv2factor-bg, .home-bg{
+			font-size:100%;
+		 }  
+		.rv2factor .rv2factor-bg{
+			height:380px;
+		 } 
+		 .feed-box{ 
+			border:#cccccc solid 1px; 
+			min-height:40em; 
+		}
+		.client-area .row-fluid .installation .span6-1 {
+			width: 50%;
+			*width: 50%;
+		}  
+		 .client-area .row-fluid .installation .span6 {
+			width: 50%;
+			*width: 48.664757228587014%;
+		}
+		.client-img-hidden{ 
+			display:none;
+	  	}
+	  	.rv2factor .col-md-4{ 
+	  		width:33%;  
+	  	}
+		.tab2factor ul{
+			width: 750px;  
+	  	}
+		.tab2factor li{
+			width:130px; 
+			margin:10px 10px 0 0; 
+			padding-left:9px;
+		}
+		.rv2factor .bgbanner1 h1, .rv2factor .bgbanner2 h1, .rv2factor .bgbanner3 h1, .rv2factor .bgbanner4 h1, .rv2factor .bgbanner5 h1{   
+			font-size:48px; 
+		}
+		.rv2factor .bgbanner1 h1{  
+			font-size:30px;
+			margin:60px 0 0 0; 
+		}
+		.rv2factor .bgbanner1 h2{   
+			font-size:18px;
+		}
+		.rv2factor .bgbanner1 h4{   
+			font-size:15px;
+		}
+		.rv2factor .bgbanner1 a, .rv2factor .bgbanner1 a:visited, .rv2factor .bgbanner1 a:hover, .rv2factor .bgbanner1 a:active, .rv2factor .bgbanner2 a, .rv2factor .bgbanner2 a:visited, .rv2factor .bgbanner2 a:hover, .rv2factor .bgbanner2 a:active, .rv2factor .bgbanner3 a, .rv2factor .bgbanner3 a:visited, .rv2factor .bgbanner3 a:hover, .rv2factor .bgbanner3 a:active, .rv2factor .bgbanner4 a, .rv2factor .bgbanner4 a:visited, .rv2factor .bgbanner4 a:hover, .rv2factor .bgbanner4 a:active, .rv2factor .bgbanner5 a, .rv2factor .bgbanner5 a:visited, .rv2factor .bgbanner5 a:hover, .rv2factor .bgbanne5 a:active{   
+			font-size:22px; 
+			margin-top:20px;
+		}
+		.rv2factor .bgbanner2 h2, .rv2factor .bgbanner3 h2, .rv2factor .bgbanner4 h2, .rv2factor .bgbanner5 h2{   
+			font-size:24px; 
+		}
+		.rv2factor .bgbanner3 h1{  
+			font-size:42px; 
+		}
+		.rv2factor .bgbanner3 h2{   
+			font-size:28px;	
+		}
+		.rv2factor .bgbanner4 h1{  	
+			font-size:48px; 
+		}
+		.rv2factor .bgbanner5 h1{  
+			font-size:42px; 
+		}
+		.bxslider .span6 {
+			width:100%;
+		}
+		.addons-bgwhm .span5, .addons-bgwordpress .span5, .addons-bghostbill .span5, .addons-bgjoomla .span5, .addons-bgssh .span5, .addons-bgwebmail .span5, .addons-bgftp .span5, .addons-bgvpn .span5{ 
+			width: 45%; 
+			font-size:16px; 
+			line-height:1.4em; 
+			padding:15px; 
+		}
+		.kb-support .kb-support-menu .span2{ 
+			width:16.6666%; 
+			margin:0;
+		}
+		.rvlogin div.padd{ 
+			padding-left:40px; 
+		}
+		.rvlogin .desktop-padt{ 
+			padding-top:60px;
+		}
+		.rvlogin div.padd h1{
+			font-size:70px;
+		}
+		.rvlogin div.padd h2, .rvlogin div.padd h3, .rvlogin div.padd h4{
+			font-size:28px; 
+		}
+		.rvlogin div.padd h3{
+			font-size:22px; 
+		}
+		.rvlogin div.padd h4{
+			font-size:24px;
+		}
+		.rvlogin .rvlogin-banner h1 { 
+			font-size:32px;
+		}
+		.rvlogin .rvlogin-banner h2 { 
+			font-size:22px;
+		}
+		.rvlogin .rvlogin-banner .get { 
+			font-size:20px;
+		}
+
+ }
+ 	@media only screen and (min-width: 1200px) { 
+	.feed-box{ 
+			border:#cccccc solid 1px; 
+			min-height:33em; 
+		}
+	#rvbottom div.col-md-3{ 
+			width:22%; 
+			float:left; 
+		}
+	.client-area .row-fluid .installation .span6-1 {
+		width: 50%;
+		*width: 50%;
+	  }  
+	  .client-area .row-fluid .installation .span6 {
+		width: 50%;
+		*width: 48.664757228587014%;
+	  }
+	  .client-img-hidden{ 
+			display:block;
+	  }
+	  .tab_install a {
+			font-size:18px;
+	  }
+	  .tab2factor ul{
+		width: 850px;  
+	  }
+	  .tab2factor li{
+			width:151px; 
+			margin:10px 10px 0 0; 
+			padding-left:9px;
+	  }
+	  .bxslider .span6 {
+			width:50%;
+	  }
+	  .addons-bgwhm .span5, .addons-bgwordpress .span5, .addons-bghostbill .span5, .addons-bgjoomla .span5, .addons-bgssh .span5, .addons-bgwebmail .span5, .addons-bgftp .span5, .addons-bgvpn .span5{ 
+			width: 40%; 
+			font-size:14px; 
+			line-height:1.4em; 
+			padding:15px; 
+		}
+		.kb-support .kb-support-menu .span3{ 
+			width:20%;
+		}
+		.kb-support .kb-support-menu .span2{ 
+			width:16.6666%; 
+			margin:0;
+		}
+		.rvlogin .rvlogin-banner h1 { 
+			font-size:36px;
+		}
+		.rvlogin .rvlogin-banner h2 { 
+			font-size:30px;
+		}
+		.rvlogin .rvlogin-banner .get { 
+			font-size:24px;
+		}
+	}
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.client-img-hidden{ 
+			display:none;
+	  }
+		#mainmenu{
+			padding:0;
+			margin:0; 
+			background:#002c62; 
+		}
+		#mainmenu a, #mainmenu a:visited, #mainmenu a:hover, #mainmenu a:active, #mainmenu a.active , #mainmenu a.active:hover, #mainmenu .nav-partner a, #mainmenu .nav-partner a:visited, #mainmenu .nav-partner a:hover, #mainmenu .nav-partner a:active{
+			padding:12px 5px; 
+			float:left;
+			font-family:'Oswald', tahoma, Verdana, Arial, Helvetica, sans-serif; 
+		}
+		#mainmenu .active-vip, #mainmenu .active-vip:visited{
+			padding:12px 5px; 
+			float:left;
+		}
+		.rv_header .topmenu{ 
+			color:#606060; 
+			float:right; 
+			padding-top:60px;
+		}
+		div#rvbottom .block a:link, div#rvbottom .block a:visited, div#rvbottom .block a:active, div#rvbottom .block a:hover{ 
+			font-size:12px; 
+		}
+		.sub, .res-sub{ 
+			width:920px; 
+		}
+		.sub a, .sub a:visited, .sub a:hover, .sub a:active{  
+			font-size:12px; 
+			display: inline; 
+			border-right: #cccccc solid 1px; 
+		}
+		.sub a:hover, .sub a:active{  
+			font-size:12px; 
+		}
+		.desktop-menu{ 
+			display:block;
+		}
+		.mobile-menu{ 
+			display: none;
+		}  
+		.ssl, .partner, .reseller, .cpanel, .rv2factor-bg, .home-bg{
+			font-size:100%;
+		 } 
+		 .rv2factor .rv2factor-bg{
+			height:380px;
+		 }
+		 .feed-box{ 
+			border:#cccccc solid 1px; 
+			min-height:40em; 
+		} 
+		iframe {
+			
+	  		max-width: 100%;
+			max-height:auto;
+		}  
+		.client-area .row-fluid .installation .span6-1 {
+			width: 100%;
+			*width: 100%;
+	  	}  
+	  	.client-area .row-fluid .installation .span6 {
+			width: 50%;
+			*width: 50%;
+	 	}
+		.tab_install a {
+			font-size:17px;
+	  	}
+		.tab2factor ul{
+			width: 650px;  
+	  	}
+		.bxslider .span6 {
+			width:100%;
+		}
+		.rv2factor .bgbanner1, .rv2factor .bgbanner2 , .rv2factor .bgbanner3 , .rv2factor .bgbanner4 , .rv2factor .bgbanner5 {   
+			height:320px; 
+		}
+		.rv2factor .bgbanner1 h1, .rv2factor .bgbanner2 h1, .rv2factor .bgbanner3 h1, .rv2factor .bgbanner4 h1, .rv2factor .bgbanner5 h1{   
+			font-size:38px; 
+		}
+		.rv2factor .bgbanner1 h1{  
+			font-size:20px;
+			margin:30px 0 0 0; 
+		}
+		.rv2factor .bgbanner1 h2{   
+			font-size:16px;
+		}
+		.rv2factor .bgbanner1 h4{   
+			font-size:15px;
+		}
+		.rv2factor .bgbanner1 a, .rv2factor .bgbanner1 a:visited, .rv2factor .bgbanner1 a:hover, .rv2factor .bgbanner1 a:active, .rv2factor .bgbanner2 a, .rv2factor .bgbanner2 a:visited, .rv2factor .bgbanner2 a:hover, .rv2factor .bgbanner2 a:active, .rv2factor .bgbanner3 a, .rv2factor .bgbanner3 a:visited, .rv2factor .bgbanner3 a:hover, .rv2factor .bgbanner3 a:active, .rv2factor .bgbanner4 a, .rv2factor .bgbanner4 a:visited, .rv2factor .bgbanner4 a:hover, .rv2factor .bgbanner4 a:active, .rv2factor .bgbanner5 a, .rv2factor .bgbanner5 a:visited, .rv2factor .bgbanner5 a:hover, .rv2factor .bgbanne5 a:active{   
+			font-size:18px; 
+			margin-top:20px;
+		}
+		.rv2factor .bgbanner2 h2, .rv2factor .bgbanner3 h2, .rv2factor .bgbanner4 h2, .rv2factor .bgbanner5 h2{   
+			font-size:20px; 
+		}
+		.rv2factor .bgbanner2 h1{  
+			margin-top:20px; 
+			margin-bottom:30px; 
+			font-size:24px; 
+		}
+		.rv2factor .bgbanner3 h1{  
+			font-size:32px; 
+		}
+		.rv2factor .bgbanner3 h2{   
+			font-size:18px;	
+		}
+		.rv2factor .bgbanner4 h1{  	
+			font-size:38px; 
+		}
+		.rv2factor .bgbanner5 h1{  
+			font-size:22px; 
+		}
+		h1.addons{
+			font-size:36px; 
+			margin-top:0px;
+		}
+		.addons-bgwhm .span6, .addons-bgwordpress .span6, .addons-bghostbill .span6, .addons-bgjoomla .span6, .addons-bgssh .span6, .addons-bgwebmail .span6, .addons-bgftp .span6, .addons-bgvpn .span6{ 
+			display:none;
+		}
+		.addons-bgwhm .span5, .addons-bgwordpress .span5, .addons-bghostbill .span5, .addons-bgjoomla .span5, .addons-bgssh .span5, .addons-bgwebmail .span5, .addons-bgftp .span5, .addons-bgvpn .span5{ 
+			width:100%; 
+			font-size:22px; 
+			line-height:1.8em; 
+			padding:15px; 
+		}
+		.addons-bgwhm .span5 div, .addons-bgwordpress .span5 div, .addons-bghostbill .span5 div, .addons-bgjoomla .span5 div, .addons-bgssh .span5 div, .addons-bgwebmail .span5 div, .addons-bgftp .span5 div, .addons-bgvpn .span5 div{ 
+			width:89%; 
+			line-height:1.2em;
+		}
+		.kb-support .kb-support-menu .span2{ 
+			width:16.66666%; 
+			margin:0;
+		}		
+		.rvlogin div.padd h1{
+			font-size:70px;
+		}
+		.rvlogin div.padd h2, .rvlogin div.padd h3, .rvlogin div.padd h4{
+			font-size:28px; 
+		}
+		.rvlogin div.padd h3{
+			font-size:22px; 
+		}
+		.rvlogin div.padd h4{
+			font-size:24px;
+		}
+		.rvlogin .rvlogin-banner h1 { 
+			font-size:22px; 
+		}
+		.rvlogin .rvlogin-banner h2 { 
+			font-size:20px; 
+			line-height:1.4em;
+		}
+		.rvlogin .rvlogin-banner .get { 
+			font-size:16px;
+		}
+		/* Litespeed  2560 */
+        
+        .rvglobal .tbl-litespeed td{
+           display:block;
+        }
+        .litespeed-price-none, .rvglobal .tbl-litespeed td:first-child {
+            display:none;
+        }
+        .rvglobal .litespeed-price span.txt {
+           color:#ff8000;
+        }
+
+ }
+ 
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+		#mainmenu{
+			padding:0;
+			margin:0; 
+			background:#002c62; 
+		}
+		#mainmenu a, #mainmenu a:visited, #mainmenu a:hover, #mainmenu a:active, #mainmenu a.active , #mainmenu a.active:hover, #mainmenu .nav-partner a, #mainmenu .nav-partner a:visited, #mainmenu .nav-partner a:hover, #mainmenu .nav-partner a:active{
+			padding:12px 8px; 
+			float:left;
+			font-family:'Oswald', tahoma, Verdana, Arial, Helvetica, sans-serif; 
+		}
+		#mainmenu .active-vip, #mainmenu .active-vip:visited{
+			padding:12px 8px; 
+			float:left;
+		}
+		.rv_header .topmenu{ 
+			color:#606060; 
+			float:right; 
+			padding-top:60px;
+		}
+		#rvbottom div.col-md-3{ 
+			width:20%; 
+			float:left; 
+		}
+		div#rvbottom .block a:link, div#rvbottom .block a:visited, div#rvbottom .block a:active, div#rvbottom .block a:hover{ 
+			font-size:12px; 
+		}
+		.sub, .res-sub{ 
+			width:100%; 
+		}
+		.sub a, .sub a:visited, .sub a:hover, .sub a:active{  
+			font-size:14px; 
+		}
+		.sub a:hover, .sub a:active{  
+			font-size:14px; 
+		}
+		.rv_news .rv_content a, .rv_news .rv_content a:visited, .rv_news .rv_content a:hover, .rv_news .rv_content a:active{ 
+			font-size:11px;    
+		}
+		.desktop-menu{ 
+			display:block;
+		}
+		.mobile-menu{ 
+			display: none;
+		}
+		.ssl, .partner, .reseller, .cpanel, .rv2factor-bg{
+			font-size:80%;
+		}
+		.home-bg{
+			font-size:60%;
+		}  
+		 .rv2factor .rv2factor-bg{
+			height:380px;
+		} 
+		.rssFeed .col-md-2{ 
+			width:33%; 
+			float:left; 
+		}
+		.feed-box{ 
+			border:#cccccc solid 1px; 
+			min-height:30em; 
+		}
+		iframe {
+	  		max-width: 100%;
+			max-height:auto;
+		}
+		.tab_install a font{
+			display:none;
+		}
+		.tab2factor li{
+			width:120px; 
+		}
+		.kb-support .kb-support-menu .span2{ 
+			width:16.66666%; 
+			margin:0;
+		}
+		.kb-support .kb-support-menu .span2 a span.icon-ticket, .kb-support .kb-support-menu .span2 a span.icon-verify, 
+		.kb-support .kb-support-menu .span2 a span.icon-forums, .kb-support .kb-support-menu .span2 a span.icon-blog, 
+		.kb-support .kb-support-menu .span2 a span.icon-feature, .kb-support .kb-support-menu .span2 a span.icon-video {
+			display:none;
+		}
+		.rvlogin div.padd{ 
+			padding-left:0px; 
+		}
+		.rvlogin div.padd h1{
+			font-size:40px;
+		}
+		.rvlogin div.padd h2, .rvlogin div.padd h3, .rvlogin div.padd h4{
+			font-size:22px; 
+		}
+		.rvlogin div.padd h3{
+			font-size:22px; 
+		}
+		.rvlogin div.padd h4{
+			font-size:24px;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.rv_bgtop img{
+			max-width:100%;
+			height: auto; 
+		}
+		#mainmenu{
+			padding:0;
+			margin:0; 
+			background:#002c62; 
+		}
+		#mainmenu a, #mainmenu a:visited, #mainmenu a:hover, #mainmenu a:active, #mainmenu a.active , #mainmenu a.active:hover, #mainmenu .nav-partner a, #mainmenu .nav-partner a:visited, #mainmenu .nav-partner a:hover, #mainmenu .nav-partner a:active{
+			padding:15px 40px;
+			display:block;
+			width:100%;
+			float:none; 
+			font-family:'Oswald', tahoma, Verdana, Arial, Helvetica, sans-serif; 
+		}
+		#mainmenu .active-vip, #mainmenu .active-vip:visited{
+			padding:15px 40px;
+			display:block;
+			width:100%;
+			float:none; 
+		}
+		.rv_header img{
+			max-width:100%;
+			height: auto; 
+		}
+		.rv_header .topmenu{ 
+			color:#606060; 
+			float:right; 
+			padding-top:0px;
+		}
+		#rvbottom .col-md-3{ 
+			width:25%; 
+			float:left;
+		}
+		div#rvbottom .block a:link, div#rvbottom .block a:visited, div#rvbottom .block a:active, div#rvbottom .block a:hover{ 
+			font-size:12px; 
+		}
+		.sub, .res-sub{ 
+			width:100%; 
+			margin-left:0px;
+		}
+		.sub a, .sub a:visited, .sub a:hover, .sub a:active{  
+			font-size:16px; 
+		}
+		.sub a:hover, .sub a:active{  
+			font-size:16px; 
+		}
+		.rv_news .rv_content a, .rv_news .rv_content a:visited, .rv_news .rv_content a:hover, .rv_news .rv_content a:active{ 
+			font-size:11px;    
+		}
+		.desktop-menu{ 
+			display:block;
+		}
+		.mobile-menu{ 
+			display: none;
+		}
+		.ssl, .partner, .reseller, .cpanel, .rv2factor-bg{
+			font-size:80%;
+		}
+		.home-bg{
+			font-size:60%;
+		} 
+		 .rv2factor .rv2factor-bg{
+			height:240px;
+		}
+		.feed-box{ 
+			border:#cccccc solid 1px; 
+			min-height:25em; 
+		} 
+		.home-bg div.padd-h5 h5{
+			text-shadow: none; 
+			font-size:13px; 
+			line-height:1.2em;
+			padding:5px;
+			margin:5px 0 0 0; 
+			background:#000; 
+			opacity:0.5;    
+			border-radius: 5px; 
+			-moz-border-radius: 5px; 
+			-webkit-border-radius: 5px; 
+		}
+		iframe {
+			
+	  		max-width: 100%;
+			max-height:auto;
+		}
+		.client-area .row-fluid .installation .span6-1 {
+			width: 100%;
+			*width: 100%;
+		}  
+		 .client-area .row-fluid .installation .span6 {
+			width: 100%;
+			*width: 100%;
+		}
+		.tab_install a font{
+			display:none;
+		}
+		.kb-support .kb-support-menu .span2{ 
+			width:16.66666%; 
+			margin:0;
+		}
+		.rvlogin div.padd{ 
+			padding-left:40px; 
+		}
+		.rvlogin div.padd h1{
+			font-size:40px;
+		}
+		.rvlogin div.padd h2, .rvlogin div.padd h3, .rvlogin div.padd h4{
+			font-size:20px; 
+		}
+		.rvlogin div.padd h3{
+			font-size:18px; 
+		}
+		.rvlogin div.padd h4{
+			font-size:16px;
+		}
+		
+		/* Litespeed  2560 */
+		
+		.rvglobal .tbl-litespeed td{
+           display:block;
+        }
+		.litespeed-price-none, .rvglobal .tbl-litespeed td:first-child {
+            display:none;
+        }
+        .rvglobal .litespeed-price span.txt {
+           color:#ff8000;
+        }
+        
+		
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#mainmenu{
+			padding:0;
+			margin:0; 
+			background:#072449; 
+		}
+		#mainmenu a, #mainmenu a:visited, #mainmenu a:hover, #mainmenu a:active, #mainmenu a.active , #mainmenu a.active:hover{
+			padding:15px 15px; 
+			display:block;
+			width:100%;
+			float:none;
+			font-family:'Oswald', tahoma, Verdana, Arial, Helvetica, sans-serif;  
+		}
+		#mainmenu .active-vip, #mainmenu .active-vip:visited{
+				padding:15px 15px; 
+			display:block;
+			width:100%;
+			float:none; 
+		}
+		.rv_header .topmenu{ 
+			color:#606060; 
+			float:right; 
+			padding-top:60px;
+		}
+		#rvbottom .col-md-3{ 
+			width:25%; 
+			float:left;
+		}
+		div#rvbottom .block a:link, div#rvbottom .block a:visited, div#rvbottom .block a:active, div#rvbottom .block a:hover{ 
+			font-size:12px; 
+		}
+		.sub a, .sub a:visited, .sub a:hover, .sub a:active{  
+			font-size:16px; 
+		}
+		.sub a:hover, .sub a:active{  
+			font-size:16px; 
+		}
+		.rv_news .rv_content a, .rv_news .rv_content a:visited, .rv_news .rv_content a:hover, .rv_news .rv_content a:active{ 
+			font-size:14px; 
+			line-height:1.4em;    
+		}
+		.desktop-menu{ 
+			display:none;
+		}
+		.mobile-menu{ 
+			display: block;
+		}
+		.rssFeed .col-md-2{ 
+			width:33%; 
+			float:left; 
+		}
+		.feed-box{ 
+			border:#cccccc solid 1px; 
+			min-height: 34em;  
+		}
+		iframe {
+			
+	  		max-width: 100%;
+			height:350px;
+		}
+		.tab_install a font{
+			display:none;
+		}
+		.kb-support .kb-support-menu .span2{ 
+			width:100%; 
+			margin:0;
+		}
+		.rvlogin div.padd{ 
+			padding-left:40px; 
+		}
+		.rvlogin div.padd h1{
+			font-size:40px;
+		}
+		.rvlogin div.padd h2, .rvlogin div.padd h3, .rvlogin div.padd h4{
+			font-size:20px; 
+		}
+		.rvlogin div.padd h3{
+			font-size:18px; 
+		}
+		.rvlogin div.padd h4{
+			font-size:16px;
+		}
+		
+	}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 550px) {
+		#mainmenu{
+			padding:0;
+			margin:0; 
+			background:#072449; 
+		}
+		#mainmenu a, #mainmenu a:visited, #mainmenu a:hover, #mainmenu a:active, #mainmenu a.active , #mainmenu a.active:hover{
+			padding:15px 40px;
+			display:block;
+			width:100%;
+			float:none;
+			font-family:'Oswald', tahoma, Verdana, Arial, Helvetica, sans-serif;  
+		}
+		#mainmenu .active-vip, #mainmenu .active-vip:visited{
+			padding:15px 40px;
+			display:block;
+			width:100%;
+			float:none; 
+		}
+		.sub a, .sub a:visited, .sub a:hover, .sub a:active{  
+			font-size:18px; 
+		}
+		.sub a:hover, .sub a:active{  
+			font-size:18px; 
+		}
+		.desktop-menu{ 
+			display:none;
+		}
+		.mobile-menu{ 
+			display: block;
+		}
+		#rvbottom .col-md-3{ 
+			width:25%; 
+			float:left;
+		}
+		.tab_install a font{
+			display:none;
+		}
+		.bxslider .span6 {
+			width:480px;
+		}
+		h1.addons{
+			font-size:48px; 
+			margin-top:-15px;
+		}
+		.addons-bgwhm .span6, .addons-bgwordpress .span6, .addons-bghostbill .span6, .addons-bgjoomla .span6, .addons-bgssh .span6, .addons-bgwebmail .span6, .addons-bgftp .span6, .addons-bgvpn .span6{ 
+			display:none;
+		}
+		.addons-bgwhm .span5, .addons-bgwordpress .span5, .addons-bghostbill .span5, .addons-bgjoomla .span5, .addons-bgssh .span5, .addons-bgwebmail .span5, .addons-bgftp .span5, .addons-bgvpn .span5{ 
+			width:90%; 
+			font-size:32px; 
+			line-height:1.8em; 
+			height:400px; 
+			padding:15px; 
+		}
+		.addons-bgwhm .span5 div, .addons-bgwordpress .span5 div, .addons-bghostbill .span5 div, .addons-bgjoomla .span5 div, .addons-bgssh .span5 div, .addons-bgwebmail .span5 div, .addons-bgftp .span5 div, .addons-bgvpn .span5 div{ 
+			width:92%; 
+			line-height:1.2em;
+			font-size:32px;  
+			margin-left:50px; 
+		}
+		.kb-support .kb-support-menu .span2{ 
+			width:100%; 
+			margin:0;
+		}
+		.kb-support .span4{ 
+			width:90%; 
+			padding:0 20px;
+			margin:0;
+		}
+		.txt-revolution{	
+			font-size:40px;
+			padding:10px 0;
+		}
+		.rssFeed .col-md-2{ 
+			width:50%; 
+			float:left; 
+		}
+		.rvlogin div.padd h1{
+			font-size:40px;
+		}
+		.rvlogin div.padd h2, .rvlogin div.padd h3, .rvlogin div.padd h4{
+			font-size:20px; 
+		}
+		.rvlogin div.padd h3{
+			font-size:18px; 
+		}
+		.rvlogin div.padd h4{
+			font-size:16px;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		body{ padding:0; margin:0;}
+		.rv_what {
+			background-image: url(../images/bgwhat.gif);
+			background-position:top; 
+			background-color:#e7e7e7;
+			border:#d6d6d6 solid 1px; 
+			margin-top:1px; 
+		}
+		.rv_border { 
+			border:#FFFFFF solid 1px; 
+			padding:20px 3px 20px 2px;
+			height:auto;
+		}
+		div#rvbottom .block a:link, div#rvbottom .block a:visited, div#rvbottom .block a:active, div#rvbottom .block a:hover{ 
+			font-size:12px; 
+		}
+		#mainmenu{
+			padding:0;
+			margin:0; 
+			background:#072449; 
+		}
+		#mainmenu a, #mainmenu a:visited, #mainmenu a:hover, #mainmenu a:active, #mainmenu a.active , #mainmenu a.active:hover{
+			padding:15px 40px; 
+			display:block;
+			width:100%;
+			float:none; 
+		}
+		#mainmenu .active-vip, #mainmenu .active-vip:visited{
+			padding:15px 40px;
+			display:block; 
+			width:100%;
+			float:none;
+		}
+		.sub, .res-sub{ 
+			width:100%; 
+			margin-left:0px; 
+		}
+		.sub a, .sub a:visited, .sub a:hover, .sub a:active{  
+			font-size:16px; 
+			display:block; 
+			border:0; 
+			border-bottom: #CCCCCC solid 1px; 
+			line-height:2em;
+		}
+		.sub a:hover, .sub a:active{  
+			font-size:16px; 
+		}
+		.rv_news .rv_content a, .rv_news .rv_content a:visited, .rv_news .rv_content a:hover, .rv_news .rv_content a:active{ 
+			font-size:14px; 
+			line-height:1.4em;    
+		}
+		.desktop-menu{ 
+			display:none;
+		}
+		.mobile-menu{ 
+			display: block;
+		}
+		#rvbottom .col-md-3{ 
+			width:50%; 
+			float: left;
+		}
+		.feed-box{ 
+			border:#cccccc solid 0px; 
+			min-height: inherit; 
+		}
+		.home-bg div.padd h3, .home-bg div.padd h3 span{
+			font-size:14px;
+		}
+		iframe {
+	  		max-width: 100%;
+			height:300px;
+		}
+		.client-area img{  
+			margin-bottom:10px; 
+		}
+		.client-area .client-container ul.menu li{
+			width:100%;
+		}
+		.tab_install a font{
+			display:none;
+		}
+		.bxslider .span6 {
+			width:280px;
+		}
+		.rv2factor .bgbanner1, .rv2factor .bgbanner2 , .rv2factor .bgbanner3 , .rv2factor .bgbanner4 , .rv2factor .bgbanner5 {   
+			height:362px; 
+		}
+		.rv2factor .bgbanner1 h1, .rv2factor .bgbanner2 h1, .rv2factor .bgbanner3 h1, .rv2factor .bgbanner4 h1, .rv2factor .bgbanner5 h1{   
+			font-size:38px; 
+		}
+		.rv2factor .bgbanner1 h1{  
+			font-size:20px;
+			margin:30px 0 0 0; 
+		}
+		.rv2factor .bgbanner1 h2{   
+			font-size:16px;
+		}
+		.rv2factor .bgbanner1 h4{   
+			font-size:15px;
+		}
+		.rv2factor .bgbanner1 a, .rv2factor .bgbanner1 a:visited, .rv2factor .bgbanner1 a:hover, .rv2factor .bgbanner1 a:active, .rv2factor .bgbanner2 a, .rv2factor .bgbanner2 a:visited, .rv2factor .bgbanner2 a:hover, .rv2factor .bgbanner2 a:active, .rv2factor .bgbanner3 a, .rv2factor .bgbanner3 a:visited, .rv2factor .bgbanner3 a:hover, .rv2factor .bgbanner3 a:active, .rv2factor .bgbanner4 a, .rv2factor .bgbanner4 a:visited, .rv2factor .bgbanner4 a:hover, .rv2factor .bgbanner4 a:active, .rv2factor .bgbanner5 a, .rv2factor .bgbanner5 a:visited, .rv2factor .bgbanner5 a:hover, .rv2factor .bgbanne5 a:active{   
+			font-size:18px; 
+			margin-top:20px;
+		}
+		.rv2factor .bgbanner2 h2, .rv2factor .bgbanner3 h2, .rv2factor .bgbanner4 h2, .rv2factor .bgbanner5 h2{   
+			font-size:20px; 
+		}
+		.rv2factor .bgbanner2 h1{  
+			margin-top:20px; 
+			margin-bottom:30px; 
+			font-size:24px; 
+		}
+		.rv2factor .bgbanner3 h1{  
+			font-size:32px; 
+		}
+		.rv2factor .bgbanner3 h2{   
+			font-size:18px;	
+		}
+		.rv2factor .bgbanner4 h1{  	
+			font-size:38px; 
+		}
+		.rv2factor .bgbanner5 h1{  
+			font-size:22px; 
+		}
+		h1.addons{
+			font-size:48px; 
+			margin-top:-15px;
+		}
+		.addons-bgwhm .span6, .addons-bgwordpress .span6, .addons-bghostbill .span6, .addons-bgjoomla .span6, .addons-bgssh .span6, .addons-bgwebmail .span6, .addons-bgftp .span6, .addons-bgvpn .span6{ 
+			display:none;
+		}
+		.addons-bgwhm .span5, .addons-bgwordpress .span5, .addons-bghostbill .span5, .addons-bgjoomla .span5, .addons-bgssh .span5, .addons-bgwebmail .span5, .addons-bgftp .span5, .addons-bgvpn .span5{ 
+			width:90%; 
+			font-size:32px; 
+			line-height:1.8em; 
+			height:400px; 
+			padding:15px; 
+		}
+		.addons-bgwhm .span5 div, .addons-bgwordpress .span5 div, .addons-bghostbill .span5 div, .addons-bgjoomla .span5 div, .addons-bgssh .span5 div, .addons-bgwebmail .span5 div, .addons-bgftp .span5 div, .addons-bgvpn .span5 div{ 
+			width:92%; 
+			line-height:1.2em;
+			font-size:32px;  
+			margin-left:100px; 
+		}
+		.kb-support .kb-support-menu .span2{ 
+			width:100%; 
+			margin:0;
+		}
+		.kb-support .span4{ 
+			width:90%; 
+			padding:0 20px;
+			margin:0;
+		}
+		.txt-revolution{	
+			font-size:30px;
+			padding:10px 0;
+		}
+		.partner{
+			font-size:70%;
+		}
+		.ssl, .cpanel, .rv2factor-bg, .reseller{
+			font-size:50%;
+		}
+		.contact .col-md-12, .contact .col-md-7, .contact .col-md-4{ 
+			width:100%; 
+			padding:0; 
+			margin:0;
+		}
+		.rvlogin .desktop-padt{ 
+			padding-top:0px;
+		}
+		.rvlogin div.padd h1{
+			font-size:40px;
+		}
+		.rvlogin div.padd h2, .rvlogin div.padd h3, .rvlogin div.padd h4{
+			font-size:20px; 
+		}
+		.rvlogin div.padd h3{
+			font-size:18px; 
+		}
+		.rvlogin div.padd h4{
+			font-size:16px;
+		}
+		.rvlogin .rvlogin-banner h1 { 
+			font-size:20px; 
+			margin-top:-50px; 
+		}
+		.rvlogin .rvlogin-banner h2 { 
+			font-size:20px; 
+			line-height:1.4em;
+		}
+		.rvlogin .rvlogin-banner .get { 
+			font-size:16px;
+		}
+	}
+
+
+@media (min-width: 278px) and (max-width: 979px) {
+    .isp-box-l{
+        display:block;
+    }
+   .phone-center{
+        text-align:center;
+    }
+}

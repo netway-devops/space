@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * Client  has just been deleted from HostBill database
+ * Following variable is available to use in this file:  $details contains informations about deleted client, from API::getClientDetails call
+ * Some of keys available (note: if you have custom registration fields they may differ):
+ * $details['id']; // new client ID
+ * $details['type']; // Personal or Organization account
+ * $details['companyname']; // Supplied company name
+ * $details['firstname']; //
+ * $details['lastname']; //
+ * $details['password']; //
+ * $details['password2']; //
+ * $details['email']; //
+ * $details['address1']; //
+ * $details['address2']; //
+ * $details['city']; //
+ * $details['state']; //
+ * $details['postcode']; //
+ * $details['country']; //
+ * $details['phonenumber']; //
+ */

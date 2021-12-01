@@ -1,0 +1,56 @@
+{literal}
+<style>
+#error {
+margin:10px;background:#F2DEDE;border-radius:4px;border:solid 1px #EED3D7;color:#B94A48;
+font-size:13px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:18px;
+padding:14px;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.alert-success {
+border-radius:4px;border:solid 1px green;
+padding:14px;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);
+}
+</style>
+{/literal}
+<strong>Transfer License</strong>
+
+<br />
+
+{if $dis_show}
+<script type="text/javascript" language="javascript" src="{$template_dir}rvlicense/script_change_ip.js"></script>
+<div class="alert-success sta_ok" style="display:none;">
+<span id="txt_response_yes"></span>
+</div>
+<div id="error"class="sta_no" style="display:none;">
+<span id="txt_response_no"></span>
+</div>
+
+<form name="frmchangeip" onsubmit="action_chageip();return false;"id="frmchangeip" method="post"  action="">
+<input type="hidden" name="acc_id" value="{$acc_id}">
+<input type="hidden" name="server_id" value="{$server_id}">
+<input type="hidden" name="cmd" id="cmd" value="rvcpanel_manage2">
+<table>
+<tr>
+      <td width="120" align="right" nowrap="nowrap"><label>From IP :</label></td>
+      <td>
+        <span id="frm_ip">{$frm_ip}</span>
+      </td>
+</tr>
+<tr>
+      <td width="120" align="right" nowrap="nowrap"><label>To IP :</label></td>
+      <td>
+        <input  type="text" name="to_ip" id="to_ip" value="{$to_ip}"size="18" >
+      </td>
+</tr>
+<tr>
+    <td colspan="2" align="center">
+    <input type="button" name="bu_changeip" onclick="action_chageip();" value="Change IP"/>
+    </td>
+</tr>
+</table>
+</form>
+<br><br><br><br><br><br><br><br><br><br>
+
+{else}
+ทางเราอนุญาติให้ ลูกค้าสามารถทำการ transfer ip ได้ปีละ 2 ครั้ง เท่านั้น ถ้าต้องการ transfer กรุณาส่งเป็น TICKET ได้ตามลิงค์นี้คะ<BR />
+<a href="index.php?/knowledgebase/">คลิ๊กที่นี่</a>
+{/if}

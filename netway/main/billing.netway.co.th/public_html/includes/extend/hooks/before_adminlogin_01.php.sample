@@ -1,0 +1,18 @@
+<?php
+
+/*
+ * Admin is atempting to log in with:
+ * $details['username'] - Username
+ *
+ * $details['password'] - Staff password
+ *
+ * You can use this hook to authenticate admin against external database/auth service.
+ * To do so, after successfull auth, simply return admin id that HostBill should log in.
+ * ie. return 10; //login admin with id=10 (hb_admin_access.id=10).
+ *
+ * If admin have provided wrong credentials - dont return any value - this way HostBill
+ * will fall-back to its internal authentication methods.
+ *
+ * If wrong details are passed and you wish to prevent for auth fallback, return -1;
+ */
+

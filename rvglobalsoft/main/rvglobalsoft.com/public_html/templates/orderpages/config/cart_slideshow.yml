@@ -1,0 +1,6 @@
+---
+selectslider:
+  value: ''
+  name: Slider to use
+  description: Make sure your Slider plugin is enabled
+  type: hidden

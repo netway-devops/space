@@ -1,0 +1,100 @@
+{
+  "client_id": {
+    "lang": "Client ID",
+    "type": "input"
+  },
+  "subject": {
+    "lang": "subject",
+    "type": "input"
+  },
+  "body": {
+    "lang": "Body",
+    "type": "input"
+  },
+  "type": {
+    "lang": "Type",
+    "type": "select",
+    "options": [
+      {
+        "value": "direct",
+        "lang": "Direct"
+      },
+      {
+        "value": "broadcast",
+        "lang": "Broadcast"
+      }
+    ]
+  },
+  "rel_type": {
+    "lang": "Relation type",
+    "type": "select",
+    "options": [
+      {
+        "value": "none",
+        "lang": "None"
+      },
+      {
+        "value": "client",
+        "lang": "Client"
+      },
+      {
+        "value": "account",
+        "lang": "Account"
+      },
+      {
+        "value": "domain",
+        "lang": "Domain"
+      },
+      {
+        "value": "order",
+        "lang": "Order"
+      },
+      {
+        "value": "draft",
+        "lang": "Draft"
+      },
+      {
+        "value": "invoice",
+        "lang": "Invoice"
+      },
+      {
+        "value": "estimate",
+        "lang": "Estimate"
+      },
+      {
+        "value": "rackitem",
+        "lang": "Rack item"
+      },
+      {
+        "value": "ticket",
+        "lang": "Ticket"
+      },
+      {
+        "value": "email",
+        "lang": "Email"
+      }
+    ]
+  },
+  "rel_id": {
+    "lang": "Relation id",
+    "type": "relation_id"
+  },
+  "date_added": {
+    "lang": "Date added",
+    "type": "datepicker"
+  },
+  "seen": {
+    "lang": "Seen",
+    "type": "select",
+    "options": [
+      {
+        "value": "1",
+        "lang": "Yes"
+      },
+      {
+        "value": "0",
+        "lang": "No"
+      }
+    ]
+  }
+}

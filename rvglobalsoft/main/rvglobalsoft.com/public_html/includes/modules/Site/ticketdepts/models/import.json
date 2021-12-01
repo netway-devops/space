@@ -1,0 +1,49 @@
+[
+    {
+      "value": "PIPE",
+      "label": "{$lang.pipemethod}",
+      "forms": [
+        {
+          "name": "email",
+          "label": "{$lang.email}",
+          "type": "text",
+          "required": true,
+          "unique": true
+        }
+      ]
+    },
+    {
+      "value": "POP",
+      "label": "{$lang.popmethod}",
+      "forms": [
+        {
+          "name": "email",
+          "label": "{$lang.email}",
+          "type": "text",
+          "required": true,
+          "unique": true
+        },
+        {
+          "name": "host",
+          "label": "{$lang.Hostname}",
+          "type": "text"
+        },
+        {
+          "name": "login",
+          "label": "{$lang.loginname}",
+          "type": "text"
+        },
+        {
+          "name": "password",
+          "label": "{$lang.Password}",
+          "type": "password"
+        },
+        {
+          "name": "port",
+          "label": "Port",
+          "type": "text",
+          "tooltip": "Default ports:<br>&nbsp; 110 - POP3,<br>&nbsp; 143 - IMAP,<br>&nbsp; 993 - POP3+ssl,<br>&nbsp; 995 - POP3+ssl self-signed"
+        }
+      ]
+    }
+ ]

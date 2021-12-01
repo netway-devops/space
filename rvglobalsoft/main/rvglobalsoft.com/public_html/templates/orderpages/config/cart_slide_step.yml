@@ -1,0 +1,30 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/slide_step/howto.png'
+  name: View editable areas
+  type: link
+info:
+  value: 'Drag slider to select plan that bests suits your requirements.'
+  name: Information text 
+  description: This phrase will be displayed above slider in right corner
+  type: input
+feature_first:
+  value: |
+         <h4>Login notification</h4>
+         <p>This feature is responsible for notification of all admins if someone was logged into HostBill Adminarea.</p>
+  name: First feature
+  description: HTML is allowed.
+  type: textarea
+feature_second:
+  value: |
+         <h4>Language customization</h4>
+         <p>If you don't find standard translation good enough, want to change or add new translations for your custom templates.</p>
+  name: Second feature
+  description: HTML is allowed.
+  type: textarea
+footer:
+  value: 'Looking for custom plan for your pocket? Contact us <a href="?cmd=tickets&action=new"> go get a quote.</a>'
+  name: Footer
+  type: textarea

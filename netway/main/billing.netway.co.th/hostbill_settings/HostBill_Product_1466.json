@@ -1,0 +1,253 @@
+{
+    "product": {
+        "id": "1466",
+        "category_id": "8",
+        "type": "10",
+        "name": "Google Workspace Business Starter (Monthly)",
+        "description": "<ul>\r\n<li>- \u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e02\u0e2d\u0e07\u0e18\u0e38\u0e23\u0e01\u0e34\u0e08 (name@yourcompany.com)<\/li>\r\n<li>- \u0e1e\u0e37\u0e49\u0e19\u0e17\u0e35\u0e48\u0e40\u0e01\u0e47\u0e1a\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e2d\u0e2d\u0e19\u0e44\u0e25\u0e19\u0e4c 30GB \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e0b\u0e34\u0e07\u0e04\u0e4c\u0e41\u0e25\u0e30\u0e01\u0e32\u0e23\u0e41\u0e0a\u0e23\u0e4c\u0e44\u0e1f\u0e25\u0e4c<\/li>\r\n<li>- \u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21 \u0e2a\u0e40\u0e1b\u0e23\u0e14\u0e0a\u0e35\u0e15 \u0e41\u0e25\u0e30\u0e07\u0e32\u0e19\u0e19\u0e33\u0e40\u0e2a\u0e19\u0e2d\u0e2d\u0e2d\u0e19\u0e44\u0e25\u0e19\u0e4c<\/li>\r\n<\/ul>",
+        "visible": "0",
+        "domain_options": "1",
+        "qty": "0",
+        "autosetup": "0",
+        "subdomain": "",
+        "owndomain": "1",
+        "tax": "1",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "4",
+        "autohostname": "",
+        "p_options": [
+            "64"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": "Google Workspace Business Starter  (Monthly)",
+        "contract_id": "0",
+        "dbcItemType": "",
+        "baseUnitOfMeasureCode": "",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "0",
+        "line_group_id": "0",
+        "codeName": null,
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "Regular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": 0,
+        "m": "190.00",
+        "q": "0.00",
+        "s": "0.00",
+        "a": "0.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": 0,
+        "ptype": "simplehosting",
+        "tlds": null,
+        "periods": null,
+        "category_name": "GSuite",
+        "module": "191",
+        "main": "1",
+        "modname": "Google G Suite",
+        "filename": "class.gsuite.php",
+        "domain_op": [
+            "1"
+        ],
+        "free_domain": "0",
+        "emails": {
+            "AfterModuleTerminate": "0",
+            "after_accountinsert": "0",
+            "ProductAccountCreated": "0",
+            "SuspendAccount": "0",
+            "UnsuspendAccount": "0"
+        },
+        "m_upgrade": "0.00",
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Hosting",
+        "modules": [
+            {
+                "product_id": "1466",
+                "main": 1,
+                "modname": "Google G Suite",
+                "filename": "class.gsuite.php",
+                "module": "191",
+                "options": {
+                    "skuid": "Google-Apps-For-Business",
+                    "plantype": "ANNUAL_YEARLY_PAY",
+                    "numberofseats": ""
+                },
+                "default": {
+                    "skuid": "Google-Apps-For-Business",
+                    "plantype": "ANNUAL_YEARLY_PAY",
+                    "numberofseats": ""
+                },
+                "server": {
+                    "357": "357"
+                }
+            }
+        ],
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1OverdueReminder": "1",
+            "1ServiceReminder": "0",
+            "2OverdueReminder": "5",
+            "2ServiceReminder": "0",
+            "3OverdueReminder": "0",
+            "3ServiceReminder": "0",
+            "4ServiceReminder": "0",
+            "5ServiceReminder": "0",
+            "AddLateFeeAfter": "6",
+            "AdsjustDatesOnCreation": "on",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidInvoices": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoProcessCancellations": "off",
+            "AutoSuspensionPeriod": "1",
+            "AutoTerminationPeriod": "30",
+            "BillFullMonth": "0",
+            "CancellationPostPaidProrata": "off",
+            "CancellationTypeEndPeriod": "on",
+            "CancellationTypeImmediate": "on",
+            "CreditOnDowngradeOverride": "",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoCreation": "0",
+            "EnableAutoRenewService": "on",
+            "EnableAutoSuspension": "on",
+            "EnableAutoTermination": "off",
+            "EnableAutoUnSuspension": "on",
+            "EnableAutoUpgrades": "off",
+            "EnableProRata": "off",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "7",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "MoveDueDays": "0",
+            "ProRataDay": "1",
+            "ProRataMonth": "disabled",
+            "ProRataNextMonth": "0",
+            "RecurringBillingType": "PrePay",
+            "RenewInvoice": "1",
+            "ReturnToStockOnTerminate": "0",
+            "SendPaymentReminderEmails": "on",
+            "UpgradeProratePrecision": "seconds",
+            "InvoiceCustomReminder": null,
+            "StockProductVisibility": "follow"
+        }
+    },
+    "addons": {
+        "7": {
+            "id": "63",
+            "name": "Hybrid email services",
+            "parentmod": ""
+        }
+    },
+    "tasks": [],
+    "widgets": [],
+    "forms": [
+        {
+            "id": "4210",
+            "type": "select",
+            "required": "0",
+            "name": "Hybrid",
+            "key": "hide",
+            "variable": "",
+            "description": "",
+            "category": "",
+            "product_id": "1466",
+            "copy_of": "4210",
+            "options": "3",
+            "config": {
+                "upgradefee": "0.00",
+                "downgradefee": "0.00",
+                "conditionals": []
+            },
+            "sort_order": "1",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "10329",
+                    "category_id": "4210",
+                    "name": "No",
+                    "variable_id": "No",
+                    "copy_of": "10329"
+                },
+                {
+                    "id": "10330",
+                    "category_id": "4210",
+                    "name": "Yes (Hosting \u0e2d\u0e22\u0e39\u0e48 Netway)",
+                    "variable_id": "Yes (Hosting \u0e2d\u0e22\u0e39\u0e48 Netway)",
+                    "sort_order": "1",
+                    "copy_of": "10330"
+                },
+                {
+                    "id": "10331",
+                    "category_id": "4210",
+                    "name": "Yes (Hosting \u0e2d\u0e22\u0e39\u0e48\u0e17\u0e35\u0e48\u0e2d\u0e37\u0e48\u0e19)",
+                    "variable_id": "Yes (Hosting \u0e2d\u0e22\u0e39\u0e48\u0e17\u0e35\u0e48\u0e2d\u0e37\u0e48\u0e19)",
+                    "sort_order": "2",
+                    "copy_of": "10331"
+                }
+            ]
+        },
+        {
+            "id": "4211",
+            "type": "sliderinput",
+            "required": "0",
+            "name": "Seat Quantity",
+            "key": "",
+            "variable": "quantity",
+            "description": "\u0e08\u0e33\u0e19\u0e27\u0e19 User \u0e17\u0e35\u0e48\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e2a\u0e31\u0e48\u0e07\u0e0b\u0e37\u0e49\u0e2d",
+            "category": "",
+            "product_id": "1466",
+            "copy_of": "4211",
+            "options": "307",
+            "config": {
+                "minvalue": "1",
+                "maxvalue": "300",
+                "upgradefee": "0.00",
+                "downgradefee": "0.00",
+                "step": "1",
+                "initialval": "1",
+                "dontchargedefault": "1",
+                "conditionals": []
+            },
+            "sort_order": "2",
+            "group_id": "0",
+            "ftype": "sliderinput",
+            "premade": true,
+            "items": [
+                {
+                    "id": "10332",
+                    "category_id": "4211",
+                    "name": "Seat(s)",
+                    "copy_of": "10332",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "m": "190.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

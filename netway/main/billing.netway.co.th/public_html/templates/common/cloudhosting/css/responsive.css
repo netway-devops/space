@@ -1,0 +1,637 @@
+.cloud .lg-hide{
+    display: none;
+}
+
+@media (max-width: 979px){
+    .cloud{
+        position: relative;
+        min-height: 70vh;
+    }
+    .cloud-widget{
+        margin: 0 0 10px;
+    }
+    .cloud .md-small{
+        font-size: 85%;
+    }
+    .cloud .md-show-block{
+        display: block;
+    }
+    .cloud .md-show-inline{
+        display: inline
+    }
+    .cloud .md-show-inline-block{
+        display: inline-block
+    }
+    .cloud .md-hide{
+        display: none;
+    }
+    .cloud .md-hide-top{
+        border-top: none;
+    }
+    .cloud .md-hide-bottom{
+        border-bottom: none;
+    }
+
+    .tonapp td.md-hide-bottom, 
+    table.data-table td.md-hide-bottom,
+    table.ttable tr td.md-hide-bottom{
+        padding-bottom: 3px;
+    }
+    .tonapp td.md-hide-top, 
+    table.data-table td.md-hide-top,
+    table.ttable tr td.md-hide-top{
+        padding-top: 3px;
+    }
+    .ttable td.bigger{
+        font-size: 18px;
+    }
+    table.ttable tr td.md-hide-top{
+        padding-top: 3px;
+    }
+    /*
+    .cloud .state_switch{
+        font-size: 0;
+        width: 30px;
+        margin: 0;
+        background: #ccc;
+        padding: 2px;
+        box-shadow: none;
+        height: 15px;
+        border-radius: 10px;
+        display: inline-block;
+        white-space: nowrap;
+        line-height: 0;
+        text-align: right;
+    }
+    
+    .cloud .state_switch::before,
+    .cloud .state_switch.off::before,
+    .cloud .state_switch::after,
+    .cloud .state_switch.on::after{
+        box-shadow: none;
+        position: static;
+        border: none;
+        width: 50%;
+        height: 100%;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .cloud .state_switch.on{
+        background: #5f98d4;
+        text-align: left;
+    }
+    */
+
+    .modal-header h2{
+        font-size: 24px;
+        line-height: 28px
+    }
+    
+    /* MAIN NAV */
+    .cloud-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cloud-top > .clear{
+        display: none;
+    }
+    .cloud-nav,
+    .cloud-sub-nav{
+        position: relative;
+        max-width: 100%;
+        float: right;
+        z-index: 10;
+    }
+    .cloud-nav{
+        max-height: 42px;
+        margin: 0 0 10px;
+        box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5) inset;
+    }
+    .cloud-header{
+        margin: 0 5px 10px 0;
+    }
+
+    .cloud-header h1{
+        height: auto;
+        padding: 0;
+        margin: 0;
+        background: none;
+        float:  none;
+    }
+
+    .cloud-nav .level-1,
+    .cloud-sub-nav ul.sub-ul{
+        float: none;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        white-space: nowrap;
+        padding: 0;
+        margin: 0;
+        border: none;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .cloud-nav .level-1{
+        border-radius:3px;
+        height: 42px;
+        border: 1px solid black;
+    }
+
+    .cloud-nav .menu-item ,
+    .cloud-sub-nav ul.sub-ul li{
+        display: block;
+        float: none;
+        width: auto;
+        margin: 0;
+        z-index: 10;
+    }
+
+    .cloud-nav .menu-item{
+        font-size: 13px;
+        border: none;
+    }
+
+    .cloud-nav .menu-item.dropdown.open .dropdown-toggle, 
+    .cloud-nav .menu-item > a{
+        border: none;
+        background: #fff;
+        border-bottom: 1px solid #dedede;
+        border-radius: 0;
+        
+        line-height: 40px;
+        height: 40px;
+    }
+    .cloud-nav .menu-item.current-menu-item{
+        display: block;
+        order: -1;
+        box-shadow: none;
+        margin-top: 0;
+        /* position: absolute; */
+        /* top: 0; */
+        /* left: 0; */
+    }
+    
+    .cloud-nav .dropdown .caret{
+        margin-top: 18px;
+    }
+
+    .cloud-nav .menu-item.dropdown.open .dropdown-toggle,
+    .cloud-nav .menu-item.current-menu-item > a,
+    .cloud-nav .menu-item:hover > a{
+        background: #75aeea;
+        color: white;
+        text-shadow: 0 1px 0 #000000;
+        background: #75aeea;
+    }
+    
+    .cloud-nav .current-menu-item.dropdown .caret {
+        display: none;
+    }
+    
+    .cloud-nav .menu-item:hover > a .caret{
+        border-top-color: white
+    }
+
+    .cloud-nav .menu-item.dropdown.open .dropdown-toggle,
+    .cloud-nav .menu-item:hover > a{
+        border-bottom-color: #888787;
+        box-shadow: 0 -1px 0px #888787;
+    }
+
+    .cloud-nav .menu-item.current-menu-item > a{
+        border-bottom: none;
+        background: #75aeea;
+        border: 1px solid black;
+        border: none;
+        box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5) inset;
+        border-radius: 3px;
+        pointer-events: none;
+        touch-action: none;
+    }
+
+    .cloud-nav .level-1:hover{
+        height: auto;
+        overflow: visible;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        overflow: auto;
+        max-height: 421px;
+    }
+    
+    .cloud-nav .level-1:hover .menu-item.current-menu-item > a,
+    .cloud-nav .level-1.hover .menu-item.current-menu-item > a{
+        border-radius: 3px 3px 0 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    }
+
+    .cloud-nav .level-1 li.current-menu-item > a::after{
+        content: "";
+        border: 6px solid transparent;
+        border-top-color:white;
+        display: inline-block;
+        margin: 0 2px -6px
+    }
+    .cloud-nav .menu-item.dropdown .dropdown-menu{
+        position: static;
+        display: block;
+        overflow: hidden;
+        height: 0;
+        float: none;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }    
+    .cloud-nav .menu-item.dropdown.open .dropdown-menu,
+    .cloud-nav .menu-item.current-menu-item.dropdown .dropdown-menu{
+        display: block;
+        height: auto;
+        overflow: visible;
+    }
+    .cloud-nav .dropdown-backdrop{
+        display: none;
+    }
+
+    /* SUBMENU */
+    .cloud-sub-nav{
+        max-height: 29px;
+        margin: -4px -11px -4px 5px;
+    }
+    .cloud-sub-nav ul.sub-ul{
+        margin: 0;
+        overflow: visible;
+        border: none;
+        padding: 0;
+        border-radius: 0;
+        height: 32px;
+    }
+
+    .cloud-sub-nav ul.sub-ul li a{
+        float: none;
+        border: none;
+        /* border-bottom: 1px solid #dedede; */
+        height: auto;
+        text-align: center;
+        line-height: 25px;
+        padding: 3px 10px;
+    }
+
+    .cloud-sub-nav ul.sub-ul li.active{
+        display: block;
+        order: -1;
+        box-shadow: none;
+        margin-top: 0;
+    }
+
+    .cloud-sub-nav ul.sub-ul li.active a,
+    .cloud-sub-nav ul.sub-ul li:hover a{
+
+    }
+
+    .cloud-sub-nav ul.sub-ul li.active a{
+        pointer-events: none;
+        touch-action: none;
+    }
+
+    .cloud-sub-nav ul.sub-ul:hover{
+        height: auto;
+        overflow: visible
+    }
+    .cloud-sub-nav ul.sub-ul:hover li.active a,
+    .cloud-sub-nav ul.sub-ul.hover li.active a{
+        border-radius: 3px 3px 0 0;
+        border-bottom: 1px solid #888;
+    }
+
+    .cloud-sub-nav ul.sub-ul li.active a::after{
+        content: "";
+        border: 6px solid transparent;
+        border-top-color:white;
+        display: inline-block;
+        margin: 0 2px -6px
+    }
+
+
+    /* CONTENT SECTION */
+    #content-cloud .header-bar, 
+    .content-cloud .header-bar{
+        border-radius: 0;
+        height: auto;
+    }
+
+    #content-cloud div.header-bar, 
+    .content-cloud div.header-bar{
+        height: auto;
+        background: linear-gradient(to bottom, #bbd8f6 0px, #75aeea 1px, #437db7);
+        padding: 3px 10px;
+        line-height: 24px;
+    }
+    #content-cloud div.header-bar .hasicon, 
+    .content-cloud div.header-bar .hasicon{
+        margin-left: 0px;
+        float: none;
+    }
+
+    table.border-tops{
+        border-bottom: 1px solid #C9C9C9;
+    }
+    table.border-tops thead td{
+        border: none;
+    }
+    table.border-tops tbody td{
+        border-top: 1px solid #C9C9C9;
+        border-bottom: none;
+    }
+
+    /* VM CREATE PAGE*/
+
+    .vm-available-resources {
+        position: static;
+        width: auto;
+        padding: 0;
+        margin: 10px;
+        background: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        /* overflow: hidden; */
+    }
+    .vm-available-resources-header {
+        display: block;
+        font: bold 14px helvetica,arial,sans-serif;
+        margin: 10px 0 5px;
+    }
+
+    .vm-available-resources-table tbody{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-shadow: 0 0 black;
+        margin: 0 -5px;
+    }
+
+    .vm-available-resources-table,
+    .vm-available-resources-table tr,
+    .vm-available-resources-table tr td{
+        display: block;
+        box-sizing: border-box;
+
+    }
+    .vm-available-resources-table tr{
+        background: white;
+        min-width: 125px;
+        margin: 7px 5px;
+        border-radius: 3px;
+        box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+        flex-grow: 1;
+    }
+    .vm-available-resources .vm-available-resources-table tr td{
+        padding: 10px 0;
+        margin: 0 10px;
+        background: none;
+        border: none;
+
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    .vm-available-resources .vm-available-resources-table tr td:first-child{
+        margin-bottom: 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e4e4e4;
+    }
+    .vm-available-resources-increase{
+        margin: 0 10px 10px;
+    }
+
+    .cloud table.table-rw-stack,
+    .cloud table.table-rw-stack tbody,
+    .cloud .table-rw-stack tr,
+    .cloud .table-rw-stack td{
+        display: block;
+        padding: 0;
+        box-sizing: border-box;
+        background: none;
+        width: auto;
+        max-width: none;
+    }
+    .cloud table.table-rw-stack{
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+    .cloud .table-rw-stack td{
+        border: none;
+        border-top: 1px solid rgba(0,0,0,0.1);
+        padding: 10px 0;
+        text-align: left;
+        height: auto;
+    }
+
+    .cloud .table-label-value tr:first-child td:first-child{
+        border-top: none;
+    }
+    .cloud .table-label-value td:nth-child(2n){
+        border:none;
+        padding-top: 0!important;
+    }
+
+    .cloud .table-label-value select,
+    .cloud .table-label-value input{
+        box-sizing: border-box;
+        height: auto;
+        max-width: 100%!important;
+    }
+
+    .cloud .table-label-value select.rw-100,
+    .cloud .table-label-value input.rw-100{
+        width: 100%
+    }
+
+    .input-with-slider{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .input-with-slider .slider{
+        order: -1;
+        line-height: 20px;
+        align-content: center;
+    }
+
+    /* VM LIST */
+
+    .server-list td,
+    .server-list th{
+        padding: 10px 0px 10px 10px;
+    }
+    
+    .cloudhosting-table [data-title]:hover,
+    .server-list [data-title]:hover{
+        position: relative
+    }
+    .cloudhosting-table [data-title]:hover::after,
+    .server-list [data-title]:hover::after{
+        content: attr(data-title);
+        position: absolute;
+        background: inherit;
+        padding: inherit;
+        border-radius: inherit;
+        top: 0;
+        left: 0;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    }
+
+    /* VM RELATED PAGES */
+    .apeded{
+        display: block;
+        float: none;
+    }
+
+    #lockable-vm-menu{
+        float: none;
+    }
+    #lockable-vm-menu ul#vm-menu{
+        margin: 0;
+        height: auto;
+        columns: 3 140px;
+        break-inside: avoid;
+        column-gap: 5px;
+    }
+    #lockable-vm-menu ul#vm-menu li{
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0;
+        break-inside: avoid;
+    }
+    #lockable-vm-menu ul#vm-menu li a{
+        border-color: #ddd;
+        margin: 0 0 5px 0;
+        padding: 5px;
+        width: auto;
+        height: auto;
+        background: white;
+        min-width: 55px;
+        border-radius: 0;
+        /* break-inside: avoid; */
+        /* text-align: left; */
+    }
+    #lockable-vm-menu ul#vm-menu li br{
+        display: none;
+    }
+    #lockable-vm-menu ul#vm-menu li img{
+        height: 16px;
+        padding: 0 5px 0 0;
+    }
+
+    .vm-details,
+    .vm-details > tbody,
+    .vm-details > tbody > tr,
+    .vm-details > tbody > tr > td,
+    #formaddrule table,
+    #formaddrule tbody,
+    #formaddrule tr{
+        display: block;
+        width: 100%!important;
+        box-sizing: border-box;
+        height: auto;
+        padding: 0!important;
+    }
+
+    #formapplyrules td {
+        display: inline-block;
+    }
+
+    /* service table */
+
+    .cloudhosting-table [data-title]{
+        margin: 0 5px;
+    }
+    
+    .cloudhosting-table td[title]::before{
+        content: attr(title);
+        display: inline-block;
+        margin: 0 5px 0 0;
+        min-width: 120px;
+    }
+    .cloudhosting-table td.name .left{
+        float: none;
+    }
+}
+
+@media (max-width: 767px){
+    .cloud .sm-show-block{
+        display: block;
+    }
+    .cloud .sm-show-inline{
+        display: inline
+    }
+    .cloud .sm-show-inline-block{
+        display: inline-block
+    }
+    .cloud .sm-hide{
+        display: none;
+    }
+    .cloud-header h1{
+        font-size: 16px
+    }
+    .input-with-slider .slider{
+        margin: 0 10px 5px;
+        width: calc(100% - 20px);
+    }
+
+    #content-cloud .content-bar, 
+    .content-cloud .content-bar{
+        padding: 5px;
+    }
+
+    .cloud select.min-250,
+    .cloud input.min-250{
+        min-width: 0;
+    }
+
+    .cloud select.rw-100,
+    .cloud input.rw-100{
+        width: 100%;
+    }
+
+    /* VM LIST */ 
+
+    .server-list .hostname{
+        white-space: nowrap;
+    }
+    .server-list .vm-tags-info{
+        font-size: 11px;
+        padding: 2px 5px;
+        cursor: help;
+        margin: 0 0 0 10px;
+    }
+}
+
+@media (max-width: 480px){           
+    .server-list th.address{
+        display: none;
+    }
+    .server-list .hostname,
+    .server-list .address{
+        display: block;
+        width: auto;
+    }       
+    .server-list .hostname{
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+    .server-list .address{
+        padding-top: 5px
+    }
+    .cloud .vm-autoscale .scale-add{
+        clear: left;
+    }
+    #lockable-vm-menu ul#vm-menu li a{
+        text-align: left;
+    }
+}

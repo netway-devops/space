@@ -1,0 +1,91 @@
+{
+  "lastname": {
+    "lang": "lastname",
+    "type": "input"
+  },
+  "firstname": {
+    "lang": "firstname",
+    "type": "input"
+  },
+  "companyname": {
+    "lang": "companyname",
+    "type": "input"
+  },
+  "id": {
+    "lang": "invoicehash",
+    "type": "input"
+  },
+  "total": {
+    "lang": "Total",
+    "type": "number",
+    "datatype": "number"
+  },
+  "date": {
+    "lang": "invoicedate",
+    "type": "datepicker"
+  },
+  "duedate": {
+    "lang": "duedate",
+    "type": "datepicker"
+  },
+  "payment_module": {
+    "lang": "paymethod",
+    "type": "select",
+    "options": []
+  },
+  "status": {
+    "lang": "Status",
+    "type": "select",
+    "options": [
+      {
+        "value": "Draft",
+        "lang": "Draft"
+      },
+      {
+        "value": "Unpaid",
+        "lang": "Unpaid"
+      },
+      {
+        "value": "Paid",
+        "lang": "Paid"
+      },
+      {
+        "value": "Cancelled",
+        "lang": "Cancelled"
+      },
+      {
+        "value": "Refunded",
+        "lang": "Refunded"
+      },
+      {
+        "value": "Collections",
+        "lang": "Collections"
+      },
+      {
+        "value": "Credited",
+        "lang": "Credited"
+      }
+    ]
+  },
+  "recurring_id": {
+    "lang": "recurringid",
+    "type": "input"
+  },
+  "currency_id": {
+    "lang": "currency",
+    "type": "select",
+    "options": []
+  },
+  "country": {
+    "lang": "country",
+    "type": "select",
+    "class": "chosenedge",
+    "options": []
+  },
+  "group_id": {
+    "type": "select",
+    "options": [],
+    "name": "Group",
+    "class": "chosenedge"
+  }
+}

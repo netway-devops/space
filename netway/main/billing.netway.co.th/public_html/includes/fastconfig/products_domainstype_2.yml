@@ -1,0 +1,301 @@
+---
+name: European Domain Names
+description: 'List of 33 domain extensions for European countries'
+items:
+  -
+    name: .at
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .be
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .eu
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .eu.com
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .fr
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .de
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .de.com
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .gr.com
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .ie
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .im
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .co.il
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .it
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .lv
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .lu
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .com.mt
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .me
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .co.nl
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .nl
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .no
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .no.com
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .pl
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .com.pt
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .pt
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .ru
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .ru.com
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .com.es
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .es
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .se
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .com.fr
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .com.ua
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .co.uk
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .nk.com
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .gb.com
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95

@@ -1,0 +1,29 @@
+.doc-details{
+    columns: 2 320px;
+}
+.doc-details li{
+    break-inside: avoid;
+}
+.doc-details li span{
+    display: inline-block;
+    min-width: 120px;
+}
+
+.list-events{
+    columns: 3 300px;
+}
+.list-events .list-group-item{
+    break-inside: avoid;
+}
+.list-events pre{
+    display: none;
+}
+.key-regen{
+    float: right;
+    color: red;
+    font-size: 80%;
+}
+.webhook-log{
+    max-height: 100px;
+    white-space: pre-wrap;
+}

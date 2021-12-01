@@ -1,0 +1,334 @@
+{
+    "product": {
+        "id": "337",
+        "category_id": "1",
+        "type": "9",
+        "name": ".net.cn",
+        "description": "",
+        "visible": "1",
+        "domain_options": "0",
+        "qty": "0",
+        "autosetup": "1",
+        "subdomain": "",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "37",
+        "autohostname": "",
+        "p_options": [
+            "0"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": ".net.cn",
+        "contract_id": "0",
+        "dbcItemType": "Inventory",
+        "baseUnitOfMeasureCode": "YEAR",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "3",
+        "line_group_id": "3",
+        "codeName": "NECN",
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "DomainRegular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": "0.00",
+        "m": "0.00",
+        "q": "0.00",
+        "s": "0.00",
+        "a": "0.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": "0.00",
+        "ptype": "DomainsType",
+        "tlds": null,
+        "periods": {
+            "1": {
+                "period": "1",
+                "register": "600.00",
+                "transfer": "600.00",
+                "renew": "600.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "2": {
+                "period": "2",
+                "register": "1200.00",
+                "transfer": "1200.00",
+                "renew": "1200.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "3": {
+                "period": "3",
+                "register": "1710.00",
+                "transfer": "1710.00",
+                "renew": "1710.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "4": {
+                "period": "4",
+                "register": "2280.00",
+                "transfer": "2280.00",
+                "renew": "2280.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "5": {
+                "period": "5",
+                "register": "2850.00",
+                "transfer": "2850.00",
+                "renew": "2850.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "6": {
+                "period": "6",
+                "register": "3240.00",
+                "transfer": "3240.00",
+                "renew": "3240.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "7": {
+                "period": "7",
+                "register": "3780.00",
+                "transfer": "3780.00",
+                "renew": "3780.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "8": {
+                "period": "8",
+                "register": "4320.00",
+                "transfer": "4320.00",
+                "renew": "4320.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "9": {
+                "period": "9",
+                "register": "4860.00",
+                "transfer": "4860.00",
+                "renew": "4860.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "10": {
+                "period": "10",
+                "register": "5400.00",
+                "transfer": "5400.00",
+                "renew": "5400.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            }
+        },
+        "category_name": "Domain Names",
+        "module": "0",
+        "domain_op": [],
+        "free_domain": "0",
+        "not_renew": "0",
+        "epp": true,
+        "ns": [
+            "ns1.netwaygroup.com",
+            "ns2.netwaygroup.com",
+            "ns3.netwaygroup.com",
+            "ns4.netwaygroup.com",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "nsips": "203.78.107.96|165.227.12.3|203.78.103.254|167.71.51.45||||",
+        "tld": ".net.cn",
+        "nsip": [
+            "203.78.107.96",
+            "165.227.12.3",
+            "203.78.103.254",
+            "167.71.51.45",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "asciimode": false,
+        "app_id": 0,
+        "emails": {
+            "AfterRegistrarRegistration": "28",
+            "AfterRegistrarRenewal": "29",
+            "AfterRegistrarTransfer": "30",
+            "after_domaininsertregister": "0",
+            "after_domaininserttransfer": "0",
+            "expiringDomain": "54"
+        },
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Domain",
+        "modules": [
+            {
+                "product_id": "337",
+                "main": 1,
+                "modname": null,
+                "filename": null,
+                "module": "0",
+                "options": "1",
+                "default": "1",
+                "server": null
+            }
+        ],
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1DomainReminder": "0",
+            "1OverdueReminder": "0",
+            "2DomainReminder": "0",
+            "2OverdueReminder": "7",
+            "3DomainReminder": "15",
+            "3OverdueReminder": "0",
+            "4DomainReminder": "7",
+            "5DomainReminder": "3",
+            "AddLateFeeAfter": "6",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoDeleteDomainDays": "20",
+            "AutoDeleteDomainType": "after",
+            "AutoRegisterDomainType": "0",
+            "AutoTransferDomainType": "0",
+            "CreditFailedRenewals": "off",
+            "CreditOnDowngradeOverride": "",
+            "DomainGracePeriod": "20",
+            "DomainRedemptionPeriod": "0",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoDeleteDomain": "off",
+            "EnableAutoRegisterDomain": "on",
+            "EnableAutoRenewDomain": "on",
+            "EnableAutoTransferDomain": "on",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "0",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "RenewInvoice": "1",
+            "RenewOnOrder": "",
+            "SendPaymentReminderEmails": "on",
+            "InvoiceCustomReminder": null
+        }
+    },
+    "addons": [],
+    "tasks": [],
+    "widgets": [
+        {
+            "id": "258",
+            "widget": "nameservers",
+            "name": "Manage Nameservers",
+            "location": "includes\/types\/domains\/widgets\/nameservers\/",
+            "ptype": "9",
+            "config": {
+                "smallimg": "includes\/types\/domains\/widgets\/nameservers\/small.png",
+                "bigimg": "includes\/types\/domains\/widgets\/nameservers\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "14",
+            "override_defaults": "0",
+            "target_id": "337",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "266",
+            "widget": "contactinfo",
+            "name": "Contacts Information",
+            "location": "includes\/types\/domains\/widgets\/contactinfo\/",
+            "ptype": "9",
+            "config": {
+                "smallimg": "includes\/types\/domains\/widgets\/contactinfo\/small.png",
+                "bigimg": "includes\/types\/domains\/widgets\/contactinfo\/big.png"
+            },
+            "options": "1",
+            "group": "sidemenu",
+            "widget_id": "6",
+            "override_defaults": "0",
+            "target_id": "337",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        }
+    ],
+    "forms": [
+        {
+            "id": "1057",
+            "type": "fileupload",
+            "required": "0",
+            "name": "\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\u0e17\u0e35\u0e48\u0e15\u0e49\u0e2d\u0e07\u0e43\u0e0a\u0e49\u0e43\u0e19\u0e01\u0e32\u0e23\u0e08\u0e14\u0e17\u0e30\u0e40\u0e1a\u0e35\u0e22\u0e19",
+            "key": "",
+            "variable": "",
+            "description": "\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\u0e08\u0e14\u0e17\u0e30\u0e40\u0e1a\u0e35\u0e22\u0e19\u0e01\u0e32\u0e23\u0e04\u0e49\u0e32\u0e43\u0e19\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e08\u0e35\u0e19",
+            "category": "",
+            "product_id": "337",
+            "copy_of": "1057",
+            "options": "2",
+            "config": [],
+            "sort_order": "1",
+            "group_id": "0",
+            "ftype": "fileupload",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3707",
+                    "category_id": "1057",
+                    "copy_of": "3707"
+                }
+            ]
+        },
+        {
+            "id": "1593",
+            "type": "checkbox",
+            "required": "0",
+            "name": "Lock Domain",
+            "key": "",
+            "variable": "lock_domain",
+            "description": "Registrar: srsplus Read Only",
+            "category": "",
+            "product_id": "337",
+            "copy_of": "1593",
+            "options": "4",
+            "config": {
+                "minvalue": "",
+                "maxvalue": "99999"
+            },
+            "sort_order": "2",
+            "group_id": "0",
+            "ftype": "checkbox",
+            "premade": true,
+            "items": [
+                {
+                    "id": "4490",
+                    "category_id": "1593",
+                    "name": "Yes",
+                    "variable_id": "1",
+                    "copy_of": "4490"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

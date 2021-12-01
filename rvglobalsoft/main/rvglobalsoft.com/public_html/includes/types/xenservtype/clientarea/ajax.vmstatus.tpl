@@ -1,0 +1,1 @@
+<a href="{$ca_url}clientarea/services/{$opdetails.slug}/&make=power" class="iphone_switch_container iphone_switch_container_{$status}" onclick="return powerchange(this,{$account_id});"><img src="includes/types/xenservtype/images/iphone_switch_container_off.png" alt="" /></a>

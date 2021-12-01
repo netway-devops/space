@@ -1,0 +1,441 @@
+{
+    "product": {
+        "id": "424",
+        "category_id": "41",
+        "type": "4",
+        "name": "Main Controller 1U",
+        "description": "",
+        "visible": "-1",
+        "domain_options": "0",
+        "qty": "0",
+        "autosetup": "2",
+        "subdomain": "",
+        "tax": "1",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "0",
+        "autohostname": "",
+        "p_options": [
+            "0"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": null,
+        "contract_id": "0",
+        "dbcItemType": "Service",
+        "baseUnitOfMeasureCode": "MONTH",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "3",
+        "line_group_id": "1",
+        "codeName": "MC1U",
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "Regular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": 0,
+        "m": "40000.00",
+        "q": "120000.00",
+        "s": "240000.00",
+        "a": "480000.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": 0,
+        "ptype": "Server",
+        "tlds": null,
+        "periods": null,
+        "category_name": "Private Cloud",
+        "module": "39",
+        "modules": [
+            {
+                "product_id": "424",
+                "main": 1,
+                "modname": "Zabbix",
+                "filename": "class.zabbix.php",
+                "module": "39",
+                "options": false,
+                "default": false,
+                "server": {
+                    "62": "62"
+                }
+            },
+            {
+                "product_id": "424",
+                "module": "124",
+                "main": "0",
+                "server": {
+                    "112": "112"
+                },
+                "options": false,
+                "modname": "Managed Services",
+                "filename": "class.manage_service.php",
+                "default": false
+            }
+        ],
+        "main": "1",
+        "modname": "Zabbix",
+        "filename": "class.zabbix.php",
+        "domain_op": [],
+        "free_domain": "0",
+        "emails": {
+            "AfterModuleTerminate": "0",
+            "ProductAccountCreated": "0",
+            "SuspendAccount": "0",
+            "UnsuspendAccount": "0"
+        },
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Hosting",
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1OverdueReminder": "1",
+            "1ServiceReminder": "0",
+            "2OverdueReminder": "7",
+            "2ServiceReminder": "0",
+            "3OverdueReminder": "15",
+            "3ServiceReminder": "0",
+            "4ServiceReminder": "0",
+            "5ServiceReminder": "0",
+            "AddLateFeeAfter": "6",
+            "AdsjustDatesOnCreation": "on",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidInvoices": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoProcessCancellations": "off",
+            "AutoSuspensionPeriod": "10",
+            "AutoTerminationPeriod": "30",
+            "BillFullMonth": "0",
+            "CancellationPostPaidProrata": "off",
+            "CancellationTypeEndPeriod": "on",
+            "CancellationTypeImmediate": "on",
+            "CreditOnDowngradeOverride": "",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoCreation": "2",
+            "EnableAutoRenewService": "on",
+            "EnableAutoSuspension": "off",
+            "EnableAutoTermination": "off",
+            "EnableAutoUnSuspension": "off",
+            "EnableAutoUpgrades": "on",
+            "EnableProRata": "off",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "3",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "MoveDueDays": "0",
+            "ProRataDay": "1",
+            "ProRataMonth": "disabled",
+            "ProRataNextMonth": "0",
+            "RecurringBillingType": "PrePaid",
+            "RenewInvoice": "1",
+            "ReturnToStockOnTerminate": "0",
+            "SendPaymentReminderEmails": "on",
+            "UpgradeProratePrecision": "seconds"
+        }
+    },
+    "addons": [],
+    "tasks": [],
+    "widgets": [
+        {
+            "id": "617",
+            "widget": "manage_service_notification",
+            "name": "Notification",
+            "location": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "58",
+            "override_defaults": "0",
+            "target_id": "424",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "618",
+            "widget": "reverse_dns",
+            "name": "Reverse DNS",
+            "location": "includes\/types\/server\/widgets\/reverse_dns\/",
+            "ptype": "4",
+            "config": {
+                "smallimg": "includes\/types\/server\/widgets\/reverse_dns\/small.png",
+                "bigimg": "includes\/types\/server\/widgets\/reverse_dns\/big.png"
+            },
+            "options": "1",
+            "group": "sidemenu",
+            "widget_id": "20",
+            "override_defaults": "0",
+            "target_id": "424",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "619",
+            "widget": "zabbix_monitor",
+            "name": "Notification",
+            "location": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "35",
+            "override_defaults": "0",
+            "target_id": "424",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "620",
+            "widget": "zabbix_bandwidth",
+            "name": "Bandwidth",
+            "location": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "36",
+            "override_defaults": "0",
+            "target_id": "424",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "621",
+            "widget": "manage_service_monitor",
+            "name": "Monitor",
+            "location": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "59",
+            "override_defaults": "0",
+            "target_id": "424",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        }
+    ],
+    "forms": [
+        {
+            "id": "1129",
+            "type": "select",
+            "required": "0",
+            "name": "Domestic Bandwidth",
+            "key": "cf_bandwidth",
+            "variable": "bandwidth_dom",
+            "description": "",
+            "category": "network",
+            "product_id": "424",
+            "copy_of": "1129",
+            "options": "51",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "1",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3855",
+                    "category_id": "1129",
+                    "name": "unlimited domestic dedicated 100 Mbps (inter max 1 Mbps)",
+                    "variable_id": "bandwidth_dom_100",
+                    "copy_of": "3855",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3856",
+                    "category_id": "1129",
+                    "name": "unlimited domestic dedicated 1000 Mbps (inter max 1 Mbps)",
+                    "variable_id": "bandwidth_dom_1000",
+                    "sort_order": "1",
+                    "copy_of": "3856",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "1130",
+            "type": "select",
+            "required": "0",
+            "name": "Inbound Internation Bandwidth",
+            "key": "cf_bandwidth",
+            "variable": "bandwidth_inter",
+            "description": "",
+            "category": "network",
+            "product_id": "424",
+            "copy_of": "1130",
+            "options": "19",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "2",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3857",
+                    "category_id": "1130",
+                    "name": "Unlimited inbound international dedicated bandwidth 1 Mbps",
+                    "variable_id": "bandwidth_inter_dedicated_1",
+                    "copy_of": "3857",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3858",
+                    "category_id": "1130",
+                    "name": "Unlimited inbound international dedicated bandwidth 2 Mbps",
+                    "variable_id": "bandwidth_inter_dedicated_2",
+                    "sort_order": "1",
+                    "copy_of": "3858",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3859",
+                    "category_id": "1130",
+                    "name": "Unlimited inbound international dedicated bandwidth 3 Mbps",
+                    "variable_id": "bandwidth_inter_dedicated_3",
+                    "sort_order": "2",
+                    "copy_of": "3859",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3860",
+                    "category_id": "1130",
+                    "name": "Unlimited inbound international dedicated bandwidth 4 Mbps",
+                    "variable_id": "Unlimited inbound international dedicated bandwidth 4 Mbps",
+                    "sort_order": "3",
+                    "copy_of": "3860",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "1131",
+            "type": "select",
+            "required": "0",
+            "name": "IP Address",
+            "key": "",
+            "variable": "ip",
+            "description": "",
+            "category": "network",
+            "product_id": "424",
+            "copy_of": "1131",
+            "options": "307",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "3",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3861",
+                    "category_id": "1131",
+                    "name": "32 (free)",
+                    "variable_id": "4",
+                    "copy_of": "3861",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3862",
+                    "category_id": "1131",
+                    "name": "40",
+                    "variable_id": "5",
+                    "sort_order": "1",
+                    "copy_of": "3862",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "1132",
+            "type": "select",
+            "required": "0",
+            "name": "\u0e02\u0e2d\u0e07 Internal Netway \u0e40\u0e2d\u0e07",
+            "key": "",
+            "variable": "netway",
+            "description": "",
+            "category": "",
+            "product_id": "424",
+            "copy_of": "1132",
+            "options": "4",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "4",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3863",
+                    "category_id": "1132",
+                    "name": "\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48",
+                    "copy_of": "3863",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3864",
+                    "category_id": "1132",
+                    "name": "\u0e43\u0e0a\u0e48",
+                    "variable_id": "1",
+                    "sort_order": "1",
+                    "copy_of": "3864",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

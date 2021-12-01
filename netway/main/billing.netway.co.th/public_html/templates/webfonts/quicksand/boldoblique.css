@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand_Bold_Oblique-webfont.eot');
+    src: url('Quicksand_Bold_Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Quicksand_Bold_Oblique-webfont.woff') format('woff'),
+         url('Quicksand_Bold_Oblique-webfont.ttf') format('truetype'),
+         url('Quicksand_Bold_Oblique-webfont.svg#QuicksandBoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}

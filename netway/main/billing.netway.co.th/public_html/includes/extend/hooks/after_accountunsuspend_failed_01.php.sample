@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Account-related module (for ex. cPanel) failed to unsuspend account
+ * Following variable-array: $details is available to use in this file with keys:
+ * 'account_id' - related account id
+ * 'error' - error, if any
+ */

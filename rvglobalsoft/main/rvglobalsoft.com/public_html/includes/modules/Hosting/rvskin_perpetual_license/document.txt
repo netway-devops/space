@@ -1,0 +1,29 @@
+//==== rvskin : rvskin_license ===
+1. create
+1.1 เกี่ยวข้อง 2 table คือ 
+- license_user[
+    'license_type'::(dedi = '',vps='VPS')
+    'user_id' :: hb_acc_{account_id}
+    'main_ip' :: ip
+    'second_ip'::ip
+    'active'::'yes'
+    'activate_id' :: tb(activate_license)
+    ]
+- activate_license[
+    'license_id':: license_user
+    'activate_date' :: datetime()
+
+    ]
+*** insert license user->license_id => active_license->activate_id => license_user->activate_id
+2. suspend
+- license_user : update active=no
+3. unsuspend
+- license_user : update active=yes
+4. terminate
+- license_user : delete
+5. changeip
+- license_user : update (main_ip,second_id)
+
+
+//==== module ที่เกี่ยวข้อง
+1. rvproduct_license

@@ -1,0 +1,9 @@
+wcountry: CH
+tax:
+  -
+    name: MWST
+    level: 1
+    rate: 8
+    countries:
+      - CH
+    state: 0

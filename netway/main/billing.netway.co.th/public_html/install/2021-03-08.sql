@@ -1,0 +1,1 @@
+INSERT INTO `hb_configuration` (`setting`, `value`) VALUES ('BillFullMonth', '0');

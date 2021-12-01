@@ -1,0 +1,200 @@
+{
+  "commissions": {
+    "id": {
+      "name": "ID",
+      "type": "input"
+    },
+    "number": {
+      "name": "Order number",
+      "type": "input"
+    },
+    "aff_id": {
+      "name": "Affiliate ID",
+      "type": "input"
+    },
+    "lastname": {
+      "name": "Affiliate Last name",
+      "type": "input"
+    },
+    "client_id": {
+      "name": "Client ID",
+      "type": "input"
+    },
+    "c_lastname": {
+      "name": "Client Last name",
+      "type": "input"
+    },
+    "date_created": {
+      "name": "Signup date",
+      "type": "datepicker"
+    },
+    "paid": {
+      "lang": "Approved",
+      "type": "select",
+      "options": [
+        {
+          "value": "1",
+          "lang": "Yes"
+        },
+        {
+          "value": "0",
+          "lang": "No"
+        }
+      ]
+    },
+    "total": {
+      "name": "Sale amount",
+      "type": "input"
+    },
+    "commission": {
+      "name": "Commission",
+      "type": "input"
+    },
+    "description": {
+      "name": "Description",
+      "type": "input"
+    }
+  },
+  "orders": {
+    "id": {
+      "name": "ID",
+      "type": "input"
+    },
+    "order_id": {
+      "name": "Order ID",
+      "type": "input"
+    },
+    "client_id": {
+      "name": "Client ID",
+      "type": "input"
+    },
+    "lastname": {
+      "name": "Client Last name",
+      "type": "input"
+    },
+    "date_created": {
+      "name": "Signup date",
+      "type": "datepicker"
+    },
+    "type": {
+      "name": "Type",
+      "type": "select",
+      "options": [
+        {
+          "value": "order",
+          "lang": "New Order"
+        },
+        {
+          "value": "recurring",
+          "lang": "Recurring Commission"
+        },
+        {
+          "value": "manual",
+          "lang": "Manual Commission"
+        },
+        {
+          "value": "sub-affiliate",
+          "lang": "Commission from sub-affiliate order"
+        }
+      ]
+    },
+    "invoice_status": {
+      "name": "Invoice Status",
+      "type": "select",
+      "options": [
+        {
+          "value": "Paid",
+          "lang": "Paid"
+        },
+        {
+          "value": "Unpaid",
+          "lang": "Unpaid"
+        },
+        {
+          "value": "Cancelled",
+          "lang": "Cancelled"
+        },
+        {
+          "value": "Draft",
+          "lang": "Draft"
+        },
+        {
+          "value": "Recurring",
+          "lang": "Recurring"
+        },
+        {
+          "value": "Refunded",
+          "lang": "Refunded"
+        },
+        {
+          "value": "Credited",
+          "lang": "Credited"
+        },
+        {
+          "value": "Creditnote",
+          "lang": "Creditnote"
+        },
+        {
+          "value": "Collections",
+          "lang": "Collections"
+        },
+        {
+          "value": "Receiptunpaid",
+          "lang": "Receiptunpaid"
+        },
+        {
+          "value": "Receiptpaid",
+          "lang": "Receiptpaid"
+        },
+        {
+          "value": "Receiptcanceled",
+          "lang": "Receiptcanceled"
+        }
+      ]
+    },
+    "order_status": {
+      "name": "Order Status",
+      "type": "select",
+      "options": [
+        {
+          "value": "Pending",
+          "lang": "Pending"
+        },
+        {
+          "value": "Active",
+          "lang": "Active"
+        },
+        {
+          "value": "Cancelled",
+          "lang": "Cancelled"
+        },
+        {
+          "value": "Fraud",
+          "lang": "Fraud"
+        }
+      ]
+    },
+    "paid": {
+      "name": "Paid",
+      "type": "select",
+      "options": [
+        {
+          "value": "1",
+          "lang": "Yes"
+        },
+        {
+          "value": "0",
+          "lang": "No"
+        }
+      ]
+    },
+    "commission": {
+      "name": "Commission",
+      "type": "input"
+    },
+    "description": {
+      "name": "Description",
+      "type": "input"
+    }
+  }
+}

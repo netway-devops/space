@@ -1,0 +1,9 @@
+---
+name: 50% off for first 3 months
+task: changeTotalValue
+event: AccountCreate
+when: after
+interval: 90
+config:
+  inc_val: 50
+  inc_type: '%'

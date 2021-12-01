@@ -1,0 +1,2 @@
+REPLACE INTO `hb_language_locales` (`language_id`,`section`,`keyword`,`value`)
+  SELECT id, 'clientarea', 'no_dns_edit_permissions', 'You are not allowed to take this action on this zone' FROM hb_language WHERE target='user'

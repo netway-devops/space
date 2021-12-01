@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('lato-regita-webfont.eot');
+    src: url('lato-regita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-regita-webfont.woff') format('woff'),
+         url('lato-regita-webfont.ttf') format('truetype'),
+         url('lato-regita-webfont.svg#latoItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}

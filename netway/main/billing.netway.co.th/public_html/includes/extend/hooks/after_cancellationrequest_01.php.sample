@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Client posted cancelation request for account
+ * Following variable is available to use in this file:  $details an array with basic cancelation details
+ * $details['reason']; // Cancellation reason
+ * $details['acc_id']; // Related account id
+ */

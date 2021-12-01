@@ -1,0 +1,251 @@
+/* CART (orderpage) */
+.cart-default-listing *{
+    box-sizing: border-box;
+}
+.orderpage .category-list{
+    padding:10px 0px;
+    text-align:center;
+}
+.orderpage .category-list .category{
+    display: inline-block;
+}
+.orderpage .category-list .category::after{
+    content: " |";
+    color: #aaa;
+    font-weight: bold;
+}
+.orderpage  .category-list .category:last-child::after{
+    content: none;
+}
+
+.orderpage .category-description{
+    text-align:left;
+    margin:10px 0;
+}
+.orderpage .currency{
+    margin:10px 0;
+    text-align: right;
+}
+
+.cart-default-listing .product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.cart-default-listing .list-header-action,
+.cart-default-listing .product-order{
+    width: 20%;
+}
+.cart-default-listing .product-order,
+.cart-default-listing .product-body > div{
+    margin: 10px 0;
+}
+
+/* CART_DEDICATED (orderpage) */
+.cart-dedicated *{
+    box-sizing: border-box;
+}
+
+.cart-dedicated  .list-header-setupfee,
+.cart-dedicated  .list-header-price,
+.cart-dedicated  .product-price,
+.cart-dedicated  .product-setup{
+    width: 15%;
+    text-align: center
+}
+
+.cart-dedicated  .product-full-price{
+    display: none;
+}
+
+/* STEPS */
+
+.default-cart .cart-item{
+    margin-bottom: 20px;
+}
+.default-cart .cart-item::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.default-cart .cf_option{
+    padding-left:42px;
+    background-image: url('img/cf_boption.png') ;
+    background-repeat: no-repeat; 
+    background-position: center left;
+}
+.default-cart .cf_bandwidth {
+    background-image: url('img/cf_bandwidth.png');
+}
+.default-cart .cf_ip {
+    background-image: url('img/cf_ip.png');
+}
+.default-cart .cf_cp {
+    background-image: url('img/cf_cp.png');
+}
+.default-cart .cf_os {
+    background-image: url('img/cf_os.png');
+}
+.default-cart .cf_mainboard {
+    background-image: url('img/cf_motherboard.png');
+}
+.default-cart .cf_raid {
+    background-image: url('img/cf_raid.png');
+}
+.default-cart .cf_memory {
+    background-image: url('img/cf_memory.png');
+}
+.default-cart .cf_cpu {
+    background-image: url('img/cf_cpu.png');
+}
+.default-cart .cf_hdd {
+    background-image: url('img/cf_hdd.png');
+}
+.default-cart .domain-submit,
+.default-cart .slidme{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.default-cart .domain-input-bulk {
+    margin-top:5px
+}
+.default-cart .domain-input-bulk textarea{
+    background: white;
+}
+.default-cart .domain-tld-checkbox{
+    text-align: left;
+    margin-left:10px;
+    width:420px;
+    float:left
+}
+
+.default-cart .domain-action input{
+    margin: 0;
+}
+.default-cart .domain-action label{
+    display: inline!important;
+}
+.default-cart .domain-config-table tbody{
+    border-bottom: 1px solid #ddd;
+}
+.default-cart .domain-config-table th{
+    text-align: left;
+}
+.default-cart .domain-config-table td{
+    padding: 5px;
+}
+.default-cart .domain-config-table tr:first-child td{
+    padding-top: 10px;
+    /* max-width: 200px; */
+}
+.default-cart .domain-config-table tr:last-child td{
+    padding-bottom: 10px;
+}
+.default-cart .domain-config-table tbody:last-child{
+    border: none;
+}
+
+.default-cart .domain-config-table .name,
+.default-cart #updater table td.name,
+.summary-section .name{
+    word-break: break-word;
+}
+.default-cart #updater table td.name{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.default-cart .domain-config-table .period select,
+.default-cart #updater table td.period select{
+    width: auto;
+}
+
+.cart-item,
+.cart-item-description,
+.cart-item-price{
+    margin: 5px 0;
+}
+.cart-item .checkbox label{
+    margin: 0;
+}
+
+@media(max-width: 979px){
+    .cart-default-listing .product-list-header,
+    .cart-default-listing .product{
+        display: block;
+    }
+
+    .cart-default-listing .list-header-action{
+        display: none;
+    }
+    .cart-default-listing .product-order{
+        width: auto;
+    }
+}
+
+@media(max-width: 767px){
+    .orderpage .currency{
+        text-align: left;
+    }
+
+    .cart-dedicated  .list-header-setupfee,
+    .cart-dedicated  .list-header-price,
+    .cart-dedicated  .product-price,
+    .cart-dedicated  .product-setup{
+        display:none;
+    }
+    .cart-dedicated  .product-full-price{
+        width: 50%;
+        display: table-cell;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .cart-dedicated .product-details table,
+    .cart-dedicated .product-details tbody,
+    .cart-dedicated .product-details td,
+    .cart-dedicated .product-details label{
+        display: block;
+        width: 100%;
+    }
+    .cart-dedicated .product-details tr{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cart-dedicated .product-description{
+        order:-1;
+    }
+    
+    .cart-dedicated .product-details td{
+        margin: 10px 0 ;
+    }
+
+
+    .default-cart .domain-config-table,
+    .default-cart .domain-config-table tbody,
+    .default-cart .domain-config-table tr,
+    .default-cart .domain-config-table td{
+        display: inline-block;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        /* max-width: none!important; */
+    }
+    .default-cart .domain-config-table tbody{
+        position: relative;
+    }
+    .default-cart .domain-config-table .name{
+        max-width: 70%
+    }
+    .default-cart .domain-config-table .remove{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%;
+        text-align: right
+    }
+
+}
+
+@media(max-width: 480px){     
+
+
+}

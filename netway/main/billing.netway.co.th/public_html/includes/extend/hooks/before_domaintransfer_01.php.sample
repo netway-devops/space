@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * HostBill is about to take an attempt to transfer domain
+ * Throw exception here to stop domain transfer
+ * Following variable is available to use in this file:  $details array containing two elements
+ * $details['id'] = domain id
+ * $details['name'] = domain name
+ */

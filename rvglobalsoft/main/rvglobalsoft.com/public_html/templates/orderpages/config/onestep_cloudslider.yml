@@ -1,0 +1,9 @@
+---
+imgpreview:
+  value: '../templates/orderpages/onestep_cloudslider/howto.png'
+  name: View editable areas
+  type: link
+header:
+  value: 'Setup your <span>cloud server</span>'
+  name: Cart header
+  type: textarea

@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * Invoices statuses have been changed by admin.
+ * Variable $details contains list of invoice ids with changed status.
+ * i.e.: $details=array(12,313,1345);
+ */

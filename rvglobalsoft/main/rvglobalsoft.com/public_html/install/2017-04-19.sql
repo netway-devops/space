@@ -1,0 +1,1 @@
+REPLACE INTO `hb_configuration` VALUES ('ForceHTTPS','off');

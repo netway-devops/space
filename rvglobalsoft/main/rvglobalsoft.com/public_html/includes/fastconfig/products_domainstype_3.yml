@@ -1,0 +1,211 @@
+---
+name: Asia/Pacific Domain Names
+description: 'List of popular domain extensions for Asia/Pacific region'
+items:
+  -
+    name: .asia
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .com.au
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .cn
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .cn.com
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .com.hk
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .hk
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .co.in
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .in
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .co.id
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .co.jp
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .jp
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .com.my
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .my
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .co.nz
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .com.sg
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .sg
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .co.kr
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .kr
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .kr.com
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .com.tw
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .tw
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .ae
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .vn
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95

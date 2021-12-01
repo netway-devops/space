@@ -1,0 +1,14 @@
+.ButtonBar {
+    background: url("actionbar_tile.png") repeat scroll left top #D2E8FC;
+    height: 24px;
+}
+.ButtonBar span {
+    padding: 0px 12px;
+    font-weight:bold;
+    line-height: 22px;
+    color:#353F4A;
+}
+.bcontainerx {
+    border:solid 1px #89A7C3;
+    margin-bottom:10px;
+}

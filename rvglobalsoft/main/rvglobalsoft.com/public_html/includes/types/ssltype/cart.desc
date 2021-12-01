@@ -1,0 +1,8 @@
+{*
+@@name:: SSL Certificates order
+@@description:: This template has been created especially for SSL Certificates products,
+it allows your clients to configure SSL certificates at order time, so after payment it can be automatically issued.
+More info about this template can be found at <a href="http://hostbillapp.com/features/apps/enomssl.html" target="_blank">http://hostbillapp.com/features/apps/enomssl.html</a>
+@@thumb:: thumbnail.png
+@@img:: preview.png
+*}

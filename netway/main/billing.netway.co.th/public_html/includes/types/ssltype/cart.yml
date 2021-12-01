@@ -1,0 +1,11 @@
+---
+redirecturl:
+  value: 
+  name: Redirect URL
+  description: ใส่ "{SSL}/ssl-comparison" เพื่อ Redirect  ไปยังหน้าอื่น เช่น https://ssl.in.th/ssl-comparison
+  type: input
+forceredirect:
+  value: 0
+  name: Force Redirect URL
+  description: Make sure want to redirect for everyone can see the product page.
+  type: checkbox

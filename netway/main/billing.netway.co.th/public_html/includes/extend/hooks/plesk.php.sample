@@ -1,0 +1,35 @@
+<?php
+// Rename .sample from this file name for event handlers below to work:
+
+/**
+ * Customer attempts to add domain using PleskDomains client function
+ * - throw exception here with code 200 to stop processing with no error
+ * - throw any other exception code
+ * - return false to stop processing
+ */
+HBEventManager::addProceduralObserver('before_pleskdomainadd',function($data){
+
+    /** @var integer $account_id */
+    $account_id = $data['service_id'];
+
+    /** @var string $domain */
+    $domain = $data['domain'];
+
+
+    return true;
+});
+
+/**
+ * Customer deletes  domain using PleskDomains client function
+ * $data is array holding webspace/site details from plesk API
+ */
+HBEventManager::addProceduralObserver('after_pleskdomaindelete',function($data = []){
+
+
+
+    $domain_id = $data['id']; //deleted plesk domain id
+
+    $name = $data['name']; //deleted domain name
+
+    $basedir = $data['basedir']; // deleted domain basedir
+});

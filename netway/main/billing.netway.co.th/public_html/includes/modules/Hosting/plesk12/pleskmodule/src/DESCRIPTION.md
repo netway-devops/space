@@ -1,0 +1,2 @@
+This extension for plesk notifies HostBill about any DNS changes made in your Plesk install.
+This information can later be processed by HostBill to notify other nameservers (ie slave PowerDNS) + update records in local HostBill database

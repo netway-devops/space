@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('lato-lig-webfont.eot');
+    src: url('lato-lig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-lig-webfont.woff') format('woff'),
+         url('lato-lig-webfont.ttf') format('truetype'),
+         url('lato-lig-webfont.svg#latoLight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}

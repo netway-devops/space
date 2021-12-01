@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sonata-project/google-authenticator": "^2.3",
+        "ua-parser/uap-php": "3.9.7"
+    }
+}

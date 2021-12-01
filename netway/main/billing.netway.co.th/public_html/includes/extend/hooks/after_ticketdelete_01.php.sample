@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Administrator deleted ticket
+ * $details =array('id'=>RELATED TICKET ID IN HOSTBILL DB,
+ * 'ticket_number'=>RELATED TICKET NUMBER,
+ * 'acc_hash'=>REMOTE ACCESS HASH FOR NON_REGISTERED VIEWS,
+ * 'dept_id'=>RELATED DEPARTMENT ID,
+ * 'client_id'=>RELATED CLIENT ID (IF ANY),
+ * 'name'=>SUBMITTER NAME,
+ *  'email'=>SUBMITTER EMAIL,
+ *  'subject'=>TICKET SUBJECT,
+ *  'body'=>TICKET BODY,
+ *  'status'=>TICKET STATUS)
+ * Following variable is available to use in this file:  $details
+ */

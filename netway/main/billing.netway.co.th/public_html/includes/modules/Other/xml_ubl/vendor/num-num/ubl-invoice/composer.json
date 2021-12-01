@@ -1,0 +1,41 @@
+{
+    "name": "num-num/ubl-invoice",
+    "description": "A modern object-oriented PHP library to create valid UBL files",
+    "keywords": [
+        "ubl",
+        "invoice",
+        "ublinvoice",
+        "ubl invoice",
+        "efff",
+        "electronic invoice",
+        "digital invoice",
+        "xml",
+        "xml invoice"
+    ],
+    "homepage": "https://github.com/num-num/ubl-invoice",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bert Devriese",
+            "email": "bert@numnum.be",
+            "homepage": "https://www.numnum.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "sabre/xml": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NumNum\\UBL\\": ["src"],
+            "NumNum\\UBL\\Tests\\": ["tests"]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}

@@ -1,0 +1,84 @@
+---
+name: 4 Reseller Hosting Packages
+description: 4 premade Reseller Hosting Packages
+items:
+  -
+    name: Starter Reseller Hosting
+    paytype: Regular
+    m: 9.95
+    module: 0
+    autosetup: 2
+    domain_options: 1
+    owndomain: 1
+    welcome_email_id: 20
+    suspend_email_id: 8
+    unsuspend_email_id: 9
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 15
+      AutoSuspensionPeriod: 7
+      1OverdueReminder: 1
+      EnableAutoSuspension: on
+      AutoProcessCancellations: on
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+  -
+    name: Business Reseller Hosting
+    paytype: Regular
+    m: 13.95
+    module: 0
+    autosetup: 2
+    domain_options: 1
+    owndomain: 1
+    welcome_email_id: 20
+    suspend_email_id: 8
+    unsuspend_email_id: 9
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 15
+      AutoSuspensionPeriod: 7
+      1OverdueReminder: 1
+      EnableAutoSuspension: on
+      AutoProcessCancellations: on
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+  -
+    name: Premium Reseller Hosting
+    paytype: Regular
+    m: 15.95
+    module: 0
+    autosetup: 2
+    domain_options: 1
+    owndomain: 1
+    welcome_email_id: 20
+    suspend_email_id: 8
+    unsuspend_email_id: 9
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 15
+      AutoSuspensionPeriod: 7
+      1OverdueReminder: 1
+      EnableAutoSuspension: on
+      AutoProcessCancellations: on
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+  -
+    name: Ultimate Reseller Hosting
+    paytype: Regular
+    m: 25.95
+    module: 0
+    autosetup: 2
+    domain_options: 1
+    owndomain: 1
+    welcome_email_id: 20
+    suspend_email_id: 8
+    unsuspend_email_id: 9
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 15
+      AutoSuspensionPeriod: 7
+      1OverdueReminder: 1
+      EnableAutoSuspension: on
+      AutoProcessCancellations: on
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4

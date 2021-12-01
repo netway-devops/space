@@ -1,0 +1,37 @@
+{
+  "description": {
+    "lang": "Description",
+    "type": "input"
+  },
+  "status": {
+    "lang": "Status",
+    "type": "select",
+    "options": [
+      {
+        "value": "1",
+        "name": "Pending"
+      },
+      {
+        "value": "2",
+        "name": "Running"
+      },
+      {
+        "value": "3",
+        "name": "Failed"
+      },
+      {
+        "value": "4",
+        "name": "Success"
+      },
+      {
+        "value": "5",
+        "name": "Cancelled"
+      }
+    ]
+  },
+  "queue": {
+    "lang": "Queue",
+    "type": "select",
+    "options": []
+  }
+}

@@ -1,0 +1,260 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+body {
+    background:#2c2c37;
+    padding:8px;
+    color:#3c3e46;
+}
+#replycontainer {
+    margin:8px 0px 5px;
+}
+.clear {
+    clear:both;
+}
+.msg_wrapper {
+    margin:1px 0px;
+    border-bottom:dotted 1px #e4e4e4;
+    padding: 10px 0px;
+    clear:both;
+}
+.msg_wrapper .msg {
+    display: block;
+}
+.msg_wrapper .msg_who {
+    margin-bottom:2px;
+    float:left;
+    width:100px;
+}
+.msg_wrapper .Staff {
+    color: #8d8d8d;
+}
+.msg_Staff {
+}
+.msg_Status .msg_who {
+    display:none;
+}
+.msg_Status {
+  color:#9EA2AB;
+  font-style:italic;
+}
+.msg_wrapper .Client {
+    color: #4080da;
+}
+#headershelf {
+    border-bottom:solid 1px #c1c6ca;
+    padding:13px 10px 12px;
+    background: #ffffff url('../img/bgshelf.png') repeat-x bottom left;
+    color:#3a3a3e;
+    font-weight:bold;
+    font-size:14px;
+    text-shadow: 0px 1px 1px #ffffff;
+    -moz-border-radius-topleft: 11px;
+    -moz-border-radius-topright: 11px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 11px 11px 0px 0px;
+    border-radius: 11px 11px 0px 0px;
+}
+#chatcontainer {
+    background:#fff;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -moz-box-shadow: 0px 1px 1px 1px #0f0f12;
+    -webkit-box-shadow: 0px 1px 1px 1px #0f0f12;
+    box-shadow: 0px 1px 1px 1px #0f0f12;
+    border-radius: 11px;
+    padding-bottom:10px;
+    margin-bottom:5px;
+}
+.clear {
+    clear:both;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+#chatshelf h1 {
+    height:42px;
+    color:#fff;
+    font-size:19px;
+    line-height:36px;
+    text-shadow:1px 1px 1px #000000;
+}
+.form  label {
+    display: block;
+    clear:both;
+    font-weight:bold;
+    margin-bottom:3px;
+    
+}
+.form input[type="submit"]:active {
+    background-color: #53ADDF;
+    background-image: -moz-linear-gradient(center top , #53ADDF, #2388BF);
+}
+.form input[type="submit"] {
+    background-color: #59C8EF;
+    background-image: -moz-linear-gradient(center top , #59C8EF, #00A5DF);
+    border: 1px solid #009AEF;
+    cursor:pointer;
+    border-radius: 3px 3px 3px 3px;
+    -moz-box-shadow: 0px 1px 1px 1px #0f0f12;
+    -webkit-box-shadow: 0px 1px 1px 1px #0f0f12;
+    box-shadow: 0px  0px 1px #0f0f12;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 2px;
+    padding:10px;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0 -1px 1px #159fd4;
+    display: block;
+}
+.form input[type="text"], .form textarea, .form select {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+    color: #424242;
+    font-family: Verdana,'Helvetica Neue',Helvetica,Arial,Geneva,sans-serif;
+    font-size: 12px;
+    outline: medium none;
+    padding: 5px;
+}
+.form input[type="text"].error,
+.form textarea.error {
+    box-shadow: 0 0 3px #ff0000, 0 1px 2px rgba(0, 0, 0, 0.15) inset !important;
+}
+.form input[type="text"]:focus, .form textarea:focus, .form select:focus
+{
+    border: 1px solid #80BFFF;
+    box-shadow: 0 0 3px #80BFFF, 0 1px 2px rgba(0, 0, 0, 0.15) inset
+}
+#email_container {
+    height:395px;
+}
+#pickdept_container {
+    padding:10px;
+    height:375px;
+}
+.padded_table input[type="text"], .padded_table select, .padded_table textarea {
+    width:426px;
+}
+.padded_table td {
+    padding:5px 0px;
+}
+#chatshelf {
+    margin:0px 12px;
+}
+#chat {
+    background:url('../img/chat_icon.png') no-repeat bottom left;
+}
+#print {
+    background:url('../img/print.png') no-repeat bottom left;
+}
+#close , .ico_container:hover #close{
+    background:url('../img/close.png') no-repeat bottom left !important;
+}
+#email {
+    background:url('../img/email.png') no-repeat bottom left;
+}
+.ico_container {
+    height:42px;
+    width:32px;
+    cursor: pointer;
+}
+.chat_icon {
+    float:left;
+    width:32px;
+    height:32px;
+}
+.ico_container:hover .chat_icon, .ico_container.active .chat_icon, #chatshelf .active .chat_icon{
+    background-position: 0px 0px !important;
+}
+.ico_container.active, #chatshelf .active {
+    background: url('../img/activebg.png') no-repeat bottom center;
+}
+.chat_sound_icon {
+    display:inline-block;
+    width:16px;
+    height:16px;
+    cursor:pointer;
+    background:url('../img/speaker-volume-control-mute.png') no-repeat top left;
+}
+.chat_sound_icon.sound_on, .sound_on {
+
+    background:url('../img/speaker-volume.png') no-repeat top left !important;
+}
+
+#conversation_container {
+    padding:10px;
+    overflow:auto;
+    height:300px;
+}
+#inputbox {
+    height:50px;
+    padding:5px;
+    background: #14141A;
+    border-radius:  3px;
+    border:1px solid black;
+    box-shadow: 0 1px 0 #444444;
+    margin-right:10px;
+}
+#inputbox textarea {
+    background:none;
+    color:	#717187;
+    resize:none;
+    width: 98%;
+    height:50px;
+    border:none;
+    font-style: italic;
+}
+#inputbox textarea:focus {
+    font-style: normal !important;
+}
+.hblogo {
+    color:#000000;
+    text-shadow:1px 1px 0px #31343f;
+    font-size:11px;
+}
+
+.hblogo a, hblogo a:visited {
+    color:#00acf9;
+    font-size:11px;
+    text-decoration:none;
+    text-shadow: 1px 1px 0px #001a27;
+}
+.hblogo a:hover {
+    color:#00c7f9;
+}
+.sendbtn {
+    cursor:pointer;
+    background-color: #59C8EF;
+    background-image: -moz-linear-gradient(center top , #59C8EF, #00A5DF);
+    border: 1px solid #009AEF;
+    border-radius: 3px 3px 3px 3px;
+    -moz-box-shadow: 0px 1px 1px 1px #0f0f12;
+    -webkit-box-shadow: 0px 1px 1px 1px #0f0f12;
+    box-shadow: 0px 1px 1px 1px #0f0f12;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 2px;
+    padding: 20px 0px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0 -1px 1px #159fd4;
+    width: 60px;
+    display: block;
+}
+.sendbtn:hover {
+    background-color: #53ADDF;
+    background-image: -moz-linear-gradient(center top , #53ADDF, #2388BF);
+}

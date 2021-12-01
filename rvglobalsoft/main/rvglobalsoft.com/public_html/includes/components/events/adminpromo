@@ -1,0 +1,63 @@
+<div id="adminpromo">
+    <div id="promo">
+        <a href="http://hostbillapp.com/paid-apps/"  target="_blank">Buy Apps</a>
+        <a href="http://hostbillapp.com/services/custom-development/" target="_blank">Request Custom Development</a>
+        <a href="http://features.hostbillapp.com/" target="_blank">Request Feature</a>
+        <a href="https://hostbillapp.com/report-bug/" target="_blank">Report Bug</a>
+        <div class="news-items">
+            <strong>News:</strong>
+            <div class="clear"></div>
+
+            <a href="https://twitter.com/hostbillappcom" class="twitter" target="_blank"></a>
+            <a href="https://www.facebook.com/hostbillapp" class="facebook" target="_blank"></a>
+            <a href="http://blog.hostbillapp.com/" class="wordpress" target="_blank"></a>
+            <div class="clear"></div>
+        </div>
+
+    </div>
+</div>
+
+
+<style>
+    #adminpromo{
+        position: fixed; 
+        bottom:15px; 
+        left:10px
+    }
+    #promo {
+        background: #FDFFA5;
+        border: 1px solid #C1D15D;
+        margin-right: 7px;
+        margin-top: 2px;
+        padding: 5px;
+        width:169px;
+        font-size:11.5px;
+    }
+    #promo > a {
+        display:block;
+        padding:2px 0px;
+        font-weight: bold;
+    }
+    .news-items {
+        margin-top:10px;
+    }
+    .news-items a {
+        float:left;
+        display:block;
+        width:20px;
+        height:20px;
+        padding:4px 4px;
+    }
+    .news-items .twitter{
+        background: url('templates/default/img/icons/twitter.png') center center no-repeat;
+        background-size: 20px;
+    }
+    .news-items .facebook{
+        background: url('templates/default/img/icons/facebook.png') center center no-repeat;
+        background-size: 20px;
+    }
+    .news-items .wordpress{
+        background: url('templates/default/img/icons/wordpress.png') center center no-repeat;
+        background-size: 20px;
+    }
+</style>

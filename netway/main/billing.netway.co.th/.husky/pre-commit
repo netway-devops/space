@@ -1,0 +1,12 @@
+#!/bin/sh
+
+. "$(dirname "$0")/_/husky.sh"
+
+BRANCHNAME=$(git rev-parse --abbrev-ref HEAD)
+
+if [ "$BRANCHNAME" = "main" ]; then
+  echo "You cannot commit to the \"$BRANCHNAME\" branch. If there is a problem, contact Arnut@DevOps."
+  exit 1
+fi
+
+exit 0

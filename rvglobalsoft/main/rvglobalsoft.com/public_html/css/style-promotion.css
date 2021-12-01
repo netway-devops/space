@@ -1,0 +1,103 @@
+body, table{ 
+	padding:0; 
+	margin:0;
+	background:#fff; 
+	color:#666666;
+	font-size:14px; 
+	font-family:'Open Sans', Verdana, Arial, Helvetica, sans-serif; 
+}
+.outer{ 
+	width:100%;
+	padding:0; 
+	margin:0;
+}
+.inner{ 
+	width:990px;
+	padding:0; 
+	margin:0 auto;
+}
+.left{ 
+	float:left;
+}
+.right{ 
+	float:right;
+}
+.clear {
+	clear:both;
+}
+img{ 
+	border:0;
+}
+
+/****************** Start Promotion **********************/
+.promotion{ 
+	color:#666666;
+}
+.promotion .topbar{ 
+	color:#fff; 
+	background:#00438c; 
+	padding:0; 
+	margin:0; 
+}
+.promotion .login { 
+	padding:12px 0px 12px 30px; 
+	display:block; 
+	float:right;
+	margin:0; 
+}
+.promotion .login a, .promotion .login a:visited, .promotion .login a:hover, .promotion .login a:active{ 
+	color:#fff; 
+	background:#5d8abc; 
+	padding:10px 50px; 
+	font-size:16px; 
+	font-family:'Open Sans', Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration:none;
+}
+.promotion .login a:hover, .promotion .login a:active{ 
+	background:#4d76a4; 
+}
+.promotion .content { 
+	color:#666666; 
+	background:#fff;
+	font-size:14px; 
+	font-family:'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+	padding:15px 10px;
+}
+.promotion .pad { 
+	padding-bottom:30px;
+}
+.promotion .bottom{ 
+	color:#fff; 
+	background:#00438c;
+	font-size:14px; 
+	font-family:'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+	padding:10px;
+	margin:0; 
+}
+.promotion .address{ 
+	color:#666666; 
+	background:#fff;
+	padding:15px 10px; 
+	margin:0; 
+}
+.promotion .address a b{ 
+	font-size:14px; 
+	color:#000; 
+	font-weight:normal; 
+}
+.promotion .address a, .promotion .address a:visited, .promotion .address a:hover, .promotion .address a:active{ 
+	color:#666666;  
+	text-decoration:none;
+	font-size:12px;
+}
+.promotion .address a:hover, .promotion .address a:active{ 
+	color:#333;
+}
+.promotion .footer{ 
+	color:#5c5c5c; 
+	background-image: url(../images/promotion-bgfooter.gif); 
+	background-position:top left; 
+	background-repeat: repeat-x;
+	padding:20px; 
+	font-size:12px;
+}

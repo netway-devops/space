@@ -1,0 +1,57 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+body {
+    padding:10px;
+    background:#fff;
+}
+.msg_date {
+    float:right;
+}
+.printit {
+    font-weight:bold;
+    background:url('../img/printer-medium.png') no-repeat top left;
+    padding-left:20px;
+    
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.clear {
+    clear:both;
+}
+.msg_wrapper {
+    margin:1px 0px;
+    border-bottom:dotted 1px #e4e4e4;
+    padding: 10px 0px;
+    clear:both;
+}
+.msg_wrapper .msg {
+    display: block;
+}
+.msg_wrapper .msg_who {
+    margin-bottom:2px;
+    float:left;
+    width:100px;
+}
+.msg_wrapper .Staff {
+    color: #8d8d8d;
+}
+.msg_Staff {
+}
+.msg_Status .msg_who {
+    display:none;
+}
+.msg_Status {
+  color:#9EA2AB;
+  font-style:italic;
+}
+.msg_wrapper .Client {
+    color: #4080da;
+}

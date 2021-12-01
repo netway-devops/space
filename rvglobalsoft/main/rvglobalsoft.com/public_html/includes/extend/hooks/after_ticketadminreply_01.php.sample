@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Administrator has just posted reply to a ticket
+ * $details = array('id'=>REPLY ID,
+ * 'ticket_id'=>RELATED TICKET ID,
+ * ticket_number'=>RELATED TICKET NUMBER,
+ * 'replier_id'=>REPLIER ID (IF ANY),
+ * 'name'=>REPLIER NAME,
+ * 'email'=>REPLIER EMAIL,
+ * 'body'=>REPLY MESSAGE BODY,
+ * 'type'=>REPLIER TYPE (Admin or Client),
+ * 'date'=>REPLY DATE)
+ * Following variable is available to use in this file:  $details
+ */

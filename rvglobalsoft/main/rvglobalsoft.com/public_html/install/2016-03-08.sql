@@ -1,0 +1,2 @@
+REPLACE INTO `hb_language_locales` (`language_id`,`section`,`keyword`,`value`)
+SELECT id, 'cart', 'field_unique_error','%s entered is in use, please choose a different value' FROM hb_language WHERE target='user';

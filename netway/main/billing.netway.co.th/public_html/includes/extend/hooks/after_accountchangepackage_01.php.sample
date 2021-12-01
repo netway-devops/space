@@ -1,0 +1,6 @@
+<?php
+
+/**
+ * Account-related module (for ex. cPanel) successfully changed package on server
+ * Following variable is available to use in this file:  $details $details=array('account'=>ACCOUNT DETAILS ARRAY,'product'=>NEW PRODUCT DETAILS ARRAY)
+ */

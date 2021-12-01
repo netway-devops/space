@@ -1,0 +1,48 @@
+---
+name: Portugal registered business
+description: >
+  For Portugal-based companies, profile will automatically set everything required to run legal,
+  successfull Portugal Hosting company
+settings:
+  DateFormat: DD/MM/YYYY
+  ISOCurrency: EUR
+  CurrencyCode: EUR
+  CurrencySign:
+  UserLanguage: english
+  UserCountry: PT
+  ContinueInvoices: on
+  AttachPDFInvoice: on
+  CCChargeAuto: on
+  CCDaysBeforeCharge: 1
+  CCAttemptOnce: off
+  CCRetryForDays: 3
+  AutoRegDomains: on
+  1DomainReminder: 50
+  2DomainReminder: 30
+  3DomainReminder: 30
+  4DomainReminder: 10
+  5DomainReminder: 5
+  EnableTax: on
+  CompoundL2: off
+  TaxLateFee: on
+  TaxDomains: on
+  TaxType: exclusive
+  InvoiceModel: eu
+premade-tax:
+  - pt
+plugins:
+   Other/state_province_select:
+   Other/European_Central_Bank:
+   Other/VIes_Vat_EU:
+        tax: 1
+        clear: 1
+        code: vateu
+        mycountry: PT
+        checkonedit: 1
+        checkonadminedit: 0
+        setlocalrate: 0
+        assumesuccess: 1
+        reversercharge: Pagamento por devolução
+        ccompanyname: 1
+
+

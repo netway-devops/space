@@ -1,0 +1,5 @@
+{
+    "require": {
+        "paysafegroup/paysafe_sdk_php": "^1.0"
+    }
+}

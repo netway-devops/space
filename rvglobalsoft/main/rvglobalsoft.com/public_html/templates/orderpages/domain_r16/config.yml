@@ -1,0 +1,20 @@
+---
+imgpreview:
+  value: '../templates/orderpages/domains_3in1/howto.png'
+  name: View editable areas
+  type: link
+spotlight:
+  value: 1
+  name: Enable spotlight
+  type: checkbox
+  description: It will display domains with 'featured' tag
+custdescription:
+  value: 1
+  name: Slogan
+  description: You can edit it in templates/orderpages/domain_r16/widgets/description.tpl
+  type: checkbox
+pricing:
+  value: 1
+  name: Pricing table
+  description: 
+  type: checkbox

@@ -1,0 +1,33 @@
+---
+imgpreview:
+  value: '../templates/orderpages/onestep_cloud/howto.png'
+  name: View editable areas
+  type: link
+steps:
+  value: Fast and easy
+  name: Steps header
+  type: input
+step1:
+  value: 1. Select a package
+  name: First step text
+  type: input
+step1d:
+  value: Use the slider to setup your plan
+  name: First step description
+  type: input
+step2:
+  value: 2. Customize your server
+  name: Second step text
+  type: input
+step2d:
+  value: Select desired components
+  name: Second step description
+  type: input
+step3:
+  value: 3. Start your cloud!
+  name: Last step text
+  type: input
+step3d:
+  value: Create your cloud hosting with us!
+  name: Last step description
+  type: input

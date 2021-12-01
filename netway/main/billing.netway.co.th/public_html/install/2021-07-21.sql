@@ -1,0 +1,3 @@
+REPLACE INTO `hb_language_locales` (`language_id`,`section`,`keyword`,`value`)
+SELECT id, 'configfields', 'selectboxref','Linked Dropdown' FROM hb_language WHERE target!='user'
+UNION SELECT id, 'configfields', 'selectboxred-description','Your customers will be able to choose one from number of values, and specify number of those items using another form field' FROM hb_language WHERE target='admin';

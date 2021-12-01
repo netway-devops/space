@@ -1,0 +1,19 @@
+<?php
+
+/*
+ * Client is atempting to log in with:
+ * $details['email'] - email address provided in client login form. Note: Email is just arbitrary,
+ * you can modify your clientarea "email" label in login form and have client provide his username
+ * to authentincate with
+ * 
+ * $details['password'] - password client proivied in client login form
+ * 
+ * You can use this hook to authenticate client against external database/auth service.
+ * To do so, after successfull auth, simply return client id that HostBill should log in.
+ * ie. return 10; //login client with id=10 (hb_client_access.id=10).
+ * 
+ * If client have provided wrong credentials - dont return any value - this way HostBill
+ * will fall-back to its internal authentication methods.
+ * 
+ */
+

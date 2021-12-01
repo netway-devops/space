@@ -1,0 +1,2 @@
+REPLACE INTO `hb_language_locales` (`language_id`,`section`,`keyword`,`value`)
+                      SELECT id, 'global', 'eppCodeDayRegistration', 'You are not allowed to get the EPP code for %d days since registration' FROM hb_language WHERE target='user'

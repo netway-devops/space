@@ -1,0 +1,343 @@
+{
+  "eu":[
+  {
+    "variable": "lang",
+    "name": "Language",
+    "type": "select",
+    "default": "EN",
+    "items": [
+      {
+        "variable_id": "BG",
+        "name": "Bulgarian"
+      },
+      {
+        "variable_id": "CS",
+        "name": "Czech"
+      },
+      {
+        "variable_id": "DA",
+        "name": "Danish"
+      },
+      {
+        "variable_id": "DE",
+        "name": "German"
+      },
+      {
+        "variable_id": "EL",
+        "name": "Greek"
+      },
+      {
+        "variable_id": "EN",
+        "name": "English"
+      },
+      {
+        "variable_id": "ES",
+        "name": "Spanish"
+      },
+      {
+        "variable_id": "ET",
+        "name": "Estonian"
+      },
+      {
+        "variable_id": "FI",
+        "name": "Finnish"
+      },
+      {
+        "variable_id": "FR",
+        "name": "French"
+      },
+      {
+        "variable_id": "GA",
+        "name": "Irish"
+      },
+      {
+        "variable_id": "HR",
+        "name": "Croatian"
+      },
+      {
+        "variable_id": "HU",
+        "name": "Hungarian"
+      },
+      {
+        "variable_id": "IT",
+        "name": "Italian"
+      },
+      {
+        "variable_id": "LT",
+        "name": "Lithuanian"
+      },
+      {
+        "variable_id": "LV",
+        "name": "Latvian"
+      },
+      {
+        "variable_id": "MT",
+        "name": "Maltese"
+      },
+      {
+        "variable_id": "NL",
+        "name": "Dutch"
+      },
+      {
+        "variable_id": "PL",
+        "name": "Polish"
+      },
+      {
+        "variable_id": "PT",
+        "name": "Portuguese"
+      },
+      {
+        "variable_id": "RO",
+        "name": "Romanian"
+      },
+      {
+        "variable_id": "SK",
+        "name": "Slovak"
+      },
+      {
+        "variable_id": "SL",
+        "name": "Slovene"
+      },
+      {
+        "variable_id": "SV",
+        "name": "Swedish"
+      }
+    ]
+  }
+],
+"us":[
+  {
+    "variable": "app-purpose",
+    "name": "Application Purpose",
+    "type": "select",
+    "default": "P3",
+    "items": [
+      {
+        "variable_id": "P1",
+        "name": "For Profit"
+      },
+      {
+        "variable_id": "P2",
+        "name": "Non-profit"
+      },
+      {
+        "variable_id": "P3",
+        "name": "Personal"
+      },
+      {
+        "variable_id": "P4",
+        "name": "Educational"
+      },
+      {
+        "variable_id": "P5",
+        "name": "Government"
+      }
+    ]
+  },
+  {
+    "variable": "nexus-category",
+    "name": "Nexus Category",
+    "type": "select",
+    "default": "C11",
+    "items": [
+      {
+        "variable_id": "C11",
+        "name": "US Citizen"
+      },
+      {
+        "variable_id": "C12",
+        "name": "Permanent Resident"
+      },
+      {
+        "variable_id": "C21",
+        "name": "Business Entity"
+      },
+      {
+        "variable_id": "C31",
+        "name": "Foreign Entity"
+      },
+      {
+        "variable_id": "C32",
+        "name": "US Based Office"
+      }
+    ]
+  },
+  {
+    "variable": "nexus-category-country",
+    "name": "Nexus Country Validator (2 letter code)",
+    "type": "input",
+    "default": "US"
+  }
+],
+"uk": [
+  {
+    "variable": "account-type",
+    "name": "Account type",
+    "type": "select",
+    "default": "IND",
+    "items": [
+      {
+        "variable_id": "PLC",
+        "name": "PLC, UK Public Limited Company"
+      },
+      {
+        "variable_id": "IP",
+        "name": "UK Industrial\/Provident Registered Company"
+      },
+      {
+        "variable_id": "FCORP",
+        "name": "Non-UK corporation"
+      },
+      {
+        "variable_id": "RCHAR",
+        "name": "UK Registered Charity"
+      },
+      {
+        "variable_id": "PTNR",
+        "name": "UK Partnership"
+      },
+      {
+        "variable_id": "OTHER",
+        "name": "UK Entity not fitting into any of the other options"
+      },
+      {
+        "variable_id": "LLP",
+        "name": "LLP, UK Limited Liability Partnership"
+      },
+      {
+        "variable_id": "STAT",
+        "name": "UK Statutory Body"
+      },
+      {
+        "variable_id": "CRC",
+        "name": "UK Corporation by Royal Charter"
+      },
+      {
+        "variable_id": "STRA",
+        "name": "Sole trader"
+      },
+      {
+        "variable_id": "SCH",
+        "name": "UK school"
+      },
+      {
+        "variable_id": "FIND",
+        "name": "Non-UK Individual"
+      },
+      {
+        "variable_id": "FOTHER",
+        "name": "Non-UK other"
+      },
+      {
+        "variable_id": "GOC",
+        "name": "UK Government Body"
+      },
+      {
+        "variable_id": "LTD",
+        "name": "LTD, UK Limited Company"
+      },
+      {
+        "variable_id": "IND",
+        "name": "UK Individual"
+      }
+    ]
+  },
+  {
+    "variable": "company-number",
+    "name": "Company number",
+    "type": "input"
+  }
+],
+"se": [
+  {
+    "variable": "orgid",
+    "name": "Organization number",
+    "type": "input"
+  }
+],
+"nu": [
+  {
+    "variable": "orgid",
+    "name": "Organization number",
+    "type": "input"
+  }
+],
+"fi": [
+  {
+    "variable": "x-ficora-type",
+    "name": "Type",
+    "type": "select",
+    "default": "person",
+    "items": [
+      {
+        "variable_id": "privateperson",
+        "name": "Private person"
+      },
+      {
+        "variable_id": "company",
+        "name": "Company"
+      },
+      {
+        "variable_id": "corporation",
+        "name": "Corporation"
+      },
+      {
+        "variable_id": "institution",
+        "name": "Institution"
+      },
+      {
+        "variable_id": "politicalparty",
+        "name": "Political party"
+      },
+      {
+        "variable_id": "township",
+        "name": "Township"
+      },
+      {
+        "variable_id": "government",
+        "name": "Government"
+      },
+      {
+        "variable_id": "publiccommunity",
+        "name": "Public community"
+      }
+    ]
+  },
+  {
+    "variable": "x-ficora-is-finnish",
+    "name": "Is finnish",
+    "type": "select",
+    "default": "yes",
+    "items": [
+      {
+        "variable_id": "yes",
+        "name": "Yes"
+      },
+      {
+        "variable_id": "no",
+        "name": "No"
+      }
+    ]
+  },
+  {
+    "variable": "x-ficora-registernumber",
+    "name": "Register number",
+    "type": "input",
+    "description": "If type is Company",
+    "options": 2
+  },
+  {
+    "variable": "x-ficora-identity",
+    "name": "Identity",
+    "type": "input",
+    "description": "If type is Private person and finnish",
+    "options": 2
+  },
+  {
+    "variable": "x-ficora-birthdate",
+    "name": "Birth date",
+    "type": "input",
+    "description": "If type is Private person and not finnish. Format YYYY-MM-DD",
+    "options": 2
+  }
+]}

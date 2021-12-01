@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg height="512" width="512"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 130 130" style="enable-background:new 0 0 130 130;" xml:space="preserve">
+
+<g>
+	<g id="Icons_-_Color">
+		<g id="Desktop_-_Full_Bleed">
+			<g opacity='0.2'>
+				
+					<image style="overflow:visible;enable-background:new    ;" width="181" height="76" xlink:href="63304FA2.png"  transform="matrix(0.4414 0 0 0.4414 33.8618 96.9442)">
+				</image>
+				<path fill='#FFFFFF' d="M40.9,97.4c-3.5,0-6.4,2.9-6.4,6.5c0,2.3,1.2,4.4,3.2,5.5l22.7,12.9c1.9,1.1,4,1.6,6.1,1.6
+					c1.2,0,2.3-0.2,3.4-0.5l34.1-9.7c5.2-1.5,8.8-6.3,8.8-11.7v-4.5H40.9z"/>
+			</g>
+			<g opacity='0.12'>
+				
+					<image style="overflow:visible;enable-background:new    ;" width="175" height="66" xlink:href="63304FA6.png"  transform="matrix(0.4431 0 0 0.4431 34.9931 96.4048)">
+				</image>
+				<path fill='#FFFFFF' d="M40.9,97.4c-3.5,0-6.4,2.9-6.4,6.5c0,2.3,1.2,4.4,3.2,5.5l22.7,12.9c1.9,1.1,4,1.6,6.1,1.6
+					c1.2,0,2.3-0.2,3.4-0.5l34.1-9.7c5.2-1.5,8.8-6.3,8.8-11.7v-4.5H40.9z"/>
+			</g>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="91.3596" y1="-3.3233" x2="91.3596" y2="114.9603">
+				<stop  offset="0" style="stop-color:#FFB900"/>
+				<stop  offset="0.17" style="stop-color:#EF8400"/>
+				<stop  offset="0.31" style="stop-color:#E25C01"/>
+				<stop  offset="0.43" style="stop-color:#DB4401"/>
+				<stop  offset="0.5" style="stop-color:#D83B01"/>
+			</linearGradient>
+			<path fill='url(#SVGID_1_)' d="M69.8,3.5l9.2,21v72.9l-9,26l34.1-9.7c5.2-1.5,8.8-6.3,8.8-11.7V25c0-5.5-3.6-10.2-8.9-11.7L69.8,3.5z"/>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="70.0327" y1="0.8567" x2="7.3954" y2="90.2984">
+				<stop  offset="0" style="stop-color:#800600"/>
+				<stop  offset="0.6" style="stop-color:#C72127"/>
+				<stop  offset="0.73" style="stop-color:#C13959"/>
+				<stop  offset="0.85" style="stop-color:#BC4B81"/>
+				<stop  offset="0.94" style="stop-color:#B95799"/>
+				<stop  offset="1" style="stop-color:#B85BA2"/>
+			</linearGradient>
+			<path fill='url(#SVGID_2_)' d="M26.5,96.6l10-5.4c2.8-1.5,4.5-4.5,4.5-7.6V44.3c0-3.7,2.3-6.9,5.7-8.2L79,24.5v-8.8C79,10,75.2,5,69.8,3.5
+				C68.7,3.2,67.5,3,66.3,3l0,0c-2.2,0-4.4,0.6-6.3,1.7l-36.9,21c-3.8,2.2-6.2,6.2-6.2,10.6V91c0,3.5,2.9,6.4,6.4,6.4
+				C24.5,97.4,25.6,97.1,26.5,96.6z"/>
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="38.0271" y1="110.6154" x2="119.799" y2="110.6154">
+				<stop  offset="0" style="stop-color:#F32B44"/>
+				<stop  offset="0.6" style="stop-color:#A4070A"/>
+			</linearGradient>
+			<path fill='url(#SVGID_3_)' d="M79,97.4H40.9c-3.5,0-6.4,2.9-6.4,6.5c0,2.3,1.2,4.4,3.2,5.5l22.7,12.9c1.9,1.1,4,1.6,6.1,1.6l0,0
+				c1.2,0,2.3-0.2,3.4-0.5c5.4-1.5,9-6.4,9-12C79,111.4,79,97.4,79,97.4z"/>
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="71.3118" y1="-0.9604" x2="58.0493" y2="17.9746">
+				<stop  offset="0" style="stop-color:#000000;stop-opacity:0.4"/>
+				<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+			</linearGradient>
+			<path fill='url(#SVGID_4_)' d="M26.5,96.6l10-5.4c2.8-1.5,4.5-4.5,4.5-7.6V44.3c0-3.7,2.3-6.9,5.7-8.2L79,24.5v-8.8C79,10,75.2,5,69.8,3.5
+				C68.7,3.2,67.5,3,66.3,3l0,0c-2.2,0-4.4,0.6-6.3,1.7l-36.9,21c-3.8,2.2-6.2,6.2-6.2,10.6V91c0,3.5,2.9,6.4,6.4,6.4
+				C24.5,97.4,25.6,97.1,26.5,96.6z"/>
+			<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="93.5937" y1="112.4615" x2="56.9821" y2="109.2658">
+				<stop  offset="0" style="stop-color:#000000;stop-opacity:0.4"/>
+				<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+			</linearGradient>
+			<path fill='url(#SVGID_5_)' d="M79,97.4H40.9c-3.5,0-6.4,2.9-6.4,6.5c0,2.3,1.2,4.4,3.2,5.5l22.7,12.9c1.9,1.1,4,1.6,6.1,1.6l0,0
+				c1.2,0,2.3-0.2,3.4-0.5c5.4-1.5,9-6.4,9-12C79,111.4,79,97.4,79,97.4z"/>
+			<rect x="1.1" y="-0.5" fill='none' width="127.8" height="127.8"/>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,428 @@
+{
+    "product": {
+        "id": "288",
+        "category_id": "1",
+        "type": "9",
+        "name": ".ca",
+        "description": "",
+        "visible": "-1",
+        "domain_options": "0",
+        "qty": "0",
+        "autosetup": "1",
+        "subdomain": "",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "130",
+        "autohostname": "",
+        "p_options": [
+            "0"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": ".ca",
+        "contract_id": "0",
+        "dbcItemType": "Inventory",
+        "baseUnitOfMeasureCode": "YEAR",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "3",
+        "line_group_id": "3",
+        "codeName": null,
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "DomainRegular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": "0.00",
+        "m": "0.00",
+        "q": "0.00",
+        "s": "0.00",
+        "a": "0.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": "0.00",
+        "ptype": "DomainsType",
+        "tlds": null,
+        "periods": {
+            "1": {
+                "period": "1",
+                "register": "600.00",
+                "transfer": "600.00",
+                "renew": "600.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "2": {
+                "period": "2",
+                "register": "1200.00",
+                "transfer": "1200.00",
+                "renew": "1200.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "3": {
+                "period": "3",
+                "register": "1710.00",
+                "transfer": "1710.00",
+                "renew": "1710.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "4": {
+                "period": "4",
+                "register": "2280.00",
+                "transfer": "2280.00",
+                "renew": "2280.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "5": {
+                "period": "5",
+                "register": "2850.00",
+                "transfer": "2850.00",
+                "renew": "2850.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "6": {
+                "period": "6",
+                "register": "3240.00",
+                "transfer": "3240.00",
+                "renew": "3240.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "7": {
+                "period": "7",
+                "register": "3738.00",
+                "transfer": "3738.00",
+                "renew": "3738.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "8": {
+                "period": "8",
+                "register": "4320.00",
+                "transfer": "4320.00",
+                "renew": "4320.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "9": {
+                "period": "9",
+                "register": "4860.00",
+                "transfer": "4860.00",
+                "renew": "4860.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            },
+            "10": {
+                "period": "10",
+                "register": "5400.00",
+                "transfer": "5400.00",
+                "renew": "5400.00",
+                "redemption": "-1.00",
+                "before": "-1.00"
+            }
+        },
+        "category_name": "Domain Names",
+        "module": "83",
+        "main": "1",
+        "modname": "ResellerClub",
+        "filename": "class.resellerclub.php",
+        "domain_op": [],
+        "free_domain": "0",
+        "not_renew": "0",
+        "epp": true,
+        "ns": [
+            "ns1.netwaygroup.com",
+            "ns2.netwaygroup.com",
+            "ns3.netwaygroup.com",
+            "ns4.netwaygroup.com",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "nsips": "203.78.107.96|165.227.12.3|203.78.103.254|167.71.51.45||||",
+        "tld": ".ca",
+        "nsip": [
+            "203.78.107.96",
+            "165.227.12.3",
+            "203.78.103.254",
+            "167.71.51.45",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "asciimode": false,
+        "app_id": "178",
+        "app_ns1": "",
+        "app_ns2": "",
+        "app_ns3": "",
+        "app_ns4": "",
+        "app_ns5": null,
+        "app_ns6": null,
+        "app_ns7": null,
+        "app_ns8": null,
+        "app_ip1": "",
+        "app_ip2": "",
+        "app_ip3": "",
+        "app_ip4": "",
+        "app_ip5": null,
+        "app_ip6": null,
+        "app_ip7": null,
+        "app_ip8": null,
+        "emails": {
+            "AfterRegistrarRegistration": "28",
+            "AfterRegistrarRenewal": "29",
+            "AfterRegistrarTransfer": "30",
+            "after_domaininsertregister": "0",
+            "after_domaininserttransfer": "0",
+            "expiringDomain": "54"
+        },
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Domain",
+        "modules": [
+            {
+                "product_id": "288",
+                "main": 1,
+                "modname": "ResellerClub",
+                "filename": "class.resellerclub.php",
+                "module": "83",
+                "options": "1",
+                "default": "1",
+                "server": {
+                    "178": "178"
+                }
+            }
+        ],
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1DomainReminder": "0",
+            "1OverdueReminder": "0",
+            "2DomainReminder": "0",
+            "2OverdueReminder": "7",
+            "3DomainReminder": "15",
+            "3OverdueReminder": "0",
+            "4DomainReminder": "7",
+            "5DomainReminder": "3",
+            "AddLateFeeAfter": "6",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoDeleteDomainDays": "20",
+            "AutoDeleteDomainType": "after",
+            "AutoRegisterDomainType": "0",
+            "AutoTransferDomainType": "0",
+            "CreditFailedRenewals": "off",
+            "CreditOnDowngradeOverride": "",
+            "DomainGracePeriod": "20",
+            "DomainRedemptionPeriod": "0",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoDeleteDomain": "off",
+            "EnableAutoRegisterDomain": "on",
+            "EnableAutoRenewDomain": "on",
+            "EnableAutoTransferDomain": "on",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "0",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "RenewInvoice": "1",
+            "RenewOnOrder": "",
+            "SendPaymentReminderEmails": "on",
+            "InvoiceCustomReminder": null
+        }
+    },
+    "addons": [],
+    "tasks": [],
+    "widgets": [
+        {
+            "id": "236",
+            "widget": "contactinfo",
+            "name": "Contacts Information",
+            "location": "includes\/types\/domains\/widgets\/contactinfo\/",
+            "ptype": "9",
+            "config": {
+                "smallimg": "includes\/types\/domains\/widgets\/contactinfo\/small.png",
+                "bigimg": "includes\/types\/domains\/widgets\/contactinfo\/big.png"
+            },
+            "options": "1",
+            "group": "sidemenu",
+            "widget_id": "6",
+            "override_defaults": "0",
+            "target_id": "288",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "237",
+            "widget": "emailforwarding",
+            "name": "Email Forwarding",
+            "location": "includes\/types\/domains\/widgets\/emailforwarding\/",
+            "ptype": "9",
+            "config": {
+                "smallimg": "includes\/types\/domains\/widgets\/emailforwarding\/small.png",
+                "bigimg": "includes\/types\/domains\/widgets\/emailforwarding\/big.png"
+            },
+            "options": "1",
+            "group": "sidemenu",
+            "widget_id": "9",
+            "override_defaults": "0",
+            "target_id": "288",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "240",
+            "widget": "dnsmanagement_widget",
+            "name": "DNS Management",
+            "location": "includes\/types\/domains\/widgets\/dnsmanagement_widget\/",
+            "ptype": "9",
+            "config": {
+                "smallimg": "includes\/types\/domains\/widgets\/dnsmanagement_widget\/small.png",
+                "bigimg": "includes\/types\/domains\/widgets\/dnsmanagement_widget\/big.png"
+            },
+            "options": "35",
+            "group": "sidemenu",
+            "widget_id": "7",
+            "override_defaults": "0",
+            "target_id": "288",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "241",
+            "widget": "nameservers",
+            "name": "Manage Nameservers",
+            "location": "includes\/types\/domains\/widgets\/nameservers\/",
+            "ptype": "9",
+            "config": {
+                "smallimg": "includes\/types\/domains\/widgets\/nameservers\/small.png",
+                "bigimg": "includes\/types\/domains\/widgets\/nameservers\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "14",
+            "override_defaults": "0",
+            "target_id": "288",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        }
+    ],
+    "forms": [
+        {
+            "id": "434",
+            "type": "select",
+            "required": "0",
+            "name": "Registrant Agreement",
+            "key": "",
+            "variable": "AgreementValue",
+            "description": "\n\n\n\nRegistrant Agreement: Version 2.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<p align=\"center\"><b>Registrant Agreement\nVersion 2.0, October 12, 2010<\/b><\/p>\n\n<p>This agreement (the &ldquo;Agreement&rdquo;) is between you (the\n&ldquo;<b>Registrant<\/b>&rdquo;) and the Canadian Internet Registration\nAuthority (&ldquo;<b>CIRA<\/b>&rdquo;).<\/p>\n\n<p>In consideration of the registration by CIRA of the Domain Name applied for\nby the Registrant in the name of the Registrant, and other good and valuable\nconsideration, the receipt and adequacy of which are hereby acknowledged, CIRA\nand the Registrant agree as follows:<\/p>\n\n<p align=\"center\"><b>ARTICLE 1\nINTERPRETATION<\/b><\/p>\n\n<p><b>1.1\tApplication.<\/b>  This Agreement between the Registrant and\nCIRA applies to all Domain Names registered by CIRA for the Registrant.<\/p>\n<p><b>1.2\tDefinitions.<\/b>  In this Agreement:<\/p>\n\n<p class=\"indented\">&ldquo;<b>Administrative Contact<\/b>&rdquo; means the\nperson identified in the Registration Information as the Administrative\nContact for the Registrant&rsquo;s Domain Name Registration(s);<\/p>\n\n<p class=\"indented\">&ldquo;<b>Affiliate<\/b>&rdquo; means, with respect to\neither party, any entity that controls, is controlled by, or is under common\ncontrol with, such party.  For purposes of the foregoing,\n&ldquo;control&rdquo; means, with respect to:  (a) a corporation, the\nownership, directly or indirectly, of fifty percent (50%) or more of the\nvoting power to elect directors thereof; and (b) any other entity, fifty\npercent (50%) or more ownership interest in said entity;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Applicable Laws<\/b>&rdquo; means all\ninternational, federal, provincial and local laws and regulations and other\nlaws of applicable governmental authorities;<p>\n\n<p class=\"indented\">&ldquo;<b>Domain Name<\/b>&rdquo; means a .ca domain name\nor sub-domain name;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Domain Name Registration<\/b>&rdquo; means the\nregistration by CIRA of a Domain Name in the Registry, in the name of the\nRegistrant, pursuant to this Agreement;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Fees<\/b>&rdquo; means the fees payable to CIRA\nin connection with this Agreement, including an application for a Domain Name\nand\/or any renewal, transfer, and any other fees payable in connection with a\nDomain Name Registration;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Member<\/b>&rdquo; or\n&ldquo;<b>Membership<\/b>&rdquo; has the meaning specified in CIRA&rsquo;s\nAmended and Restated By-Law No.1, which is located on CIRA&rsquo;s\nwebsite at:  www.cira.ca\/assets\/Documents\/Legal\/Other\/bylaw1.pdf;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Person<\/b>&rdquo; means a natural person,\npartnership, limited partnership, limited liability partnership, corporation,\nlimited liability corporation, unlimited liability company, joint stock\ncompany, trust, unincorporated association, joint venture or other entity or\ngovernmental entity;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Registrant<\/b>&rdquo; means a Person who is\nlisted in the Registry as the registrant of a Domain Name;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Registrar of Record<\/b>&rdquo; means the\nRegistrar listed in the Registry as the Registrar of a specific Domain Name\nRegistration;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Registrars<\/b>&rdquo; mean the persons from time\nto time certified by CIRA to offer Domain Name Registration services within\nthe .ca Internet Domain Name system;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Registration Date<\/b>&rdquo; means the date a\nDomain Name has been activated within the Registry;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Registration Information<\/b>&rdquo; means all\ninformation which the Registry PRP require the Registrant to submit to CIRA or\nthe Registrar of Record to obtain a Domain Name Registration, or to process\nany Transaction Request;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Registry<\/b>&rdquo; means the .ca Internet\nDomain Name registry operated by CIRA;<\/p>\n\n<p class=\"indented\">&ldquo;<b>Registry PRP<\/b>&rdquo; means the CIRA policies,\nrules, and procedures relating to Registrants, Registrars, and Domain Name\nRegistrations as may be amended or adopted by CIRA from time to time, which\nare located on CIRA&rsquo;s website at:  www.cira.ca\/en\/PRP.html; and<\/p>\n\n<p class=\"indented\">&ldquo;<b>Transaction Requests<\/b>&rdquo; means all\nrequests or transactions with respect to a Domain Name Registration, including\nthose to renew, transfer, modify, or delete a Domain Name Registration.<\/p>\n\n\n<p align=\"center\"><b>ARTICLE 2\nAGREEMENT, REGISTRY PRP, AND AMENDMENTS BY CIRA<\/b><\/p>\n\n<p><b>2.1\tAcceptance of Agreement and Registry PRP.<\/b>  This Agreement\nsets forth the terms and conditions of the registration of Domain Names by the\nRegistrant with CIRA.  The Registrant acknowledges that it has read,\nunderstood, and agrees to be bound by all the terms and conditions of this\nAgreement, and the Registry PRP, which CIRA may establish and amend from time\nto time. The Registry PRP are located on CIRA&rsquo;s website at www.cira.ca\/en\/PRP.html. The acceptance of the Registrant\nAgreement and Registry PRP by the Registrant will apply to the current\nregistration request as well as all other further registration requests which\nthe Registrant may make thereafter with the same Registrar.<\/p>\n\n<p><b>2.2\tAmendment of Agreement by CIRA.<\/b>   CIRA shall have the\nright, at any time and from time to time, to amend any or all of the terms and\nconditions of this Agreement.  CIRA shall use commercially reasonable efforts\nto notify the Registrant of material amendments to this Agreement by email in\naccordance with Section 10.1. However, any amendment to this Agreement will be\nbinding and effective upon 30 days after the posting of such amendment on\nCIRA&rsquo;s website.<\/p>\n\n<p><b>2.3 \tAmendment and\/or Establishment of new Registry PRP by\nCIRA.<\/b>    CIRA shall have the right, at any time and from time to time, to\namend any or all of the Registry PRP and\/or establish new Registry PRP. Any\nsuch amendment to the Registry PRP or new Registry PRP will be binding and\neffective upon the posting of such amendment or new Registry PRP on\nCIRA&rsquo;s website.<\/p>\n\n<p><b>2.4\tObligation to Review; Disagreement.<\/b> The Registrant agrees\nto periodically review CIRA&rsquo;s website, and specifically this Agreement\nand the Registry PRP available on CIRA&rsquo;s website, to be aware of any\namendments to the Agreement, Registry PRP and\/or any new Registry PRP. If the\nRegistrant does not agree with any amendments to the Agreement, the Registry\nPRP and\/or any new Registry PRP, then the Registrant may terminate this\nAgreement in accordance with Section 7.10.  By continuing to maintain Domain\nName Registrations in the Registry, the Registrant has agreed to be bound by\nany amendments to the Agreement, the Registry PRP and\/or the establishment of\nany new Registry PRP after they become effective.<\/p>\n\n<p align=\"center\"><b>ARTICLE 3\nDOMAIN NAMES PROVISIONS<\/b><\/p>\n\n<p><b>3.1\tRegistrations of Domain Names.<\/b><\/p>\n\n<p class=\"indented\">(a)\t<b>Applications.<\/b> The Registrant acknowledges and\nagrees that applications for the registration of a Domain Name shall be made\nto CIRA only by the Registrar of Record, on behalf of the Registrant, in\naccordance with this Agreement and the Registry PRP.<\/p>\n\n<p class=\"indented\">(b)\t<b>Processing of Applications.<\/b>  CIRA shall process\ncomplete applications for the registration of a Domain Name. CIRA, in its sole\ndiscretion, shall have the right to approve or reject any application for the\nregistration of a Domain Name and\/or agree or refuse to register any Domain\nName for any reason whatsoever with no liability of CIRA whatsoever to the\nRegistrant, the Registrar of Record or any other person.  CIRA will give\nnotice to the Registrar of Record upon the approval or rejection of an\napplication.<\/p>\n\n<p><b>3.2\t No Proprietary Right.<\/b>  The Registrant acknowledges and\nagrees that a Domain Name is not property and that a Domain Name Registration\ndoes not create any proprietary right for the Registrant, the Registrar of\nRecord or any other person in any name used as a domain name or in any Domain\nName Registration.  The entry of a domain name in the Registry and\/or in the\n&ldquo;WHOIS&rdquo; database shall not be construed as evidence of ownership\nof any Domain Name Registration.  The Registrant shall not in any way transfer\nor purport to transfer a proprietary right in any Domain Name Registration or\ngrant or purport to grant as security or in any other manner encumber or\npurport to encumber any Domain Name Registration.<\/p>\n\n<p><b>3.3\tRenewals, Transfers, Modifications, Deletions and Other\nTransactions.<\/b>  The Registrant acknowledges and agrees that a renewal,\ntransfer, modification or deletion of, and any other request or transaction\nwith respect to, a Domain Name Registration shall be made in accordance with\nthis Agreement and the Registry PRP.  CIRA will notify the Registrar of Record\nof any renewal, transfer, modification, deletion or other transaction\nregarding a Domain Name Registration.<\/p>\n\n<p><b>3.4\tRight of CIRA to Verify Information and Compliance.<\/b> CIRA\nis entitled at any time and from time to time during the Term (as defined in\nSection 7.1) to verify: (a) the truth, accuracy and completeness of any\ninformation provided by the Registrant to CIRA, whether directly, through any\nof the Registrars of Record or otherwise; and (b) the compliance by the\nRegistrant with the provisions of the Agreement and the Registry PRP. The\nRegistrant shall fully and promptly cooperate with CIRA in connection with\nsuch verification and shall give to CIRA, either directly or through the\nRegistrar of Record such assistance, access to and copies of, such information\nand documents as CIRA may reasonably require to complete such verification.\nCIRA and the Registrant shall each be responsible for their own expenses\nincurred in connection with such verification.<\/p>\n\n<p><b>3.5\tAdministrative Contacts.<\/b><\/p>\n<p class=\"indented\">(a) \t<b>Agent for the Registrant.<\/b> The\nRegistrant acknowledges and agrees that the Administrative Contact is hereby\nirrevocably authorized by the Registrant to: 1. act as the Registrant&rsquo;s\nagent in connection with the Registrant&rsquo;s Domain Name Registrations; 2.\nbe CIRA&rsquo;s contact for the Registrant and the Domain Name\nRegistration(s); and 3. is recognized by CIRA and hereby irrevocably\nauthorized by the Registrant to take any and all actions in connection with\nthe Domain Name Registration(s) including, without limitation, renewing,\ntransferring, modifying, or deleting it.  Notwithstanding the foregoing, in\nthe event of any dispute between the Registrant and the Registrant&rsquo;s\nAdministrative Contact, the Registrant shall prevail.\n<p class=\"indented\">(b)\t\t<b>Registrant and Administrative Contact Email\nAddresses.<\/b>  The Registrant acknowledges and agrees that CIRA notices to\nthe Registrant will be sent by email only, as set forth in Section 10.1\n(Notices). It is solely the responsibility of the Registrant to ensure that\nthe email addresses of the Registrant and its Administrative Contact are at\nall times functional and accurate and to make arrangements with its\nAdministrative Contact to receive any notices that are sent by CIRA only to\nthe Registrant&rsquo;s Administrative Contact.  If CIRA can show that a notice\nwas sent to either the Registrant or the Registrant&rsquo;s Administrative\nContact email addresses, CIRA shall not be liable to the Registrant or any\nthird party for damages arising from a failure to receive notice from CIRA.\n\n<p><b>3.6 \tRegistrars.<\/b><\/p>\n\n<p class=\"indented\">(a)\t\t<b>Changes of Registrar.<\/b>\n<p class=\"doubleindented\">(1) \t<b>Time Period.<\/b>  The Registrant may change\nthe Registrar of Record with respect to a Domain Name Registration at any time\nonce 60 days has elapsed from the date of registration of the Domain Name.<\/p>\n<p class=\"doubleindented\">(2) \t<b>Replacement of Registrar.<\/b>  In the event\nthat the Registrar of Record  is no longer a Registrar for any reason, has had\nits certification as a Registrar suspended, revoked or terminated, and\/or the\nRegistrar Agreement between CIRA and the Registrar of Record is terminated or\nexpires, the Registrant shall be responsible for changing such  Registrar of\nRecord to a new Registrar.  Such change must occur within 30 days of notice\nbeing given to the Registrant, or such other period of time specified by CIRA.\n<p class=\"doubleindented\">(3) \t<b>Agreement and Registry PRP.<\/b>  Any change\nof the Registrar of Record must be done in accordance with this Agreement and\nthe Registry PRP.\n\n<p class=\"indented\">(b)\t<b>Registrar as Agent.<\/b>\tThe Registrant\nacknowledges and agrees that the Registrar of Record is hereby also\nirrevocably authorized to act as the Registrant&rsquo;s agent in connection\nwith Domain Name Registrations.  Accordingly, any communication and\/or\ninstructions to or from the Registrar of Record will be taken as being to or\nfrom the Registrant.  Without limiting the generality of the foregoing, the\nRegistrant acknowledges and agrees that the Registrar of Record may cancel the\nRegistrant&rsquo;s Domain Name Registration within 5 days from the\nregistration of the Domain Name at their discretion and without the\nRegistrant&rsquo;s consent.<\/p>\n\n<p class=\"indented\">(c)\t<b>Registrar Obligations.<\/b> The Registrant\nacknowledges that the Registrar of Record has a number of obligations to CIRA,\nand should the Registrar fail to comply with such obligations, CIRA may\nrequire the Registrant to change such Registrar of Record to a new\nRegistrar.<\/p>\n\n<p><b>3.7\tMembership.<\/b>  The Registrant acknowledges and agrees that\nif the Registrant becomes a Member of CIRA, the Registrant agrees to abide by\nthe terms of CIRA Membership, as set out in CIRA&rsquo;s Amended and\nRestated By-law No.1, Policy on Membership and the Registry PRP,\nwhich are located on CIRA&rsquo;s website at www.cira.ca\/assets\/Documents\/Legal\/Other\/bylaw1.pdf, www.cira.ca\/assets\/Documents\/Legal\/Membership\/membership.pdf,\nand www.cira.ca\/en\/PRP.html respectively.<\/p>\n\n<p align=\"center\"><b>ARTICLE 4\nCERTAIN REGISTRANT OBLIGATIONS<\/b><\/p>\n\n\n<p><b>4.1\tCertain Registrant Obligations.<\/b>  Throughout the Term of\nthis Agreement, the Registrant shall comply with and abide by all provisions\nof this Agreement and the Registry PRP.  Furthermore, the Registrant shall, in\naccordance with this Agreement and the Registry PRP:<\/p>\n\n<p class=\"indented\">(a)\tsubmit Registration Information to CIRA upon request,\nand ensure at all times that the Registration Information is true, complete\nand accurate;<\/p>\n<p class=\"indented\">(b)\tpromptly give notice to the Registrar of Record (for\ncommunication to CIRA), of any change to any Registration Information;<\/p>\n<p class=\"indented\">(c)\tcomply with and observe all Applicable Laws;<\/p>\n<p class=\"indented\">(d)\timmediately give notice to CIRA of any pending or\nthreatened claim, demand, action, cause of action, proceeding, lawsuit,\ninvestigation or application (collectively a &ldquo;<b>Claim<\/b>&rdquo;) in\nrelation to any Domain Name Registration (or any judicial requests or orders\nto produce documents or information obtained from or supplied to the Registry)\nthat became known to the Registrant;<\/p>\n<p class=\"indented\">(e) \tnot engage in any direct or indirect activity\nwhich, in CIRA&rsquo;s reasonable opinion, is designed to bring, or may bring,\nthe Registry into disrepute, is designed to interfere, or may interfere, with\nCIRA&rsquo;s operations or is designed to expose, or may expose, CIRA to\nprosecution or to legal action by the Registrant or a third party;<\/p>\n<p class=\"indented\">(f)\tact in good faith towards CIRA;<\/p>\n<p class=\"indented\">(g)\tnot allow any third party to use or operate any Domain\nName Registration registered in the name of the Registrant and not register\nany Domain Name as agent for, or on behalf of, any third party in any manner\nwhatsoever, including without limiting the generality of the foregoing, for\nthe purposes of lending, leasing, licensing or otherwise granting rights in\nsuch Domain Name Registration to any third party for monetary or non-monetary\nconsideration, unless such third party: (i) otherwise qualifies under the\napplicable Registry PRP including without limitation CIRA&rsquo;s Canadian\nPresence for Registrants which is located on CIRA&rsquo;s website at www.cira.ca\/assets\/Documents\/Legal\/Registrants\/CPR.pdf; or\n(ii) is an Affiliate of the Registrant. For this purpose, &ldquo;<b>third\nparty<\/b>&rdquo; means any Person other than CIRA and the Registrant.<\/p>\n<p class=\"indented\">(h)\tbe wholly responsible for the use and operation of any\nthird, fourth, or further sub-level domain to any second level Domain Name\nRegistration in the Registrant&rsquo;s name and the Registrant shall ensure\nthat the use and operation of any such sublevel domain is conducted in\ncompliance with this Agreement and the Registry PRP;\n<p class=\"indented\">(i)\tnot use any trade-mark, trade-name or symbol of CIRA\nor any trade-mark, trade-name or symbol likely to be confused therewith;\nand<\/p>\n<p class=\"indented\">(j) \tbe wholly responsible for taking, or ensuring\nthat the  Registrar of Record deletes a Domain Name Registration during the\nAuto-Renew Grace Period, as such term is defined in the General\nRegistration Rules, if the Registrant does not wish that the Domain Name\nRegistration be renewed.<\/p>\n\n<p><b>4.2\tNo Conflict.<\/b>  The Registrant shall not enter into any\nagreement with any Registrar or any other person that is inconsistent with, or\nin any way, modifies, affects, overrides, limits, contradicts or cancels the\nterms and conditions of this Agreement and\/or the Registry PRP.  To the extent\nthat the provisions of any such agreement conflict or are inconsistent with\nthe provisions of this Agreement and\/or the Registry PRP, the Registrant\nhereby agrees that the provisions of this Agreement and  Registry PRP shall\nprevail and be binding on the Registrant for the benefit of CIRA.<\/p>\n\n<p align=\"center\"><b>ARTICLE 5\nREGISTRATION INFORMATION<\/b><\/p>\n\n<p><b>5.1\tConsent to Use of Registration Information.<\/b>  The\nRegistrant consents to the collection, use, storage and disclosure of\nRegistration Information, including any personal information of the\nRegistrant, as set out in CIRA&rsquo;s Privacy Policy, which is located\non CIRA&rsquo;s website at:  www.cira.ca\/assets\/Documents\/Legal\/Registrants\/privacy.pdf.<\/p>\n\n<p><b>5.2\tDisclosure Procedure.<\/b>  For any Registration Information\nwhich is not made available in the WHOIS database, the Registrant acknowledges\nand agrees that: (a) such information will be maintained in the CIRA Registry\nand may be used and disclosed by CIRA as permitted herein and\/or in the\nRegistry PRP; and (b) CIRA shall have no liability for any claim, damage, loss\nor expense arising as a result of the disclosure of Registrant Information as\npermitted herein and\/or the Registry PRP.<\/p>\n\n<p><b>5.3\tThird Party Correspondence.<\/b>  The Registrant acknowledges\nand agrees that CIRA may forward to the Registrant any correspondence from\nthird parties and may exercise its discretion to refuse to forward such\ncorrespondence.  The Registrant agrees that CIRA shall have no liability for\nany claim, damage, loss or expense arising as a result of CIRA reviewing,\nsending, delaying or failing to review or send any such correspondence to the\nRegistrant.  The Registrant further acknowledges and agrees that CIRA has no\ncontrol over the content of information that may be sent to the Registrant via\nCIRA and that CIRA shall have no liability for any claim, damage, loss or\nexpense arising as a result of any such content.<\/p>\n\n<p><b>5.4\tWHOIS.<\/b>  The Registrant acknowledges and agrees that CIRA\nhas no control over how any person uses the information disclosed by CIRA\nthrough the WHOIS database, whether or not the information is subject to\ndomestic or foreign privacy laws.<\/p>\n\n<p align=\"center\"><b>ARTICLE 6\nREGISTRANT REPRESENTATIONS AND WARRANTIES<\/b><\/p>\n\n<p><b>6.1\tRepresentations and Warranties.<\/b>  The Registrant covenants,\nrepresents and warrants to CIRA as follows:<\/p>\n\n<p class=\"indented\">(a)\t<b>Authorization.<\/b> The Registrant has the power,\nauthority and capacity to enter into this Agreement and all other documents\nand instruments contemplated by this Agreement and to carry out its\nobligations under this Agreement and such other documents and instruments.<\/p>\n<p class=\"indented\">(b)\t<b>Registration Information.<\/b>  During the Term of\nthis Agreement, all Registration Information is and at all times shall be\ntrue, complete and accurate and not misleading.<\/p>\n<p class=\"indented\">(c)\t<b>No Infringement.<\/b>  During the Term of this\nAgreement, neither the registration of any Domain Name nor the manner in which\nthe Registrant intends to use or uses such Domain Name will directly or\nindirectly infringe or otherwise violate the copyright, trade-mark, patent or\nother intellectual property or other rights of any person or defame any person\nor unlawfully discriminate against any person or breach any Applicable\nLaws.<\/p>\n<p class=\"indented\">(d)\t<b>Qualification.<\/b>  During the Term of this\nAgreement, the Registrant meets and shall continue to meet all the\nrequirements of this Agreement and the Registry PRP to: (a) be a Registrant,\n(b) apply for the registration of a Domain Name Registration, and (c) hold and\nmaintain a Domain Name Registration, including without limitation CIRA&rsquo;s\nCanadian Presence Requirements for Registrants, which is located on\nCIRA&rsquo;s website at: www.cira.ca\/assets\/Documents\/Legal\/Registrants\/CPR.pdf.<\/p>\n\n<p><b>6.2\tSurvival.<\/b>  The Registrant acknowledges and agrees that the\nlimitations on warranties, conditions and liabilities, and the representations\nand warranties of the Registrant contained herein shall forever survive the\nexpiry or termination of this Agreement or any suspension or deletion of any\nDomain Name Registration. <\/p>\n\n<p align=\"center\"><b>ARTICLE 7\nTERM; RIGHTS AND REMEDIES OF CIRA<\/b><\/p>\n\n<p><b>7.1\tTerm.<\/b>  The term of this Agreement (the\n&ldquo;<b>Term<\/b>&rdquo;) shall commence effective upon the date that the\nRegistrant enters into this Agreement with CIRA and shall continue in force\nuntil terminated as set out herein.<\/p>\n\n<p><b>7.2\tRestrictions on Domain Name Registrations.<\/b>  CIRA may, in\naccordance with this Agreement, the Registry PRP or, in its sole discretion\nand at its sole option, restrict the Registrant&rsquo;s ability to renew,\ntransfer, modify, or delete any or all of the Registrant&rsquo;s Domain Name\nRegistrations.<\/p>\n\n<p><b>7.3\tSuspension and\/or Deletion of Domain Name Registrations.<\/b>\nCIRA may, in its sole discretion and at its sole option, upon notice to the\nRegistrant suspend and\/or delete a Domain Name Registration within 30 days of\nthe registration of the Domain Name for any reason whatsoever.  CIRA may also,\nin its sole discretion and at its sole option, upon notice to the Registrant\nsuspend and\/or delete a Domain Name Registration in the event that:<\/p>\n\n<p class=\"indented\">(a)\tthe Registration Information concerning such Domain\nName Registration contains false, misleading, incomplete, and\/or inaccurate\ninformation;<\/p>\n<p class=\"indented\">(b) \tthe  Registrar of Record fails to pay to CIRA\nwhen due any Fees payable by the  Registrar of Record to CIRA with respect to\na Domain Name Registration for any reason whatsoever;<\/p>\n<p class=\"indented\">(c) \tthe Registrant breaches any term of this\nAgreement or any of the Registry PRP;<\/p>\n<p class=\"indented\">(d) \tthe Registrant at any time fails to meet all\nof the requirements of this Agreement and\/or the Registry PRP to: (a) be a\nRegistrant, (b) apply for the registration of a Domain Name Registration,\nand\/or (c) hold and maintain a Domain Name Registration, including without\nlimitation CIRA&rsquo;s Canadian Presence Requirements for Registrants,\nwhich is located on CIRA&rsquo;s website at:   www.cira.ca\/assets\/Documents\/Legal\/Registrants\/CPR.pdf;<\/p>\n<p class=\"indented\">(e) \tthe Registrant  engages in any direct or\nindirect activity which in CIRA&rsquo;s reasonable opinion: (1) brings, or may\nbring, the Registry into disrepute; (2) interferes, or may interfere, with the\nRegistry and\/or CIRA&rsquo;s operations; and\/or (3) exposes, or may expose,\nCIRA to prosecution or to legal action by the Registrant or a third party;<\/p>\n<p class=\"indented\">(f) \tmaintaining the Domain Name Registration would\nput CIRA in conflict with requirements of Applicable Laws, or any applicable\nfederal, provincial or territorial human rights legislation or the Criminal\nCode (Canada), or the terms of an order, ruling, decision or judgment of a\ncourt, tribunal, board, administrative body, commission or arbitrator;<\/p>\n<p class=\"indented\">(g)\tthe deletion, transfer or suspension of a Domain Name\nRegistration is required by an order or decision under CIRA&rsquo;s Domain\nName Dispute Resolution Policy or an order, ruling, decision or judgment of a\ncourt, tribunal, board, administrative body, commission or arbitrator; or<\/p>\n<p class=\"indented\">(h) \tthe designation by the government of Canada of\nCIRA to manage, operate and control the Registry is terminated or CIRA is no\nlonger recognized at the international level as having the exclusive authority\nto operate the Registry.<\/p>\n\n<p><b>7.4\tSuspension and\/or Deletion by CIRA.<\/b>  In addition to\nCIRA&rsquo;s other rights and remedies herein, CIRA may at its sole discretion\nand at its sole option suspend and\/or delete any Domain Name Registration that\nit deems necessary to (1) protect the integrity and stability of the registry;\n(2) to comply with any applicable laws, government rules or requirements,\nrequests of law enforcement, or any dispute resolution process; (3) to avoid\nany liability, civil or criminal, on the part of CIRA, as well as its\nofficers, directors, and employees; or (4) to correct mistakes made by CIRA or\nany Registrar in connection with a Domain Name Registration.<\/p>\n\n<p><b>7.5\tSuspension and Deletion for Failure to Confirm Registration\nInformation.<\/b>  CIRA may in its sole discretion and at its sole option\nimmediately suspend a Domain Name Registration for failure by the Registrant\nto satisfactorily confirm the truth, accuracy and\/or completeness of\nRegistration Information upon CIRA&rsquo;s request.  During the period of\nsuspension as prescribed by CIRA, the Registrant may at any time reactivate\nthe suspended Domain Name Registration by satisfactorily confirming or\ncorrecting the Registration Information.  If a Registrant fails to confirm the\nRegistration Information in accordance with the Registry PRP within the period\nof suspension prescribed by CIRA, CIRA may, in its sole discretion, delete the\nDomain Name Registration.<\/p>\n\n<p><b>7.6\tEffect of Suspension.<\/b>  During any period in which a Domain\nName Registration has been suspended pursuant to the provisions of this\nAgreement or the Registry PRP:<\/p>\n\n<p class=\"indented\">(a)\tthe Domain Name Registration will not be included in\nthe list of Domain Name Registrations transferred on a daily basis to the\nRegistry&rsquo;s primary domain name server and accordingly, an Internet user\nwill not be able to send an email or access a web page which incorporates such\nDomain Name Registration;<\/p>\n<p class=\"indented\">(b)\tno transactions or activities associated with the\nDomain Name Registration and\/or information concerning the Domain Name\nRegistration will be possible, including without limitation, renewals,\ntransfers, deletions, modifications or other requests or transactions;<\/p>\n<p class=\"indented\">(c)\tCIRA will continue to list such suspended Domain Name\nRegistration in the WHOIS look up system of the Registry and the WHOIS look up\nsystem will indicate that the Domain Name Registration has been suspended;<\/p>\n<p class=\"indented\">(d)\tCIRA may reactivate the suspended Domain Name\nRegistration at any time in its sole discretion; and<\/p>\n<p class=\"indented\">(e)\tCIRA may extend the period of suspension at any time\nfor such period as CIRA may determine in its sole discretion.<\/p>\n\n<p><b>7.7\tEffect of Deletion of a Domain Name Registration.<\/b>  Upon\nthe deletion by CIRA of a Domain Name Registration for any reason pursuant to\nthis Agreement:<\/p>\n\n<p class=\"indented\">(a)\tthe Registrant will no longer be entitled to the use\nof such Domain Name Registration and accordingly, an Internet user will not be\nable to send an email or access a web page which incorporates such Domain Name\nRegistration;<\/p>\n<p class=\"indented\">(b)\tthe Domain Name Registration will be deleted from the\nRegistry and will be available for registration in the name of another\nperson;<\/p>\n<p class=\"indented\">(c)\tCIRA will list the deleted Domain Name Registration as\navailable in its WHOIS look up system; and<\/p>\n<p class=\"indented\">(d)\tif the Registrant is a Member, the Registrant will\ncease being a Member forthwith after deletion of the Domain Name Registration,\nunless the Registrant has at least one other Domain Name Registration.<\/p>\n\n<p><b>7.8\tProhibition on New Registrations.<\/b>  CIRA, in its sole\ndiscretion, shall have the right to refuse any Registration Request from an\nApplicant if the Applicant previously had a Registrant Agreement terminated by\nCIRA.<\/p>\n\n<p><b>7.9     Termination of Agreement by CIRA.<\/b> CIRA may, in its sole\ndiscretion and at its sole option, terminate this Agreement by giving notice\nthereof to the Registrant (such termination to be effective on the date\nspecified by CIRA in the notice) in the event that:<\/p>\n\n<p class=\"indented\">(a)\tthe Registrant breaches any term of this Agreement or\nany of the  Registry PRP, other than as set forth in Sections 7.8(b) through\n(g), and fails to cure that breach within 10 days of receipt of notice from\nCIRA;<\/p>\n<p class=\"indented\">(b)\tthe Registrant disrupts or abuses CIRA&rsquo;s\nregistry services as determined by CIRA in its sole discretion, acting\nreasonably;<\/p>\n<p class=\"indented\">(c)\tall of the Domain Name Registrations registered in the\nname of the Registrant have been deleted or have expired;<\/p>\n<p class=\"indented\">(d)\tthe designation by the government of Canada of CIRA to\nmanage, operate and control the Registry is terminated or CIRA is no longer\nrecognized at the international level as having the exclusive authority to\noperate the Registry;<\/p>\n<p class=\"indented\">(e)\tthe Registrant files, or consents to the filing\nagainst it of, any petition for relief, reorganization or liquidation under\nany bankruptcy or insolvency law of any jurisdiction, or has any such petition\nfiled against it that is not dismissed within 30 days thereafter;<\/p>\n<p class=\"indented\">(f)\tthe Registrant makes a general assignment for the\nbenefit of its creditors, or consents to the appointment of a custodian,\nreceiver, trustee or other officer with similar powers over a substantial\nportion of its assets, or has any proceeding seeking such an appointment filed\nagainst it;<\/p>\n<p class=\"indented\">(g)\tan execution or any other process of any court shall\nbecome enforceable against the Registrant; and\/or<\/p>\n<p class=\"indented\">(h)\tthe Registrant ceases to carry on business in the\nnormal course, dissolves or is wound up, or ceases to exist as the Person\nlisted in the Registry.<\/p>\n\n<p><b>7.10\tTermination by Registrant.<\/b>  The Registrant shall be\nentitled (either directly or through the Registrar of Record) to terminate\nthis Agreement at any time by giving 30 days notice to CIRA.  The Registrant\nunderstands and agrees that there shall be no refund of any Fees in such\nevent.<\/p>\n\n<p><b>7.11\tEffect of Termination of Agreement.<\/b>  Upon termination of\nthis Agreement for any reason: (a) all Domain Name Registrations in the name\nof the Registrant shall be immediately and automatically deleted and they\nshall be made available for any other person to register; (b) in the case of a\nRegistrant who is a Member, the immediate and automatic termination of the\nRegistrant&rsquo;s Membership in CIRA; and (c) Sections 5.1, 6, 7.9, 8, 9 and\n10 of this Agreement shall survive.<\/p>\n\n<p align=\"center\"><b>ARTICLE 8\nLIMITATIONS ON WARRANTIES, CONDITIONS, LIABILITY; INDEMNIFICATION<\/b><\/p>\n\n<p><b>8.1\tEXCLUSION OF REPRESENTATIONS, WARRANTIES AND CONDITIONS.<\/b>\nTHE REGISTRANT EXPRESSLY UNDERSTANDS AND AGREES THAT:<\/p>\n<p class=\"indented\">ALL SERVICES PROVIDED BY CIRA, INCLUDING WITHOUT\nLIMITATION, THE PROVISION OF DOMAIN NAME REGISTRATIONS\n(&ldquo;SERVICES&rdquo;), ARE PROVIDED ON AN &ldquo;AS IS&rdquo; AND &ldquo;AS\nAVAILABLE&rdquo; BASIS. CIRA MAKES NO REPRESENTATIONS, WARRANTIES OR\nCONDITIONS OF ANY KIND, WHETHER ORAL OR WRITTEN, EXPRESS OR IMPLIED, STATUTORY\nOR OTHERWISE REGARDING THE SERVICES, INCLUDING, WITHOUT LIMITATION, ANY\nWARRANTY OR CONDITION OF MERCHANTABLE QUALITY OR FITNESS FOR A PARTICULAR\nPURPOSE OR NON-INFRINGEMENT.<p>\n\n<p>WITHOUT LIMITING THE FOREGOING, CIRA MAKES NO WARRANTY:<\/p>\n\n<p>THAT THE REGISTRY WILL BE AVAILABLE AT ALL TIMES DURING THE TERM;<\/p>\n<p>THAT THE SERVICES WILL BE TIMELY, SECURE OR ERROR FREE;<\/p>\n<p>THAT THE SERVICES WILL BE FREE FROM BUGS OR VIRUSES;<\/p>\n<p>WITH RESPECT TO THE ACCESSIBILITY, COMPATIBILITY OR INTEROPERABILITY OF\nTHE REGISTRY OR THE SYSTEMS ACCESSED BY THE REGISTRAR(S) OF RECORD AND\/OR THE\nREGISTRANT; OR<\/p>\n<p>WITH RESPECT TO THE SECURITY OF THE REGISTRY OR ANY SYSTEMS ACCESSED BY\nTHE REGISTRAR(S) OF RECORD AND\/OR THE REGISTRANT.<\/p>\n\n\n<p><b>8.2 \tLIMITATION OF LIABILITY.<\/b>  NOTWITHSTANDING ANY PROVISION OF\nTHIS AGREEMENT TO THE CONTRARY, REGARDLESS OF THE FORM OR CAUSE OF ACTION\nWHETHER IN CONTRACT OR TORT OR THE NUMBER OF CLAIMS, WHETHER OR NOT SUCH\nDAMAGES ARE FORESEEABLE OR CIRA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH\nDAMAGES, AND WHETHER IN RESPECT OF A BREACH OR DEFAULT IN THE NATURE OF A\nBREACH OF CONDITION OR FUNDAMENTAL TERM OR A FUNDAMENTAL BREACH:\n\n<p class=\"indented\">(A)\tCIRA AND ITS DIRECTORS, OFFICERS, EMPLOYEES, AGENTS OR\nREPRESENTATIVES SHALL NOT HAVE ANY LIABILITY TO THE REGISTRANT FOR ANY\nECONOMIC, CONSEQUENTIAL, INDIRECT, INCIDENTAL OR SPECIAL DAMAGES (INCLUDING,\nBUT NOT LIMITED TO, ANY LOST REVENUES OR PROFITS) ARISING OUT OF OR RELATED TO\nTHIS AGREEMENT, AND<\/p>\n<p class=\"indented\">(B) CIRA&rsquo;S ENTIRE LIABILITY FOR ANY CLAIM ARISING\nOUT OF OR RELATED TO THIS AGREEMENT (OTHER THAN LIABILITY FOR DEATH OR\nPERSONAL INJURY CLAIMS) SHALL  BE LIMITED TO ACTUAL, DIRECT, PROVABLE DAMAGES\nNOT TO EXCEED THE AMOUNT RECEIVED BY CIRA FROM THE  REGISTRAR OF RECORD FOR\nTHE DOMAIN NAME REGISTRATION THAT IS THE SUBJECT OF SUCH CLAIM.<\/p>\n\n<p>FOR GREATER CERTAINTY, AND WITHOUT LIMITING THE GENERALITY OF THE\nFOREGOING, THIS EXCLUSION OF LIABILITY SHALL APPLY TO ANY COSTS, LOSSES OR\nDAMAGES OF ANY KIND WHATSOEVER ARISING FROM OR RELATED TO ACCESS DELAYS OR\nINTERRUPTIONS TO THE REGISTRY, CIRA&rsquo;S WEBSITE, ANY PRODUCT, SERVICE OR\nOPERATION (INCLUDING BUT NOT LIMITED TO E-MAIL AND VOIP) RELYING ON THE PROPER\nFUNCTION OF THE .CA DOMAIN, THE REGISTRANT&rsquo;S WEBSITE, OR THE DOMAIN NAME\nREGISTRATION SYSTEM; ISSUES WITH THE DNS (&ldquo;DOMAIN NAME SYSTEM&rdquo;);\nUNAUTHORIZED USE OR MISUSE OF THE REGISTRATION INFORMATION; OR CIRA&rsquo;S\nFAILURE OR REFUSAL TO REGISTER, RENEW, TRANSFER, MAINTAIN, MODIFY OR DELETE A\nDOMAIN NAME REGISTRATION. THE REGISTRANT ALSO AGREES TO BE BOUND BY THE\nLIMITATION OF LIABILITY CLAUSE IN THE CIRA DOMAIN NAME DISPUTE RESOLUTION\nPOLICY.<\/p>\n\n<p><b>8.3\tIndemnity.<\/b><\/p>\n<p class=\"indented\">(a)\tThe Registrant agrees to defend, indemnify and save\nCIRA and its contractors, agents, employees, officers, directors, Members,\naffiliates and assigns harmless from and against any and all damages,\nliabilities, obligations, losses, claims, demands, actions, causes of action,\nlawsuits, penalties, costs and expenses (including, without limitation,\nreasonable legal and other related costs) arising out of or in any way\nconnected with the Registrant&rsquo;s use of the Services, including without\nlimitation the Registrant&rsquo;s use of any Domain Name Registration, the\nRegistrant&rsquo;s violation of the Registrant Agreement or Registry PRP, or\nthe Registrant&rsquo;s violation of any rights of another person.<\/p>\n<p class=\"indented\">(b)\tIf a Claim is made, or CIRA believes a Claim is\nlikely, CIRA may seek written assurances from the Registrant concerning their\nobligation to indemnify CIRA.  The Registrant acknowledges and agrees that its\nfailure to provide those assurances may be considered by CIRA to be a material\nbreach of this Agreement.<\/p>\n<p class=\"indented\">(c)\tCIRA shall have the right to participate in any\ndefence by the Registrant of a third-party claim, with counsel of CIRA&rsquo;s\nchoice at CIRA&rsquo;s own expense. CIRA shall reasonably cooperate in the\ndefence at the Registrant&rsquo;s request and expense. The Registrant must\nreceive CIRA&rsquo;s prior written consent regarding any related settlement of\na Claim.<\/p>\n\n<p align=\"center\"><b>ARTICLE 9\nLEGAL RELATIONSHIP<\/b><\/p>\n\n<p><b>9.1\tIndependent Contractors.<\/b>  The legal relationship between\nCIRA and the Registrant and CIRA and each Registrar of Record is that of\nindependent contractors.  Under no circumstances shall this Agreement be\nconstrued to create a partnership, agency or joint venture between CIRA and\nthe Registrant or CIRA and any Registrar(s) of Record.<\/p>\n\n<p><b>9.2\tNo Agency.<\/b> Neither party shall have any right, power or\nauthority to act on behalf of the other party and neither party shall create\nany express or implied obligations or financial commitments on behalf of the\nother party.<\/p>\n\n<p><b>9.3\tRegistrant Bound as a Principal.<\/b>  The Registrant agrees\nthat the Registrant is bound as a principal by all of the terms and conditions\nof this Agreement, and the Registry PRP, notwithstanding that the Registrar of\nRecord and\/or an agent of the Registrant applied for the registration of the\nRegistrant&rsquo;s selected Domain Name(s) on behalf of the Registrant.  The\ncontinued registration of the Registrant&rsquo;s Domain Name Registrations\nshall ratify any unauthorized actions of the Registrar of Record and any such\nagent.  In addition, the Registrant is responsible for any errors made by the\nRegistrar of Record or any such agent.<\/b>\n\n<p align=\"center\"><b>ARTICLE 10\nGENERAL TERMS<\/b><\/p>\n\n<p><b>10.1\tNotices.<\/b>  Any notice or other communication provided\nhereunder shall be in writing.  Notices from CIRA to the Registrant shall be\nsent only by email to the email addresses listed in the Registration\nInformation for the Registrant and\/or the Registrant&rsquo;s Administrative\nContact, and will be deemed to have been given and received on the date on\nwhich they are sent.  Notices from the Registrant to CIRA shall be sent by:\n(a) personal delivery, (b) courier, or (c) confirmed facsimile transmission,\naddressed to: General Counsel, CIRA 350 Sparks Street, Suite 306, Ottawa,\nOntario K1R 7S8 and shall be effective on the earlier of: (i) confirmation of\nreceipt or (ii) three days after the date of posting or transmission.<\/p>\n\n<p><b>10.2\tTime of Essence.<\/b>  Time is of the essence in this\nAgreement.<\/p>\n\n<p><b>10.3\tFurther Assurances.<\/b>  Each party will promptly do, execute,\ndeliver or cause to be done, executed and delivered all further acts,\ndocuments and things in connection with this Agreement that the other party\nmay reasonably require, for the purposes of giving effect to this\nAgreement.<\/p>\n\n<p><b>10.4\tSuccessors and Assigns.<\/b>  This Agreement will enure to the\nbenefit of, and be binding on, the parties and their respective\nadministrators, executors or other legal representatives, successors and\npermitted and qualified assigns. CIRA may assign or transfer all or any part\nof its rights and obligations under this Agreement to any person The\nRegistrant shall not assign or transfer, whether absolutely, by way of\nsecurity or otherwise, all or any part of its rights or obligations under this\nAgreement without the prior written consent of CIRA, which consent shall be in\nCIRA&rsquo;s sole discretion. Any such purported assignment or transfer, or\nattempt to so assign and transfer without CIRA&rsquo;s prior written consent,\nshall be of no force and effect.<\/p>\n\n<p><b>10.5\tEntire Agreement.<\/b>  This Agreement (including the Registry\nPRP which are incorporated by reference herein) constitutes the entire\nagreement between the parties pertaining to the subject matter of this\nAgreement and supersedes all prior agreements, understandings, negotiations\nand discussions, whether oral or written.  There are no conditions,\nwarranties, representations or other agreements between the parties in\nconnection with the subject matter of this Agreement (whether oral or written,\nexpress or implied, statutory or otherwise) except as specifically set out in\nthis Agreement.<\/p>\n\n<p><b>10.6\tWaiver.<\/b>  A waiver of any default, breach or non-compliance\nunder this Agreement is not effective unless in writing and signed by the\nparty to be bound by the waiver.  No waiver will be inferred from or implied\nby any failure to act or delay in acting by a party in respect of any default,\nbreach or non-observance or by anything done or omitted to be done by the\nother party.  The waiver by a party of any default, breach or non-compliance\nunder this Agreement will not operate as a waiver of that party&rsquo;s rights\nunder this Agreement in respect of any continuing or subsequent default,\nbreach or non-observance (whether of the same or any other nature).<\/p>\n\n<p><b>10.7\tSeverability.<\/b>  Any provision of this Agreement which is\nprohibited or unenforceable in any jurisdiction will, as to that jurisdiction,\nbe ineffective to the extent of such prohibition or unenforceability and will\nbe severed from the balance of this Agreement, all without affecting the\nremaining provisions of this Agreement or affecting the validity or\nenforceability of such provision in any other jurisdiction.<\/p>\n\n<p><b>10.8\tGoverning Law; Attornment.<\/b>  This Agreement will be\ngoverned by and construed in accordance with the laws of the Province of\nOntario and the laws of Canada applicable in that Province and will be\ntreated, in all respects, as an Ontario contract.  The Registrant agrees to\nsubmit to the personal and exclusive jurisdiction of a court of competent\njurisdiction in the City of Ottawa in the Province of Ontario.<\/p>\n\n<p><b>10.9\tForce Majeure.<\/b>  Neither party shall be deemed to be in\ndefault hereunder for any delay or failure to perform its obligations under\nthis Agreement resulting from causes beyond its reasonable control. Each party\nwill use its best efforts to anticipate such delays and failures, and to\ndevise means to eliminate or minimize them.<\/p>\n\n<p><b>10.10\tRemedies Cumulative.<\/b>  The rights and remedies of CIRA\nunder this Agreement are cumulative and no exercise or enforcement by CIRA of\nany right or remedy hereunder shall preclude the exercise or enforcement by\nCIRA of any other right or remedy hereunder or to which it is otherwise\nentitled by law to enforce.<\/p>\n\n<p><b>10.11\tLanguage.<\/b>  The parties to this Agreement have required\nthat this Agreement and all deeds, documents and notices relating to this\nAgreement, be drawn up in the English language. Les parties aux\npr&eacute;sentes ont exig&eacute; que le pr&eacute;sent contrat et tous autres\ncontrats, documents ou avis aff&eacute;rents aux pr&eacute;sentes soient\nr&eacute;dig&eacute;s en langue anglaise.<\/p>\n\n\n",
+            "category": "",
+            "product_id": "288",
+            "copy_of": "434",
+            "options": "3",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "2",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "1014",
+                    "category_id": "434",
+                    "name": "YES accept",
+                    "variable_id": "y",
+                    "copy_of": "1014"
+                }
+            ]
+        },
+        {
+            "id": "435",
+            "type": "radio",
+            "required": "0",
+            "name": "Registrant Agreement Version",
+            "key": "",
+            "variable": "AgreementVersion",
+            "description": "",
+            "category": "",
+            "product_id": "288",
+            "copy_of": "435",
+            "options": "5",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "3",
+            "group_id": "0",
+            "ftype": "radio",
+            "premade": true,
+            "items": [
+                {
+                    "id": "1015",
+                    "category_id": "435",
+                    "name": "2.0",
+                    "variable_id": "2.0",
+                    "copy_of": "1015"
+                }
+            ]
+        },
+        {
+            "id": "1623",
+            "type": "checkbox",
+            "required": "0",
+            "name": "Lock Domain",
+            "key": "",
+            "variable": "lock_domain",
+            "description": "Registrar: srsplus Read Only",
+            "category": "",
+            "product_id": "288",
+            "copy_of": "1623",
+            "options": "4",
+            "config": {
+                "minvalue": "",
+                "maxvalue": "99999"
+            },
+            "sort_order": "4",
+            "group_id": "0",
+            "ftype": "checkbox",
+            "premade": true,
+            "items": [
+                {
+                    "id": "4520",
+                    "category_id": "1623",
+                    "name": "Yes",
+                    "variable_id": "1",
+                    "copy_of": "4520"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

@@ -1,0 +1,2 @@
+REPLACE INTO `hb_language_locales` (`language_id`,`section`,`keyword`,`value`)
+SELECT id, 'tickets', 'encryptedreplybody','This reply contained sensitive data, auto-removed on ticket close on %s' FROM hb_language;

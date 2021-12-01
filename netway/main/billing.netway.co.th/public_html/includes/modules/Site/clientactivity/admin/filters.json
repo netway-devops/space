@@ -1,0 +1,18 @@
+{
+  "lastname": {
+    "lang": "clientname",
+    "type": "input"
+  },
+  "admin_name": {
+    "lang": "Logged staff",
+    "type": "input"
+  },
+  "description": {
+    "lang": "Action",
+    "type": "input"
+  },
+  "ip": {
+    "lang": "IP",
+    "type": "input"
+  }
+}

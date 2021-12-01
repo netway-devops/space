@@ -1,0 +1,514 @@
+---
+name: 1 Fully configured product
+description: Package containing full configuration (disks, processors, network config etc)
+items:
+  -
+    name: Intel Xeon
+    paytype: Regular
+    m: 329.00
+    autosetup: 2
+    description: 'Ram: 2GB<br/>Storage: 250GB<br/>Bandwidth: 5TB'
+    domain_options: 0
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 10
+      AutoSuspensionPeriod: 1
+      EnableAutoSuspension: on
+      SendPaymentReminderEmails: on
+    customs:
+      -
+        name: RAM
+        key: cf_memory
+        variable: ram
+        type: select
+        description:
+        category: server
+        options: 2
+        items:
+          -
+            name: 2GB DDR2
+          -
+            name: 3GB DDR2
+            m: 10.00
+            pricing: 1
+          -
+            name: 4GB DDR2
+            m: 15.00
+            pricing: 1
+          -
+            name: 5GB DDR2
+            m: 25.00
+            pricing: 1
+          -
+            name: 6GB DDR2
+            m: 35.00
+            pricing: 1
+          -
+            name: 7GB DDR2
+            m: 45.00
+            pricing: 1
+          -
+            name: 8GB DDR2
+            m: 55.00
+            pricing: 1
+      -
+
+        name: Operating System
+        key: cf_os
+        variable: os
+        type: select
+        description:
+        category: software
+        options: 2
+        items:
+          -
+            name: 'Cent Os 5 - 32 Bit'
+          -
+            name: 'Cent Os 5 - 64 Bit'
+          -
+            name: 'Cent Os 4 - 32 Bit'
+          -
+            name: 'Cent Os 4 - 64 Bit'
+          -
+            name: 'Ubuntu 10.04 - 32 Bit'
+          -
+            name: 'Ubuntu 10.04 - 64 Bit'
+          -
+            name: 'Ubuntu 9.10 - 32 Bit'
+          -
+            name: 'Ubuntu 9.10 - 64 Bit'
+          -
+            name: 'Ubuntu 9.04 - 32 Bit'
+          -
+            name: 'Ubuntu 9.04 - 64 Bit'
+          -
+            name: 'Debian 6 - 32 Bit'
+          -
+            name: 'Debian 6 - 64 Bit'
+          -
+            name: 'Debian 5 - 32 Bit'
+          -
+            name: 'Debian 5 - 64 Bit'
+          -
+            name: 'Fedora Core 13 - 32 Bit'
+          -
+            name: 'Fedora Core 13 - 64 Bit'
+          -
+            name: 'Fedora Core 12 - 32 Bit'
+          -
+            name: 'Fedora Core 12 - 64 Bit'
+          -
+            name: 'FreeBSD 8 - 32 Bit'
+          -
+            name: 'FreeBSD 8 - 64 Bit'
+          -
+            name: 'FreeBSD 7 - 32 Bit'
+          -
+            name: 'FreeBSD 7 - 64 Bit'
+          -
+            name: 'Xen Server 5 - 64 Bit'
+          -
+            name: 'VMware ESXi 4 - 64 Bit'
+          -
+            name: 'VMware ESXi 3.5 - 32 Bit'
+          -
+            name: 'Windows 2008 - Web Edition 32 Bit'
+            pricing: 1
+            m: 25.00
+          -
+            name: 'Windows 2008 - Web Edition 64 Bit'
+            pricing: 1
+            m: 25.00
+          -
+            name: 'Windows 2008 - Standard Edition 32 Bit'
+            pricing: 1
+            m: 35.00
+          -
+            name: 'Windows 2008 - Standard Edition 64 Bit'
+            pricing: 1
+            m: 35.00
+          -
+            name: 'Windows 2008 - Enterprise Edition 32 Bit'
+            pricing: 1
+            m: 45.00
+          -
+            name: 'Windows 2008 - Enterprise Edition 64 Bit'
+            pricing: 1
+            m: 45.00
+          -
+            name: 'Windows 2008 - Data Center Edition 32 Bit'
+            pricing: 1
+            m: 85.00
+          -
+            name: 'Windows 2008 - Data Center Edition 64 Bit'
+            pricing: 1
+            m: 85.00
+          -
+            name: 'Windows 2003 - Web Edition 32 Bit'
+            pricing: 1
+            m: 25.00
+          -
+            name: 'Windows 2003 - Standard Edition 32 Bit'
+            pricing: 1
+            m: 35.00
+          -
+            name: 'Windows 2003 - Standard Edition 64 Bit'
+            pricing: 1
+            m: 35.00
+          -
+            name: 'Windows 2003 - Enterprise Edition 32 Bit'
+            pricing: 1
+            m: 45.00
+          -
+            name: 'Windows 2003 - Enterprise Edition 64 Bit'
+            pricing: 1
+            m: 45.00
+          -
+            name: 'Windows 2003 - Data Center Edition 32 Bit'
+            pricing: 1
+            m: 85.00
+          -
+            name: 'Windows 2003 - Data Center Edition 64 Bit'
+            pricing: 1
+            m: 85.00
+      -
+        name: Control Panel
+        key: cf_cp
+        variable: controlpanel
+        type: select
+        description:
+        category: software
+        options: 2
+        items:
+          -
+            name: None
+          -
+            name: 'Direct Admin - Unlimited Domains (Linux Only)'
+            m: 13.00
+            pricing: 1
+          -
+            name: 'cPanel/WHM - Unlimited Domains (Linux Only)'
+            m: 26.00
+            pricing: 1
+          -
+            name: 'Plesk - 100 Domains'
+            m: 26.00
+            pricing: 1
+          -
+            name: 'Plesk - Unlimited Domains '
+            m: 39.00
+            pricing: 1
+          -
+            name: 'OpenVZ - Unlimited License (Linux Only)'
+          -
+            name: 'vePortal - 5 VPS / VE License (CentOs)'
+            m: 8.00
+            pricing: 1
+          -
+            name: 'vePortal - Unlimited VE / VPS License (CentOS)'
+            m: 13.00
+            pricing: 1
+      -
+        name: Bandwidth
+        key: cf_bandwidth
+        variable: bandwidth
+        type: select
+        description:
+        category: network
+        options: 2
+        items:
+          -
+            name: '5 TB/Month Standard - 100 Mbps Port'
+            m:
+          -
+            name: '5 TB/Month Standard - 1 Gbps Port'
+            m: 25.00
+            pricing: 1
+          -
+            name: '10 TB/Month Standard - 100 Mbps Port'
+            m: 25.00
+            pricing: 1
+          -
+            name: '10 TB/Month Standard - 1 Gbps Port'
+            m: 50.00
+            pricing: 1
+          -
+            name: '20 TB/Month Standard - 100 Mbps Port'
+            m: 50.00
+            pricing: 1
+          -
+            name: '20 TB/Month Standard - 1 Gbps Port'
+            m: 75.00
+            pricing: 1
+          -
+            name: '30 TB/Month Standard - 100 Mbps Port'
+            m: 100.00
+            pricing: 1
+          -
+            name: '30 TB/Month Standard - 1 Gbps Port'
+            m: 100.00
+            pricing: 1
+          -
+            name: '40 TB/Month Standard - 100 Mbps Port'
+            m: 250.00
+            pricing: 1
+          -
+            name: '40 TB/Month Standard - 1 Gbps Port'
+            m: 250.00
+            pricing: 1
+          -
+            name: '100 TB/Month Standard - 1 Gbps Port'
+            m: 250.00
+            pricing: 1
+          -
+            name: 10 Mbps Unmetered
+            m: 10.00
+            pricing: 1
+          -
+            name: 100 Mbps Unmetered
+            m: 30.00
+            pricing: 1
+          -
+            name: 1 Gbps Unmetered
+            m: 250.00
+            pricing: 1
+          -
+            name: 10 Mbps Dedicated/Guaranteed
+            m: 25.00
+            pricing: 1
+          -
+            name: 20 Mbps Dedicated/Guaranteed
+            m: 50.00
+            pricing: 1
+          -
+            name: 50 Mbps Dedicated/Guaranteed
+            m: 100.00
+            pricing: 1
+          -
+            name: 100 Mbps Dedicated/Guaranteed
+            m: 200.00
+            pricing: 1
+          -
+            name: 1 Gbps Dedicated / Guaranteed
+            m: 1000.00
+            pricing: 1
+      -
+        name: First Drive
+        key: cf_hdd
+        variable: disk
+        type: select
+        description:
+        category: server
+        options: 2
+        items:
+          -
+            name: 250GB SATA
+          -
+            name: 500GB SATA
+            m: 5.00
+            pricing: 1
+          -
+            name: 1TB SATA
+            m: 15.00
+            pricing: 1
+          -
+            name: 1.5TB SATA
+            m: 25.00
+            pricing: 1
+          -
+            name: 2TB SATA
+            m: 35.00
+            pricing: 1
+          -
+            name: 150 GB Velociraptor SATA 10K RPM
+            m: 20.00
+            pricing: 1
+          -
+            name: 300 GB Velociraptor SATA 10K RPM
+            m: 35.00
+            pricing: 1
+          -
+            name: 600 GB Velociraptor SATA 10K RPM
+            m: 50.00
+            pricing: 1
+          -
+            name: Intel 40GB X25-V SSD
+            m: 20.00
+            pricing: 1
+          -
+            name: Intel 80GB X25-M SSD
+            m: 40.00
+            pricing: 1
+          -
+            name: Intel 32GB X25-E SSD
+            m: 65.00
+            pricing: 1
+          -
+            name: Intel 160GB X25-M SSD
+            m: 80.00
+            pricing: 1
+      -
+        name: Second Drive
+        key: cf_hdd
+        variable: disk2
+        type: select
+        description:
+        category: server
+        options: 2
+        items:
+          -
+            name: None
+          -
+            name: 500GB SATA
+            m: 5.00
+            pricing: 1
+          -
+            name: 1TB SATA
+            m: 15.00
+            pricing: 1
+          -
+            name: 1.5TB SATA
+            m: 25.00
+            pricing: 1
+          -
+            name: 2TB SATA
+            m: 35.00
+            pricing: 1
+          -
+            name: 150 GB Velociraptor SATA 10K RPM
+            m: 20.00
+            pricing: 1
+          -
+            name: 300 GB Velociraptor SATA 10K RPM
+            m: 35.00
+            pricing: 1
+          -
+            name: 600 GB Velociraptor SATA 10K RPM
+            m: 50.00
+            pricing: 1
+          -
+            name: Intel 40GB X25-V SSD
+            m: 20.00
+            pricing: 1
+          -
+            name: Intel 80GB X25-M SSD
+            m: 40.00
+            pricing: 1
+          -
+            name: Intel 32GB X25-E SSD
+            m: 65.00
+            pricing: 1
+          -
+            name: Intel 160GB X25-M SSD
+            m: 80.00
+            pricing: 1
+      -
+        name: Third Drive
+        key: cf_hdd
+        variable: disk3
+        type: select
+        description:
+        category: server
+        options: 2
+        items:
+          -
+            name: None
+          -
+            name: 500GB SATA
+            m: 5.00
+            pricing: 1
+          -
+            name: 1TB SATA
+            m: 15.00
+            pricing: 1
+          -
+            name: 1.5TB SATA
+            m: 25.00
+            pricing: 1
+          -
+            name: 2TB SATA
+            m: 35.00
+            pricing: 1
+          -
+            name: 150 GB Velociraptor SATA 10K RPM
+            m: 20.00
+            pricing: 1
+          -
+            name: 300 GB Velociraptor SATA 10K RPM
+            m: 35.00
+            pricing: 1
+          -
+            name: 600 GB Velociraptor SATA 10K RPM
+            m: 50.00
+            pricing: 1
+          -
+            name: Intel 40GB X25-V SSD
+            m: 20.00
+            pricing: 1
+          -
+            name: Intel 80GB X25-M SSD
+            m: 40.00
+            pricing: 1
+          -
+            name: Intel 32GB X25-E SSD
+            m: 65.00
+            pricing: 1
+          -
+            name: Intel 160GB X25-M SSD
+            m: 80.00
+            pricing: 1
+      -
+        name: Fourth Drive
+        key: cf_hdd
+        variable: disk4
+        type: select
+        description:
+        category: server
+        options: 2
+        items:
+          -
+            name: None
+          -
+            name: 500GB SATA
+            m: 5.00
+            pricing: 1
+          -
+            name: 1TB SATA
+            m: 15.00
+            pricing: 1
+          -
+            name: 1.5TB SATA
+            m: 25.00
+            pricing: 1
+          -
+            name: 2TB SATA
+            m: 35.00
+            pricing: 1
+          -
+            name: 150 GB Velociraptor SATA 10K RPM
+            m: 20.00
+            pricing: 1
+          -
+            name: 300 GB Velociraptor SATA 10K RPM
+            m: 35.00
+            pricing: 1
+          -
+            name: 600 GB Velociraptor SATA 10K RPM
+            m: 50.00
+            pricing: 1
+          -
+            name: Intel 40GB X25-V SSD
+            m: 20.00
+            pricing: 1
+          -
+            name: Intel 80GB X25-M SSD
+            m: 40.00
+            pricing: 1
+          -
+            name: Intel 32GB X25-E SSD
+            m: 65.00
+            pricing: 1
+          -
+            name: Intel 160GB X25-M SSD
+            m: 80.00
+            pricing: 1

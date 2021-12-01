@@ -1,0 +1,2 @@
+UPDATE `hb_reports` SET `query`='SELECT\r\ncd.id AS `Client ID`,\r\nCONCAT(cd.firstname,\' \',cd.lastname) AS `Client`\r\nFROM hb_client_details cd\r\nWHERE \r\ncd.parent_id=0 \r\nAND cd.id NOT IN (SELECT client_id FROM hb_accounts WHERE status=\'Active\')\r\nAND cd.id NOT IN (SELECT client_id FROM hb_domains WHERE status=\'Active\')\r\nAND cd.id NOT IN (SELECT a.client_id FROM hb_accounts a JOIN hb_accounts_addons ad ON (ad.account_id=a.id) WHERE ad.status=\'Active\')\r\nORDER BY cd.id ASC' 
+WHERE  `name`='List of clients that are Active, but dont have any active service';

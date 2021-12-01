@@ -1,0 +1,23 @@
+---
+productfeatures:
+  value: ulli+spec
+configtext:
+  value: Your Configuration
+  name: Configuration text
+  description: This text is displayed above configuration box, you can easily modify it here
+  type: input
+featurestext:
+  value: Hot Features!
+  name: Features text
+  description: This text is displayed on orderpage above package features list
+  type: input
+chooseplantext:
+  value: Choose your plan
+  name: Select plan text
+  description: This phrase will be displayed above available packages
+  type: input
+showothercat:
+  value: 1
+  name: Show other categories
+  description: Decide whether HostBill should list other categories in this orderpage
+  type: checkbox

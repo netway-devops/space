@@ -1,0 +1,9 @@
+---
+variables:
+  accounts:
+    name: Accounts
+    scheme: unit
+    hideschemes: false
+    unit_name: account
+    options: 10
+    description: Number of accounts

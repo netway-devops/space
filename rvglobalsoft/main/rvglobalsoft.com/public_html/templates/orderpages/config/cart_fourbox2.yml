@@ -1,0 +1,22 @@
+---
+productfeatures:
+  value: ulli+description
+imgpreview:
+  value: '../templates/orderpages/fourbox2/fourbox2_howto.png'
+  name: View editable areas
+  type: link
+defaultselect:
+  value: 
+  name: Default plan selection 
+  description: Enter a number to select by default one of your products, '1' refers to first
+  type: input
+headertext:
+  value: 30-day <span>Free Trial</span> on All Accounts
+  name: Header phrase
+  description: This phrase will be displayed above available packages
+  type: input
+subheadertext:
+  value:  Over 100,000 people have HostBill accounts. Get your own in 60 seconds.
+  name: Sub header text
+  description: Text displayed below Header phrase
+  type: input

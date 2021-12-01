@@ -1,0 +1,48 @@
+name: Default Set of options
+description: Contains set of options available right after fresh HostBill install
+fields:
+  -
+    code: firstname
+    name: First Name
+  -
+    code: lastname
+    name: Last Name
+  -
+    code: phonenumber
+    name: Phone
+  -
+    code: email
+    name: Email Address
+  -
+    code: password
+    name: Password
+  -
+    code: password2
+    name: Repeat Password
+  -
+    code: companyname
+    name: Company Name
+  -
+    code: address1
+    name: Address 1
+  -
+    code: address2
+    name: Address 2
+  -
+    code: city
+    name: City
+  -
+    code: state
+    name: State
+  -
+    code: postcode
+    name: Post Code
+  -
+    code: country
+    name: Country
+  -
+    code: type
+    name: Account Type
+  -
+    code: captcha
+    name: Image Verification

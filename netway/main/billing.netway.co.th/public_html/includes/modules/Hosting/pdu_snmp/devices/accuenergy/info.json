@@ -1,0 +1,4 @@
+{
+  "name": "AccuEnergy",
+  "description": "Driver built for <strong>AccuEnergy</strong> power meters. <br>It uses its basic HTTP API to list ports, read its voltage, power consumption, state etc. Power billing use/require HostBill PowerCollector module."
+}

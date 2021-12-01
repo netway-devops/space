@@ -1,0 +1,17 @@
+type: slider
+name: CPU %
+key: cf_cpu
+variable: cpu_percent
+description:
+category: server
+options: 50
+config:
+  minvalue: 1
+  maxvalue: 100
+  step: 1
+  initialval: 1
+items:
+  -
+    name:
+    m: 1.00
+    pricing: 1

@@ -1,0 +1,116 @@
+---
+sharetitle:
+  value: 
+  name: Social Share Title
+  description: Social Share Title 
+  type: input
+shareimage:
+  value: 
+  name: Social Share Image
+  description:  ขนาดภาพที่เหมาะสม คือ 1200 x 628 pixels 
+  type: input  
+sharedesc:
+  value: 
+  name: Social Share Description
+  description: Social Share Description 
+  type: textarea 
+zendeskcategory:
+  value:  
+  name: Zendesk Category ID
+  description: Zendesk Category id
+  type: input  
+zendeskfaq:
+  value: 
+  name: FAQ Article ID
+  description: Zendesk FAQ Article id 
+  type: input  
+zendesksection:
+  value: 
+  name: Datasheet Section ID
+  description: Zendesk Datasheet Section id
+  type: input  
+zendeskservicerequest:
+  value: 
+  name: Service Request Section ID
+  description: Zendesk Service Request Section id
+  type: input  
+zendeskhowto:
+  value: 
+  name: How-to Section ID
+  description: Zendesk How-to Section id
+  type: input    
+zendeskblogsection:
+  value:  
+  name: Blog Section ID
+  description: Zendesk Blog Section id 
+  type: input    
+zendeskNewsUpdates:
+  value:  
+  name: News Updates Section ID
+  description: Zendesk News Updates Section id 
+  type: input    
+pipedrivestageid:
+  value: 
+  name: New Pipedrive Stage 
+  description: Pipedrive Stage id
+  type: input 
+renewpipedrivestageid:
+  value: 
+  name: Renew Pipedrive Stage 
+  description: Pipedrive Stage id
+  type: input  
+webhtml:
+  value:
+  name: Top section html
+  description: html code
+  type: input 
+tab0:
+  value:  Overview
+  name: Tab 0 name 
+  description: Name of tab 0
+  type: input
+tab0value:
+  value:
+  name: Tab 0 include file
+  description: html code
+  type: input    
+tab1:
+  value:  Features
+  name: Tab 1 name 
+  description: Name of tab 1
+  type: input
+tab1value:
+  value:
+  name: Tab 1 include file
+  description: html code
+  type: input  
+tab2:
+  value:  Plan and pricing
+  name: Tab 2 name 
+  description: Name of tab 2
+  type: input
+tab2value:
+  value:
+  name: Tab 2 include file
+  description: html code
+  type: input 
+tab3:
+  value:  Promo
+  name: Tab 3 name 
+  description: Name of tab 3
+  type: input
+tab3value:
+  value:
+  name: Tab 3 include file
+  description: html code
+  type: input 
+tab4:
+  value:  Industry Demo
+  name: Tab 4 name 
+  description: Name of tab 4
+  type: input
+tab4value:
+  value:
+  name: Tab 4 include file
+  description: html code
+  type: input

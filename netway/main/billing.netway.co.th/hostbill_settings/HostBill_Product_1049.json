@@ -1,0 +1,451 @@
+{
+    "product": {
+        "id": "1049",
+        "category_id": "54",
+        "type": "5",
+        "name": "Dynamics 365 Business Central Premium (Monthly)",
+        "description": "",
+        "visible": "-1",
+        "domain_options": "1",
+        "qty": "0",
+        "autosetup": "2",
+        "subdomain": "",
+        "owndomain": "1",
+        "tax": "1",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "3",
+        "client_limit": "1",
+        "autohostname": "",
+        "p_options": [
+            "64"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": "",
+        "contract_id": "0",
+        "dbcItemType": "",
+        "baseUnitOfMeasureCode": "",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "3",
+        "line_group_id": "2",
+        "codeName": null,
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "Regular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": 0,
+        "m": "2900.00",
+        "q": "0.00",
+        "s": "0.00",
+        "a": "0.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": 0,
+        "ptype": "Other",
+        "tlds": null,
+        "periods": null,
+        "category_name": "Office365",
+        "module": "149",
+        "main": "1",
+        "modname": "o365",
+        "filename": "class.o365.php",
+        "domain_op": [
+            "1"
+        ],
+        "free_domain": "0",
+        "emails": {
+            "AfterModuleTerminate": "0",
+            "after_accountinsert": "0",
+            "ProductAccountCreated": "0",
+            "SuspendAccount": "0",
+            "UnsuspendAccount": "0"
+        },
+        "m_upgrade": "0.00",
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Hosting",
+        "modules": [
+            {
+                "product_id": "1049",
+                "main": 1,
+                "modname": "o365",
+                "filename": "class.o365.php",
+                "module": "149",
+                "options": {
+                    "ms_offer_id": "30e97275-fad8-48d4-bc0a-81840365c119"
+                },
+                "default": {
+                    "ms_offer_id": "30e97275-fad8-48d4-bc0a-81840365c119"
+                },
+                "server": {
+                    "131": "131"
+                }
+            }
+        ],
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1OverdueReminder": "1",
+            "1ServiceReminder": "0",
+            "2OverdueReminder": "2",
+            "2ServiceReminder": "0",
+            "3OverdueReminder": "3",
+            "3ServiceReminder": "0",
+            "4ServiceReminder": "0",
+            "5ServiceReminder": "0",
+            "AddLateFeeAfter": "6",
+            "AdsjustDatesOnCreation": "on",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidInvoices": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoProcessCancellations": "off",
+            "AutoSuspensionPeriod": "10",
+            "AutoTerminationPeriod": "30",
+            "BillFullMonth": "0",
+            "CancellationPostPaidProrata": "off",
+            "CancellationTypeEndPeriod": "on",
+            "CancellationTypeImmediate": "on",
+            "CreditOnDowngradeOverride": "",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoCreation": "2",
+            "EnableAutoRenewService": "on",
+            "EnableAutoSuspension": "off",
+            "EnableAutoTermination": "off",
+            "EnableAutoUnSuspension": "on",
+            "EnableAutoUpgrades": "on",
+            "EnableProRata": "off",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "7",
+            "InvoiceUnpaidReminder": "0",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "MoveDueDays": "0",
+            "ProRataDay": "1",
+            "ProRataMonth": "disabled",
+            "ProRataNextMonth": "0",
+            "RecurringBillingType": "PrePay",
+            "RenewInvoice": "1",
+            "ReturnToStockOnTerminate": "0",
+            "SendPaymentReminderEmails": "off",
+            "UpgradeProratePrecision": "seconds",
+            "InvoiceCustomReminder": null,
+            "StockProductVisibility": "follow"
+        }
+    },
+    "addons": [],
+    "tasks": [],
+    "widgets": [],
+    "forms": [
+        {
+            "id": "3000",
+            "type": "input",
+            "required": "0",
+            "name": "Domain Name",
+            "key": "",
+            "variable": "domain_name",
+            "description": "",
+            "category": "",
+            "product_id": "1049",
+            "copy_of": "3000",
+            "options": "7",
+            "config": [],
+            "sort_order": "1",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "7587",
+                    "category_id": "3000",
+                    "copy_of": "7587",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "3001",
+            "type": "qty",
+            "required": "0",
+            "name": "Quantity",
+            "key": "",
+            "variable": "quantity",
+            "description": "\u0e08\u0e33\u0e19\u0e27\u0e19 User \u0e17\u0e35\u0e48\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e2a\u0e31\u0e48\u0e07\u0e0b\u0e37\u0e49\u0e2d",
+            "category": "",
+            "product_id": "1049",
+            "copy_of": "3001",
+            "options": "51",
+            "config": {
+                "conditionals": [],
+                "minvalue": "1",
+                "maxvalue": "99999"
+            },
+            "sort_order": "2",
+            "group_id": "0",
+            "ftype": "qty",
+            "premade": true,
+            "items": [
+                {
+                    "id": "7588",
+                    "category_id": "3001",
+                    "copy_of": "7588",
+                    "pricing": true,
+                    "paytype": "Resources",
+                    "scheme": "tiered",
+                    "prices": [
+                        {
+                            "id": "828",
+                            "item_id": "7588",
+                            "qty": "1",
+                            "qty_max": "99999",
+                            "m_setup": "0.00",
+                            "q_setup": "0.00",
+                            "s_setup": "0.00",
+                            "a_setup": "0.00",
+                            "b_setup": "0.00",
+                            "t_setup": "0.00",
+                            "p4_setup": "0.00",
+                            "p5_setup": "0.00",
+                            "d_setup": "0.00",
+                            "w_setup": "0.00",
+                            "h_setup": "0.00",
+                            "m": "2900.00",
+                            "q": "0.00",
+                            "s": "0.00",
+                            "a": "2890.00",
+                            "b": "0.00",
+                            "t": "0.00",
+                            "p4": "0.00",
+                            "p5": "0.00",
+                            "d": "0.00",
+                            "w": "0.00",
+                            "h": "0.00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3002",
+            "type": "input",
+            "required": "0",
+            "name": "Default Email",
+            "key": "",
+            "variable": "default_email",
+            "description": "",
+            "category": "",
+            "product_id": "1049",
+            "copy_of": "3002",
+            "options": "7",
+            "config": [],
+            "sort_order": "3",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "7589",
+                    "category_id": "3002",
+                    "copy_of": "7589",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "3003",
+            "type": "select",
+            "required": "0",
+            "name": "Hybrid",
+            "key": "hide",
+            "variable": "",
+            "description": "",
+            "category": "",
+            "product_id": "1049",
+            "copy_of": "3003",
+            "options": "7",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "4",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "7590",
+                    "category_id": "3003",
+                    "name": "No",
+                    "variable_id": "No",
+                    "copy_of": "7590",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "7591",
+                    "category_id": "3003",
+                    "name": "Yes (Hosting \u0e2d\u0e22\u0e39\u0e48 Netway)",
+                    "variable_id": "Yes (Hosting \u0e2d\u0e22\u0e39\u0e48 Netway)",
+                    "sort_order": "1",
+                    "copy_of": "7591",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "7592",
+                    "category_id": "3003",
+                    "name": "Yes (Hosting \u0e2d\u0e22\u0e39\u0e48\u0e17\u0e35\u0e48\u0e2d\u0e37\u0e48\u0e19)",
+                    "variable_id": "Yes (Hosting \u0e2d\u0e22\u0e39\u0e48\u0e17\u0e35\u0e48\u0e2d\u0e37\u0e48\u0e19)",
+                    "sort_order": "2",
+                    "copy_of": "7592",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "3004",
+            "type": "select",
+            "required": "0",
+            "name": "\u0e15\u0e31\u0e27\u0e17\u0e14",
+            "key": "hide",
+            "variable": "price_adjustment",
+            "description": "",
+            "category": "",
+            "product_id": "1049",
+            "copy_of": "3004",
+            "options": "7",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "5",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "7593",
+                    "category_id": "3004",
+                    "name": "\u0e43\u0e0a\u0e49\u0e15\u0e2d\u0e19\u0e2a\u0e31\u0e48\u0e07\u0e0b\u0e37\u0e49\u0e2d\u0e43\u0e2b\u0e21\u0e48\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e1b\u0e23\u0e31\u0e1a\u0e23\u0e32\u0e04\u0e32\u0e43\u0e2b\u0e49\u0e16\u0e39\u0e01\u0e15\u0e49\u0e2d\u0e07",
+                    "variable_id": "price_adjustment",
+                    "copy_of": "7593",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "3809",
+            "type": "input",
+            "required": "0",
+            "name": "\u0e0a\u0e37\u0e48\u0e2d\u0e42\u0e14\u0e40\u0e21\u0e19\u0e17\u0e35\u0e48\u0e41\u0e2a\u0e14\u0e07\u0e43\u0e19 Reseller Portal",
+            "key": "",
+            "variable": "",
+            "description": "",
+            "category": "",
+            "product_id": "1049",
+            "copy_of": "3809",
+            "options": "5",
+            "config": {
+                "initialval": "",
+                "expression": "",
+                "downgradefee": 0,
+                "upgradefee": 0
+            },
+            "sort_order": "5",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "9870",
+                    "category_id": "3809",
+                    "copy_of": "9870",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "3808",
+            "type": "input",
+            "required": "0",
+            "name": "Microsoft ID",
+            "key": "",
+            "variable": "microsoft_id",
+            "description": "",
+            "category": "",
+            "product_id": "1049",
+            "copy_of": "3808",
+            "options": "5",
+            "config": {
+                "initialval": "",
+                "expression": "",
+                "downgradefee": 0,
+                "upgradefee": 0
+            },
+            "sort_order": "6",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "9869",
+                    "category_id": "3808",
+                    "copy_of": "9869",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "3807",
+            "type": "input",
+            "required": "0",
+            "name": "Subscription ID",
+            "key": "",
+            "variable": "subscription_id",
+            "description": "",
+            "category": "",
+            "product_id": "1049",
+            "copy_of": "3807",
+            "options": "4",
+            "config": {
+                "initialval": "",
+                "expression": "",
+                "downgradefee": 0,
+                "upgradefee": 0
+            },
+            "sort_order": "7",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "9868",
+                    "category_id": "3807",
+                    "copy_of": "9868",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

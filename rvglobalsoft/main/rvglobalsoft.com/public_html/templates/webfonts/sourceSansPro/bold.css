@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Bold-webfont.eot');
+    src: url('SourceSansPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SourceSansPro-Bold-webfont.woff') format('woff'),
+         url('SourceSansPro-Bold-webfont.ttf') format('truetype'),
+         url('SourceSansPro-Bold-webfont.svg#SourceSansProBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}

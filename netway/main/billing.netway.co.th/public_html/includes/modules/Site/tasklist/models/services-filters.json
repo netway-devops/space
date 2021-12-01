@@ -1,0 +1,110 @@
+[
+  {
+    "id": "date_created",
+    "label": "{$lang.datecreated}",
+    "type": "date"
+  },
+  {
+    "id": "domain",
+    "label": "{$lang.Hostname}",
+    "type": "string"
+  },
+  {
+    "id": "firstpayment",
+    "label": "{$lang.firstpayment}",
+    "type": "double"
+  },
+  {
+    "id": "total",
+    "label": "{$lang.recurring}",
+    "type": "double"
+  },
+  {
+    "id": "billingcycle",
+    "label": "{$lang.billingcycle}",
+    "type": "string",
+    "input": "select",
+    "multiple": true,
+    "values": {
+      "Free": "{$lang.Free}",
+      "One Time": "{$lang.OneTime}",
+      "Monthly": "{$lang.Monthly}",
+      "Quarterly": "{$lang.Quarterly}",
+      "Semi-Annually": "{$lang.SemiAnnually}",
+      "Annually": "{$lang.Annually}",
+      "Biennially": "{$lang.Biennially}",
+      "Triennially": "{$lang.Triennially}",
+      "Quadrennially": "{$lang.Quadrennially}",
+      "Quinquennially": "{$lang.Quinquennially}",
+      "Daily": "{$lang.Daily}",
+      "Weekly": "{$lang.Weekly}"
+    }
+  },
+  {
+    "id": "billingtype",
+    "label": "Billing Type",
+    "type": "string",
+    "input": "select",
+    "values": {
+      "PostPay": "Post-Paid",
+      "PrePay": "Pre-Paid"
+    }
+  },
+  {
+    "id": "next_due",
+    "label": "{$lang.next_due}",
+    "type": "date"
+  },
+  {
+    "id": "next_invoice",
+    "label": "{$lang.next_invoice_date}",
+    "type": "date"
+  },
+  {
+    "id": "autorenew",
+    "label": "Auto-Renewal Invoice",
+    "type": "boolean",
+    "input": "radio",
+    "values": {
+      "Yes": "{$lang.Yes}",
+      "No": "{$lang.No}"
+    }
+  },
+  {
+    "id": "status",
+    "label": "{$lang.Status}",
+    "type": "string",
+    "input": "select",
+    "multiple": true,
+    "values": {
+      "Pending": "{$lang.Pending}",
+      "Active": "{$lang.Active}",
+      "Suspended": "{$lang.Suspended}",
+      "Terminated": "{$lang.Terminated}",
+      "Cancelled": "{$lang.Cancelled}",
+      "Fraud": "{$lang.Fraud}"
+    }
+  },
+  {
+    "id": "username",
+    "label": "{$lang.Username}",
+    "type": "string"
+  },
+  {
+    "id": "commitment_date",
+    "label": "Commitment period end date",
+    "type": "date",
+    "operators": [
+      "equal",
+      "not_equal",
+      "less",
+      "less_or_equal",
+      "greater",
+      "greater_or_equal",
+      "between",
+      "not_between",
+      "is_empty",
+      "is_not_empty"
+    ]
+  }
+]

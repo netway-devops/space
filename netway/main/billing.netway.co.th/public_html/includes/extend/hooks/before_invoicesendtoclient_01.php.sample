@@ -1,0 +1,6 @@
+<?php
+
+/**
+ * Invoice is being sent to customer.
+ * Following variable is available to use in this file:  $details This variable keeps invoice id
+ */

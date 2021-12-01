@@ -1,0 +1,17 @@
+type: slider
+name: CPU Share
+key: cf_cpu
+variable: cpu_share
+description:
+category: server
+options: 50
+config:
+  minvalue: 1
+  maxvalue: 100
+  step: 10
+  initialval: 10
+items:
+  -
+    name:
+    m: 1.00
+    pricing: 1

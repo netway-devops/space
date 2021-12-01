@@ -1,0 +1,46 @@
+{
+  "name": {
+    "lang": "Domain",
+    "type": "input"
+  },
+  "status": {
+    "lang": "Status",
+    "type": "select",
+    "options": [
+      {
+        "value": "Pending",
+        "lang": "Pending"
+      },
+      {
+        "value": "Pending Transfer",
+        "lang": "PendingTransfer"
+      },
+      {
+        "value": "Pending Registration",
+        "lang": "PendingRegistration"
+      },
+      {
+        "value": "Active",
+        "lang": "Active"
+      },
+      {
+        "value": "Expired",
+        "lang": "Expired"
+      },
+      {
+        "value": "Cancelled",
+        "lang": "Cancelled"
+      }
+    ]
+  },
+  "module": {
+    "lang": "Registrar",
+    "type": "select",
+    "options": [],
+    "class": "chosenedge"
+  },
+  "lastname": {
+    "lang": "clientname",
+    "type": "input"
+  }
+}

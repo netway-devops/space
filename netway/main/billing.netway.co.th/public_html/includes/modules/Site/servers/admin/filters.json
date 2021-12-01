@@ -1,0 +1,12 @@
+{
+    "name": {
+        "lang": "name",
+        "type": "input"
+    },
+    "module": {
+        "lang": "module",
+        "type": "select",
+        "options": [],
+        "class": "chosenedge"
+    }
+}

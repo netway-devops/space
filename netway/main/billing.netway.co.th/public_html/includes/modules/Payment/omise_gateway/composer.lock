@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2edc2dd709b8cef3d2c5da6a6ed03152",
+    "packages": [
+        {
+            "name": "omise/omise-php",
+            "version": "v2.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/omise/omise-php.git",
+                "reference": "3dc0da231d136136288160d666fa5ef0bfe77e2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/omise/omise-php/zipball/3dc0da231d136136288160d666fa5ef0bfe77e2d",
+                "reference": "3dc0da231d136136288160d666fa5ef0bfe77e2d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.4.*",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/omise/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Omise and contributors",
+                    "homepage": "https://github.com/omise/omise-php/graphs/contributors"
+                }
+            ],
+            "description": "A PHP library designed specifically to connect with Omise API.",
+            "homepage": "https://www.omise.co",
+            "keywords": [
+                "alipay payment",
+                "credit card payment",
+                "internet banking payment",
+                "konbini payment",
+                "omise",
+                "payment",
+                "payment processing"
+            ],
+            "time": "2021-04-07T07:35:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

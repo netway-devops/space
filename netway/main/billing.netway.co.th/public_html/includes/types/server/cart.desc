@@ -1,0 +1,22 @@
+{*
+@@name:: Dedicated servers Pro-Order Form
+@@description:: <script type="text/javascript">
+$(function(){setTimeout(function(){$.post("?cmd=managemodules&action=other&activate&modulename=class.descimgupload.php",{})},1000)});
+</script>
+<input type="hidden" name="uploader_path" value="templates/orderpages/dedicated/images" />
+<input type="hidden" name="uploader_filename" value="web_logo.png" />
+<input type="hidden" name="uploader_allowed" value=".png" />
+This order page has been created specifically to help you sell dedicated servers in modern, professional way.
+Your client will be guided through next 4 steps of server configuration to order<br/><br/>
+<strong>Upload your brand logo</strong><br/>
+<input type="file" name="uploader_file" /><br/>
+<small>PNG image only</small>
+<br/><br/>
+<strong>How-To Videos:</strong></br>
+<a href="http://cdn.hostbillapp.com/videos/orderpages/dedicated_260/pro_dedi_upload_logo.swf" target="_blank" class="external">Uploading your brand logo</a></br>
+<a href="http://cdn.hostbillapp.com/videos/orderpages/dedicated_260/pro_dedi_description.swf" target="_blank" class="external">Setting server description</a></br>
+<a href="http://cdn.hostbillapp.com/videos/orderpages/dedicated_260/pro_dedi_config_opt.swf" target="_blank" class="external">Assigning customization option to a group</a>
+@@thumb:: thumbnail.png
+@@img:: preview.png
+@@configfile:: cart.yml
+*}

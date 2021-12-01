@@ -1,0 +1,36 @@
+---
+name: 1 Cloud Hosting Package
+description: Premade cloud package for multi-machine type of product. One order = multiple virtual machines, full cloud control. 
+items:
+  -
+    name: 4GB Cloud
+    paytype: Regular
+    m: 150.00
+    module: class.onapp.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 10
+      AutoSuspensionPeriod: 1
+      EnableAutoUnSuspension: on
+      EnableAutoSuspension: on
+      SendPaymentReminderEmails: on
+    options:
+      option1: 2
+      option3: 4096
+      option4: 3
+      option5: 60
+      option6: 100
+      option7:
+      option8: 1
+      option9: 100
+      option10: Multiple Machines, full management
+      option11: No
+      option12: 1
+      option13: 4
+      option14: 4
+      option15: 5
+      option16: 2
+      option18: 2
+      option17: 5

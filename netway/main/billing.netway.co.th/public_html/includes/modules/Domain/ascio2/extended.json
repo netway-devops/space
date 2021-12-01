@@ -1,0 +1,65 @@
+{
+  ".us": [
+    {
+      "description": "NEXUS PURPOSE",
+      "name": "NEXUS PURPOSE",
+      "variable": "Registrant.NexusPurpose",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "P1",
+          "name": "Business"
+        },
+        {
+          "variable_id": "P2",
+          "name": "Non-profit"
+        },
+        {
+          "variable_id": "P3",
+          "name": "Personal"
+        },
+        {
+          "variable_id": "P4",
+          "name": "Education"
+        },
+        {
+          "variable_id": "P5",
+          "name": "Government"
+        }
+      ]
+    },
+    {
+      "description": "NEXUS CATEGORY",
+      "name": "NEXUS CATEGORY",
+      "variable": "Registrant.NexusCategory",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "C11",
+          "name": "Is a United States citizen"
+        },
+        {
+          "variable_id": "C12",
+          "name": "Is a permanent resident of the USA or any of its posessions or territories"
+        },
+        {
+          "variable_id": "C21",
+          "name": "U.S. Organization incorporated within one of the 50 states or a U.S. Territory"
+        },
+        {
+          "variable_id": "C31",
+          "name": "Regularly engages in lawful activities in the United States"
+        },
+        {
+          "variable_id": "C32",
+          "name": "Entity has an office or other facility in the US"
+        }
+      ]
+    }
+  ]
+}
+  

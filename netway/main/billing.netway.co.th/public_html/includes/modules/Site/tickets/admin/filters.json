@@ -1,0 +1,66 @@
+{
+    "status": {
+        "lang": "Searchin",
+        "type": "select",
+        "options": []
+    },
+    "request_type": {
+        "lang": "request_type",
+        "type": "select",
+        "options": [
+            {
+            "value":"General",
+            "name":"General"
+            },{
+                "value":"Problem",
+                "name":"Problem"
+            },{
+                "value":"Incident",
+                "name":"Incident"
+            },{
+                "value":"Task",
+                "name":"Task"
+            },{
+                "value":"Question",
+                "name":"Question"
+            }
+        ]
+    },
+    "name": {
+        "lang": "submitername",
+        "type": "input"
+    },
+    "dept_id": {
+        "lang": "department",
+        "type": "select",
+        "options": []
+    },
+    "ticket_number": {
+        "lang": "ticketnum",
+        "type": "input"
+    },
+    "body": {
+        "lang": "Message",
+        "type": "input",
+        "datatupe": "string"
+    },
+    "email": {
+        "type": "input"
+    },
+    "tag": {
+        "lang": "tags",
+        "type": "input",
+        "description": "You can use &quot;and&quot;, &quot;or&quot;, &quot;not&quot; keywords when filtering with tags, default is &quot;and&quot;, example: <br> &bullet;&nbsp;tag1 tag2 or tag3 &raquo; (tag1 and tag2) or tag3 <br><br>You can use the <b>untagged</b> tag for tickets that have no tags"
+    },
+    "owner_id": {
+        "type": "select",
+        "options": [],
+        "name": "Assigned to",
+        "class": "chosenedge"
+    },
+    "admin_read": {
+        "type": "checkbox",
+        "name": "Unread only",
+        "value": "0"
+    }
+}

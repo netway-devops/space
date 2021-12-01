@@ -1,0 +1,562 @@
+{
+
+  ".asia": [
+    {
+      "description": "Designated CED Contact",
+      "name": "Designated CED Contact",
+      "variable": "contact_type",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "owner",
+          "name": "Owner"
+        },
+        {
+          "variable_id": "admin",
+          "name": "Admin"
+        },
+        {
+          "variable_id": "tech",
+          "name": "Tech"
+        },
+        {
+          "variable_id": "billing",
+          "name": "Billing"
+        }
+
+      ]
+    },
+    {
+      "description": "Identification number",
+      "name": "Identification number",
+      "variable": "id_number",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "ID type",
+      "name": "ID type",
+      "variable": "id_type",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "A description of the id type",
+      "name": "A description of the id type",
+      "variable": "id_type_info",
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "passport",
+          "name": "Passport"
+        },
+        {
+          "variable_id": "certificate",
+          "name": "Certificate"
+        },
+        {
+          "variable_id": "legislation",
+          "name": "legislation"
+        },
+        {
+          "variable_id": "societyRegistry",
+          "name": "Society Registry"
+        },
+        {
+          "variable_id": "politicalPartyRegistry",
+          "name": "Political Party Registry"
+        },
+        {
+          "variable_id": "other",
+          "name": "other"
+        }
+      ]
+    },
+    {
+      "description": "A description of the id type",
+      "name": "A description of the id type",
+      "variable": "id_type_info",
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "passport",
+          "name": "Passport"
+        },
+        {
+          "variable_id": "certificate",
+          "name": "Certificate"
+        },
+        {
+          "variable_id": "legislation",
+          "name": "legislation"
+        },
+        {
+          "variable_id": "societyRegistry",
+          "name": "Society Registry"
+        },
+        {
+          "variable_id": "politicalPartyRegistry",
+          "name": "Political Party Registry"
+        },
+        {
+          "variable_id": "other",
+          "name": "other"
+        }
+      ]
+    }
+  ],
+  ".us": [
+    {
+      "variable": "app_purpose",
+      "description": "A description of the domain's application purpose: · P1—Business use for profit. · P2—Non-profit business, club, association, religious organization, and so on. · P3—Personal use. · P4—Education purposes. · P5—Government purposes.",
+      "name": "Domain's application purpose",
+      "type": "select",
+      "for": "domain",
+      "items": [
+
+      ]
+    },
+    {
+      "variable": "category",
+      "description": " A description of the domain's nexus category: · C11—A citizen of the U.S. or any of its territories. · C12—A permanent resident of the U.S. or any of its territories. · C21—An organization incorporated within the U.S. · C31—An entity that regularly engages in lawful activities in the U.S. · C32—An entity that has an office or other facility U.S.",
+      "type": "select",
+      "name": " A description of the domain's nexus category",
+      "for": "domain",
+      "items": [
+
+      ]
+    },
+    {
+      "variable": "validator",
+      "description": "The domain owner's country of citizenship. Value must be a valid twoletter country code.",
+      "name": "The domain owner's country of citizenship.",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".it": [
+    {
+      "variable": "entity_type",
+      "description": "The legal entity type of registrant. Allowed values are: · 1—Italian and foreign natural persons · 2—Companies/one man companies · 3—Freelance workers/professiona ls  · 4—Non-profit organizations · 5—Public organizations · 6—Other subjects · 7—Foreigners who match 2-6",
+      "name": "The legal entity type of registrant.",
+      "type": "select",
+      "for": "domain",
+      "items": [
+
+      ]
+    },
+    {
+      "variable": "nationality_ code",
+      "description": "The 2-digit ISO 3166-1 code that identifies the Registrant's nationality. If entity_type = 1, nationality or owner's country or both must be an EU country. If entity_type = 2-6, this value must be IT. If entity_type = 7, this value must match owner's country and must be an EU country other than IT. Note: Be sure to use capital letters.",
+      "name": "The 2-digit ISO 3166-1 code that identifies the Registrant's nationality.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "reg_code",
+      "description": "An identifying number, usually the VAT or Codice Fiscale (numeric tax code). The value that you need to enter depends on the entity type of the registrant. · Italian citizens must enter their Codice Fiscale. · Non Italians not living in Italy can enter n.a. · Italian companies, freelancers, and other subjects must enter their 11 digit VAT number or tax identification number. · Italian non-profit organizations must enter their VAT number or tax identification number; however, if they do not have one,they can enter n.a. · Non Italian entities other than persons (organizations, freelancers, companies, etc.) may enter their VAT number or n.a.",
+      "name": "An identifying number",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".fr": [
+    {
+      "variable": "date_of_birth",
+      "description": " The registrant's date of birth in the format YYYY-MM-DD.",
+      "name": " The registrant's date of birth",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "place_of_birth",
+      "description": " The city in which the individual was born.",
+      "name": " The city in which the individual was born.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "country_of_birth",
+      "description": "The domain owner's country of citizenship. Value must be a valid twoletter country code.",
+      "name": "The domain owner's country of citizenship. ",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "postal_code_of_birth",
+      "description": "The postal code of the registrant's place of birth.",
+      "name": "The postal code",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_type",
+      "description": "The entity type of registrant. Allowed values are individual and organization.",
+      "name": "The entity type of registrant",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".ru": [
+    {
+      "variable": "date_of_birth",
+      "description": " The registrant's date of birth in the format YYYY-MM-DD.",
+      "name": " The registrant's date of birth",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "id_card_authority",
+      "description": " The name of the issuer.",
+      "name": " The name of the issuer.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "id_card_issue_date",
+      "description": "The date that the ID card was issued, in the format YYYY-MM-DD.",
+      "name": "The date that the ID card was issued",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "id_card_number",
+      "description": "The number of the individual's identity card.",
+      "name": "The number of the individual's identity card.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_type",
+      "description": "The entity type of registrant. Allowed values are individual and organization.",
+      "name": "The entity type of registrant. ",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "place_of_birth",
+      "description": "The city in which the individual was born.",
+      "name": "The city in which the individual was born.",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".au": [
+    {
+      "variable": "eligibility_id",
+      "description": " The identifier of the eligibility document. Important: This number will be verified, and if you submit an incorrect number, the registration will fail.",
+      "name": " The identifier of the eligibility document.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "eligibility_id_type",
+      "description": " The Eligibility ID type. The allowed values depend on the eligibility_type specified. Allowed value for Charity is ABN. Allowed value for Club is ABN. Allowed values for Incorporated Association are ACT BN, NSW BN, NT BN, QLD BN, SA BN, TAS BN, VIC BN, and WA BN. Allowed values for Nonprofit Organization are ABN, ACT BN, ACN, NSW BN, NT BN, QLD BN, SA BN, TAS BN, VIC BN, WA BN, and OTHER. Allowed value for Trade Union is OTHER. Allowed value for Company is ACN. Allowed value for Registered Business is OTHER. Allowed value for Sole Trader is ABN. Allowed value for Trademark Owner is TM. Allowed value for Pending Trademark Owner is TM. Allowed value for Partnership is ABN.",
+      "name": " The Eligibility ID type. ",
+
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "eligibility_name",
+      "description": "The name on the eligibility ID document.",
+      "name": "The name on the eligibility ID document.",
+
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "policy_reason",
+      "description": "Indicates the reason the registrant is entitled to the domain name. Allowed values are:  1—The name exactly matches the acronym or abbreviation of the registrant's company or trading name, organization or association name, or trademark.  2—The name is connected closely and substantially to the registrant. This is the default.",
+      "name": "Registrant is entitled to the domain name. ",
+
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "eligibility_type",
+      "description": "The reason that the registrant is eligible for the domain name. The eligibility_type must correspond to the eligibility_name. For example, if the registrant is using their company name to register the domain, then their eligibility_type is Company. If they are using their Registered Business Name to register the domain, then their eligibility_type is Registered Business, even if they are also a company. Allowed values for .ASN.AU and .ORG.AU domains are: § Charity § Club § Incorporated Association § Non-profit Organization § Trade Union Allowed values for .COM.AU and .NET.AU domains are: § Company § Partnership § Pending TM Owner § Registered Business § Sole Trader § Trademark Owner Allowed value for .ID.AU domains is Citizen/Resident",
+      "name": "The reason that the registrant is eligible for the domain name.",
+
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_id",
+      "description": "The registrant identifier. Must correspond to the registrant_id_type value (that is, the ABN or ACN), Important: This number will be verified, and if you submit an incorrect number, the registration will fail.",
+      "name": "The registrant identifier.",
+
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_id_type",
+      "description": "The Registrant ID type. Allowed values are: · ACN—Australian Company Number · ABN—Australian Business Number",
+      "name": "The Registrant ID type. ",
+
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_name",
+      "description": "The legal entity such as a company, incorporated association, government agency or individual person. Cannot be a registered business name or trademark.",
+      "name": "The legal entity ",
+
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".xxx": [
+    {
+      "variable": "ipr_non_resolver",
+      "description": " When this value is set to 1 the domain will not resolve. If you submit this value, set value “” in all other  extra_attributes values",
+      "name": " Non resolver",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "icm_membership_id",
+      "description": " The ID number that was provided when the registrant successfully completed the XXX Sponsored Community validation process. If this value is not submitted with the domain registration, the registry will contact the registrant with instructions on how to become a member of the Sponsored Community. If you submit this value, set value “” in all other  extra_attributes values   If you submit this value, you must also submit the icm_membership_password value.",
+      "name": " The ID number ",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "icm_membership_password",
+      "description": " If you submit this value, you must also submit the icm_membership_id value.",
+      "name": " Password",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "ipr_email",
+      "description": "The email address to which all communications from the registry will be addressed. If you submit this value, you must also submit the ipr_name value.",
+      "name": "The email address",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "ipr_name",
+      "description": "The name (in the format firstname lastname) to which all communications from the registry will be addressed. If you submit this value, you must also submit the ipr_email value.",
+      "name": "The name ",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".pro": [
+    {
+      "variable": "profession",
+      "description": " The stated profession of the registrant.",
+      "name": " The stated profession of the registrant.",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".pt": [
+    {
+      "variable": "id_card_number",
+      "description": "The number of the individual's identity card.",
+      "name": "Individual's identity card.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_type",
+      "description": "The entity type of registrant. Allowed values are individual or organization.",
+      "name": "The entity type of registrant.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "tax_number",
+      "description": "The number used for tax purposes.",
+      "name": "The number used for tax purposes.",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".lv": [
+    {
+      "variable": "registrant_type",
+      "description": " The entity type of registrant. Allowed values are individual or organization.",
+      "name": " The entity type of registrant.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "id_card_number",
+      "description": "The number of the individual's identity card.",
+      "name": "The number of the individual's identity card.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registration_number",
+      "description": "The business number of the organization.",
+      "name": "The business number of the organization.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_vat_id",
+      "description": "The Value Added Tax (VAT) number of the organization",
+      "name": "The Value Added Tax (VAT) ",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".hu": [
+    {
+      "variable": "registrant_type",
+      "description": " The entity type of registrant. Allowed values are individual or organization.",
+      "name": " The entity type of registrant. ",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "id_card_number",
+      "description": "The number of the individual's identity card.",
+      "name": "The number of the individual's identity card.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_vat_id",
+      "description": "Value Added Tax registration number.",
+      "name": "Value Added Tax registration number.",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".br": [
+    {
+      "variable": "br_register_number",
+      "description": "For organizations, this is the SNPJ (Business Identifier/Cadastro Nacional de Pessoa Juridica). For individuals, this is the CPF (Individual Tax Number/Cadastro de Pessoa Fisica)",
+      "name": "Register number",
+
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".no": [
+    {
+      "variable": "registration_number",
+      "description": "The individual's identity card number.",
+      "name": "The individual's identity card number.",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".ro": [
+    {
+      "variable": "id_card_number",
+      "description": "The number of the individual's identity card.",
+      "name": "The number of the individual's identity card.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registration_number",
+      "description": "The business number of the organization.",
+      "name": "The business number of the organization.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_type",
+      "description": "The entity type of registrant. Allowed values are individual or organization.",
+      "name": "The entity type of registrant. ",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_vat_id",
+      "description": "The Value Added Tax (VAT) number of the organization",
+      "name": "The Value Added Tax (VAT) number of the organization",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".se": [
+    {
+      "variable": "registrant_type",
+      "description": "The entity type of registrant. Allowed values are individual or organization.",
+      "name": "The entity type of registrant. ",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "id_card_number",
+      "description": "The number of the individual's identity card.",
+      "name": "The number of the individual's identity card.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registration_number",
+      "description": "The business number of the organization",
+      "name": "The business number of the organization",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_vat_id",
+      "description": "The Value Added Tax (VAT) number of the organization",
+      "name": "The Value Added Tax (VAT) ",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".de": [
+    {
+      "variable": "registrant_type",
+      "description": "The entity type of registrant. Allowed values are individual or organization.",
+      "name": "The entity type of registrant.",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".dk": [
+    {
+      "variable": "registrant_type",
+      "description": "The entity type of registrant. Allowed values are individual or organization.",
+      "name": "The entity type of registrant.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registrant_vat_id",
+      "description": "The Value Added Tax (VAT) number of the organization",
+      "name": "The Value Added Tax (VAT)",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".fi": [
+    {
+      "variable": "registrant_type",
+      "description": "The entity type of registrant. Allowed values are individual or organization.",
+      "name": "The entity type of registrant.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "id_card_number",
+      "description": "The number of the individual's identity card.",
+      "name": "The number of the individual's identity card.",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "variable": "registration_number",
+      "description": "The business number of the organization",
+      "name": "The business number of the organization",
+      "type": "input",
+      "for": "domain"
+    }
+  ]
+}

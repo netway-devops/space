@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * Client posted sign-up form, but he is not registered yet/
+ * This event is called BEFORE HostBill validates/sanitizes input
+ *
+ * IMPORTANT: Return false in this hook to stop registration !
+ *
+ * Following variable is available to use in this file:  $details Contains posted form fields values.
+ * Some of keys available (note: if you have custom registration fields they may differ):
+ * $details['type']; // Personal or Organization account
+ * $details['companyname']; // Supplied company name
+ * $details['firstname']; //
+ * $details['lastname']; //
+ * $details['password']; //
+ * $details['password2']; //
+ * $details['email']; //
+ * $details['address1']; //
+ * $details['address2']; //
+ * $details['city']; //
+ * $details['state']; //
+ * $details['postcode']; //
+ * $details['country']; //
+ * $details['phonenumber']; //
+ */

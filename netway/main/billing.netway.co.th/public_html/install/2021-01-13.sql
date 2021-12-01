@@ -1,0 +1,1 @@
+ALTER TABLE `hb_invoices` MODIFY COLUMN `status` ENUM('Paid','Unpaid','Cancelled','Draft','Recurring','Refunded','Credited','Creditnote','CreditnoteDraft','Collections','Receiptunpaid','Receiptpaid','Receiptcanceled') NOT NULL DEFAULT 'Draft';

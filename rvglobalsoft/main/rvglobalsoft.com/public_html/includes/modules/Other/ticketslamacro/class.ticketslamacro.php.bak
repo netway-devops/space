@@ -1,0 +1,796 @@
+<?php
+/*
+sendToCSMgr - เวลา 7:00 - 18:00 ส่ง email ถึงใคร ..... รวมเสาร์อาทิตย์ ไหม ..... 18:01 - 6:59 ส่ง email ไหม ถึงใคร
+sendToSYSMgr - 
+sendToNOCMgr - 
+sendToGITMgr - 
+sendToTRAMgr - 
+sendToOFHMgr - 
+ * */
+
+class ticketslamacro extends OtherModule {
+    
+    protected $modname = 'Ticket sla macro';
+    protected $description = 'Ticket sla macro by rvglobalsoft';
+    // Configuration
+    //public $configuration = array();
+    public $bb =array('test');
+  //  public $configuration = array('test');
+    public $configuration = array(
+         'OFH KPI Controller E-mail' => array(
+            'value' => '',
+            'type' => 'input',
+            'description' => 'OFH KPI Controller E-mail'
+        ),
+        //=== sendToCSMgr ===
+        'sendToCSMgr E-mail' => array(
+            'value' => '',
+            'type' => 'input',
+            'description' => 'sendToCSMgr E-mail'
+        ),
+        //=== sendToCSMgr : Monday
+        'sendToCSMgr Send email to Manager on Monday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Monday 0:00-07:00'
+        ),
+        'sendToCSMgr Send email to Manager on Monday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Monday 07:00-18:00'
+        ),
+        'sendToCSMgr Send email to Manager on Monday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Monday 18:00-24:00'
+        ),
+         //=== sendToCSMgr : Tuesday
+        'sendToCSMgr Send email to Manager on Tuesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Tuesday 0:00-07:00'
+        ),
+        'sendToCSMgr Send email to Manager on Tuesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Tuesday 07:00-18:00'
+        ),
+        'sendToCSMgr Send email to Manager on Tuesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Tuesday 18:00-24:00'
+        ),
+         //=== sendToCSMgr : Wednesday
+        'sendToCSMgr Send email to Manager on Wednesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Wednesday 0:00-07:00'
+        ),
+        'sendToCSMgr Send email to Manager on Wednesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Wednesday 07:00-18:00'
+        ),
+        'sendToCSMgr Send email to Manager on Wednesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Wednesday 18:00-24:00'
+        ),
+         //=== sendToCSMgr : Thursday
+        'sendToCSMgr Send email to Manager on Thursday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Thursday 0:00-07:00'
+        ),
+        'sendToCSMgr Send email to Manager on Thursday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Thursday 07:00-18:00'
+        ),
+        'sendToCSMgr Send email to Manager on Thursday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Thursday 18:00-24:00'
+        ),
+         //=== sendToCSMgr : Friday
+        'sendToCSMgr Send email to Manager on Friday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Friday 0:00-07:00'
+        ),
+        'sendToCSMgr Send email to Manager on Friday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Friday 07:00-18:00'
+        ),
+        'sendToCSMgr Send email to Manager on Friday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Friday 18:00-24:00'
+        ),
+         //=== sendToCSMgr : Saturday
+        'sendToCSMgr Send email to Manager on Saturday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Saturday 0:00-07:00'
+        ),
+        'sendToCSMgr Send email to Manager on Saturday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Saturday 07:00-18:00'
+        ),
+        'sendToCSMgr Send email to Manager on Saturday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Saturday 18:00-24:00'
+        ),
+         //=== sendToCSMgr : Sunday
+        'sendToCSMgr Send email to Manager on Sunday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Sunday 0:00-07:00'
+        ),
+        'sendToCSMgr Send email to Manager on Sunday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Sunday 07:00-18:00'
+        ),
+        'sendToCSMgr Send email to Manager on Sunday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToCSMgr Send email to Manager on Sunday 18:00-24:00'
+        ),
+        //=== sendToSYSMgr ===
+        'sendToSYSMgr E-mail' => array(
+            'value' => '',
+            'type' => 'input',
+            'description' => 'sendToSYSMgr E-mail'
+        ),
+        //=== sendToSYSMgr : Monday
+        'sendToSYSMgr Send email to Manager on Monday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Monday 0:00-07:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Monday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Monday 07:00-18:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Monday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Monday 18:00-24:00'
+        ),
+         //=== sendToSYSMgr : Tuesday
+        'sendToSYSMgr Send email to Manager on Tuesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Tuesday 0:00-07:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Tuesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Tuesday 07:00-18:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Tuesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Tuesday 18:00-24:00'
+        ),
+         //=== sendToSYSMgr : Wednesday
+        'sendToSYSMgr Send email to Manager on Wednesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Wednesday 0:00-07:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Wednesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Wednesday 07:00-18:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Wednesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Wednesday 18:00-24:00'
+        ),
+         //=== sendToSYSMgr : Thursday
+        'sendToSYSMgr Send email to Manager on Thursday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Thursday 0:00-07:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Thursday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Thursday 07:00-18:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Thursday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Thursday 18:00-24:00'
+        ),
+         //=== sendToSYSMgr : Friday
+        'sendToSYSMgr Send email to Manager on Friday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Friday 0:00-07:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Friday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Friday 07:00-18:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Friday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Friday 18:00-24:00'
+        ),
+         //=== sendToSYSMgr : Saturday
+        'sendToSYSMgr Send email to Manager on Saturday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Saturday 0:00-07:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Saturday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Saturday 07:00-18:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Saturday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Saturday 18:00-24:00'
+        ),
+         //=== sendToSYSMgr : Sunday
+        'sendToSYSMgr Send email to Manager on Sunday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Sunday 0:00-07:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Sunday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Sunday 07:00-18:00'
+        ),
+        'sendToSYSMgr Send email to Manager on Sunday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToSYSMgr Send email to Manager on Sunday 18:00-24:00'
+        ),
+        //=== sendToNOCMgr ===
+        'sendToNOCMgr E-mail' => array(
+            'value' => '',
+            'type' => 'input',
+            'description' => 'sendToNOCMgr E-mail'
+        ),
+        //=== sendToNOCMgr : Monday
+        'sendToNOCMgr Send email to Manager on Monday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Monday 0:00-07:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Monday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Monday 07:00-18:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Monday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Monday 18:00-24:00'
+        ),
+         //=== sendToNOCMgr : Tuesday
+        'sendToNOCMgr Send email to Manager on Tuesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Tuesday 0:00-07:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Tuesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Tuesday 07:00-18:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Tuesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Tuesday 18:00-24:00'
+        ),
+         //=== sendToNOCMgr : Wednesday
+        'sendToNOCMgr Send email to Manager on Wednesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Wednesday 0:00-07:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Wednesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Wednesday 07:00-18:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Wednesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Wednesday 18:00-24:00'
+        ),
+         //=== sendToNOCMgr : Thursday
+        'sendToNOCMgr Send email to Manager on Thursday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Thursday 0:00-07:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Thursday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Thursday 07:00-18:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Thursday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Thursday 18:00-24:00'
+        ),
+         //=== sendToNOCMgr : Friday
+        'sendToNOCMgr Send email to Manager on Friday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Friday 0:00-07:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Friday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Friday 07:00-18:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Friday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Friday 18:00-24:00'
+        ),
+         //=== sendToNOCMgr : Saturday
+        'sendToNOCMgr Send email to Manager on Saturday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Saturday 0:00-07:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Saturday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Saturday 07:00-18:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Saturday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Saturday 18:00-24:00'
+        ),
+         //=== sendToNOCMgr : Sunday
+        'sendToNOCMgr Send email to Manager on Sunday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Sunday 0:00-07:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Sunday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Sunday 07:00-18:00'
+        ),
+        'sendToNOCMgr Send email to Manager on Sunday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToNOCMgr Send email to Manager on Sunday 18:00-24:00'
+        ),
+        //=== sendToGITMgr ===
+        'sendToGITMgr E-mail' => array(
+            'value' => '',
+            'type' => 'input',
+            'description' => 'sendToGITMgr E-mail'
+        ),
+        //=== sendToGITMgr : Monday
+        'sendToGITMgr Send email to Manager on Monday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Monday 0:00-07:00'
+        ),
+        'sendToGITMgr Send email to Manager on Monday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Monday 07:00-18:00'
+        ),
+        'sendToGITMgr Send email to Manager on Monday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Monday 18:00-24:00'
+        ),
+         //=== sendToGITMgr : Tuesday
+        'sendToGITMgr Send email to Manager on Tuesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Tuesday 0:00-07:00'
+        ),
+        'sendToGITMgr Send email to Manager on Tuesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Tuesday 07:00-18:00'
+        ),
+        'sendToGITMgr Send email to Manager on Tuesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Tuesday 18:00-24:00'
+        ),
+         //=== sendToGITMgr : Wednesday
+        'sendToGITMgr Send email to Manager on Wednesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Wednesday 0:00-07:00'
+        ),
+        'sendToGITMgr Send email to Manager on Wednesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Wednesday 07:00-18:00'
+        ),
+        'sendToGITMgr Send email to Manager on Wednesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Wednesday 18:00-24:00'
+        ),
+         //=== sendToGITMgr : Thursday
+        'sendToGITMgr Send email to Manager on Thursday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Thursday 0:00-07:00'
+        ),
+        'sendToGITMgr Send email to Manager on Thursday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Thursday 07:00-18:00'
+        ),
+        'sendToGITMgr Send email to Manager on Thursday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Thursday 18:00-24:00'
+        ),
+         //=== sendToGITMgr : Friday
+        'sendToGITMgr Send email to Manager on Friday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Friday 0:00-07:00'
+        ),
+        'sendToGITMgr Send email to Manager on Friday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Friday 07:00-18:00'
+        ),
+        'sendToGITMgr Send email to Manager on Friday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Friday 18:00-24:00'
+        ),
+         //=== sendToGITMgr : Saturday
+        'sendToGITMgr Send email to Manager on Saturday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Saturday 0:00-07:00'
+        ),
+        'sendToGITMgr Send email to Manager on Saturday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Saturday 07:00-18:00'
+        ),
+        'sendToGITMgr Send email to Manager on Saturday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Saturday 18:00-24:00'
+        ),
+         //=== sendToGITMgr : Sunday
+        'sendToGITMgr Send email to Manager on Sunday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Sunday 0:00-07:00'
+        ),
+        'sendToGITMgr Send email to Manager on Sunday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Sunday 07:00-18:00'
+        ),
+        'sendToGITMgr Send email to Manager on Sunday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToGITMgr Send email to Manager on Sunday 18:00-24:00'
+        ),
+        //=== sendToTRAMgr ===
+        'sendToTRAMgr E-mail' => array(
+            'value' => '',
+            'type' => 'input',
+            'description' => 'sendToTRAMgr E-mail'
+        ),
+        //=== sendToTRAMgr : Monday
+        'sendToTRAMgr Send email to Manager on Monday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Monday 0:00-07:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Monday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Monday 07:00-18:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Monday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Monday 18:00-24:00'
+        ),
+         //=== sendToTRAMgr : Tuesday
+        'sendToTRAMgr Send email to Manager on Tuesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Tuesday 0:00-07:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Tuesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Tuesday 07:00-18:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Tuesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Tuesday 18:00-24:00'
+        ),
+         //=== sendToTRAMgr : Wednesday
+        'sendToTRAMgr Send email to Manager on Wednesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Wednesday 0:00-07:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Wednesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Wednesday 07:00-18:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Wednesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Wednesday 18:00-24:00'
+        ),
+         //=== sendToTRAMgr : Thursday
+        'sendToTRAMgr Send email to Manager on Thursday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Thursday 0:00-07:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Thursday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Thursday 07:00-18:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Thursday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Thursday 18:00-24:00'
+        ),
+         //=== sendToTRAMgr : Friday
+        'sendToTRAMgr Send email to Manager on Friday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Friday 0:00-07:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Friday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Friday 07:00-18:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Friday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Friday 18:00-24:00'
+        ),
+         //=== sendToTRAMgr : Saturday
+        'sendToTRAMgr Send email to Manager on Saturday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Saturday 0:00-07:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Saturday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Saturday 07:00-18:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Saturday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Saturday 18:00-24:00'
+        ),
+         //=== sendToTRAMgr : Sunday
+        'sendToTRAMgr Send email to Manager on Sunday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Sunday 0:00-07:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Sunday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Sunday 07:00-18:00'
+        ),
+        'sendToTRAMgr Send email to Manager on Sunday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToTRAMgr Send email to Manager on Sunday 18:00-24:00'
+        ),
+        //=== sendToOFHMgr ===
+        'sendToOFHMgr E-mail' => array(
+            'value' => '',
+            'type' => 'input',
+            'description' => 'sendToOFHMgr E-mail'
+        ),
+        //=== sendToOFHMgr : Monday
+        'sendToOFHMgr Send email to Manager on Monday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Monday 0:00-07:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Monday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Monday 07:00-18:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Monday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Monday 18:00-24:00'
+        ),
+         //=== sendToOFHMgr : Tuesday
+        'sendToOFHMgr Send email to Manager on Tuesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Tuesday 0:00-07:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Tuesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Tuesday 07:00-18:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Tuesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Tuesday 18:00-24:00'
+        ),
+         //=== sendToOFHMgr : Wednesday
+        'sendToOFHMgr Send email to Manager on Wednesday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Wednesday 0:00-07:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Wednesday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Wednesday 07:00-18:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Wednesday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Wednesday 18:00-24:00'
+        ),
+         //=== sendToOFHMgr : Thursday
+        'sendToOFHMgr Send email to Manager on Thursday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Thursday 0:00-07:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Thursday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Thursday 07:00-18:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Thursday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Thursday 18:00-24:00'
+        ),
+         //=== sendToOFHMgr : Friday
+        'sendToOFHMgr Send email to Manager on Friday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Friday 0:00-07:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Friday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Friday 07:00-18:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Friday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Friday 18:00-24:00'
+        ),
+         //=== sendToOFHMgr : Saturday
+        'sendToOFHMgr Send email to Manager on Saturday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Saturday 0:00-07:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Saturday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Saturday 07:00-18:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Saturday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Saturday 18:00-24:00'
+        ),
+         //=== sendToOFHMgr : Sunday
+        'sendToOFHMgr Send email to Manager on Sunday 0:00-07:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Sunday 0:00-07:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Sunday 07:00-18:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Sunday 07:00-18:00'
+        ),
+        'sendToOFHMgr Send email to Manager on Sunday 18:00-24:00' => array(
+            'value' => '0',
+            'type' => 'check',
+            'description' => 'sendToOFHMgr Send email to Manager on Sunday 18:00-24:00'
+        ),
+        
+    );
+
+
+     /*
+     public static function genArray(){
+       //  $aConfig = array('sendToCSMgr', 'sendToSYSMgr', 'sendToNOCMgr', 'sendToGITMgr', 'sendToTRAMgr', 'sendToOFHMgr');
+         $aConfig = array('sendToCSMgr');
+         //$aDay = array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
+         $aDay = array('Monday');
+         $aTime = array('00:00-07:00', '07:00-18:00', '18:00-24:00');
+         $g=1;
+         foreach($aConfig as $kConfig){
+             $mailToMgr = $kConfig.' E-mail:'.$g;
+             $vvconfiguration[$mailToMgr] = array(
+                'value' => '',
+                'type' => 'input',
+                'description' => $mailToMgr
+             );
+             $g++;
+             foreach($aDay as $kDay){
+                 foreach ($aTime as $kTime) {
+                     $kByDayTime = $kConfig . ' Send email to Manager on ' . $kDay . ' ' . $kTime.'::'.$g;
+                     $vvconfiguration[$kByDayTime] = array(
+                        'value' => '',
+                        'type' => 'check',
+                        'description' => $kByDayTime
+                     );
+                     $g++;
+                 }
+             }
+         }
+         echo '<pre>';print_r('vvvvvvvvvvvvvvvvvvvvvvvvvvvv');
+         return $vvconfiguration;
+     }*/
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

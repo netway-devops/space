@@ -1,0 +1,34 @@
+---
+cycles: [Monthly, Semi-Annually, Annually]
+options:
+
+  FlavorCycle:
+    title: Generate usage invoices
+    type: select
+    items:
+      - value: Monthly
+        title: "{$lang.Monthly}"
+      - value: Semi-Annually
+        title: "{$lang.SemiAnnually}"
+      - value: Annually
+        title: "{$lang.Annually}"
+
+  FlavorIncreaseCredit:
+    title: Credit Setup Fee
+    type: select
+    description: Add setup fee from initial order to client credit.
+    items:
+      - value: 'on'
+        title: "{$lang.yes}"
+      - value: 'off'
+        title: "{$lang.no}"
+
+  FlavorSetupFee:
+    title: Setup fee
+    type: currency
+    description: Entry fee for initial order
+
+  FlavorRecurringFee:
+    title: Fixed recurring fee
+    type: currency
+    description: Fixed recurring charge for service to be added to each invoice.

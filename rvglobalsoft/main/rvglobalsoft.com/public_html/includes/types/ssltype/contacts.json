@@ -1,0 +1,424 @@
+{
+    "organization": {
+        "type": "group",
+        "lang": "en_orgdetails",
+        "forms": {
+            "name": {
+                "lang": "en_orgname",
+                "title": "en_tip1",
+                "prefill": ["O", "company"]
+            },
+            "unit": {
+                "lang": "en_orgunit",
+                "title": "en_tip2",
+                "prefill": ["OU", "unit"],
+                "required": false
+            },
+            "duns": {
+                "lang": "duns",
+                "prefill": ["duns"],
+                "required": false
+            },
+            "orgnumber": {
+                "lang": "orgnumber",
+                "prefill": ["vat", "vateu"],
+                "required": false
+            },
+            "address1": {
+                "lang": "address",
+                "title": "en_tip3",
+                "prefill": ["streetAddress", "address1"]
+            },
+            "address2": {
+                "lang": "address2",
+                "title": "en_optional",
+                "required": false,
+                "prefill": ["address2"]
+            },
+            "city": {
+                "lang": "city",
+                "title": "en_tip4",
+                "prefill": ["L", "city"]
+            },
+            "state": {
+                "lang": "state",
+                "title": "en_tip5",
+                "prefill": ["S", "state", "province", "region"]
+            },
+            "postcode": {
+                "lang": "postcode",
+                "title": "en_tip6",
+                "prefill": ["postalCode", "postcode", "postalcode", "zip", "zipcode"]
+            },
+            "country": {
+                "lang": "country",
+                "title": "en_tip6",
+                "type": "select",
+                "options": [],
+                "prefill": ["C", "country"]
+            },
+            "phone": {
+                "lang": "phone",
+                "prefill": ["phonenumber"]
+            },
+            "fax": {
+                "lang": "fax",
+                "required": false,
+                "prefill": ["fax"]
+            }
+        }
+    },
+    "evorganization": {
+        "type": "group",
+        "lang": "en_orgdetails",
+        "forms": {
+            "name": {
+                "lang": "en_orgname",
+                "title": "en_tip1",
+                "prefill": ["O", "company"]
+            },
+            "assumedname": {
+                "lang": "assumedname",
+                "title": "en_tip_dba",
+                "prefill": ["O", "company"],
+                "required": false
+            },
+            "category": {
+                "type": "select",
+                "options": [
+                    {
+                        "value": "PO",
+                        "name": "Private Organization"
+                    },
+                    {
+                        "value": "GE",
+                        "name": "Government Entity"
+                    },
+                    {
+                        "value": "BE",
+                        "name": "Business Entity"
+                    }
+                ]
+            },
+            "unit": {
+                "lang": "en_orgunit",
+                "title": "en_tip2",
+                "prefill": ["OU", "unit"],
+                "required": false
+            },
+            "duns": {
+                "lang": "duns",
+                "prefill": ["duns"],
+                "required": false
+            },
+            "orgnumber": {
+                "lang": "orgnumber",
+                "prefill": ["vat", "vateu"],
+                "required": false
+            },
+            "address1": {
+                "lang": "address",
+                "title": "en_tip3",
+                "prefill": ["streetAddress", "address1"]
+            },
+            "address2": {
+                "lang": "address2",
+                "title": "en_optional",
+                "required": false,
+                "prefill": ["address2"]
+            },
+            "locality": {
+                "lang": "city",
+                "title": "en_tip4",
+                "prefill": ["L", "city"]
+            },
+            "state": {
+                "lang": "state",
+                "title": "en_tip5",
+                "prefill": ["S", "state", "province", "region"]
+            },
+            "postcode": {
+                "lang": "postcode",
+                "title": "en_tip6",
+                "prefill": ["postalCode", "postcode", "postalcode", "zip", "zipcode"]
+            },
+            "country": {
+                "lang": "country",
+                "title": "en_tip6",
+                "type": "select",
+                "options": [],
+                "prefill": ["C", "country"]
+            },
+            "phone": {
+                "lang": "phone",
+                "prefill": ["phonenumber"]
+            },
+            "fax": {
+                "lang": "fax",
+                "required": false,
+                "prefill": ["fax"]
+            }
+        }
+    },
+    "contact": {
+        "type": "group",
+        "lang": "en_admincontact",
+        "forms": {
+            "copy": {
+                "type": "checkbox",
+                "required": false,
+                "options": [
+                    {
+                        "lang": "sameasadmin",
+                        "value": "admin"
+                    }
+                ]
+            },
+            "firstname": {
+                "lang": "firstname",
+                "prefill": ["firstname"]
+            },
+            "lastname": {
+                "lang": "lastname",
+                "prefill": ["lastname"]
+            },
+            "address1": {
+                "lang": "address",
+                "prefill": ["address1", "streetAddress"]
+            },
+            "address2": {
+                "lang": "address2",
+                "required": false,
+                "prefill": ["address2", "streetAddress"]
+            },
+            "city": {
+                "lang": "city",
+                "prefill": ["city", "L"]
+            },
+            "state": {
+                "lang": "state",
+                "prefill": ["state", "province", "region", "S"]
+            },
+            "postcode": {
+                "lang": "postcode",
+                "prefill": ["postcode", "postalcode", "zip", "zipcode", "postalCode"]
+            },
+            "country": {
+                "lang": "country",
+                "type": "select",
+                "options": [],
+                "prefill": ["country", "C"]
+            },
+            "email": {
+                "lang": "email",
+                "prefill": ["email"]
+            },
+            "phone": {
+                "lang": "phone",
+                "prefill": ["phonenumber"]
+            }
+        }
+    },
+    "ovcontact": {
+        "type": "group",
+        "lang": "en_admincontact",
+        "forms": {
+            "copy": {
+                "type": "checkbox",
+                "required": false,
+                "options": [
+                    {
+                        "lang": "sameasadmin",
+                        "value": "admin"
+                    }
+                ]
+            },
+            "firstname": {
+                "lang": "firstname",
+                "prefill": ["firstname"]
+            },
+            "lastname": {
+                "lang": "lastname",
+                "prefill": ["lastname"]
+            },
+            "jobtitle": {
+                "lang": "en_jobtitle",
+                "required": false
+            },
+            "company": {
+                "lang": "en_orgname",
+                "prefill": ["company", "O"]
+            },
+            "address1": {
+                "lang": "address",
+                "prefill": ["address", "streetAddress"]
+            },
+            "address2": {
+                "lang": "address2",
+                "required": false,
+                "prefill": ["address2", "streetAddress"]
+            },
+            "city": {
+                "lang": "city",
+                "prefill": ["city", "L"]
+            },
+            "state": {
+                "lang": "state",
+                "prefill": ["state", "province", "region", "S"]
+            },
+            "postcode": {
+                "lang": "postcode",
+                "prefill": ["postcode", "postalcode", "zip", "zipcode", "postalCode"]
+            },
+            "country": {
+                "lang": "country",
+                "type": "select",
+                "options": [],
+                "prefill": ["country", "C"]
+            },
+            "email": {
+                "lang": "email",
+                "prefill": ["email"]
+            },
+            "phone": {
+                "lang": "phone",
+                "prefill": ["phonenumber"]
+            },
+            "fax": {
+                "lang": "fax",
+                "required": false,
+                "prefill": ["fax"]
+            }
+        }
+    },
+    "jurisdiction": {
+        "type": "group",
+        "lang": "jurisdiction",
+        "forms": {
+            "city": {
+                "lang": "city",
+                "prefill": ["L", "city"]
+            },
+            "state": {
+                "lang": "state",
+                "prefill": ["S", "state", "province", "region"]
+            },
+            "country": {
+                "type": "select",
+                "lang": "country",
+                "options": [],
+                "prefill": ["C", "country"]
+            }
+        }
+    },
+    "old_organization": {
+        "type": "group",
+        "lang": "en_orgdetails",
+        "forms": {
+            "name": {
+                "lang": "en_orgname",
+                "title": "en_tip1",
+                "prefill": ["O", "company"]
+            },
+            "unit": {
+                "lang": "en_orgunit",
+                "title": "en_tip2",
+                "prefill": ["OU", "unit"]
+            },
+            "address1": {
+                "lang": "address",
+                "title": "en_tip3",
+                "prefill": ["streetAddress", "address1"]
+            },
+            "address2": {
+                "lang": "address2",
+                "title": "en_optional",
+                "required": false,
+                "prefill": ["address2"]
+            },
+            "locality": {
+                "lang": "city",
+                "title": "en_tip4",
+                "prefill": ["L", "city"]
+            },
+            "state": {
+                "lang": "state",
+                "title": "en_tip5",
+                "prefill": ["S", "state", "province", "region"]
+            },
+            "postalcode": {
+                "lang": "postcode",
+                "title": "en_tip6",
+                "prefill": ["postalCode", "postcode", "postalcode", "zip", "zipcode"]
+            },
+            "country": {
+                "lang": "country",
+                "title": "en_tip6",
+                "type": "select",
+                "options": [],
+                "prefill": ["C", "country"]
+            }
+        }
+    },
+    "old_contact": {
+        "type": "group",
+        "lang": "en_admincontact",
+        "forms": {
+            "OrgName": {
+                "lang": "en_orgname",
+                "prefill": ["company", "O"]
+            },
+            "JobTitle": {
+                "lang": "en_jobtitle"
+            },
+            "FName": {
+                "lang": "firstname",
+                "prefill": ["firstname"]
+            },
+            "LName": {
+                "lang": "lastname",
+                "prefill": ["lastname"]
+            },
+            "Address1": {
+                "lang": "address",
+                "prefill": ["address1", "streetAddress"]
+            },
+            "Address2": {
+                "lang": "address2",
+                "required": false,
+                "prefill": ["address2", "streetAddress"]
+            },
+            "City": {
+                "lang": "city",
+                "prefill": ["city", "L"]
+            },
+            "State": {
+                "lang": "state",
+                "prefill": ["state", "province", "region", "S"]
+            },
+            "PostalCode": {
+                "lang": "postcode",
+                "prefill": ["postcode", "postalcode", "zip", "zipcode", "postalCode"]
+            },
+            "Country": {
+                "lang": "country",
+                "type": "select",
+                "options": [],
+                "prefill": ["country", "C"]
+            },
+            "EmailAddress": {
+                "lang": "email",
+                "prefill": ["email"]
+            },
+            "Phone": {
+                "lang": "phone",
+                "prefill": ["phonenumber"]
+            },
+            "Fax": {
+                "lang": "fax",
+                "prefill": ["phonenumber"],
+                "required": false
+            }
+        }
+    }
+}

@@ -1,0 +1,1011 @@
+{
+    "product": {
+        "id": "467",
+        "category_id": "41",
+        "type": "4",
+        "name": "OnApp Hypervisor  1U",
+        "description": "<p>CPU:2 CPU (max)<br \/>ECC Ram DDR3:32 GB (max)<br \/>Storage:2 TB (max)<br \/>Bandwidth:unlimited<\/p>\r\n<ul>\r\n<li>Free 4 IP address<\/li>\r\n<li>Free remote access to IPMI\/iDRAC\/iLO<\/li>\r\n<\/ul>",
+        "visible": "-1",
+        "domain_options": "0",
+        "qty": "0",
+        "autosetup": "2",
+        "subdomain": "",
+        "tax": "1",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "2",
+        "autohostname": "",
+        "p_options": [
+            "0"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": null,
+        "contract_id": "0",
+        "dbcItemType": "Service",
+        "baseUnitOfMeasureCode": "MONTH",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "3",
+        "line_group_id": "1",
+        "codeName": "OAP1",
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "Regular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": 0,
+        "m": "6500.00",
+        "q": "0.00",
+        "s": "0.00",
+        "a": "78000.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": 0,
+        "ptype": "Server",
+        "tlds": null,
+        "periods": null,
+        "category_name": "Private Cloud",
+        "module": "39",
+        "modules": [
+            {
+                "product_id": "467",
+                "main": 1,
+                "modname": "Zabbix",
+                "filename": "class.zabbix.php",
+                "module": "39",
+                "options": false,
+                "default": false,
+                "server": {
+                    "62": "62"
+                }
+            },
+            {
+                "product_id": "467",
+                "module": "124",
+                "main": "0",
+                "server": {
+                    "112": "112"
+                },
+                "options": false,
+                "modname": "Managed Services",
+                "filename": "class.manage_service.php",
+                "default": false
+            }
+        ],
+        "main": "1",
+        "modname": "Zabbix",
+        "filename": "class.zabbix.php",
+        "domain_op": [],
+        "free_domain": "0",
+        "emails": {
+            "AfterModuleTerminate": "0",
+            "ProductAccountCreated": "0",
+            "SuspendAccount": "0",
+            "UnsuspendAccount": "0"
+        },
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Hosting",
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1OverdueReminder": "1",
+            "1ServiceReminder": "0",
+            "2OverdueReminder": "7",
+            "2ServiceReminder": "0",
+            "3OverdueReminder": "15",
+            "3ServiceReminder": "0",
+            "4ServiceReminder": "0",
+            "5ServiceReminder": "0",
+            "AddLateFeeAfter": "6",
+            "AdsjustDatesOnCreation": "on",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidInvoices": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoProcessCancellations": "off",
+            "AutoSuspensionPeriod": "10",
+            "AutoTerminationPeriod": "30",
+            "BillFullMonth": "0",
+            "CancellationPostPaidProrata": "off",
+            "CancellationTypeEndPeriod": "on",
+            "CancellationTypeImmediate": "on",
+            "CreditOnDowngradeOverride": "",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoCreation": "2",
+            "EnableAutoRenewService": "on",
+            "EnableAutoSuspension": "off",
+            "EnableAutoTermination": "off",
+            "EnableAutoUnSuspension": "off",
+            "EnableAutoUpgrades": "on",
+            "EnableProRata": "off",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "3",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "MoveDueDays": "0",
+            "ProRataDay": "1",
+            "ProRataMonth": "disabled",
+            "ProRataNextMonth": "0",
+            "RecurringBillingType": "PrePaid",
+            "RenewInvoice": "1",
+            "ReturnToStockOnTerminate": "0",
+            "SendPaymentReminderEmails": "on",
+            "UpgradeProratePrecision": "seconds"
+        }
+    },
+    "addons": [],
+    "tasks": [],
+    "widgets": [
+        {
+            "id": "473",
+            "widget": "reverse_dns",
+            "name": "Reverse DNS",
+            "location": "includes\/types\/server\/widgets\/reverse_dns\/",
+            "ptype": "4",
+            "config": {
+                "smallimg": "includes\/types\/server\/widgets\/reverse_dns\/small.png",
+                "bigimg": "includes\/types\/server\/widgets\/reverse_dns\/big.png"
+            },
+            "options": "1",
+            "group": "sidemenu",
+            "widget_id": "20",
+            "override_defaults": "0",
+            "target_id": "467",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "472",
+            "widget": "zabbix_bandwidth",
+            "name": "Bandwidth",
+            "location": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "36",
+            "override_defaults": "0",
+            "target_id": "467",
+            "sort_order": "1",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "474",
+            "widget": "zabbix_monitor",
+            "name": "Notification",
+            "location": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "35",
+            "override_defaults": "0",
+            "target_id": "467",
+            "sort_order": "2",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "622",
+            "widget": "manage_service_notification",
+            "name": "Notification",
+            "location": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "58",
+            "override_defaults": "0",
+            "target_id": "467",
+            "sort_order": "3",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "623",
+            "widget": "manage_service_monitor",
+            "name": "Monitor",
+            "location": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "59",
+            "override_defaults": "0",
+            "target_id": "467",
+            "sort_order": "4",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        }
+    ],
+    "forms": [
+        {
+            "id": "969",
+            "type": "select",
+            "required": "0",
+            "name": "CPU Cores",
+            "key": "",
+            "variable": "cpu",
+            "description": "",
+            "category": "server",
+            "product_id": "467",
+            "copy_of": "969",
+            "options": "275",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "0",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3329",
+                    "category_id": "969",
+                    "name": "Single dual-cores",
+                    "variable_id": "Single dual-cores",
+                    "copy_of": "3329",
+                    "pricing": true
+                },
+                {
+                    "id": "3330",
+                    "category_id": "969",
+                    "name": "Single quad-cores",
+                    "variable_id": "cpu_quad_1",
+                    "sort_order": "1",
+                    "copy_of": "3330",
+                    "pricing": true
+                },
+                {
+                    "id": "3331",
+                    "category_id": "969",
+                    "name": "Single six-cores",
+                    "variable_id": "cpu_six_1",
+                    "sort_order": "2",
+                    "copy_of": "3331",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3332",
+                    "category_id": "969",
+                    "name": "Dual quad-cores",
+                    "variable_id": "cpu_quad_2",
+                    "sort_order": "3",
+                    "copy_of": "3332",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3333",
+                    "category_id": "969",
+                    "name": "Dual six-cores",
+                    "variable_id": "cpu_six_2",
+                    "sort_order": "4",
+                    "copy_of": "3333",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "964",
+            "type": "select",
+            "required": "0",
+            "name": "RAM",
+            "key": "cf_memory",
+            "variable": "ram",
+            "description": "",
+            "category": "server",
+            "product_id": "467",
+            "copy_of": "964",
+            "options": "275",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "1",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3301",
+                    "category_id": "964",
+                    "name": "2GB",
+                    "variable_id": "ram_2",
+                    "copy_of": "3301",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3302",
+                    "category_id": "964",
+                    "name": "4GB",
+                    "variable_id": "ram_4",
+                    "sort_order": "1",
+                    "copy_of": "3302",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3303",
+                    "category_id": "964",
+                    "name": "8GB",
+                    "variable_id": "ram_8",
+                    "sort_order": "2",
+                    "copy_of": "3303",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3304",
+                    "category_id": "964",
+                    "name": "16GB",
+                    "variable_id": "ram_16",
+                    "sort_order": "3",
+                    "copy_of": "3304",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3305",
+                    "category_id": "964",
+                    "name": "32GB",
+                    "variable_id": "ram_32",
+                    "sort_order": "4",
+                    "copy_of": "3305",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "4289",
+                    "category_id": "964",
+                    "name": "64GB",
+                    "variable_id": "64GB",
+                    "sort_order": "5",
+                    "copy_of": "4289"
+                },
+                {
+                    "id": "4290",
+                    "category_id": "964",
+                    "name": "96GB",
+                    "variable_id": "96GB",
+                    "sort_order": "6",
+                    "copy_of": "4290"
+                },
+                {
+                    "id": "4291",
+                    "category_id": "964",
+                    "name": "128GB",
+                    "variable_id": "128GB",
+                    "sort_order": "7",
+                    "copy_of": "4291",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "967",
+            "type": "select",
+            "required": "0",
+            "name": "First Drive",
+            "key": "cf_hdd",
+            "variable": "disk1",
+            "description": "",
+            "category": "server",
+            "product_id": "467",
+            "copy_of": "967",
+            "options": "259",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "2",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "4292",
+                    "category_id": "967",
+                    "name": "150GB SATA",
+                    "variable_id": "150GB SATA",
+                    "copy_of": "4292",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3324",
+                    "category_id": "967",
+                    "name": "300GB SATA",
+                    "variable_id": "300GB SATA",
+                    "sort_order": "1",
+                    "copy_of": "3324",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3325",
+                    "category_id": "967",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "2",
+                    "copy_of": "3325",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3326",
+                    "category_id": "967",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "3",
+                    "copy_of": "3326",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3327",
+                    "category_id": "967",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "4",
+                    "copy_of": "3327",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "977",
+            "type": "select",
+            "required": "0",
+            "name": "Second Drive",
+            "key": "cf_hdd",
+            "variable": "disk2",
+            "description": "",
+            "category": "server",
+            "product_id": "467",
+            "copy_of": "977",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "3",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3355",
+                    "category_id": "977",
+                    "name": "None",
+                    "variable_id": "disk_none",
+                    "copy_of": "3355",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "4293",
+                    "category_id": "977",
+                    "name": "150GB SATA",
+                    "variable_id": "150GB SATA",
+                    "sort_order": "1",
+                    "copy_of": "4293",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3356",
+                    "category_id": "977",
+                    "name": "300GB SATA",
+                    "variable_id": "300GB SATA",
+                    "sort_order": "2",
+                    "copy_of": "3356",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3357",
+                    "category_id": "977",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "3",
+                    "copy_of": "3357",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3358",
+                    "category_id": "977",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "4",
+                    "copy_of": "3358",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3359",
+                    "category_id": "977",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "5",
+                    "copy_of": "3359",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "978",
+            "type": "select",
+            "required": "0",
+            "name": "Third Drive",
+            "key": "cf_hdd",
+            "variable": "disk3",
+            "description": "",
+            "category": "server",
+            "product_id": "467",
+            "copy_of": "978",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "4",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3360",
+                    "category_id": "978",
+                    "name": "None",
+                    "variable_id": "disk_none",
+                    "copy_of": "3360",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "4294",
+                    "category_id": "978",
+                    "name": "150GB SATA",
+                    "variable_id": "150GB SATA",
+                    "sort_order": "1",
+                    "copy_of": "4294",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3361",
+                    "category_id": "978",
+                    "name": "300GB SATA",
+                    "variable_id": "300GB SATA",
+                    "sort_order": "2",
+                    "copy_of": "3361",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3362",
+                    "category_id": "978",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "3",
+                    "copy_of": "3362",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3363",
+                    "category_id": "978",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "4",
+                    "copy_of": "3363",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3364",
+                    "category_id": "978",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "5",
+                    "copy_of": "3364",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "979",
+            "type": "select",
+            "required": "0",
+            "name": "Fourth Drive",
+            "key": "cf_hdd",
+            "variable": "disk_4",
+            "description": "",
+            "category": "server",
+            "product_id": "467",
+            "copy_of": "979",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "5",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3365",
+                    "category_id": "979",
+                    "name": "None",
+                    "variable_id": "disk_none",
+                    "copy_of": "3365",
+                    "pricing": true
+                },
+                {
+                    "id": "3366",
+                    "category_id": "979",
+                    "name": "300GB SATA",
+                    "variable_id": "300GB SATA",
+                    "sort_order": "1",
+                    "copy_of": "3366",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3367",
+                    "category_id": "979",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "2",
+                    "copy_of": "3367",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3368",
+                    "category_id": "979",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "3",
+                    "copy_of": "3368",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3369",
+                    "category_id": "979",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "4",
+                    "copy_of": "3369",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "986",
+            "type": "select",
+            "required": "0",
+            "name": "Fifth Drive",
+            "key": "cf_hdd",
+            "variable": "disk_4",
+            "description": "",
+            "category": "server",
+            "product_id": "467",
+            "copy_of": "986",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "6",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3401",
+                    "category_id": "986",
+                    "name": "None",
+                    "variable_id": "disk_none",
+                    "copy_of": "3401",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3402",
+                    "category_id": "986",
+                    "name": "300GB SATA",
+                    "variable_id": "300GB SATA",
+                    "sort_order": "1",
+                    "copy_of": "3402",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3403",
+                    "category_id": "986",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "2",
+                    "copy_of": "3403",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3404",
+                    "category_id": "986",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "3",
+                    "copy_of": "3404",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3405",
+                    "category_id": "986",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "4",
+                    "copy_of": "3405",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "987",
+            "type": "select",
+            "required": "0",
+            "name": "Sixth Drive ",
+            "key": "cf_hdd",
+            "variable": "disk_4",
+            "description": "",
+            "category": "server",
+            "product_id": "467",
+            "copy_of": "987",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "7",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3406",
+                    "category_id": "987",
+                    "name": "None",
+                    "variable_id": "disk_none",
+                    "copy_of": "3406",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3407",
+                    "category_id": "987",
+                    "name": "300GB SATA",
+                    "variable_id": "300GB SATA",
+                    "sort_order": "1",
+                    "copy_of": "3407",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3408",
+                    "category_id": "987",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "2",
+                    "copy_of": "3408",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3409",
+                    "category_id": "987",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "3",
+                    "copy_of": "3409",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "3410",
+                    "category_id": "987",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "4",
+                    "copy_of": "3410",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "985",
+            "type": "select",
+            "required": "0",
+            "name": "\u0e40\u0e1b\u0e47\u0e19 hypervisor",
+            "key": "",
+            "variable": "hypervisor",
+            "description": "",
+            "category": "",
+            "product_id": "467",
+            "copy_of": "985",
+            "options": "4",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "8",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3399",
+                    "category_id": "985",
+                    "name": "\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48",
+                    "copy_of": "3399",
+                    "pricing": true
+                },
+                {
+                    "id": "3400",
+                    "category_id": "985",
+                    "name": "\u0e43\u0e0a\u0e48",
+                    "variable_id": "1",
+                    "sort_order": "1",
+                    "copy_of": "3400",
+                    "pricing": true
+                }
+            ]
+        },
+        {
+            "id": "984",
+            "type": "select",
+            "required": "0",
+            "name": "\u0e02\u0e2d\u0e07 Internal Netway \u0e40\u0e2d\u0e07",
+            "key": "",
+            "variable": "netway",
+            "description": "",
+            "category": "",
+            "product_id": "467",
+            "copy_of": "984",
+            "options": "4",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "9",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3397",
+                    "category_id": "984",
+                    "name": "\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48",
+                    "copy_of": "3397",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "3398",
+                    "category_id": "984",
+                    "name": "\u0e43\u0e0a\u0e48",
+                    "variable_id": "1",
+                    "sort_order": "1",
+                    "copy_of": "3398",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "968",
+            "type": "textarea",
+            "required": "0",
+            "name": "Additional Note:",
+            "key": "",
+            "variable": "",
+            "description": "",
+            "category": "",
+            "product_id": "467",
+            "copy_of": "968",
+            "options": "2",
+            "config": [],
+            "sort_order": "10",
+            "group_id": "0",
+            "ftype": "textarea",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3328",
+                    "category_id": "968",
+                    "copy_of": "3328",
+                    "pricing": true
+                }
+            ]
+        },
+        {
+            "id": "1455",
+            "type": "checkbox",
+            "required": "0",
+            "name": "managed service",
+            "key": "",
+            "variable": "managed",
+            "description": "",
+            "category": "management",
+            "product_id": "467",
+            "copy_of": "1455",
+            "options": "259",
+            "config": {
+                "minvalue": "",
+                "maxvalue": "99999"
+            },
+            "sort_order": "11",
+            "group_id": "0",
+            "ftype": "checkbox",
+            "premade": true,
+            "items": [
+                {
+                    "id": "4286",
+                    "category_id": "1455",
+                    "name": "Email Alert & MRTG - monitoring server status and measuring the traffic load",
+                    "variable_id": "managed_free",
+                    "copy_of": "4286"
+                },
+                {
+                    "id": "4287",
+                    "category_id": "1455",
+                    "name": "Managed Server Services for Dedicated Server - Netway worry free server management services (CentOS)",
+                    "variable_id": "managed_pa",
+                    "sort_order": "1",
+                    "copy_of": "4287"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

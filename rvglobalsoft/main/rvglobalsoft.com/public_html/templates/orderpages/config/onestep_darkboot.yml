@@ -1,0 +1,11 @@
+---
+template:
+  value: hide
+footer1:
+  value: Best servers on the net
+  name: Footer line 1
+  type: input
+footer2:
+  value: Fast. One-click. Cheap. For you!
+  name: Footer line 2
+  type: input

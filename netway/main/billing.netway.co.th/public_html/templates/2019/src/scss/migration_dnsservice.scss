@@ -1,0 +1,170 @@
+#dns-service {
+
+  .form-horizontal:not(.dns-add-record-form) {
+    a,
+    h4 {
+      margin-bottom: 20px;
+    }
+  }
+
+  & > .icons {
+    .dwarrow {
+      background: none !important;
+      padding: 0 !important;
+      margin-bottom: 20px;
+    }
+
+    & > ul {
+      padding: 0;
+      & > li > a {
+        min-height: 80px;
+      }
+    }
+  }
+
+  .recordbox {
+    min-height: 60px;
+    label {
+      margin-top: 10px;
+    }
+    input, select {
+      max-width: 300px;
+      min-width: 20px !important;
+      width: 100%;
+    }
+  }
+
+  .wbox {
+    .wbox_content {
+      .control-group {
+        margin-bottom: 30px;
+      }
+      input[type="submit"] {
+        padding: .6rem 1rem !important;
+      }
+    }
+  }
+
+  .service-details {
+    border: none;
+    .service-details-line {
+      padding: 0 !important;
+    }
+  }
+
+  table {
+    .col-action {
+      width: auto !important;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .table.stackable {
+      tbody {
+        tr {
+          th {
+            display: none !important;
+          }
+        }
+      }
+    }
+
+    label {
+      margin-top: 10px;
+      display: block;
+      float: none;
+    }
+    #contentbox {
+      margin-left: 0;
+    }
+  }
+}
+
+table.display {
+  margin: 40px 0;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: $table-font-size;
+
+
+  tr {
+    border-bottom: $table-border-width solid $border-color;
+  }
+
+  tr:last-child {
+    border: none;
+  }
+
+  thead {
+    border-radius: 6px;
+    border: $border-width solid $border-color;
+    tr {
+      background: $table-head-bg;
+    }
+    th {
+      cursor: default;
+      padding: 10px 20px !important;
+      height: $info-item-height;
+      font-size: $table-head-size;
+      color: $table-head-color;
+      font-weight: 500;
+      border: none !important;
+      border-bottom: $table-border-width solid $table-border-color !important;
+      background: $table-head-bg !important;
+    }
+  }
+  tbody {
+    border-radius: 6px;
+    border: $border-width solid $border-color;
+
+    tr {
+      &.odd {
+        background: none !important;
+      }
+
+      .label {
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 0.43rem;
+        padding: 6px;
+        font-weight: 500;
+        font-size: 10px;
+        text-transform: uppercase;
+
+        &.Active  {
+          background-color: lighten($brand-success, 45%);
+          color: $brand-success;
+        }
+        &.Pending {
+          background-color: lighten($brand-info, 38%);
+          color: $brand-info;
+        }
+        &.Terminated {
+          background-color: lighten($brand-danger, 45%);
+          color: $brand-danger;
+        }
+        &.Suspended {
+          background-color: lighten($brand-warning, 32%);
+          color: $brand-warning;
+        }
+      }
+
+      td {
+        vertical-align: middle;
+        padding: 10px 20px ;
+        border: none;
+        overflow: hidden;
+      }
+
+      th {
+        background: none;
+        border: none;
+        padding: 10px 20px;
+        font-size: 13px;
+      }
+    }
+  }
+}

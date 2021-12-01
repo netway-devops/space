@@ -1,0 +1,651 @@
+/*
+Some icons by Yusuke Kamiyamane. All rights reserved. Licensed under a Creative Commons Attribution 3.0 License.
+*/
+table.tonapp, table.data-table  {
+    border-collapse: separate;
+    border-spacing: 0;
+    color: #7B858A;
+    border:1px solid #C9C9C9;
+    border-bottom:none;
+}
+.tonapp thead tr, table.data-table thead tr {
+    background: url("../images/new_bg_table_top.png") repeat-x scroll 0 0 #D0D0D0;
+    color: #515151;
+}
+#content-cloud .checker td {
+    padding-top:10px;
+}
+.tonapp tr, table.data-table tr {
+    background: url("../images/new_bg_table_light.png") repeat-x scroll 0 0 #ECECEC;
+}
+.tonapp th, .tonapp td,  table.data-table th,  table.data-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #C9C9C9;
+}
+.tonapp th,  table.data-table th,  table.data-table thead td  {
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.iphone_switch_container {
+    width:66px;
+    height:19px;
+    display:block;
+    position:relative;
+    cursor:pointer;
+}
+.iphone_switch_container img {
+    background: url("../images/iphone_switch.png") no-repeat top left;
+    width:66px;
+    height:19px;
+}
+
+.iphone_switch_container_pending img {
+    background: url("../images/iphone_pending.png") no-repeat top right !important;
+    width:66px;
+    height:19px;
+}
+.iphone_switch_container_off  img {
+    background-position: top right;
+
+}
+.iphone_switch_container_on  img  {
+    background-position: top left;
+}
+.current-menu-item a {
+    background: #e8e8e8;
+}
+ul.sub-ul {
+    float:right;
+    padding:0px 5px;
+    list-style:none;
+    height:23px;
+    box-shadow: 0 0 3px 0 #000000 inset;
+    background: #828282;
+    border-radius: 5px ;
+    margin:3px 12px 0px 0px;
+
+}
+ul.sub-ul li {
+    display: inline;
+}
+
+ul.sub-ul li  a {
+    font-size:11px;
+    color:#fff;
+    display: block;
+    line-height: 21px;
+    float: left;
+    padding: 0 10px;
+    font-weight: bold;
+}
+ul.sub-ul li  a.active {
+    text-decoration: none;
+}
+
+#nav-onapp {
+    margin:30px 0px 0px;
+    clear:both;
+}
+#nav-onapp ul  {
+    float: right;
+    border-bottom: 1px solid #2b5177;
+    height: 28px;
+    list-style: none outside none;
+    margin: 0px 10px;
+    padding: 0px 5px;
+}
+#content-cloud, .content-cloud {
+    margin-top:-1px;
+    background:#FFFFFF url("../images/bg-action.png") repeat-x left bottom;
+}
+#content-cloud .header-bar h3,
+.content-cloud .header-bar h3 {
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 8px;
+    padding: 0 0 0 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-shadow: 0 1px 0 #000000;
+    line-height: inherit;
+}
+#content-cloud .header-bar .hasicon,
+.content-cloud .header-bar .hasicon {
+    padding-left:20px;
+}
+#content-cloud .header-bar .interfaces {
+    background:url("../images/icons/network-ethernet.png") no-repeat center left;
+}
+#content-cloud .header-bar .vmdetails {
+    background:url("../images/icons/network-clouds.png") no-repeat center left;
+}
+#content-cloud .header-bar .billing {
+    background:url("../images/icons/money-coin.png") no-repeat center left;
+}
+#content-cloud .header-bar .disks{
+    background:url("../images/icons/drive--pencil.png") no-repeat center left;
+}
+#content-cloud .header-bar .backups{
+    background:url("../images/icons/lifebuoy.png") no-repeat center left;
+}
+
+#content-cloud .header-bar .templates{
+    background:url("../images/icons/disc-case-label.png") no-repeat center left;
+}
+#content-cloud .header-bar .backupschedule{
+    background:url("../images/icons/calendar-month.png") no-repeat center left;
+}
+#content-cloud .header-bar .reinstall {
+    background:url("../images/icons/blueprint--pencil.png") no-repeat center left;
+}
+#content-cloud .header-bar .firewall {
+    background:url("../images/icons/fire-big.png") no-repeat center left;
+}
+#content-cloud .header-bar .console {
+    background:url("../images/icons/terminal.png") no-repeat center left;
+}
+#content-cloud .header-bar .editvm {
+    background:url("../images/icons/equalizer.png") no-repeat center left;
+}
+#content-cloud .header-bar .resources {
+    background:url("../images/icons/block.png") no-repeat center left;
+}
+#content-cloud .header-bar .logs {
+    background:url("../images/icons/receipt.png") no-repeat center left;
+}
+#content-cloud .header-bar .createvm {
+    background:url("../images/icons/server--plus.png") no-repeat center left;
+}
+#content-cloud .header-bar .autoscaling {
+    background:url("../images/icons/autoscale.png") no-repeat center left;
+}
+#content-cloud .header-bar .ips,
+#content-cloud .header-bar .fowarding,
+.content-cloud .header-bar .ips {
+    background:url("../images/icons/sitemap-application.png") no-repeat center left;
+}
+#content-cloud .header-bar .cpuusage, #content-cloud .header-bar .networkusage , #content-cloud .header-bar .diskusage{
+    background:url("../images/icons/chart-up-color.png") no-repeat center left;
+}
+#content-cloud .header-bar,
+.content-cloud .header-bar {
+    background:url("../images/bg_header1.png") repeat-x top left;
+    border-color: #2B5177 #2B5177 -moz-use-text-color;
+    border-radius: 3px 3px 0 0;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    height: 30px;
+    line-height: 30px;
+}
+#content-cloud .content-bar, .content-cloud .content-bar {
+    border-color: #2B5177 #C8C8C8 #C8C8C8;
+    border-radius: 0 0 3px 3px;
+    border-right: 1px solid #C8C8C8;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+}
+#content-cloud .nopadding {
+    padding:0px !important;
+    background: #f5f5f5;
+}
+.nopadding .checker td {
+    border-top:1px solid #FFFFFF;
+    border-bottom:1px solid #E7E7E7;
+    background:url("../images/bg_gray_form.png") repeat-x bottom left;
+}
+#nav-onapp h1 {
+    height:24px;
+    margin:0px;
+    padding:0px;
+    font-size:18px;
+    padding-left:30px;
+    margin-left:8px;
+    line-height:24px;
+}
+#nav-onapp li {
+    float: left;
+    margin: 0 0 0 5px;
+}
+#nav-onapp li a:hover {
+    color:#333;
+    background: #f0f0f0;
+}
+a.ico {
+    display:block;
+    float:left;
+    width:16px;
+    height:16px;
+    margin:0px 5px;
+    text-indent: -9999px;
+}
+.ico_wrench {
+    background: url("../images/icons/wrench.png") no-repeat top left;
+}
+.ico_cross {
+    background: url("../images/icons/cross.png") no-repeat top left;
+}
+#nav-onapp a.apeded {
+    display:block;
+    padding:5px 0px 0px 10px;
+    font-size:11px;
+}
+#nav-onapp li a {
+    background: url("../images/bg-header-sprite.png") repeat scroll 0 0 transparent;
+    border-color: #C8C8C8;
+    text-decoration: none;
+    border-radius: 3px 3px 0 0;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5) inset;
+    color: #333333;
+    display: block;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    width: auto;
+}
+#nav-onapp li.current-menu-item a { -moz-border-bottom-colors: none;
+                                    -moz-border-image: none;
+                                    -moz-border-left-colors: none;
+                                    -moz-border-right-colors: none;
+                                    -moz-border-top-colors: none;
+                                    background: #75aeea;
+                                    border-color: #2B5177 #2B5177 #75aeea;
+                                    border-radius: 3px 3px 0 0;
+                                    border-style: solid solid none;
+                                    border-width: 1px 1px 0;
+                                    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5) inset;
+                                    text-shadow: 0 1px 0 #000000;
+                                    color:#fff;
+
+}
+
+
+.os-logo {
+    background: transparent url(../images/os-logos2.png) no-repeat scroll 0px 0px;
+}
+
+.os-logo.debian {
+    background-position: 0px -29px;
+}
+
+.os-logo.ubuntu {
+    background-position: 0px -60px;
+}
+
+.os-logo.centos {
+    background-position: 0px -90px;
+}
+
+.os-logo.rhel {
+    background-position: 0px -120px;
+}
+
+.os-logo.fedora {
+    background-position: 0px -149px;
+}
+
+.os-logo.gentoo {
+    background-position: 0px -179px;
+}
+
+.os-logo.linux {
+    background-position: 0px -209px;
+}
+
+.os-logo.windows {
+    background-position: 0px -239px;
+}
+
+
+ul#vm-menu {
+    margin: 5px 5px 10px;
+    list-style: none outside none;
+    padding: 0;
+    height: 70px;
+}
+ul#vm-menu li {
+    color: #555555;
+    float: left;
+    margin-left: 15px;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+ul#vm-menu li a {
+    background: url("../images/bg_fade_l.png") repeat-x scroll center bottom #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px;
+    color: #666666;
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    width: 70px;
+}
+ul#vm-menu li img {
+    padding: 15px 0 5px;
+}
+ul#vm-menu  li a:hover {
+    border: 1px solid #999999;
+    box-shadow: 0px 0px 2px #ccc;
+    background: #fff;
+    color: #444444;
+}
+.ttable {
+    margin: 20px 0px;
+}
+table.ttable tr td {
+    border-bottom: 1px solid #DADBDD;
+    border-top: 1px solid #FFFFFF;
+    vertical-align: middle;
+    padding: 10px 5px;
+    height:20px;
+    background:url("../images/bg-action.png") repeat-x scroll left bottom #FFFFFF;
+}
+
+/* Sliders */
+span.slabel {
+    color:#505050;
+    display:block;
+    float:left;
+    font:bold 14px helvetica,arial,sans-serif;
+    padding:7px 5px 7px 10px;
+    white-space:nowrap;
+    width:125px;
+}
+.slider {
+    background: transparent url("../images/slider-bg.png") repeat-x scroll left center;
+    position: relative;
+    height: 34px;
+    margin: 0 15px;
+}
+
+.slider a {
+    position: absolute;
+    background: transparent url("../images/handle-bg.png") repeat-x scroll left center;
+    width: 21px;
+    height: 28px;
+    cursor: pointer;
+    margin-left: -10px;
+    top: 1px;
+}
+
+.slider a:hover {
+    background-position: right center;
+}
+
+.input-with-slider .slider{
+    margin: 0 20px;
+    float: left;
+    width: 360px;
+}
+
+.input-with-slider input[type=text], .input-with-price input[type=text]{
+    width: 60px;
+}
+
+.input-with-price {
+    clear:both;
+    float: right;
+    margin: 0 35px;
+}
+
+.input-with-price table tr td span {
+    font-size: 16px;
+    text-shadow: 0 1px 0 #f7f7f7;
+    text-align: right;
+}
+
+.input-with-price label {
+    font-size: 20px;
+    text-shadow: 0 1px 0 #f7f7f7;
+}
+
+.input-with-price-edit {
+    clear:both;
+    float: right;
+    margin: 0 125px;
+}
+.input-with-price-edit div span {
+    font-size: 16px;
+    text-shadow: 0 1px 0 #f7f7f7;
+    text-align: right;
+}
+input[type="submit"].blue, input[type="button"].blue,
+input[type="submit"].gray, input[type="button"].gray
+{
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px #CCCCCC;
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 2px;
+    padding: 5px 10px;
+    text-align: center;
+    cursor:pointer;
+}
+input[type="submit"].gray, input[type="button"].gray  {
+    background-color: #FFFFFF;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #EEEEEE);
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+input[type="submit"].gray:hover, input[type="button"].gray:hover {
+    background-color: #EEEEEE;
+    background-image: -moz-linear-gradient(center top , #EEEEEE, #CCCCCC);
+}
+
+input[type="submit"].blue, input[type="button"].blue {
+    background-color: #59C8EF;
+    background-image: -moz-linear-gradient(center top , #59C8EF, #00A5DF);
+    border: 1px solid #009AEF;
+    color: #FFFFFF;
+    text-shadow: 0 0 1px #009AEF;
+}
+input[type="submit"].blue:hover, input[type="button"].blue:hover {
+    background-color: #53ADDF;
+    background-image: -moz-linear-gradient(center top , #53ADDF, #2388BF);
+}
+
+#addon_bar {
+    background:url("../images/new_bg_table_light.png") repeat-x scroll 0 0 #ECECEC;
+    margin-bottom:10px;
+    border-radius: 3px;
+    border: 1px solid #A3A3A3;
+    box-shadow: 1px 1px 0 0 rgba(255, 255, 255, 0.65) inset;
+}
+
+#lockable-vm-menu {
+    position:relative;
+}
+#lockable-vm-menu #lock {
+    background:url("../images/layer.png") repeat;
+    position:absolute;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    height:25px;
+    padding:30px 0px;
+    display: none;
+}
+a.small_control {
+    padding-left:16px;
+    background-position:left center;
+    background-repeat:no-repeat;
+}
+a.small_control.small_2, a.small_2 {
+    padding-left:20px;
+}
+a.small_delete {
+    background-image:url(../images/cross-small.png);
+}
+
+a.small_save{
+    background-image:url(../images/disk-small-black.png);
+}
+a.small_up{
+    background-image:url(../images/control-090.png);
+}
+a.small_down{
+    background-image:url(../images/control-270.png);
+}
+a.small_backup {
+    background-image:url(../images/box-small.png);
+}
+a.small_backup_schedule {
+    background-image:url(../images/icons/calendar-small-month.png);
+}
+a.small_pencil {
+    background-image:url(../images/pencil-small.png);
+}
+a.small_backup_restore {
+    background-image:url(../images/new.png);
+}
+a.small_backup_convert {
+    background-image:url(../images/icons/picture-small.png);
+}
+a.key-solid { background-image:url(../images/key-solid.png);}
+
+.notice {
+    background: #FFFFEE;
+    border-color: #EEEEDD #CCCCBB #BBBBAA #DDDDCC;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 0 15px;
+    padding: 10px;
+}
+.progress-bar {
+    background-image: -moz-linear-gradient(center bottom , #D8D8D8 0%, #C7C7C7 100%);
+    border: 1px solid #AAAAAA;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    height: 8px;
+    line-height: 1px;
+    position: relative;
+}
+.progress-bar .bar {
+    background: url("../images/progress_bar_bg.png") repeat-x scroll 0 0 #666666;
+    border: 1px solid #666666;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+    display: block;
+    height: 8px;
+    left: -1px;
+    position: absolute;
+    text-indent: -9999px;
+    top: -1px;
+}
+.progress-bar .bar.green {
+    background: url("../images/progress_bar_bg.png") repeat-x scroll 0 0 #54A306;
+    border: 1px solid #54A306;
+}
+.progress-bar .bar.red {
+    background: url("../images/progress_bar_bg.png") repeat-x scroll 0 0 #E83D0F;
+    border: 1px solid #E83D0F;
+}
+.resources_box {
+    background:url("../images/bg-action.png") repeat-x scroll left bottom #fff;
+    box-shadow: 0 0 3px 0 #b1b1b1 inset;
+    color:#757575;
+    border-radius: 5px 5px 5px 5px;
+    position:absolute;
+    top: 10px;
+    right:12px;
+    padding:10px;
+    width:200px;
+    border:solid 1px #fff;
+}
+.resources_box .ttable {
+    margin:5px 0px;
+}
+.resources_box .ttable td {
+    padding:5px 3px;
+}
+.ttable thead th {
+    color: #B2B2B2;
+    font-style: italic;
+    font-weight: normal;
+    text-align:left;
+}
+.ttable td.bigger {
+    color: #404040;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3.summarize {
+    border-bottom:1px solid #DADBDD;
+    font-size:16px;
+    font-weight: normal;
+    font-style: italic;
+    padding-bottom:2px;
+    margin-bottom:8px;
+}
+h3.summarize  span {
+    color:#B2B2B2
+}
+.report {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.report .button.green, .report .green  {
+
+
+    background:url("../images/green_bg.png") repeat-x scroll left top #7caa06;
+    color:#fff;
+    box-shadow:0 1px 0 #9CC49D inset;
+}
+.mseparator {
+    clear:both;
+    height: 20px;
+}
+.report .button {
+    display: inline-block;
+    margin: 0 0px 2px;
+    min-width: 110px;
+    padding: 5px 3px;
+    border-radius: 3px 3px 3px 3px;
+    background: -moz-linear-gradient(center top , #EFEFEF 0%, #E9E9E9 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #ABABAB;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    color: #3B3B3B;
+}
+.report .value {
+    font-size: 16px;
+    padding: 4px 0 2px;
+}
+.report .attr {
+    font-size: 11px;
+    padding: 2px 0 4px;
+}
+.report .value, .report .attr {
+    display: block;
+    text-align: center;
+}
+/*tags*/
+.label a{
+    text-decoration: none;
+}
+.label{
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 13px;
+    padding: 1px 4px 2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.label-success {
+    background-color: #468847;
+} 

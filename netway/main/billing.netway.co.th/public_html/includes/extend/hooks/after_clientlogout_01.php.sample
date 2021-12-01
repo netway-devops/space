@@ -1,0 +1,6 @@
+<?php
+
+/**
+ * Client with ID=$details just logged out
+ * Following variable is available to use in this file:  $details client id in HostBill
+ */

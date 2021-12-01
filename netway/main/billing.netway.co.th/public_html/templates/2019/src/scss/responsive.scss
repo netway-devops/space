@@ -1,0 +1,268 @@
+@media (min-width: 994px) {
+  .sidenav-toggled {
+    .sidebar {
+      margin-left: -$menu-width;
+    }
+    .sidebar-overlay {
+      visibility: hidden;
+    }
+
+    .body-content, .footer-content {
+      margin-left: 0;
+    }
+
+    .navbar {
+      .navbar-left {
+        flex: 0 0 auto;
+        width: $navbar-height;
+        padding: 0;
+        background-color: $navbar-bg;
+        border-bottom: $border-width solid $gray-200;
+
+        .navbar-brand {
+          display: none;
+        }
+
+        .btn-toggler {
+          color: lighten($menu-bg, 5%);
+          height: 100%;
+          width: 100%;
+          &:active {
+            color: lighten($menu-bg, 40%);
+          }
+        }
+      }
+      .dropdown-order-items {
+        left: 0;
+      }
+    }
+  }
+
+  .dropdown-order-items {
+    left: $menu-width;
+  }
+
+  .body-content, .footer-content {
+    margin-left: $menu-width;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+}
+
+@media (max-width: 993px) {
+  .navbar {
+    .navbar-left {
+      width: 100%;
+      flex: auto;
+    }
+    .navbar-body {
+      background-color: #464851;
+    }
+  }
+  .sidebar {
+    margin-left: -$menu-width;
+  }
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    margin-left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 850;
+    visibility: hidden;
+    width: 100%;
+    background: #000;
+    opacity: .5;
+  }
+  .sidenav-toggled {
+    .sidebar {
+      margin-left: 0;
+    }
+    .sidebar-overlay {
+      visibility: visible;
+    }
+    .body-content, .footer-content {
+      margin-left: 0;
+    }
+  }
+
+  .dropdown-order-items {
+    margin-left: 0;
+  }
+
+  .section-account {
+    &.section-account-service {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .account-leftnav,
+    .account-content {
+      width: 100%;
+    }
+    .account-leftnav {
+      margin: 20px auto;
+    }
+  }
+
+  .credit-card {
+    margin: 100px auto 30px;
+    width: 340px;
+    padding: 50px 45px 30px;
+
+    .credit-card-box {
+      width: 300px;
+      height: 190px;
+      top: -100px;
+      left: 50%;
+
+      .front,
+      .back {
+        width: 300px;
+        height: 175px;
+        border-radius: 10px;
+      }
+
+      .credit-card-box-logo {
+        top: 0;
+        transform: scale(.8);
+      }
+
+      .back {
+        .credit-card-box-logo {
+          top: 115px;
+          right: 10px;
+
+        }
+      }
+
+      .credit-card-box-chip {
+        width: 35px;
+        height: 26px;
+        border-radius: 3px;
+      }
+
+      .credit-card-box-strip {
+        background: -webkit-linear-gradient(315deg, #404040, #1a1a1a);
+        background: linear-gradient(135deg, #404040, #1a1a1a);
+        position: absolute;
+        width: 100%;
+        height: 35px;
+        top: 30px;
+        left: 0;
+      }
+
+      .credit-card-box-number {
+        top: 80px;
+        font-size: 22px;
+      }
+
+      label {
+        font-size: 8px;
+      }
+
+      .credit-card-box-holder {
+        div {
+          max-width: 150px;
+        }
+      }
+
+      .credit-card-box-holder,
+      .credit-card-box-expiration-date {
+        margin: 0 auto;
+        top: 120px;
+        font-size: 14px;
+      }
+
+      .credit-card-box-ccv {
+        height: 30px;
+        border-radius: 3px;
+        top: 85px;
+        label {
+          margin: -28px 0 14px;
+        }
+        div {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .footer-content {
+    .footer {
+      .footer-box {
+        flex-direction: column !important;
+        justify-content: space-around !important;
+        .nav {
+          margin-top: 20px;
+          justify-content: center !important;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .priv_table {
+    td {
+      width: auto !important;
+      display: block !important;
+
+    }
+  }
+  .table {
+    &.stackable {
+      &:not(.table-responsive) {
+        width: 100%;
+
+        tbody, tr:not(.hidden), tr:not(.hidden) > th, tr:not(.hidden) > td {
+          width: auto !important;
+          display: block !important;
+
+          &.noncrucial {
+            display: none !important;
+          }
+        }
+        thead {
+          th {
+            border-bottom: none;
+            height: auto;
+            padding: 5px 10px;
+          }
+          &.noncrucial {
+            display: none !important;
+          }
+          border-bottom: $table-border-width solid $table-border-color;
+        }
+        tbody {
+          td {
+            padding: 10px;
+            padding: 5px 10px;
+            &:before {
+              content: attr(data-label);
+              float: left;
+              color: $gray-500;
+              padding-right: 5px;
+            }
+            &:not(.inline-row):not(.inline-row-right) {
+              clear: both;
+            }
+            &.inline-row {
+              float: left;
+            }
+            &.inline-row-right {
+              float: right;
+            }
+          }
+        }
+        thead, tfoot {
+
+          display: block;
+        }
+      }
+    }
+  }
+
+}

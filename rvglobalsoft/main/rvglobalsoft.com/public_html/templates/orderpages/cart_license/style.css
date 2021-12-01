@@ -1,0 +1,123 @@
+/*************** Price & Order Licenses Page ***************/
+.main-container{ 
+	background:#FFF;
+}
+h2.line-title, h2.line-title2{ 
+	color:#0d6bb4; 
+	font-size:30px;
+	background:url(images/line-title.gif) repeat-x center center; 
+	text-align:center; 
+	margin-bottom:40px;
+}
+h2.line-title2{ 
+	font-size:24px; 
+	padding:0; 
+	margin:0; 
+	margin-bottom:20px;
+}
+h2.line-title span, h2.line-title2 span{ 
+	display:inline-table; 
+	padding:5px 20px;
+	background: #ffffff;	
+}
+.price-product .block{ 
+	border:dashed 1px #4c7bb7; 
+	border-top:#4c7bb7 solid 5px; 
+	padding:10px 10px; 
+	text-align:center; 
+	min-height:165px; 
+	margin-bottom:30px; 
+}
+.price-product .block img{ 
+	margin-bottom:20px; 
+}
+.price-product .block .price{ 
+	color:#0d6bb4;
+	font-size:30px;	
+	background:url(images/tag-price.png) no-repeat left center; 
+	padding-left:30px;
+}
+.price-product .block .price2{ 
+	color:#0d6bb4;
+	font-size:28px;	
+	background: none; 
+}
+.price-product .block .price3{ 
+	color:#0d6bb4;
+	font-size:22px;	
+}
+.price-product .block .price span.icon-tag-price{ 
+	background:url(images/tag-price.png) no-repeat left center;
+}
+.price-product .block .month{ 
+	font-size:18px;
+	color:#1a1a1a;
+}
+.price-product .block .month2{ 
+	font-size:14px;
+	color:#1a1a1a;
+}
+.price-product .block .padtop50{ 
+	padding-top:50px;
+    padding-bottom:0px;
+}
+.price-product .bg2factor  {
+	background:#fff; 
+	min-height:282px; 
+	padding-top:50px; 
+}
+.price-product .bg2factor .bgwhite { 
+	background:#fff; 
+	display:inline-table; 
+}
+.price-product .bg2factor .block { 
+	border:dashed 1px #4c7bb7;
+	border-top:#0d6bb4 solid 5px; 
+	padding:10px 10px; 
+	text-align:center; 
+	min-height:12em; 
+	background:#fff; 
+}
+.price-product .linedash { 
+	border-right:#0d6bb4 dashed 1px; 
+}
+.price-product .line-hdash { 
+	border-bottom:#0d6bb4 dashed 1px; 
+}
+.price-product .fa{ 
+	font-size:18px; 
+	margin-right:5px;
+}
+a.buy, a.buy:visited, a.buy:hover, a.buy:active{
+	cursor:pointer; 
+	padding:5px 15px 5px 15px; 
+	margin-top:20px;
+	display: inline-table; 
+	text-decoration:none; 
+	text-align:center; 	
+	font-size:14px; 
+	color:#fff;	
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	transition: 0.3s;
+} 
+a.buy, a.buy:visited, a.buy:hover, a.buy:active{
+	background:#0d6bb4; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+a.buy:hover, a.buy:active{
+	color:#fff;
+	background:#3b97de;
+}
+@media (max-width: 480px) {
+    div.span12, div.span3, div.span4 { 
+        width:95%;
+        margin:0 auto;
+    }
+}
+@media (min-width: 1600px) {
+	.container { 
+		min-width:1360px;
+	}
+}

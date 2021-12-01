@@ -1,0 +1,5 @@
+<?php
+
+/**
+ * This event is invoked every 5 minutes with cron run
+ */

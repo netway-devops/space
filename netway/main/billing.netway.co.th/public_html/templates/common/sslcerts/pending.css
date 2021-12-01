@@ -1,0 +1,21 @@
+.sslcert-section{
+    margin: 20px 0;
+}
+
+.sslcert-section table{
+    width: 100%;
+}
+
+.sslcert-header{
+    font-size: 120%;
+    margin: 10px 0;
+    display: block;
+}
+
+.sslcert-csr-textarea textarea{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+

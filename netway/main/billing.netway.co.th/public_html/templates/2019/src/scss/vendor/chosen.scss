@@ -1,0 +1,477 @@
+$chosen-sprite: '../images/chosen-sprite.png';
+$chose-arrow-top-offset: ($input-line-height * 0.45em);
+
+.body-content {
+
+  .chzn-container {
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+    *display: inline;
+
+    .chzn-drop {
+      background: $input-bg;
+      border: $border-width solid $input-focus-border-color;
+      border-top: 0;
+      position: absolute;
+      top: 29px;
+      left: 0;
+      box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+      z-index: 1010;
+      width: 100%!important;
+    }
+
+    .chzn-results {
+      margin: 0 4px 4px 0;
+      max-height: 240px;
+      padding: 0 0 0 4px;
+      position: relative;
+      overflow-x: hidden;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+
+      li {
+        display: none;
+        line-height: 15px;
+        padding: 5px 6px;
+        margin: 0;
+        list-style: none;
+
+        em {
+          background: #feffde;
+          font-style: normal;
+        }
+      }
+
+      .active-result {
+        cursor: pointer;
+        display: list-item;
+      }
+
+      .highlighted {
+        background: #3875d7;
+        color: #fff;
+
+        em {
+          background: transparent;
+        }
+      }
+
+      .no-results {
+        line-height: $input-line-height;
+        background: $input-bg-disabled;
+        display: list-item;
+
+        &:last-child{
+          background: none;
+        }
+      }
+
+      .group-result {
+        cursor: default;
+        color: #999;
+        font-weight: normal;
+      }
+
+      .group-option {
+        padding-left: 15px;
+      }
+    }
+
+    .chzn-results-scroll {
+      background: white;
+      margin: 0 4px;
+      position: absolute;
+      text-align: center;
+      width: 321px;
+      z-index: 1;
+
+      span {
+        display: inline-block;
+        height: 17px;
+        text-indent: -5000px;
+        width: 9px;
+      }
+    }
+
+    .chzn-results-scroll-down {
+      bottom: 0;
+
+      span {
+        background: url($chosen-sprite) no-repeat -4px -3px;
+      }
+    }
+
+    .chzn-results-scroll-up {
+      span {
+        background: url($chosen-sprite) no-repeat -22px -3px;
+      }
+    }
+  }
+
+  .chzn-container-single {
+
+    .chzn-single {
+      background: $input-bg;
+      background-clip: padding-box;
+      box-shadow: $input-box-shadow;
+      border: $border-width solid $input-border-color;
+      @include border-radius($input-border-radius);
+
+      height: $input-height;
+      line-height: $input-line-height;
+      color: $input-color;
+      display: block;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      padding: $input-padding-y $input-padding-x;
+      text-decoration: none;
+
+      span {
+        margin-right: 26px;
+        display: block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      abbr {
+        display: block;
+        position: absolute;
+        right: 26px;
+        top: 6px;
+        width: 12px;
+        height: 13px;
+        font-size: 1px;
+        background: url($chosen-sprite) right top no-repeat;
+
+        &:hover {
+          background-position: right -11px;
+        }
+      }
+
+      div {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        height: 100%;
+        width: 18px;
+
+        b {
+          background: url($chosen-sprite) no-repeat 0 $chose-arrow-top-offset;
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .chzn-default {
+      color: #999;
+    }
+
+    .chzn-search {
+      padding: 3px 4px;
+      position: relative;
+      margin: 0;
+      white-space: nowrap;
+      z-index: 1010;
+
+      &::after {
+        content: "";
+        background: transparent url($chosen-sprite) no-repeat -38px -22px;
+        position: absolute;
+        top: $line-height-base * 0.6em;
+        right: 14px;
+        display: block;
+        width: 24px;
+        height: 22px;
+        pointer-events: none;
+      }
+
+      input {
+        background: $input-bg;
+        width: calc(100% - 12px)!important;
+        margin: 0 6px;
+        font-family: inherit;
+        height: $input-height-sm;
+        padding: $input-padding-y-sm $input-padding-x-sm!important;;
+        @include font-size($input-font-size-sm);
+        line-height: $input-line-height-sm!important;;
+        @include border-radius($input-border-radius-sm);
+      }
+    }
+
+    .chzn-drop {
+      border-radius: 0 0 $input-border-radius $input-border-radius;
+      background-clip: padding-box;
+    }
+  }
+
+  .chzn-container-single.chzn-disabled {
+    .chzn-single {
+      abbr {
+        &:hover {
+          background-position: right top;
+        }
+      }
+    }
+  }
+
+  .chzn-container-single-nosearch {
+    .chzn-search {
+      input {
+        position: absolute;
+        left: -9000px;
+      }
+    }
+  }
+
+  .chzn-container-multi {
+
+    .chzn-choices {
+      background: $input-bg;
+      border: $border-width solid $input-border-color;
+      @include border-radius($input-border-radius);
+      color: $input-color;
+      margin: 0;
+      padding: 0;
+      cursor: text;
+      overflow: hidden;
+      height: auto !important;
+      height: $input-height;
+      line-height: $input-line-height;
+      position: relative;
+
+      li {
+        float: left;
+        list-style: none;
+      }
+
+      .search-field {
+        white-space: nowrap;
+        margin: 0;
+        padding: 0;
+
+        input {
+          margin: 0;
+          background: transparent !important;
+          border: 0 !important;
+          font-family: inherit;
+          font-size: inherit;
+          outline: 0;
+          box-shadow: none;
+        }
+
+        .default {
+          color: #999;
+        }
+      }
+
+      .search-choice {
+        border: $border-width solid $input-border-color;
+        @include border-radius($input-border-radius);
+        background-clip: padding-box;
+        background: $input-bg-disabled;
+
+        line-height: $input-line-height;
+        padding: $input-padding-y-sm $input-padding-x-sm + .7rem $input-padding-y-sm $input-padding-x-sm;
+        margin: 5px 0 4px 5px;
+        position: relative;
+        cursor: default;
+
+        .search-choice-close {
+          display: block;
+          position: absolute;
+          right: 3px;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 12px;
+          height: 13px;
+          font-size: 1px;
+          background: url($chosen-sprite) right top no-repeat;
+
+          &:hover {
+            background-position: right -11px;
+          }
+        }
+      }
+
+      .search-choice.search-choice-disabled {
+        background: #e4e4e4;
+        color: #666;
+        border: 1px solid #cccccc;
+        padding-right: 5px;
+      }
+
+      .search-choice-focus {
+        background: #d4d4d4;
+
+        .search-choice-close {
+          background-position: right -11px;
+        }
+      }
+    }
+
+    .chzn-results {
+      margin: 0;
+      padding: 0;
+    }
+
+    .chzn-drop {
+      top: 100%!important;
+      padding-top: $input-border-radius;
+      margin-top: -5px;
+      @include border-bottom-radius($input-border-radius);
+
+      .result-selected {
+        display: none;
+      }
+    }
+  }
+
+  .chzn-container-active {
+
+    .chzn-single {
+      box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+      border: $border-width solid $input-focus-border-color;
+    }
+
+    .chzn-single-with-drop {
+      border: $border-width solid $input-focus-border-color;
+      box-shadow: 0 1px 0 #fff inset;
+      background: #fff;
+      @include border-bottom-radius(0);
+
+      div {
+        background: transparent;
+        border-left: none;
+
+        b {
+          background-position: -18px $chose-arrow-top-offset;
+        }
+      }
+    }
+
+    .chzn-choices{
+      box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+      border: $border-width solid $input-focus-border-color;
+      border-bottom: none;
+
+      .search-field {
+        input {
+          color: #111 !important;
+        }
+      }
+    }
+  }
+
+  .chzn-disabled {
+    cursor: default;
+    opacity: 0.5 !important;
+
+    .chzn-single {
+      cursor: default;
+    }
+
+    .chzn-choices {
+      .search-choice {
+        .search-choice-close {
+          cursor: default;
+        }
+      }
+    }
+  }
+
+  .chzn-rtl {
+    text-align: right;
+
+    .chzn-single {
+      padding: 0 8px 0 0;
+      overflow: visible;
+
+      span {
+        margin-left: 26px;
+        margin-right: 0;
+        direction: rtl;
+      }
+
+      div {
+        left: 3px;
+        right: auto;
+      }
+
+      abbr {
+        left: 26px;
+        right: auto;
+      }
+    }
+
+    .chzn-choices {
+      .search-field {
+        input {
+          direction: rtl;
+        }
+      }
+
+      li {
+        float: right;
+      }
+
+      .search-choice {
+        padding: 3px 5px 3px 19px;
+        margin: 3px 5px 3px 0;
+
+        .search-choice-close {
+          left: 4px;
+          right: auto;
+          background-position: right top;
+        }
+      }
+    }
+
+    .chzn-results {
+      .group-option {
+        padding-left: 0;
+        padding-right: 15px;
+      }
+    }
+
+    .chzn-search {
+      input{
+        background: $input-bg;
+      }
+
+      &::after {
+        content: "";
+        background: #fff url($chosen-sprite) no-repeat -38px -22px;
+        padding: 4px 5px 4px 20px;
+        direction: rtl;
+      }
+    }
+  }
+
+  .chzn-rtl.chzn-container-single {
+    .chzn-results {
+      margin: 0 0 4px 4px;
+      padding: 0 4px 0 0;
+    }
+  }
+
+  .chzn-rtl.chzn-container-active {
+    .chzn-single-with-drop {
+      div {
+        border-right: none;
+      }
+    }
+  }
+
+  .chzn-css-loaded {
+    cursor: pointer;
+  }
+}

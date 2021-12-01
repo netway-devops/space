@@ -1,0 +1,1 @@
+<input type="checkbox" value="1" name="options[{$k}]" {if $default.$k=='1' || (!$default.$k && $conf.default)}checked='checked'{/if}  {if $conf.reload}onchange="return getFieldValues({if $product_id}{$product_id}{else}{$product.id}{/if})"{/if} />

@@ -1,0 +1,46 @@
+{
+    "name": {
+        "lang": "en_orgname",
+        "title": "en_tip1",
+        "prefill": ["O", "company"]
+    },
+    "unit": {
+        "lang": "en_orgunit",
+        "title": "en_tip2",
+        "prefill": ["OU", "unit"]
+    },
+    "address1": {
+        "lang": "address",
+        "title": "en_tip3",
+        "prefill": ["streetAddress", "address1"]
+    },
+    "address2": {
+        "lang": "address1",
+        "title": "en_optional",
+        "required": false,
+        "prefill": ["address2"]
+    },
+    "locality": {
+        "lang": "city",
+        "title": "en_tip4",
+        "prefill": ["L", "city"]
+    },
+    "state": {
+        "lang": "state",
+        "title": "en_tip5",
+        "prefill": ["S", "state", "province", "region"]
+    },
+    "postalcode": {
+        "lang": "postcode",
+        "title": "en_tip6",
+        "prefill": ["postalCode", "postcode", "postalcode", "zip", "zipcode"]
+    },
+    "country": {
+        "lang": "country",
+        "title": "en_tip6",
+        "type": "select",
+        "options": [],
+        "prefill": ["C", "country"]
+    }
+
+}

@@ -1,0 +1,15 @@
+REPLACE INTO `hb_language_locales` (`language_id`,`section`,`keyword`,`value`)
+SELECT id, 'clientarea', 'afteraddingzone','After adding new zone you will be able to add/edit its contents' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'importrecordsfromzonefile','Import records from zone file' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'importrecordsfromaxfr','Import records from a name server (AXFR)' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'dnsnameserverip','Nameserver IP' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'dns_axfrnameserver_warn','Specified nameserver has to allow zone transfer for IP %s otherwise AXFR import will not work properly.' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'dns_axfr_verify','Verify' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'dns_empty_recordsimport','No records found in imported zone' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'dns_standardzonefile','Standard Zone File' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'dns_progress_clone','Cloning DNS records' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'dns_progress_template','Applying DNS template' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'dns_progress_import','Importing DNS records' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'dns_progress_done','Completed!' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'dns_axfr_ok', 'The request completed successfully.' FROM hb_language WHERE target='user'
+UNION SELECT id, 'clientarea', 'dns_axfr_reqlim','Please wait some time before verification retry.' FROM hb_language WHERE target='user';

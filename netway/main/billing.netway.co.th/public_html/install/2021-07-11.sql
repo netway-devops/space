@@ -1,0 +1,1 @@
+ALTER TABLE `hb_ticket_departments_sla` ADD `tags` TEXT NULL AFTER `trigger_status`;

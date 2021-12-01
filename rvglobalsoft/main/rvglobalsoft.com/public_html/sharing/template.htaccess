@@ -1,0 +1,10 @@
+<Limit GET PUT POST>
+    order deny,allow
+    allow from all
+</Limit>
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks
+    RewriteEngine On
+    RewriteBase /sharing/
+    RewriteRule ^(.*)/(.*)$ index.php?/$1/$2 [L]
+</IfModule>

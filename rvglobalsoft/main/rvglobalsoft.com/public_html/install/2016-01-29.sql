@@ -1,0 +1,2 @@
+INSERT INTO `hb_email_templates` (`id`, `tplname`, `group`, `for`, `language_id`, `subject`, `message`, `altmessage`,`send`, `plain`, `system`, `hidden`) VALUES
+(NULL, 'Order:FraudOrder', 'General', 'Client', 1, 'Your recent order #{$order.number} marked as Fraud', 'DEAR {$client.firstname} {$client.lastname},\r\n\r\nUnfortunatelly your recent order was automatically marked as Fraud.\nPlease contact us to resolve this case.\r\n\r\nORDER NUMBER: {$order.number}\r\n\r\n\r\n ', '', 1, 1, 1, 0);

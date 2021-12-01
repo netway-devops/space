@@ -1,0 +1,28 @@
+#Path For Delete
+
+/documents
+/Resource
+/webPublish
+/public_html/.htaccess
+/public_html/attachments
+/public_html/downloads
+/public_html/install
+/public_html/import
+/public_html/templates_c
+/public_html/includes/My_Flipping_HostBill_Licence.php
+/public_html/hbf/libs/RvLibs/developer.php
+/public_html/hbf/libs/RvLibs/SSL/developer.php
+/public_html/hbf/libs/RvLibs/key.pem
+/public_html/MYPayPalReturn.txt
+#ใช้ CKFinder 2 ชั่วคราวจนกว่าจะได้ PHP >= 5.4
+/public_html/admin/templates/default/js/ckfinder
+
+/public_html/zendesk
+/app
+
+######################################
+# sslsoapserv ไม่ publish เพราะว่าจะทำให้โปรแกรมที่ run อยู่ข้างบน error 
+# ถ้ามีการแก้ไข และจะ publish sslsoapserv ให้ comment line "/sslsoapserv" ก่อน แล้วค่อย publish
+# หลังจาก publish แล้วให้ restart service sslsoapserv ที่บน server ด้วยทุกครั้ง ::BooM
+###############################
+/sslsoapserv

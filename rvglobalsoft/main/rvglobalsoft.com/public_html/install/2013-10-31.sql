@@ -1,0 +1,1 @@
+UPDATE hb_email_templates SET plain=0 WHERE plain=1 AND system=1 AND (message LIKE '%</p>%' OR message LIKE '%</strong>%' OR message LIKE '%</u>%');

@@ -1,0 +1,1 @@
+{if $ok}<span class="label-success label">Success</span>{else}<span class="label-danger label">Failed</span>{/if}

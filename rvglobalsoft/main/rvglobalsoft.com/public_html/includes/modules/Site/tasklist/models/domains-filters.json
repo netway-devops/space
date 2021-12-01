@@ -1,0 +1,106 @@
+[
+  {
+    "id": "date_created",
+    "label": "{$lang.datecreated}",
+    "type": "date"
+  },
+  {
+    "id": "name",
+    "label": "{$lang.Domain}",
+    "type": "string"
+  },
+  {
+    "id": "firstpayment",
+    "label": "{$lang.firstpayment}",
+    "type": "double"
+  },
+  {
+    "id": "recurring_amount",
+    "label": "{$lang.recurring}",
+    "type": "double"
+  },
+  {
+    "id": "period",
+    "label": "{$lang.Period}",
+    "type": "integer"
+  },
+  {
+    "id": "expires",
+    "label": "{$lang.expirydate}",
+    "type": "date"
+  },
+  {
+    "id": "next_due",
+    "label": "{$lang.next_due}",
+    "type": "date"
+  },
+  {
+    "id": "next_invoice",
+    "label": "{$lang.next_invoice_date}",
+    "type": "date"
+  },
+  {
+    "id": "type",
+    "label": "{$lang.Type}",
+    "type": "string",
+    "input": "select",
+    "multiple": true,
+    "values": {
+      "Register": "{$lang.Register}",
+      "Transfer": "{$lang.Transfer}",
+      "Renew": "{$lang.Renew}"
+    }
+  },
+  {
+    "id": "autorenew",
+    "label": "Auto-Renewal Invoice",
+    "type": "boolean",
+    "input": "radio",
+    "values": {
+      "Yes": "{$lang.Yes}",
+      "No": "{$lang.No}"
+    }
+  },
+  {
+    "id": "status",
+    "label": "{$lang.Status}",
+    "type": "string",
+    "input": "select",
+    "multiple": true,
+    "values": {
+      "Pending": "{$lang.Pending}",
+      "Pending Registration": "{$lang.PendingRegistration}",
+      "Pending Transfer": "{$lang.PendingTransfer}",
+      "Active": "{$lang.Active}",
+      "Expired": "{$lang.Expired}",
+      "Cancelled": "{$lang.Cancelled}",
+      "TransferredOut": "{$lang.TransferredOut}",
+      "Fraud": "{$lang.Fraud}"
+    }
+  },
+  {
+    "id": "idprotection",
+    "label": "{$lang.IDprotection}",
+    "type": "boolean",
+    "input": "radio",
+    "values": {
+      "Yes": "{$lang.Yes}",
+      "No": "{$lang.No}"
+    }
+  },
+  {
+    "id": "reglock",
+    "label": "{$lang.RegistrarLock}",
+    "type": "boolean",
+    "input": "radio",
+    "values": {
+      "Yes": "{$lang.Yes}",
+      "No": "{$lang.No}"
+    }
+  },
+  {
+    "id": "nameservers",
+    "label": "{$lang.Nameservers}",
+    "type": "string"
+  }
+]

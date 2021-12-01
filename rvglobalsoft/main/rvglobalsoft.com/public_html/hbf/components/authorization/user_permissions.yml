@@ -1,0 +1,34 @@
+billing: 
+ emails:
+ payinvoice:
+ orders:
+ balance:
+ addfunds:
+   condition:'enableFeatures.deposit:on'
+ creditcard:
+ estimate:
+support: 
+  newticket:
+  tickets:
+  closeticket:
+  emails:
+misc: 
+  editmain:
+    important: 1
+  emails: 
+  editipaccess:
+    important: 1
+    condition: 'enableFeatures.security:on'
+  manageprofiles: 
+  affiliates:
+services:
+  full:
+    important: 1
+    displaygroup: misc
+    condition: 'services'
+domains:
+  full:
+    important: 1
+    displaygroup: misc
+    condition: 'domains'
+  

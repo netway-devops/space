@@ -1,0 +1,6 @@
+<?php
+
+/**
+ * New estimate has just been created with ID=$details
+ * Following variable is available to use in this file:  $details This variable keeps estimate id
+ */

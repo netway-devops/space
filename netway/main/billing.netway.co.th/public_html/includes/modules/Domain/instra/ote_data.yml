@@ -1,0 +1,164 @@
+2.2.1:
+  name: 'Create Contact'
+  command: 'CreateContact'
+  data:
+    firstname: 'Reseller'
+    lastname: 'Company'
+    org: 'Reseller Corporation'
+    street: '321 Example Street'
+    city: 'mytown'
+    state: 'mystate'
+    zip: '123456'
+    country: 'AU'
+    phone: '+61.397831800'
+    fax: '+61.397836844'
+    email: 'resell@instra.com'
+2.2.2:
+  name: 'Query Contact Details'
+  command: 'InfoContact'
+  data:
+    contacthandleid: 'INS-C-455059'
+2.2.3:
+  name: 'Update Contact'
+  command: 'UpdateContact'
+  data:
+    contacthandleid: 'INS-C-455059'
+    firstname: 'Reseller'
+    lastname: 'Company'
+    org: 'Reseller Corporation Pty Ltd'
+    street: '321 Example Street'
+    city: 'mytown'
+    state: 'mystate'
+    zip: '123456'
+    country: 'AU'
+    phone: '+61.397831800'
+    fax: '+61.397836844'
+    email: 'resell@instra.com'
+2.2.4:
+  name: 'Query Contact List'
+  command: 'QueryContactList'
+2.2.5:
+  name: 'Delete Contact'
+  command: 'DeleteContact'
+  data:
+    contacthandleid: 'INS-C-455059'
+2.3.1:
+  name: 'Create Nameserver'
+  command: 'AddNameserverHost'
+  data:
+    nameserver: 'ns11.resellerdns.com'
+    ipaddress: '112.14.151.97'
+2.3.2:
+  name: 'Query Nameserver Details'
+  command: 'InfoNameserverHost'
+  data:
+    nameserver: 'ns11.resellerdns.com'
+2.3.3:
+  name: 'Update Nameserver'
+  command: 'UpdateNameserverHost'
+  data:
+    nameserver: 'ns11.resellerdns.com'
+    ipaddress: '112.14.151.98'
+2.3.4:
+  name: 'Check Nameserver'
+  command: 'CheckNameserverHost'
+  data:
+    nameserver1: 'ns11.resellerdns.com'
+    nameserver2: 'ns12.resellerdns.com'
+2.4.1:
+  name: 'Create Domain'
+  command: 'CreateDomain'
+  data:
+    domain: 'resellerdomain.com'
+    period: '1'
+    registrantcontact: 'INS-C-455057'
+    admincontact: 'INS-C-29797'
+    techcontact: 'INS-C-29797'
+    billingcontact: 'INS-C-29797'
+    nameserver1: 'ns11.resellerdns.com'
+    nameserver2: 'ns12.resellerdns.com'
+  response:
+    - 'DOMAINHANDLEID'
+    - 'DOMAINEXPIRYDATE'
+2.4.2:
+  name: 'Create Domain with special requirement'
+  command: 'CreateDomain'
+  data:
+    domain: 'resellerdomain.com.au'
+    period: '2'
+    registrantcontact: 'INS-C-29794'
+    admincontact: 'INS-C-29794'
+    techcontact: 'INS-C-29794'
+    billingcontact: 'INS-C-29794'
+    nameserver1: 'ns11.resellerdns.com'
+    nameserver2: 'ns12.resellerdns.com'
+    comau-reg-name: 'Reseller Domains'
+    comau-doc-type: 'ABN'
+    comau-docnumber: '8938596'
+    comau-policy-reason: '2'
+  response:
+    - 'DOMAINHANDLEID'
+    - 'DOMAINEXPIRYDATE'
+2.4.3:
+  name: 'Query Domain Details'
+  command: 'InfoDomain'
+  data:
+    domain: 'resellerdomain.com'
+2.4.4:
+  name: 'Query Domain List'
+  command: 'QueryDomainList'
+2.4.5:
+  name: 'Update Domain Nameserver'
+  command: 'UpdateDomain'
+  data:
+    domain: 'resellerdomain.com'
+    nameserver1: 'ns1.mydns.com'
+    nameserver2: 'ns2.mydns.com'
+2.4.6:
+  name: 'Update Domain Admin, Billing, Technical Contacts'
+  command: 'UpdateDomain'
+  data:
+    domain: 'resellerdomain.com'
+    admincontact: 'INS-C-29797'
+    techcontact: 'INS-C-29797'
+    billingcontact: 'INS-C-29797'
+2.4.7:
+  name: 'Update Domain Registrant Contact'
+  command: 'TradeDomain'
+  data:
+    domain: 'resellerdomain.com'
+    registrantcontact: 'INS-C-29797'
+2.4.8:
+  name: 'Renew Domain'
+  command: 'RenewDomain'
+  data:
+    domain: 'resellerdomain.com'
+    period: '1'
+2.4.9:
+  name: 'Restore Domain'
+  command: 'RestoreDomain'
+  data:
+    domain: 'resellerdomain.com'
+    period: '1'
+  code: '541'
+2.4.10:
+  name: 'Transfer Domain'
+  command: 'TransferDomain'
+  data:
+    domain: 'transfermydomain.com'
+    period: '1'
+    auth: 'GR8497FE'
+    registrantcontact: 'INS-C-29797'
+    admincontact: 'INS-C-29797'
+    techcontact: 'INS-C-29797'
+    billingcontact: 'INS-C-29797'
+    nameserver1: 'ns11.resellerdns.com'
+    nameserver2: 'ns12.resellerdns.com'
+  response:
+    - 'DOMAINHANDLEID'
+2.4.11:
+  name: 'Set Domain Auto Renew Mode'
+  command: 'SetDomainAutoRenew'
+  data:
+    domain: 'resellerdomain.com'
+    renewalmode: '1'

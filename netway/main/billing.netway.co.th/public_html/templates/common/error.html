@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <title>Error</title>
+    <style>
+        body, html {
+            margin:0px;
+            font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+            height: 100%;
+            overflow: visible;
+            background-color:#f4f4f4;
+            line-height: 1.538;
+            color: #545454;
+            position:relative;
+        }
+        .error-wrapper {
+            width: 478px;
+            background: #fff;
+            padding: 17px;
+            border-radius: 2px;
+            text-align: center;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin-left: -256px;
+            margin-top: -200px;
+            overflow: hidden;
+            z-index: 99999;
+        }
+        a.go-back {
+            background-color: #8CD4F5;
+            color: white;
+            border: none;
+            box-shadow: none;
+            font-size: 17px;
+            font-weight: 500;
+            border-radius: 2px;
+            padding: 10px 32px;
+            margin: 26px 5px 0 5px;
+            cursor: pointer;
+            display: inline-block;
+            text-decoration: none;
+        }
+    </style>
+<body >
+<div class="error-wrapper">
+    <div class="main-content">
+        <div class="error-container">
+            <h1>Error ;(</h1>
+            <div class="error-description"><strong>Our billing system encountered an temporary error</strong> <br>
+                Please try to perform last action again. If error persists let us know, we will do our best to fix it.</div>
+            <div class="error-goback-button"><a href="#" class="go-back" onclick="window.history.back();">Go back</a></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

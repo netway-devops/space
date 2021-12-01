@@ -1,0 +1,4 @@
+{
+  "name": "Servertech PDU",
+  "description": "Driver for fetching/controlling Servertech PDUs (Smart, Switched & Metered) using Sentry-3 SNMP. Power billing use/require HostBill PowerCollector module."
+}

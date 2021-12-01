@@ -1,0 +1,109 @@
+<?php
+
+/**
+ * Invoice has been fully paid
+ * Following variable is available to use in this file:  $details This array of invoice details contains following keys:
+ * $details["id"]; // Invoice id
+ * $details["status"]; //Current invoice status
+ * $details["client_id"]; //Owner of invoice
+ * $details["date"]; //Invoice generation date
+ * $details["subtotal"]; //Subtotal
+ * $details["credit"]; //Credit applied to invoice
+ * $details["tax"]; //Tax applied to invoice
+ * $details["total"]; //Invoice total
+ * $details["payment_module"]; //ID of gateway used with invoice
+ * $details["currency_id"]; //ID of invoice currency, default =0
+ * $details["notes"]; //Invoice notes
+ * $details["items"]; // Invoice items are listed under this key, sample item:
+ * $details["items"][0]["type"]; //Item type (ie. Hosting, Domain)
+ * $details["items"][0]["item_id"]; //Item id, for type=Hosting this relates to hb_accounts.id field
+ * $details["items"][0]["description"]; //Item line text
+ * $details["items"][0]["amount"]; //Item price
+ * $details["items"][0]["taxed"]; //Is item taxed? 1/0
+ * $details["items"][0]["qty"]; //Item quantitiy
+ */
+exixxxx
+// --- hostbill helper ---
+$db         = hbm_db();
+// --- hostbill helper ---
+
+/**
+ * [XXX] 0001420: [general] Domains are not renewed automatically when invoice is paid 
+ * Hostbill แก้ไขให้แล้ว ไม่ต้องมีไฟล์นี้
+ * ทำ auto renew domain ทันที
+ */
+
+$invoiceId      = $details['id'];
+
+$result         = $db->query("
+                SELECT 
+                    ii.*
+                FROM 
+                    hb_invoice_items ii
+                WHERE 
+                    ii.invoice_id = :invoiceId
+                    AND ii.type = 'Domain Renew'
+                ", array(
+                    ':invoiceId'        => $invoiceId,
+                ))->fetch();
+
+unset($result['id']);
+
+if (isset($result['id']) && $result['id']) {
+    
+    /* --- ถ้ามี auto renew domain ซัก 1 item ก็ให้ run task auto renew domain  --- */
+
+    $url    = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER['SCRIPT_NAME'];
+    
+    // [FIXME] Fixcode
+    $cookiefile = '/tmp/curl-session';
+    $username   = '';
+    $password   = '';
+    
+    $aParam     = array(
+        'action'    => 'login',
+        'username'  => $username,
+        'password'  => $password,
+        'rememberme'=> '1'
+    );
+    
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_HEADER, false);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $aParam);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+    curl_setopt($ch, CURLOPT_COOKIEFILE, $cookiefile);
+    curl_setopt($ch, CURLOPT_COOKIEJAR, $cookiefile);
+    $data = curl_exec($ch);
+    
+    /* --- ค่าที่ hostbill ใช้ verify เมื่อมีการ call XMLHttpRequest --- */
+    preg_match('/<meta\sname="csrf\-token"\scontent="(.*)"\s?\/>/i', $data, $matches);
+    
+    $csrfToken  = isset($matches[1]) ? $matches[1] : '';
+    
+    if ($csrfToken == '') {
+        throw new Exception('ไม่มีค่า csrf-toke ไม่สามารถ run task automaticRenewDomains ได้');
+    }
+    
+    curl_setopt($ch, CURLOPT_POST, 0);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        'Accept: */*', 
+        'X-Requested-With: XMLHttpRequest', 
+        'X-CSRF-Token: ' . $csrfToken,
+    ));
+    curl_setopt($ch, CURLOPT_URL, $url . '?cmd=configuration&action=executetask&task=automaticRenewDomains&debug=0');
+    
+    $data = curl_exec($ch);
+    
+    curl_close($ch);
+    
+    if (is_file($cookiefile)) {
+        unlink($cookiefile);
+    }
+    
+}

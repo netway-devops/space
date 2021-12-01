@@ -1,0 +1,9 @@
+<?php
+/**
+ * This event is called when customer attempts to lookup a domain name in cart/checkdomain pages.
+ * Throw exception here if you want certain domain to be unavailable.
+ * $details array available in this hook consist of 2 keys
+ * $details['tld'] - tld that is being queried, ie: .com
+ * $datails['sld'] - domain name, without exception that is being queried, ie google
+ *
+ */

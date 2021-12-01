@@ -1,0 +1,1892 @@
+{
+    "product": {
+        "id": "149",
+        "category_id": "22",
+        "type": "4",
+        "name": "Standard Server 1U - 500G-2T",
+        "description": "CPU:2 CPU (max)<br>ECC Ram DDR3:32 GB  (max)<br>Storage:2 TB (max)<br>Bandwidth:unlimited<br><ul><li>Free 4 IP address<\/li><li>Free remote access to IPMI\/iDRAC\/iLO<\/li><\/ul>",
+        "visible": "0",
+        "domain_options": "0",
+        "qty": "0",
+        "autosetup": "2",
+        "subdomain": "",
+        "tax": "1",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "3",
+        "autohostname": "",
+        "p_options": [
+            "64"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": "",
+        "contract_id": "0",
+        "dbcItemType": "Service",
+        "baseUnitOfMeasureCode": "MONTH",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "3",
+        "line_group_id": "1",
+        "codeName": "DED2",
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "Regular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": 0,
+        "m": "6500.00",
+        "q": "19500.00",
+        "s": "39000.00",
+        "a": "78000.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": 0,
+        "ptype": "Server",
+        "tlds": null,
+        "periods": null,
+        "category_name": "Linux Dedicated Server",
+        "module": 0,
+        "modules": [
+            {
+                "product_id": "149",
+                "main": 1,
+                "modname": null,
+                "filename": null,
+                "module": 0,
+                "options": null,
+                "default": null,
+                "server": null
+            },
+            {
+                "product_id": "149",
+                "module": "73",
+                "main": "0",
+                "server": {
+                    "80": "80"
+                },
+                "options": false,
+                "modname": "cloudlinux",
+                "filename": "class.cloudlinux.php",
+                "default": false
+            },
+            {
+                "product_id": "149",
+                "module": "124",
+                "main": "0",
+                "server": {
+                    "112": "112"
+                },
+                "options": false,
+                "modname": "Managed Services",
+                "filename": "class.manage_service.php",
+                "default": false
+            }
+        ],
+        "domain_op": [],
+        "free_domain": "0",
+        "emails": {
+            "AfterModuleTerminate": "0",
+            "after_accountinsert": "0",
+            "ProductAccountCreated": "0",
+            "SuspendAccount": "0",
+            "UnsuspendAccount": "0"
+        },
+        "a_upgrade": "0.00",
+        "m_upgrade": "0.00",
+        "q_upgrade": "0.00",
+        "s_upgrade": "0.00",
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Hosting",
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1OverdueReminder": "1",
+            "1ServiceReminder": "0",
+            "2OverdueReminder": "7",
+            "2ServiceReminder": "0",
+            "3OverdueReminder": "15",
+            "3ServiceReminder": "0",
+            "4ServiceReminder": "0",
+            "5ServiceReminder": "0",
+            "AddLateFeeAfter": "0",
+            "AdsjustDatesOnCreation": "on",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidInvoices": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoProcessCancellations": "off",
+            "AutoSuspensionPeriod": "30",
+            "AutoTerminationPeriod": "10",
+            "BillFullMonth": "0",
+            "CancellationPostPaidProrata": "off",
+            "CancellationTypeEndPeriod": "on",
+            "CancellationTypeImmediate": "on",
+            "CreditOnDowngradeOverride": "",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoCreation": "2",
+            "EnableAutoRenewService": "on",
+            "EnableAutoSuspension": "off",
+            "EnableAutoTermination": "off",
+            "EnableAutoUnSuspension": "off",
+            "EnableAutoUpgrades": "on",
+            "EnableProRata": "off",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "7",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "MoveDueDays": "0",
+            "ProRataDay": "1",
+            "ProRataMonth": "disabled",
+            "ProRataNextMonth": "15",
+            "RecurringBillingType": "PrePay",
+            "RenewInvoice": "1",
+            "ReturnToStockOnTerminate": "0",
+            "SendPaymentReminderEmails": "on",
+            "UpgradeProratePrecision": "seconds",
+            "InvoiceCustomReminder": null,
+            "StockProductVisibility": "follow"
+        }
+    },
+    "addons": [
+        {
+            "id": "42",
+            "name": "Cloud Linux",
+            "parentmod": "class.cloudlinux.php"
+        },
+        {
+            "id": "76",
+            "name": "KernelCare",
+            "parentmod": ""
+        },
+        {
+            "id": "77",
+            "name": "Virtualizor",
+            "parentmod": ""
+        },
+        {
+            "id": "67",
+            "name": "Addon : Managed Server Services",
+            "parentmod": ""
+        }
+    ],
+    "tasks": [],
+    "widgets": [
+        {
+            "id": "78",
+            "widget": "reverse_dns",
+            "name": "Reverse DNS",
+            "location": "includes\/types\/server\/widgets\/reverse_dns\/",
+            "ptype": "4",
+            "config": {
+                "smallimg": "includes\/types\/server\/widgets\/reverse_dns\/small.png",
+                "bigimg": "includes\/types\/server\/widgets\/reverse_dns\/big.png"
+            },
+            "options": "1",
+            "group": "sidemenu",
+            "widget_id": "20",
+            "override_defaults": "0",
+            "target_id": "149",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "77",
+            "widget": "zabbix_bandwidth",
+            "name": "Bandwidth",
+            "location": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "36",
+            "override_defaults": "0",
+            "target_id": "149",
+            "sort_order": "1",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "282",
+            "widget": "zabbix_monitor",
+            "name": "Notification",
+            "location": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "35",
+            "override_defaults": "0",
+            "target_id": "149",
+            "sort_order": "2",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "561",
+            "widget": "manage_service_monitor",
+            "name": "Monitor",
+            "location": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "59",
+            "override_defaults": "0",
+            "target_id": "149",
+            "sort_order": "3",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "562",
+            "widget": "manage_service_notification",
+            "name": "Notification",
+            "location": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "58",
+            "override_defaults": "0",
+            "target_id": "149",
+            "sort_order": "4",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        }
+    ],
+    "forms": [
+        {
+            "id": "64",
+            "type": "select",
+            "required": "0",
+            "name": "CPU",
+            "key": "",
+            "variable": "cpu",
+            "description": "",
+            "category": "server",
+            "product_id": "149",
+            "copy_of": "64",
+            "options": "275",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "0",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "1018",
+                    "category_id": "64",
+                    "name": "Single quad-cores",
+                    "variable_id": "cpu_quad_1",
+                    "sort_order": "1",
+                    "copy_of": "1018"
+                },
+                {
+                    "id": "1670",
+                    "category_id": "64",
+                    "name": "Single six-cores",
+                    "variable_id": "cpu_six_1",
+                    "sort_order": "2",
+                    "copy_of": "1670",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1166",
+                    "category_id": "64",
+                    "name": "Dual quad-cores",
+                    "variable_id": "cpu_quad_2",
+                    "sort_order": "3",
+                    "copy_of": "1166",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1671",
+                    "category_id": "64",
+                    "name": "Dual six-cores",
+                    "variable_id": "cpu_six_2",
+                    "sort_order": "4",
+                    "copy_of": "1671",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "type": "select",
+            "required": "0",
+            "name": "RAM",
+            "key": "cf_memory",
+            "variable": "ram",
+            "description": "",
+            "category": "server",
+            "product_id": "149",
+            "copy_of": "41",
+            "options": "275",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "1",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "386",
+                    "category_id": "41",
+                    "name": "4GB",
+                    "variable_id": "ram_4",
+                    "sort_order": "1",
+                    "copy_of": "386"
+                },
+                {
+                    "id": "387",
+                    "category_id": "41",
+                    "name": "8GB",
+                    "variable_id": "ram_8",
+                    "sort_order": "2",
+                    "copy_of": "387",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "388",
+                    "category_id": "41",
+                    "name": "16GB",
+                    "variable_id": "ram_16",
+                    "sort_order": "3",
+                    "copy_of": "388",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1019",
+                    "category_id": "41",
+                    "name": "32GB",
+                    "variable_id": "ram_32",
+                    "sort_order": "4",
+                    "copy_of": "1019",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "65",
+            "type": "select",
+            "required": "0",
+            "name": "RAID System",
+            "key": "",
+            "variable": "raid",
+            "description": "",
+            "category": "server",
+            "product_id": "149",
+            "copy_of": "65",
+            "options": "3",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "2",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "578",
+                    "category_id": "65",
+                    "name": "Non-RAID",
+                    "variable_id": "raid_none",
+                    "copy_of": "578"
+                },
+                {
+                    "id": "582",
+                    "category_id": "65",
+                    "name": "Software RAID 1",
+                    "variable_id": "raid_sw_1",
+                    "sort_order": "1",
+                    "copy_of": "582"
+                },
+                {
+                    "id": "1021",
+                    "category_id": "65",
+                    "name": "Software RAID 5",
+                    "variable_id": "raid_sw_5",
+                    "sort_order": "2",
+                    "copy_of": "1021"
+                },
+                {
+                    "id": "1020",
+                    "category_id": "65",
+                    "name": "Software RAID 10",
+                    "variable_id": "raid_sw_10",
+                    "sort_order": "3",
+                    "copy_of": "1020"
+                },
+                {
+                    "id": "579",
+                    "category_id": "65",
+                    "name": "Hardware RAID 1",
+                    "variable_id": "raid_hw_1",
+                    "sort_order": "4",
+                    "copy_of": "579",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1022",
+                    "category_id": "65",
+                    "name": "Hardware RAID 5",
+                    "variable_id": "raid_hw_5",
+                    "sort_order": "5",
+                    "copy_of": "1022",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "type": "select",
+            "required": "0",
+            "name": "First Drive",
+            "key": "cf_hdd",
+            "variable": "disk1",
+            "description": "",
+            "category": "server",
+            "product_id": "149",
+            "copy_of": "45",
+            "options": "259",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "3",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "460",
+                    "category_id": "45",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "1",
+                    "copy_of": "460"
+                },
+                {
+                    "id": "461",
+                    "category_id": "45",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "2",
+                    "copy_of": "461",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "463",
+                    "category_id": "45",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "3",
+                    "copy_of": "463",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "437",
+            "type": "select",
+            "required": "0",
+            "name": "Second Drive",
+            "key": "cf_hdd",
+            "variable": "disk2",
+            "description": "",
+            "category": "server",
+            "product_id": "149",
+            "copy_of": "437",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "4",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "1034",
+                    "category_id": "437",
+                    "name": "None",
+                    "variable_id": "disk_none",
+                    "copy_of": "1034"
+                },
+                {
+                    "id": "1023",
+                    "category_id": "437",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "2",
+                    "copy_of": "1023",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1024",
+                    "category_id": "437",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "3",
+                    "copy_of": "1024",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1025",
+                    "category_id": "437",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "4",
+                    "copy_of": "1025",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "438",
+            "type": "select",
+            "required": "0",
+            "name": "Third Drive",
+            "key": "cf_hdd",
+            "variable": "disk3",
+            "description": "",
+            "category": "server",
+            "product_id": "149",
+            "copy_of": "438",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "5",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "1035",
+                    "category_id": "438",
+                    "name": "None",
+                    "variable_id": "disk_none",
+                    "copy_of": "1035"
+                },
+                {
+                    "id": "1026",
+                    "category_id": "438",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "2",
+                    "copy_of": "1026",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1027",
+                    "category_id": "438",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "3",
+                    "copy_of": "1027",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1028",
+                    "category_id": "438",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "4",
+                    "copy_of": "1028",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "439",
+            "type": "select",
+            "required": "0",
+            "name": "Fourth Drive",
+            "key": "cf_hdd",
+            "variable": "disk_4",
+            "description": "",
+            "category": "server",
+            "product_id": "149",
+            "copy_of": "439",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "6",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "1036",
+                    "category_id": "439",
+                    "name": "None",
+                    "variable_id": "disk_none",
+                    "copy_of": "1036"
+                },
+                {
+                    "id": "1029",
+                    "category_id": "439",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "2",
+                    "copy_of": "1029",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1030",
+                    "category_id": "439",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "3",
+                    "copy_of": "1030",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1031",
+                    "category_id": "439",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "4",
+                    "copy_of": "1031",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "864",
+            "type": "select",
+            "required": "0",
+            "name": "Fifth Drive",
+            "key": "cf_hdd",
+            "variable": "disk_4",
+            "description": "",
+            "category": "server",
+            "product_id": "149",
+            "copy_of": "864",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "7",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "2934",
+                    "category_id": "864",
+                    "name": "None",
+                    "variable_id": "disk_none",
+                    "copy_of": "2934"
+                },
+                {
+                    "id": "2935",
+                    "category_id": "864",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "2",
+                    "copy_of": "2935",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "2936",
+                    "category_id": "864",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "3",
+                    "copy_of": "2936",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "2937",
+                    "category_id": "864",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "4",
+                    "copy_of": "2937",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "865",
+            "type": "select",
+            "required": "0",
+            "name": "Sixth Drive ",
+            "key": "cf_hdd",
+            "variable": "disk_4",
+            "description": "",
+            "category": "server",
+            "product_id": "149",
+            "copy_of": "865",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "8",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "2943",
+                    "category_id": "865",
+                    "name": "None",
+                    "variable_id": "disk_none",
+                    "copy_of": "2943"
+                },
+                {
+                    "id": "2945",
+                    "category_id": "865",
+                    "name": "500GB SATA",
+                    "variable_id": "disk_sata_500",
+                    "sort_order": "2",
+                    "copy_of": "2945",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "2946",
+                    "category_id": "865",
+                    "name": "1TB SATA",
+                    "variable_id": "disk_sata_1000",
+                    "sort_order": "3",
+                    "copy_of": "2946",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "2947",
+                    "category_id": "865",
+                    "name": "2TB SATA",
+                    "variable_id": "disk_sata_2000",
+                    "sort_order": "4",
+                    "copy_of": "2947",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "66",
+            "type": "textarea",
+            "required": "0",
+            "name": "Primary Disk Partition",
+            "key": "",
+            "variable": "partition",
+            "description": "",
+            "category": "server",
+            "product_id": "149",
+            "copy_of": "66",
+            "options": "2",
+            "config": [],
+            "sort_order": "9",
+            "group_id": "0",
+            "ftype": "textarea",
+            "premade": true,
+            "items": [
+                {
+                    "id": "585",
+                    "category_id": "66",
+                    "copy_of": "585"
+                }
+            ]
+        },
+        {
+            "id": "618",
+            "type": "radio",
+            "required": "0",
+            "name": "Redundant Power supply",
+            "key": "",
+            "variable": "redundant_power",
+            "description": "",
+            "category": "server",
+            "product_id": "149",
+            "copy_of": "618",
+            "options": "3",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "10",
+            "group_id": "0",
+            "ftype": "radio",
+            "premade": true,
+            "items": [
+                {
+                    "id": "1674",
+                    "category_id": "618",
+                    "name": "No",
+                    "variable_id": "no",
+                    "copy_of": "1674"
+                },
+                {
+                    "id": "1675",
+                    "category_id": "618",
+                    "name": "Yes",
+                    "variable_id": "Yes",
+                    "sort_order": "1",
+                    "copy_of": "1675",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "type": "select",
+            "required": "0",
+            "name": "Domestic Bandwidth (Unlimited Data Transfer)",
+            "key": "cf_bandwidth",
+            "variable": "bandwidth_dom",
+            "description": "",
+            "category": "network",
+            "product_id": "149",
+            "copy_of": "44",
+            "options": "51",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "11",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "455",
+                    "category_id": "44",
+                    "name": "Max. Domestic Bandwidth 100 Mbps",
+                    "variable_id": "bandwidth_dom_100",
+                    "sort_order": "7",
+                    "copy_of": "455"
+                },
+                {
+                    "id": "456",
+                    "category_id": "44",
+                    "name": "Max. Domestic Bandwidth 1 Gbps",
+                    "variable_id": "bandwidth_dom_1000",
+                    "sort_order": "8",
+                    "copy_of": "456",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "436",
+            "type": "select",
+            "required": "0",
+            "name": "International Bandwidth (Unlimited Data Transfer)",
+            "key": "cf_bandwidth",
+            "variable": "bandwidth_inter",
+            "description": "",
+            "category": "network",
+            "product_id": "149",
+            "copy_of": "436",
+            "options": "19",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "12",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "1016",
+                    "category_id": "436",
+                    "name": "Max. International Bandwidth 1 Mbps",
+                    "variable_id": "bandwidth_inter_shared_1",
+                    "copy_of": "1016"
+                },
+                {
+                    "id": "1017",
+                    "category_id": "436",
+                    "name": "Dedicated International Bandwidth 1 Mbps",
+                    "variable_id": "bandwidth_inter_dedicated_1",
+                    "sort_order": "1",
+                    "copy_of": "1017",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1032",
+                    "category_id": "436",
+                    "name": "Dedicated International Bandwidth 2 Mbps",
+                    "variable_id": "bandwidth_inter_dedicated_2",
+                    "sort_order": "2",
+                    "copy_of": "1032",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1033",
+                    "category_id": "436",
+                    "name": "Dedicated International Bandwidth 3 Mbps",
+                    "variable_id": "bandwidth_inter_dedicated_3",
+                    "sort_order": "3",
+                    "copy_of": "1033",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "557",
+            "type": "select",
+            "required": "0",
+            "name": "IP Address",
+            "key": "",
+            "variable": "ip",
+            "description": "",
+            "category": "network",
+            "product_id": "149",
+            "copy_of": "557",
+            "options": "307",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "13",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "1443",
+                    "category_id": "557",
+                    "name": "4 (free)",
+                    "variable_id": "4",
+                    "sort_order": "3",
+                    "copy_of": "1443"
+                },
+                {
+                    "id": "1444",
+                    "category_id": "557",
+                    "name": "5",
+                    "variable_id": "5",
+                    "sort_order": "4",
+                    "copy_of": "1444",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1445",
+                    "category_id": "557",
+                    "name": "6",
+                    "variable_id": "6",
+                    "sort_order": "5",
+                    "copy_of": "1445",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1446",
+                    "category_id": "557",
+                    "name": "7",
+                    "variable_id": "7",
+                    "sort_order": "6",
+                    "copy_of": "1446",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1447",
+                    "category_id": "557",
+                    "name": "8",
+                    "variable_id": "8",
+                    "sort_order": "7",
+                    "copy_of": "1447",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "type": "select",
+            "required": "0",
+            "name": "Operating System",
+            "key": "cf_os",
+            "variable": "os",
+            "description": "",
+            "category": "software",
+            "product_id": "149",
+            "copy_of": "42",
+            "options": "3",
+            "config": {
+                "conditionals": {
+                    "1": {
+                        "val": "392",
+                        "action": "hide",
+                        "target": "421",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "2": {
+                        "val": "393",
+                        "action": "hide",
+                        "target": "421",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "3": {
+                        "val": "396",
+                        "action": "hide",
+                        "target": "421",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "4": {
+                        "val": "397",
+                        "action": "hide",
+                        "target": "421",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "5": {
+                        "val": "406",
+                        "action": "hide",
+                        "target": "421",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "6": {
+                        "val": "407",
+                        "action": "hide",
+                        "target": "421",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "7": {
+                        "val": "410",
+                        "action": "hide",
+                        "target": "421",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "8": {
+                        "val": "411",
+                        "action": "hide",
+                        "target": "421",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "9": {
+                        "val": "414",
+                        "action": "hide",
+                        "target": "421",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "10": {
+                        "val": "415",
+                        "action": "hide",
+                        "target": "421",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "11": {
+                        "val": "416",
+                        "action": "hide",
+                        "target": "421",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    }
+                }
+            },
+            "sort_order": "14",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "392",
+                    "category_id": "42",
+                    "name": "Cent OS 5 - 32 Bit",
+                    "variable_id": "Cent Os 5 - 32 Bit",
+                    "copy_of": "392"
+                },
+                {
+                    "id": "393",
+                    "category_id": "42",
+                    "name": "Cent OS 5 - 64 Bit",
+                    "variable_id": "Cent Os 5 - 64 Bit",
+                    "sort_order": "1",
+                    "copy_of": "393"
+                },
+                {
+                    "id": "1573",
+                    "category_id": "42",
+                    "name": "Cent OS 6 - 32 Bit",
+                    "variable_id": "Cent OS 6 - 32 Bit",
+                    "sort_order": "2",
+                    "copy_of": "1573"
+                },
+                {
+                    "id": "1574",
+                    "category_id": "42",
+                    "name": "Cent OS 6 - 64 Bit",
+                    "variable_id": "Cent OS 6 - 64 Bit",
+                    "sort_order": "3",
+                    "copy_of": "1574"
+                },
+                {
+                    "id": "396",
+                    "category_id": "42",
+                    "name": "Ubuntu 10.04 - 32 Bit",
+                    "variable_id": "Ubuntu 10.04 - 32 Bit",
+                    "sort_order": "4",
+                    "copy_of": "396"
+                },
+                {
+                    "id": "397",
+                    "category_id": "42",
+                    "name": "Ubuntu 10.04 - 64 Bit",
+                    "variable_id": "Ubuntu 10.04 - 64 Bit",
+                    "sort_order": "5",
+                    "copy_of": "397"
+                },
+                {
+                    "id": "406",
+                    "category_id": "42",
+                    "name": "Fedora Core 13 - 32 Bit",
+                    "variable_id": "Fedora Core 13 - 32 Bit",
+                    "sort_order": "6",
+                    "copy_of": "406"
+                },
+                {
+                    "id": "407",
+                    "category_id": "42",
+                    "name": "Fedora Core 13 - 64 Bit",
+                    "variable_id": "Fedora Core 13 - 64 Bit",
+                    "sort_order": "7",
+                    "copy_of": "407"
+                },
+                {
+                    "id": "410",
+                    "category_id": "42",
+                    "name": "FreeBSD 8 - 32 Bit",
+                    "variable_id": "FreeBSD 8 - 32 Bit",
+                    "sort_order": "8",
+                    "copy_of": "410"
+                },
+                {
+                    "id": "411",
+                    "category_id": "42",
+                    "name": "FreeBSD 8 - 64 Bit",
+                    "variable_id": "FreeBSD 8 - 64 Bit",
+                    "sort_order": "9",
+                    "copy_of": "411"
+                },
+                {
+                    "id": "414",
+                    "category_id": "42",
+                    "name": "Xen Server 5 - 64 Bit",
+                    "variable_id": "Xen Server 5 - 64 Bit",
+                    "sort_order": "10",
+                    "copy_of": "414"
+                },
+                {
+                    "id": "415",
+                    "category_id": "42",
+                    "name": "VMware ESXi 4 - 64 Bit",
+                    "variable_id": "VMware ESXi 4 - 64 Bit",
+                    "sort_order": "11",
+                    "copy_of": "415"
+                },
+                {
+                    "id": "416",
+                    "category_id": "42",
+                    "name": "VMware ESXi 3.5 - 32 Bit",
+                    "variable_id": "VMware ESXi 3.5 - 32 Bit",
+                    "sort_order": "12",
+                    "copy_of": "416"
+                },
+                {
+                    "id": "419",
+                    "category_id": "42",
+                    "name": "Windows 2008 - Standard Edition 32 Bit",
+                    "variable_id": "Windows 2008 - Standard Edition 32 Bit",
+                    "sort_order": "13",
+                    "copy_of": "419",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "420",
+                    "category_id": "42",
+                    "name": "Windows 2008 - Standard Edition 64 Bit",
+                    "variable_id": "Windows 2008 - Standard Edition 64 Bit",
+                    "sort_order": "14",
+                    "copy_of": "420",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "421",
+            "type": "qty",
+            "required": "0",
+            "name": "MSSQL",
+            "key": "",
+            "variable": "mssql",
+            "description": "",
+            "category": "software",
+            "product_id": "149",
+            "copy_of": "421",
+            "options": "50",
+            "config": {
+                "conditionals": [],
+                "minvalue": "0",
+                "maxvalue": "99999"
+            },
+            "sort_order": "15",
+            "group_id": "0",
+            "ftype": "qty",
+            "premade": true,
+            "items": [
+                {
+                    "id": "960",
+                    "category_id": "421",
+                    "copy_of": "960",
+                    "pricing": true,
+                    "paytype": "Resources",
+                    "scheme": "tiered",
+                    "prices": [
+                        {
+                            "id": "228",
+                            "item_id": "960",
+                            "qty": "0",
+                            "qty_max": "99999",
+                            "m_setup": "0.00",
+                            "q_setup": "0.00",
+                            "s_setup": "0.00",
+                            "a_setup": "0.00",
+                            "b_setup": "0.00",
+                            "t_setup": "0.00",
+                            "p4_setup": "0.00",
+                            "p5_setup": "0.00",
+                            "d_setup": "0.00",
+                            "w_setup": "0.00",
+                            "h_setup": "0.00",
+                            "m": "1000.00",
+                            "q": "3000.00",
+                            "s": "6000.00",
+                            "a": "12000.00",
+                            "b": "0.00",
+                            "t": "0.00",
+                            "p4": "0.00",
+                            "p5": "0.00",
+                            "d": "0.00",
+                            "w": "0.00",
+                            "h": "0.00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0",
+            "type": "select",
+            "required": "0",
+            "name": "Control Panel",
+            "key": "cf_cp",
+            "variable": "cp",
+            "description": "",
+            "category": "software",
+            "product_id": "149",
+            "copy_of": "0",
+            "options": "259",
+            "config": {
+                "upgradefee": "0.00",
+                "downgradefee": "0.00",
+                "conditionals": []
+            },
+            "sort_order": "16",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3728",
+                    "name": "None",
+                    "variable_id": "None",
+                    "copy_of": "3728"
+                },
+                {
+                    "id": "3726",
+                    "name": "cPanel\/WHM for Dedicated Server - Unlimited Domains (Linux)",
+                    "variable_id": "cPanel\/WHM for VPS - Unlimited Domains (Linux Only)",
+                    "sort_order": "1",
+                    "copy_of": "3726"
+                },
+                {
+                    "id": "3976",
+                    "name": "DirectAdmin Internal License, Unlimited Domains (Linux)",
+                    "variable_id": "DirectAdmin Internal License - Monthly (Linux)",
+                    "sort_order": "2",
+                    "copy_of": "3976"
+                },
+                {
+                    "id": "3979",
+                    "name": "Parallels Plesk, Web Host Edition, Unlimited Domains",
+                    "variable_id": "Parallels Plesk - Plesk Panel 100 Domains (Windows)",
+                    "sort_order": "3",
+                    "copy_of": "3979"
+                },
+                {
+                    "id": "3980",
+                    "name": "Parallels Plesk, Web Host Edition, Unlimited Domains + Plesk Panel Power Pack",
+                    "variable_id": "Parallels Plesk - Plesk Panel Unlimited Domains (Windows)",
+                    "sort_order": "4",
+                    "copy_of": "3980"
+                },
+                {
+                    "id": "9079",
+                    "name": "cPanel Up to 100 Accounts",
+                    "variable_id": "cPanel Up to 100 Accounts",
+                    "sort_order": "5",
+                    "copy_of": "9079"
+                },
+                {
+                    "id": "9080",
+                    "name": "cPanel Up to 150 Accounts",
+                    "variable_id": "cPanel Up to 150 Accounts",
+                    "sort_order": "6",
+                    "copy_of": "9080"
+                },
+                {
+                    "id": "9091",
+                    "name": "Plesk, Web Admin edition, up to 10 domains",
+                    "variable_id": "Plesk, Web Admin edition, up to 10 domains",
+                    "sort_order": "7",
+                    "copy_of": "9091"
+                },
+                {
+                    "id": "9092",
+                    "name": "Plesk, Web PRO edition, up to 30 domains",
+                    "variable_id": "Plesk, Web PRO edition, up to 30 domains",
+                    "sort_order": "8",
+                    "copy_of": "9092"
+                },
+                {
+                    "id": "9093",
+                    "name": "Plesk, Web HOST edition, unlimited domains",
+                    "variable_id": "Plesk, Web HOST edition, unlimited domains",
+                    "sort_order": "9",
+                    "copy_of": "9093"
+                },
+                {
+                    "id": "9088",
+                    "name": "DirectAdmin",
+                    "variable_id": "DirectAdmin",
+                    "sort_order": "10",
+                    "copy_of": "9088"
+                }
+            ]
+        },
+        {
+            "id": "418",
+            "type": "checkbox",
+            "required": "0",
+            "name": "Software",
+            "key": "",
+            "variable": "software",
+            "description": "",
+            "category": "software",
+            "product_id": "149",
+            "copy_of": "418",
+            "options": "2",
+            "config": {
+                "minvalue": "",
+                "maxvalue": "99999"
+            },
+            "sort_order": "17",
+            "group_id": "0",
+            "ftype": "checkbox",
+            "premade": true,
+            "items": [
+                {
+                    "id": "951",
+                    "category_id": "418",
+                    "name": "Netway cPanel Skin (\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22)",
+                    "variable_id": "software_rvskin",
+                    "copy_of": "951"
+                },
+                {
+                    "id": "952",
+                    "category_id": "418",
+                    "name": "Netway Site Builder (support cPanel and DirectAdmin)",
+                    "variable_id": "software_rvsitebuilder",
+                    "sort_order": "1",
+                    "copy_of": "952",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "422",
+            "type": "checkbox",
+            "required": "0",
+            "name": "Managed Services",
+            "key": "",
+            "variable": "managed",
+            "description": "",
+            "category": "management",
+            "product_id": "149",
+            "copy_of": "422",
+            "options": "259",
+            "config": {
+                "minvalue": "",
+                "maxvalue": "99999"
+            },
+            "sort_order": "18",
+            "group_id": "0",
+            "ftype": "checkbox",
+            "premade": true,
+            "items": [
+                {
+                    "id": "961",
+                    "category_id": "422",
+                    "name": "Email Alert & MRTG - monitoring server status and measuring the traffic load",
+                    "variable_id": "managed_free",
+                    "copy_of": "961"
+                },
+                {
+                    "id": "962",
+                    "category_id": "422",
+                    "name": "Managed Server Services for Dedicated Server - Netway worry free server management services (CentOS)",
+                    "variable_id": "managed_paid",
+                    "sort_order": "1",
+                    "copy_of": "962",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "629",
+            "type": "select",
+            "required": "0",
+            "name": "Remote Backup Storage",
+            "key": "",
+            "variable": "backup_storage",
+            "description": "Storage server \u0e1b\u0e23\u0e30\u0e2a\u0e34\u0e17\u0e18\u0e34\u0e20\u0e32\u0e1e\u0e2a\u0e39\u0e07 \u0e1a\u0e19 Netway private network \u0e43\u0e0a\u0e49\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a \u0e17\u0e33 remote backup \u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e2a\u0e39\u0e0d\u0e2b\u0e32\u0e22\u0e1a\u0e19\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07 server \u0e17\u0e35\u0e48\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19",
+            "category": "management",
+            "product_id": "149",
+            "copy_of": "629",
+            "options": "307",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "19",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "1743",
+                    "category_id": "629",
+                    "name": "5GB (\u0e1f\u0e23\u0e35)",
+                    "variable_id": "5GB",
+                    "copy_of": "1743"
+                },
+                {
+                    "id": "1744",
+                    "category_id": "629",
+                    "name": "25GB",
+                    "variable_id": "25GB",
+                    "sort_order": "1",
+                    "copy_of": "1744",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1745",
+                    "category_id": "629",
+                    "name": "50GB",
+                    "variable_id": "50GB",
+                    "sort_order": "2",
+                    "copy_of": "1745",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1746",
+                    "category_id": "629",
+                    "name": "100GB",
+                    "variable_id": "100GB",
+                    "sort_order": "3",
+                    "copy_of": "1746",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1747",
+                    "category_id": "629",
+                    "name": "200GB",
+                    "variable_id": "200GB",
+                    "sort_order": "4",
+                    "copy_of": "1747",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1748",
+                    "category_id": "629",
+                    "name": "300GB",
+                    "variable_id": "300GB",
+                    "sort_order": "5",
+                    "copy_of": "1748",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1749",
+                    "category_id": "629",
+                    "name": "400GB",
+                    "variable_id": "400GB",
+                    "sort_order": "6",
+                    "copy_of": "1749",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1750",
+                    "category_id": "629",
+                    "name": "500GB",
+                    "variable_id": "500GB",
+                    "sort_order": "7",
+                    "copy_of": "1750",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1751",
+                    "category_id": "629",
+                    "name": "750GB",
+                    "variable_id": "750GB",
+                    "sort_order": "8",
+                    "copy_of": "1751",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1752",
+                    "category_id": "629",
+                    "name": "1TB",
+                    "variable_id": "1TB",
+                    "sort_order": "9",
+                    "copy_of": "1752",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "630",
+            "type": "select",
+            "required": "0",
+            "name": "SMS Email Alert",
+            "key": "",
+            "variable": "sms",
+            "description": "",
+            "category": "management",
+            "product_id": "149",
+            "copy_of": "630",
+            "options": "50",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "20",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "1753",
+                    "category_id": "630",
+                    "name": "NO",
+                    "variable_id": "no",
+                    "copy_of": "1753"
+                },
+                {
+                    "id": "1754",
+                    "category_id": "630",
+                    "name": "\u0e43\u0e02\u0e49\u0e07\u0e32\u0e19\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14 50 SMS \u0e15\u0e48\u0e2d\u0e40\u0e14\u0e37\u0e2d\u0e19",
+                    "sort_order": "1",
+                    "copy_of": "1754",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1755",
+                    "category_id": "630",
+                    "name": "\u0e43\u0e02\u0e49\u0e07\u0e32\u0e19\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14 100 SMS \u0e15\u0e48\u0e2d\u0e40\u0e14\u0e37\u0e2d\u0e19",
+                    "variable_id": "100",
+                    "sort_order": "2",
+                    "copy_of": "1755",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1756",
+                    "category_id": "630",
+                    "name": "\u0e43\u0e02\u0e49\u0e07\u0e32\u0e19\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14 200 SMS \u0e15\u0e48\u0e2d\u0e40\u0e14\u0e37\u0e2d\u0e19",
+                    "variable_id": "200 SMS",
+                    "sort_order": "3",
+                    "copy_of": "1756",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1757",
+                    "category_id": "630",
+                    "name": "\u0e43\u0e02\u0e49\u0e07\u0e32\u0e19\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14 300 SMS \u0e15\u0e48\u0e2d\u0e40\u0e14\u0e37\u0e2d\u0e19",
+                    "variable_id": "300 SMS",
+                    "sort_order": "4",
+                    "copy_of": "1757",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1758",
+                    "category_id": "630",
+                    "name": "\u0e43\u0e02\u0e49\u0e07\u0e32\u0e19\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14 400 SMS \u0e15\u0e48\u0e2d\u0e40\u0e14\u0e37\u0e2d\u0e19",
+                    "variable_id": "4 SMS",
+                    "sort_order": "5",
+                    "copy_of": "1758",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1759",
+                    "category_id": "630",
+                    "name": "\u0e43\u0e02\u0e49\u0e07\u0e32\u0e19\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14 500 SMS \u0e15\u0e48\u0e2d\u0e40\u0e14\u0e37\u0e2d\u0e19",
+                    "variable_id": "500 SMS",
+                    "sort_order": "6",
+                    "copy_of": "1759",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1760",
+                    "category_id": "630",
+                    "name": "\u0e43\u0e02\u0e49\u0e07\u0e32\u0e19\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14 1000 SMS \u0e15\u0e48\u0e2d\u0e40\u0e14\u0e37\u0e2d\u0e19",
+                    "variable_id": "1000 SMS",
+                    "sort_order": "7",
+                    "copy_of": "1760",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1761",
+                    "category_id": "630",
+                    "name": "\u0e43\u0e02\u0e49\u0e07\u0e32\u0e19\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14 2000 SMS \u0e15\u0e48\u0e2d\u0e40\u0e14\u0e37\u0e2d\u0e19",
+                    "variable_id": "2000 SMS",
+                    "sort_order": "8",
+                    "copy_of": "1761",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "1762",
+                    "category_id": "630",
+                    "name": "\u0e43\u0e02\u0e49\u0e07\u0e32\u0e19\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14 3000 SMS \u0e15\u0e48\u0e2d\u0e40\u0e14\u0e37\u0e2d\u0e19",
+                    "variable_id": "3000 SMS",
+                    "sort_order": "9",
+                    "copy_of": "1762",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "type": "textarea",
+            "required": "0",
+            "name": "Additional Note:",
+            "key": "",
+            "variable": "",
+            "description": "",
+            "category": "",
+            "product_id": "149",
+            "copy_of": "59",
+            "options": "2",
+            "config": [],
+            "sort_order": "21",
+            "group_id": "0",
+            "ftype": "textarea",
+            "premade": true,
+            "items": [
+                {
+                    "id": "567",
+                    "category_id": "59",
+                    "copy_of": "567"
+                }
+            ]
+        },
+        {
+            "id": "825",
+            "type": "select",
+            "required": "0",
+            "name": "\u0e40\u0e1b\u0e47\u0e19 hypervisor",
+            "key": "",
+            "variable": "hypervisor",
+            "description": "",
+            "category": "",
+            "product_id": "149",
+            "copy_of": "825",
+            "options": "4",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "22",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "2699",
+                    "category_id": "825",
+                    "name": "\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48",
+                    "copy_of": "2699"
+                },
+                {
+                    "id": "2700",
+                    "category_id": "825",
+                    "name": "\u0e43\u0e0a\u0e48",
+                    "variable_id": "1",
+                    "sort_order": "1",
+                    "copy_of": "2700"
+                }
+            ]
+        },
+        {
+            "id": "824",
+            "type": "select",
+            "required": "0",
+            "name": "\u0e02\u0e2d\u0e07 Internal Netway \u0e40\u0e2d\u0e07",
+            "key": "",
+            "variable": "netway",
+            "description": "",
+            "category": "",
+            "product_id": "149",
+            "copy_of": "824",
+            "options": "4",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "23",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "2697",
+                    "category_id": "824",
+                    "name": "\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48",
+                    "copy_of": "2697",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "2698",
+                    "category_id": "824",
+                    "name": "\u0e43\u0e0a\u0e48",
+                    "variable_id": "1",
+                    "sort_order": "1",
+                    "copy_of": "2698",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "1204",
+            "type": "fileupload",
+            "required": "0",
+            "name": "Spec Server",
+            "key": "",
+            "variable": "",
+            "description": "",
+            "category": "",
+            "product_id": "149",
+            "copy_of": "1204",
+            "options": "4",
+            "config": [],
+            "sort_order": "24",
+            "group_id": "0",
+            "ftype": "fileupload",
+            "premade": true,
+            "items": [
+                {
+                    "id": "3994",
+                    "category_id": "1204",
+                    "copy_of": "3994"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

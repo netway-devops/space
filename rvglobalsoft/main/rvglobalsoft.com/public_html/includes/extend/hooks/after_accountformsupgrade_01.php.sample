@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Client ordered field upgrade/downgrade and it has changed by accepting order (auto or manual)
+ * Following variable is available to use in this file:  $details $details=array('account_id'=>ACCOUNT ID,
+ * 'old_field'=>array(config_cat=>... config_id=>..., qty=>..., data=>...), //old field with value/qty,
+ * 'new_field'=>array(config_cat=>...new_config_id=>.... new_qty=>...) //new field with value, qty
+ */

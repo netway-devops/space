@@ -1,0 +1,8 @@
+name: Select Server
+key: cf_cp
+variable: server_selector_id
+description:
+category: server
+type: serverselector
+options: 2
+itemscallback: getServers

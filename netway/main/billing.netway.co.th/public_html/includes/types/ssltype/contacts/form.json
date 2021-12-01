@@ -1,0 +1,27 @@
+{
+    "organization": {
+        "type": "group",
+        "lang": "en_orgdetails",
+        "forms": {}
+    },
+    "admin": {
+        "type": "group",
+        "lang": "en_admincontact",
+        "forms": {}
+    },
+    "useadmin": {
+        "type": "checkbox",
+        "lang": "en_billtech",
+        "required": false
+    },
+    "tech": {
+        "type": "group",
+        "lang": "en_techcontact",
+        "forms": {}
+    },
+    "billing": {
+        "type": "group",
+        "lang": "en_billcontact",
+        "forms": {}
+    }
+}

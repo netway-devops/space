@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Client profile has been closed by administrator.
+ * under $details variable related client id is stored.
+ */
+
+$client_id = $details;

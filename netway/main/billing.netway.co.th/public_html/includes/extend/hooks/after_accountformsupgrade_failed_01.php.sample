@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Client ordered field upgrade/downgrade and it was not changed by accepting order (auto or manual)
+ * Following variable is available to use in this file:  $details $details=array('account_id'=>ACCOUNT ID,
+ * 'forms'=> 'array with old forms values'
+ * 'newforms'=> 'array with new forms values'
+ * 'error' => 'error if any'
+ */

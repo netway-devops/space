@@ -1,0 +1,6 @@
+<?php
+
+/**
+ * Late fee has been applied to invoice ID=$invoice_id
+ * Following variable is available to use in this file:  $detailsFollowing variable is available to use in this file:  $details
+ */

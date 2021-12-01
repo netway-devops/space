@@ -1,0 +1,1 @@
+ALTER TABLE `hb_mettered_prices` CHANGE `price` `price` DECIMAL( 20, 10 ) NOT NULL;

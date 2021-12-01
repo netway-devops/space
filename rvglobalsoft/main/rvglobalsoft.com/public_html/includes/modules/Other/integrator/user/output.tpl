@@ -1,0 +1,1 @@
+{if $type == 'price'}{$variable|price:$currency}{else}{$variable}{/if}

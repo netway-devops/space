@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Client submitted new order that was automatically marked as fraud by fraud module
+ * Following variable is available to use in this file:  $details an array with basic order details
+ * $details['total']; // Order total
+ * $details['gateway']; // Selected gateway id
+ * $details['order_id']; // Order id
+ * $details['order_num']; // Order number
+ */

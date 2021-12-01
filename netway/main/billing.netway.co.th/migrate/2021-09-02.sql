@@ -1,0 +1,2 @@
+REPLACE INTO `hb_language_locales` (`language_id`, `section`, `keyword`, `value`, `flags`) VALUES
+(1, 'invoices', 'billingChequeNotification', 'การแก้ไขจะมีผลเฉพาะ invoice นี้เท่านั้น ถ้าต้องการให้มีการนำข้อมูลไปใช้กับ invoice อื่นๆของ Billing Address นี้ให้ไป update ข้อมูล \"Billing and Cheque (ข้อมูลการวางบิล-รับเช็ค)\" ที่ Client / Contact Profile', 1);

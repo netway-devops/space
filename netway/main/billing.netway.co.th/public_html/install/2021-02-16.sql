@@ -1,0 +1,1 @@
+ALTER TABLE `hb_config_items` ADD `description` TEXT  NULL  DEFAULT '';

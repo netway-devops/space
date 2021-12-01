@@ -1,0 +1,277 @@
+<?php
+
+/**
+ * This event is called when clientarea header is rendered -
+ * use this to inject your custom scripts/meta tags etc.
+ */
+
+
+$user_login = $_SESSION['AppSettings']['login']['id'];
+$admin_login = $_SESSION['AppSettings']['admin_login']['id'];
+//echo $_SESSION['AppSettings']['login']['email'];
+//echo "id=".$_SESSION['AppSettings']['login']['id'];
+
+
+if($_POST['validate_button'] != '') {
+	
+	//print_r($_POST); exit;
+	
+$db         = hbm_db();
+		
+$sql = "select * from vip_setting where 1";
+$result = $db->query($sql)->fetch();
+$userId = $result['vip_user_prefix'].$result['app_user_id']."_".$user_login;
+$appsuser_id = $result['app_user_id'];
+
+$PRO_FILE_PATH = APPDIR_MODULES . "Other/twofactor_authentication";
+
+$path_cer_file = $PRO_FILE_PATH."/temp/vip_cert.pem";
+$path_cer_pass_file = $PRO_FILE_PATH."/temp/cerPasswd.txt";
+$cer_pass = file_get_contents($path_cer_pass_file);
+
+$m_url_client = "https://services.vip.symantec.com";
+$m_url_issuer = "https://services-auth.vip.symantec.com";
+
+$mgmtPrefix = "/mgmt/soap";
+$valPrefix = "/val/soap";	
+	
+$wsdl2 = $PRO_FILE_PATH.'/Symantec/vipuserservices-auth-1.1.wsdl';
+
+//ECHO "CER=".$path_cer_file;
+//ECHO "CERPASS=".$cer_pass;
+
+try {
+    $options2 = array(
+                'local_cert' => $path_cer_file,
+                'trace'=>true,
+                'cache_wsdl'=>WSDL_CACHE_NONE,
+    		    'passphrase'=> $cer_pass,
+                'location' => 'https://userservices-auth.vip.symantec.com/vipuserservices/AuthenticationService_1_1'	   
+            );  
+         
+    $client2 = new SoapClient($wsdl2, $options2);
+
+} catch (Exception $e) {
+
+    echo "<h2>Exception Error!</h2>";
+    echo $e->getMessage();
+
+} 
+
+	$req_id = time();
+	$otp = $_POST['otp'];
+
+	$t2 = array(	'requestId' => $req_id ,
+                    'userId' => $userId , 
+                    'otpAuthData' => array( 
+                                           	'otp' => $otp
+                                           )
+	   	   );
+	   	   
+	   	  // echo "userId=".$userId;
+
+	$response2 = $client2->authenticateUser($t2);
+
+	if (($response2->credentialId != '') && ($response2->credentialType == 'STANDARD_OTP') && ($response2->statusMessage == 'Success') ) {
+
+		echo '<div style="border:1px solid #009900; background-color: #99FF99; width:400px; text-align:center; padding-left:10px; padding-right:10px;">';
+
+		echo '<br /><font color="#009900"><strong>Login Successfull</strong></font>';
+
+		echo "<br />Credential ID is <strong><font color='#009900'>".$response2->credentialId."</font></strong>";
+
+	        $_SESSION['myVIPSession'] = $response2->credentialId;
+
+		//echo "<br /><a href='".site_url()."/wp-admin/' title='Admin Area'>Admin</a><br />";
+
+		//echo "<br /><br /></div>"; 
+		
+		//wp_redirect(site_url()."/wp-admin");
+		echo "MYVIP=".$_SESSION['myVIPSession'];
+		
+		exit;
+		
+		
+	} else {
+
+		echo '<CENTER><div style="border:1px solid #FF0000; background-color: #FFCCCC; width:400px; text-align:center; padding-left:10px; padding-right:10px;">';
+
+		echo "<br /><strong><font color='#FF0000'>Cannot login : " . $response2->statusMessage."</font>";
+
+		echo "<br /><br /></div></CENTER>";
+		
+		exit;
+		
+		
+	}
+	
+} // end if post
+
+
+ // --- hostbill helper ---
+$db         = hbm_db();
+
+//echo "<pre>";
+//echo $_SESSION['AppSettings']['login']['email'];
+
+$sql = "select * from vip_setting where 1";
+$result = $db->query($sql)->fetch();
+$userId = $result['vip_user_prefix'].$result['app_user_id']."_".$user_login;
+$appsuser_id = $result['app_user_id'];
+
+
+
+$sqlu = "select * from vip_user_detail where user_login = '".$user_login."' and enable_status = '1'  ";
+$resultu = $db->query($sqlu)->fetch();
+
+$cnt = 0;
+if(($resultu['user_login'] == $user_login) && ($admin_login == "")) {
+	
+	$cnt = 1;
+
+echo "<style type='text/css'>
+				.add-credential { 
+					font-family:Arial, Helvetica, sans-serif; 
+					color:#333333; 
+					margin:0 auto;
+					font-size:14px; 
+					padding-top: 50px;
+					width:600px; 
+				}
+				
+				.add-symantect{
+					border:#000000 solid 1px; 
+					padding:2px;
+					font-family:Arial, Helvetica, sans-serif; 
+					color:#333333;
+					font-size:14px;
+				    margin-top:100px;  
+				}
+				.add-symantect .block-l{
+					float:left; 
+					width:250px; 
+					height:220px;
+					height:260px\9; 
+					background:#000000; 
+					text-align:center; 
+					padding-top:30px;
+					border:#f78f1e solid 3px;
+				}
+				.add-symantect .block-r{
+					float:left;  
+					background:#fff; 
+					text-align:center; 
+					padding:20px;
+					padding-top:30px;
+					padding-top:20px\9;
+				}
+				.add-symantect .block-r div{
+					padding-bottom:7px;
+				}
+				.add-symantect .btn, .add-symantect .btn:visited, .add-symantect .btn:hover, .add-symantect .btn:active{ 
+					color:#fff; 
+					text-decoration:none;
+					background:#4f4f4f; 
+					display:inline; 
+					border:0;
+					border-radius:3px; 
+					padding:5px 15px; 
+					margin-right:3px; 
+					width:90px; 
+					white-space:nowrap; 
+					cursor:pointer;
+				}
+				.add-symantect .btn:hover, .add-symantect .btn:active{ 
+					color:#fff; 
+					background:#636363; 
+				}
+				.add-symantect a, .add-symantect a:visited, .add-symantect a:hover, .add-symantect a:active{ 
+					color:#c74b00; 
+					text-decoration: underline; 
+					font-size:12px;
+				}
+				.add-symantect a:hover, .add-symantect a:active{ 
+					color:#000; 
+				}
+				.add-symantect .box{ 
+					border:#757575 solid 1px; 
+					background:#FFFFFF; 
+					width:200px; 
+					padding:4px; 
+				}
+				.add-symantect h2{ 
+					font-family:Arial, Helvetica, sans-serif; 
+					font-size:16px; 
+				}
+				.add-symantect .clear{ 
+					clear:both; 
+					padding:0; 
+					margin:0;
+				}
+				.add-symantect .name{ 
+					color:#0066CC;
+				}
+				</style>";
+
+		// has user vip
+		echo "
+				
+				<script type='text/javascript'>
+									function chk_val_frm(frm) {
+										if(frm.otp.value=='') {
+											alert('Please type Security Code');
+											frm.code.focus();
+											return false;
+										}
+										return true;
+									}
+								</script>
+				 
+				<div align='center'>
+					
+					
+					<script type='text/javascript'>
+						window.onload = function() {
+				  		document.getElementById('code').focus();
+					};
+					</script> 
+				
+					<form action='' method='post' onsubmit='return chk_val_frm(this)'>
+						<table cellpadding='0' cellspacing='3'>
+							<tr>
+								<td align='left' valign='top'>
+									<div class='add-symantect'>
+										<div class='block-l'><img src='includes/modules/Other/twofactor_authentication/images/credential.gif' alt='' width='199' height='186' /></div>
+										<div class='block-r'>
+											<h2 align='left'>Enter the secuirty code from your credential.</h2>
+											<div align='left' style='float:left; width:105px;'><label for='code'>Security Code :</label> </div>
+											<div align='left' style='height:100px; float:left;'>
+												<div align='left'><input type='text' name='otp' id='code' maxlength='6'   class='box'  autocomplete='off' /></div>
+												<div align='left'><input type='submit' name='validate_button' value='Login'  class='btn' /></div>
+												<div align='left'><img src='includes/modules/Other/twofactor_authentication/images/logo.gif' alt='' width='95' height='41' /></div>
+											</div>
+											<div class='clear'></div>
+											<div class='clear'></div>
+											<div><a href='?action=logout' title='Logout'>Logout</a> | <a href='https://m.vip.symantec.com/home.v' target='_blank'>Get VIP Access</a> </div>
+										</div>
+										<div style='clear:both;'></div>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+				
+				<br />
+				<br />
+				";
+		exit;
+	}
+	
+	
+}
+	
+
+
+ 
+ ?>

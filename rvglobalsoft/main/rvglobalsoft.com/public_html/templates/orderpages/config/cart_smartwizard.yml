@@ -1,0 +1,41 @@
+---
+imgpreview:
+  value: '../templates/orderpages/cart_smartwizard/howto.png'
+  name: View editable areas
+  type: link 
+slogan:
+  value: Simple steps to run your perfect server
+  name: Slogan
+  type: input
+advantages:
+  value: Our advantages
+  name: Bottom header
+  type: input
+advantages1head:
+  value: Automation
+  name: Left block header
+  description: This phrase will be displayed below package list
+  type: input
+advantages1text:
+  name: Left block text
+  type: textarea
+  value: Automated account provisioning. Rich integrations with popular services, control panels & domain registrars. Automated suspensions, cancellations, reminders & late-fees.
+advantages2head:
+  value: Complete
+  name: Middle block header
+  description: This phrase will be displayed below package list
+  type: input
+advantages2text:
+  name: Middle  block text
+  type: textarea
+  value: Over 2000 companies around the globe including hosting companies, Cloud/IaaS/VPS Solutions Providers, Domain name and SSL Resellers use HostBill to manage their online business
+advantages3head:
+  value: Billing
+  name: Right block header
+  description: This phrase will be displayed below package list
+  type: input
+advantages3text:
+  name: Right block text
+  type: textarea
+  value: Recurring billing management. 70+ payment gateways integrated. Coupons, Estimates/Quotes, metered billing.  Configurable & flexible products.  Easy to use order forms.
+  

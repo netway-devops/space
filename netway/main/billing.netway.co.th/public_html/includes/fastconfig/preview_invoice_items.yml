@@ -1,0 +1,41 @@
+items:
+  -
+    id: 4
+    invoice_id: 1
+    item_id: 4
+    type: Upgrade
+    qty: 1
+    taxed: 0
+    amount: 10.00
+    description: 'Upgrade / Downgrade: Product 1 => Product 2'
+    linetotal: 10
+  -
+    id: 5
+    invoice_id: 1
+    item_id: 5
+    type: FieldUpgrade
+    qty: 1
+    taxed: 0
+    amount: 6.00
+    description: 'Upgrade / Downgrade: RAM: 2GB DDR2 => 6GB DDR2'
+    linetotal: 10
+  -
+    id: 6
+    invoice_id: 1
+    item_id: 6
+    type: Domain Transfer
+    qty: 1
+    taxed: 0
+    amount: 2.00
+    description: 'Domain Transfer: test.com'
+    linetotal: 2
+  -
+    id: 7
+    invoice_id: 1
+    item_id: 7
+    type: Discount
+    qty: 1
+    taxed: 0
+    amount: -2.00
+    description: 'Discount: '
+    linetotal: -2

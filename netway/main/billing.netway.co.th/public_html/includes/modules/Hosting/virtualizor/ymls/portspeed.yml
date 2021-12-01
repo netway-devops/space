@@ -1,0 +1,31 @@
+type: select
+name: 'Network Speed [KB/s]'
+key: cf_bandwidth
+variable: portspeed
+description:
+category: network
+options: 2
+premade: 1
+items:
+  -
+    name: 128 KB/s (1 Mbit)
+    variable_id: 128
+    pricing: 0
+  -
+    name: 256 KB/s (2 Mbit)
+    variable_id: 256
+    m: 0.20
+    pricing: 1
+    paytype: Regular
+  -
+    name: 512 KB/s (4 Mbit)
+    variable_id: 512
+    m: 1.00
+    pricing: 1
+    paytype: Regular
+  -
+    name: 1024 KB/s (8 Mbit)
+    variable_id: 1024
+    m: 2.00
+    pricing: 1
+    paytype: Regular

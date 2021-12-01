@@ -1,0 +1,1 @@
+ {include file="`$clouddir`metered_table.tpl"}

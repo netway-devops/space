@@ -1,0 +1,4 @@
+{
+  "name": "Ubiquiti mFi",
+  "description": "Driver for Ubiquiti mFi - connects over HTTP(s) to sensor to read current Amps for power billing. Power billing use/require HostBill PowerCollector module."
+}

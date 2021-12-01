@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e7d8ea077db2bf801a7b98966b60133b",
+    "packages": [
+        {
+            "name": "daniel-zahariev/php-aws-ses",
+            "version": "0.9.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/daniel-zahariev/php-aws-ses.git",
+                "reference": "342acfc30c3a699219bb3e837d09226d3176bef4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/daniel-zahariev/php-aws-ses/zipball/342acfc30c3a699219bb3e837d09226d3176bef4",
+                "reference": "342acfc30c3a699219bb3e837d09226d3176bef4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-simplexml": "*",
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "^1.7",
+                "phpspec/prophecy": "~1.0",
+                "phpunit/php-code-coverage": "^6.0",
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Zahariev",
+                    "role": "developer"
+                }
+            ],
+            "description": "Send emails via Amazon Simple Email Service (SES) with REST-like interface",
+            "homepage": "https://github.com/daniel-zahariev/php-aws-ses",
+            "keywords": [
+                "amazon",
+                "api",
+                "aws",
+                "email",
+                "rest",
+                "ses"
+            ],
+            "time": "2020-07-10T09:39:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

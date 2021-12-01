@@ -1,0 +1,8 @@
+<?php
+
+/**
+* Hook made after creating a credit note
+* Following variable is available to use in this file:  $details is the ID of the credit note you created
+*/
+
+$creditnote_id = $details;

@@ -1,0 +1,26 @@
+---
+- 
+  type: input
+  required: 0
+  name: Transfer included
+  variable: tw_override
+  description: >
+    This is admin-only field to override
+    default package setting for Free
+    transfer. Unit can be set in General tab
+    of product config.
+  options: 4
+  config: 
+    conditionals: [ ]
+    minvalue: 1
+    maxvalue: 
+    step: 1
+    initialval: 100
+    dontchargedefault: 1
+  sort_order: 1
+  ftype: input
+  premade: true
+  items: 
+    - 
+      sort_order: 0
+      pricing: 0

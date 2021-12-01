@@ -1,0 +1,1 @@
+UPDATE `hb_configuration` SET `value` = '4.2.8' WHERE `setting`= 'Version';

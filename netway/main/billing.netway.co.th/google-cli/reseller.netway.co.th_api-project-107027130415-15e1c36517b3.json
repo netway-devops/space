@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "reseller.netway.co.th:api-project-107027130415",
+  "private_key_id": "15e1c36517b379700a8f370027d63e51fedbc03c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDlg78r6kJkXkDz\nG4WMXML4aaE7bxiFwVFoVsHiqcUYSegdtkoBGFhx1URnbQd2DyXlLJb2XPZAoNLa\n8tsss9y4bPp+YZPtlJ9bOkS8rrQd0SJ58HM3KZba3UBHf2rowEBsA0e9/w86RZOx\n3jeKCBOkTERXa55JPcPzJxJBzRKNHeAhW1QZ7S9XFA8WzwJgCSNtQ0E3DJIlPwOb\ntddSpg6wPMe5pYcffAMlb5fvmi/GjglFAu1qGMnFFNbwtVW57DX8YKNQM8FfzZEv\nkVOvMckYhAofuLAFwRf5ENYdvHjBoDqVO1Snsw7LRkU/SrA6JXsGQe8xXwSLJwuM\n3O0HxiyxAgMBAAECggEAT0ZAx13cPceyfmYArFkz/NKbXqiCW1zJDhV9VZmXGssY\nUf7vM86hafwkaublX1lfGPfcUs8MPYlvGzIsExYzBD6cDQAONM8TddK8AEIFs5DT\nbDPpz+FdGk62j5uKpUcWWViOtKj/LPzwRU0AePxOMH8pUdq5qwma/4b8zt6S7EuA\ncktGwP32VoL0yAkE1/N34J8nvzAEuY1j37fvUEY046spcRSo9l0FHpPEjKM4keFG\nS/igKSKXLKWKZhBMoZ1LWwfRXLuvoizbnCl1VLv9rUIyfNNhWDGU53ApwxUnJPTj\n34ltqQoirIwGN3koyG5DqIPdpQVTJmrm0H3gb9nq6wKBgQD1vaFEM+KvIvxliQTs\nkkWHUgEhSWrtx+W2QBIShHExQFk/1wpyml5aTVz11ilrXgQxP56u2XNXjiHa4k2p\n0X19QnS60K3wKiZ0F/Ak2Gvc+AgQURrQFShFO/EhCGlq4ghjUJQ1HBTL8WblZ12Y\nX4vxYBRTmmozjG1Zx+jajRGikwKBgQDvGLMCorQrJFGHLJEVKkZ1dNULKpic197+\njfB9ZDGyUoBXrVakaXQuN7XFrdkAYTY9IjD2I15b3uYxg3bEXXAhQkYyN2RtrGqG\n9n40K0b6W04AUie28uv9XlLw991xIfuz6S+/P4hNTeh1VLaBryB0f3GorPhPGc9s\nH3+D2eVqKwKBgBXowT8GbTh2IxCeZbz90YseCZHBLPJkNxvHnJTgEAN3HD3v2zOa\nhb0BVr9oR6sV58PIS0qFgp4Uwvnz4T65ubl4OlYJkuhtqZ4CIFv4m61Iw9dIk95n\ndH6vuHDcgiGQY3UPUxdlGImSTT04uQSDyENN8KH/i2ZrJ7iwdRc/KopXAoGAJkRE\nukJCJbl9Vu4aFlIazsexJUVfAZNHPGSJPfhgP9MWeXHjsRKzpoYCEK5fUcE9RhGH\n1o0YmAmXvAr3Yjw2KwyJYZYd+7OhpRIkZsMabA1a8ZA0jQJaJMYI7kotZeLzfvru\nSmSnsv+qGcVCJIVb42lWTpHIeBiAaySravXf0tsCgYBBPyDMvnHOcgMfhTk4UrHD\n2ELm9wK373Tw7xL3wlJlsHeyrnKoNKxNyCEKxt4+rCwKySSQkadwVTON9QiYd/n4\nbVLFwhvBfu7JUbjYoXdNX1HTM9o2Fop+Gg8HZ45kVyFnAiuLPEiaCifzj68UHEPc\nzSK7WL3BqfNscB836lmijg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "gsuite-hostbill-automation@api-project-107027130415.reseller.netway.co.th.iam.gserviceaccount.com",
+  "client_id": "112691984900953304182",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gsuite-hostbill-automation%40api-project-107027130415.reseller.netway.co.th.iam.gserviceaccount.com"
+}

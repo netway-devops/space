@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ziplr/php-qr-code": "^1.0"
+    }
+}

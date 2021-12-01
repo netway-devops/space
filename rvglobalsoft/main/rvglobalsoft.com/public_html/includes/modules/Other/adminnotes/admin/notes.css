@@ -1,0 +1,31 @@
+#notes-container {
+    min-height:250px;
+    border-top:1px solid #eeeeee;
+}
+#notes-container .scroll-pane {
+    height:250px;
+}
+#notes-container .notes-snippet {
+    background: #fafafa;
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px;
+    cursor: pointer;
+}
+#notes-container .notes-snippet.active {
+    background: #f5f5f5;
+}
+#notes-container .notes-title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px !important;
+}
+#notes-container .notes-date {
+    color: #90a4ae;
+    font-size: 11px;
+}
+#notes-container  .notes-sidebar {
+    border-right: 1px solid #eeeeee;
+}
+#adminnoteditor .scroll-content {
+    padding:5px;
+}

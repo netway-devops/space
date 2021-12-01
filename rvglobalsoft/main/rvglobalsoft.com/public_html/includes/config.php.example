@@ -1,0 +1,46 @@
+<?php
+/*
+* HOSTBILL CONFIGURATION: BASIC SETTINGS:
+*/
+
+// Database host / default: localhost
+$db_host = 'localhost';
+// Database name
+$db_name = '';
+// Database username
+$db_user = '';
+// Database password
+$db_pass = '';
+
+// Please enter here Credit Card Encryption Hash used to encode credit cards details in Database. Use only ASCII letters and digits
+// DO NOT change this value as it will break your passwords/credit cards
+$ccEncryptionHash = '';
+
+
+
+/*
+ * ADVANCED SETTINGS:
+ */
+
+// Additional security settings:  https://hostbill.atlassian.net/wiki/spaces/DOCS/pages/491581/Additional+security+steps
+//Admininstrator folder name, default is admin
+$hb_admin_folder='admin';
+
+//Absolute location of templates_c dir - leave false for default
+$hb_templates_c_dir = false;
+
+//Absolute location of attachments dir - leave false for default
+$hb_attachments_dir = false;
+
+//Absolute location of downlods dir - leave false for default
+$hb_downloads_dir = false;
+
+// Advanced DB settings:
+//Database Port
+$db_port = '3306';
+//Database Engine - mysql is default
+$db_engine = 'mysql';
+
+//additional config array
+$config = [];
+

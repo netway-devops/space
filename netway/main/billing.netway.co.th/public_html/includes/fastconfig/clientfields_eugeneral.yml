@@ -1,0 +1,55 @@
+name: European Business
+description: Profile suitable for EU-Located business - contains VAT EU field
+fields:
+  -
+    code: type
+    name: Account Type
+  -
+    code: companyname
+    name: Company Name
+  -
+    code: vateu
+    name: VAT EU
+    type: Company
+    default_type: Input
+    description: If you have valid VAT-EU registered number please provide it here
+    invoice: 1
+  -
+    code: firstname
+    name: First Name
+  -
+    code: lastname
+    name: Last Name
+  -
+    code: password
+    name: Password
+  -
+    code: password2
+    name: Repeat Password
+  -
+    code: email
+    name: Email Address
+  -
+    code: address1
+    name: Address 1
+  -
+    code: address2
+    name: Address 2
+  -
+    code: city
+    name: City
+  -
+    code: state
+    name: State
+  -
+    code: postcode
+    name: Post Code
+  -
+    code: country
+    name: Country
+  -
+    code: phonenumber
+    name: Phonex
+  -
+    code: captcha
+    name: Image Verification

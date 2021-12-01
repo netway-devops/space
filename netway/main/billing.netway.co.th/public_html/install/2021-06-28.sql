@@ -1,0 +1,1 @@
+REPLACE INTO `hb_configuration` (`setting`, `value`) VALUES ('LogAdminEmails', 'on');

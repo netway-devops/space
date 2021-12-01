@@ -1,0 +1,394 @@
+//onestep_cloudconfig start
+.orderpage.orderpage-onestep_cloudconfig {
+
+  .services-type {
+    line-height: 50px;
+    height: 50px;
+
+    li {
+      margin: 0 10px;
+
+      strong {
+        color: $brand-primary;
+      }
+
+      a {
+        &:hover {
+          color: $brand-primary;
+        }
+      }
+    }
+  }
+
+  & > .row {
+    & > .span12 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  & > #plans {
+    float: none !important;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+
+    & > .row {
+      display: flex;
+      flex-direction: column;
+      height: 720px !important;
+      overflow: hidden;
+    }
+
+    #cloud {
+      & > div.charts h5,
+      & > div.plans h5 {
+        color: white !important;
+      }
+
+      .plans {
+        margin-top: 0;
+
+        ul {
+          padding-left: 20px !important;
+        }
+      }
+
+      .btn-selected {
+        margin-top: 28px;
+      }
+
+      .active_plan {
+        .number {
+          background-position: center bottom 6px;
+        }
+      }
+    }
+  }
+
+  .configuration-body .ui-slider-handle {
+    top: 0;
+  }
+
+  #domainTab li.active a,
+  #domainTab li.active a:hover,
+  #domainTab li.active a:focus {
+    background: inherit;
+    border-right: 0;
+  }
+
+  input,
+  select {
+    height: 45px;
+  }
+
+  .configuration-box {
+    margin: 20px 10px;
+  }
+
+  a.order span {
+    margin-top: 12px;
+  }
+}
+
+//onestep_cloudconfig end
+
+//onestep_square_boxes start
+.orderpage.orderpage-onestep_square_boxes {
+
+  .services-type {
+    line-height: 50px;
+    height: 50px;
+
+    li {
+      margin: 0 10px;
+
+      strong {
+        color: $brand-primary;
+      }
+
+      a {
+        &:hover {
+          color: $brand-primary;
+        }
+      }
+    }
+  }
+
+  .orderpage-plans {
+    align-items: start;
+
+    h4 {
+      width: 100%;
+    }
+
+    .plan.span3 {
+      padding: 0;
+    }
+  }
+
+  .orderpage-configuration {
+    .config {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .custom-select {
+      padding: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+
+      .select-value {
+        height: 48px;
+      }
+
+      .select-list {
+        top: 52px;
+        margin: 0px;
+        list-style-type: none;
+        padding: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+
+    .ui-slider-handle {
+      top: 10px;
+      border-bottom-color: #222;
+      border-radius: 0;
+      background-color: #176549 !important;
+    }
+
+    .prod-desc {
+      display: block;
+      margin-top: 20px;
+    }
+  }
+
+  .summary-table {
+    table {
+      tr {
+        border-bottom-color: #222;
+      }
+    }
+
+    .promotional-code {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+
+      input {
+        display: block;
+        margin: 5px 15px;
+      }
+    }
+  }
+}
+
+//onestep_square_boxes end
+
+//cart_fancycomparison start
+.orderpage.orderpage-cart_fancycomparison {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  #currform {
+    margin: 3rem 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    select {
+      float: none;
+      width: auto;
+      margin-left: 10px;
+    }
+  }
+}
+
+//cart_fancycomparison end
+
+//onestep_rainbow_boxes start
+.orderpage.orderpage-onestep_rainbow_boxes {
+
+  .services-type {
+    display: none;
+  }
+
+  [class*="span"] {
+    padding: 0 !important;
+    min-height: 0 !important;
+
+  }
+
+  .affix {
+    position: absolute;
+    margin-top: 0 !important;
+  }
+
+  .promo-code-field input,
+  .additional-notes {
+    border: none !important;
+    width: 100%;
+  }
+
+  .nav-tabs li a {
+    display: block;
+  }
+
+  .ui-slider {
+    margin: 0 !important;
+    height: 7px;
+  }
+
+  .ui-slider-handle {
+    top: -2px !important;
+  }
+
+  .ui-widget-header {
+    background: $brand-success !important;
+  }
+
+  .cf-checkbox input,
+  .cf-radio input,
+  .subproduct-val input,
+  #payment-method li input {
+    margin-bottom: 10px;
+  }
+
+}
+
+//onestep_rainbow_boxes end
+
+//onestep_coverflow start
+.orderpage.orderpage-onestep_coverflow {
+
+  #menu {
+    display: none;
+  }
+
+  #box-slider .box-slide .ui-slider-handle {
+    width: 27px;
+    height: 27px;
+    top: 2px;
+  }
+
+  .mright20 {
+    margin-right: 20px;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  h3.modern {
+    padding: 0 0 15px;
+  }
+
+  .newbox1 {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #606060;
+  }
+
+  .size60p {
+    width: 55% !important;
+  }
+
+  .clear,
+  .clearfix {
+    clear: both;
+  }
+
+  .box .order a {
+    height: 100%;
+  }
+
+  .box .title {
+    width: 180px;
+  }
+
+  #promocode .btn {
+    @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
+  }
+
+  #cart3 .slides .ui-slider-handle {
+    width: 22px;
+    height: 22px;
+    top: 5px;
+  }
+
+  #cart3 {
+    table {
+      margin: 20px 0;
+
+      td {
+        padding-top: 10px;
+      }
+    }
+  }
+
+  input[type=checkbox], input[type=radio] {
+    margin: 0 5px 10px 5px;
+  }
+
+  ul.wbox_menu li {
+    margin: 0;
+    font-size: 12px;
+    padding: 10px 25px;
+    margin-top: -1px;
+    cursor: pointer;
+  }
+
+  ul.wbox_menu li, .wbox_header .tabbs a {
+    float: left;
+    display: block;
+  }
+
+  ul.tabbme li.on {
+    background: #FFFFFF;
+    font-weight: bold;
+  }
+
+  #updater label {
+    display: block !important;
+    width: 100% !important;
+    color: $input-color-placeholder !important;
+    font-weight: normal !important;
+    text-align: left !important;
+  }
+
+  input:not(:placeholder-shown) ~ label {
+    font-size: 10px !important;
+  }
+
+  .form-control {
+    font-size: 12px;
+  }
+
+}
+
+//onestep_coverflow end
+
+//orderpage-comparetable start
+.orderpage.orderpage-comparetable {
+  .menu-prod, .title-b {
+    display: none;
+  }
+
+  .product-actions a.btn {
+    height: auto;
+  }
+}
+
+//orderpage-comparetable end

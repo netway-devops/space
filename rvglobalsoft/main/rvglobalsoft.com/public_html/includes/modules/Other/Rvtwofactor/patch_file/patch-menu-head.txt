@@ -1,0 +1,34 @@
+<rvtwofactorcode>
+{php}
+    if (isset($_GET)) {
+        foreach ($_GET as $k => $v) {
+           $this->_tpl_vars['REQUEST'][$k] = "{$v}";
+        }
+    }
+    
+    if(isset($_POST)) {
+        foreach ($_POST as $k => $v) {
+           $this->_tpl_vars['REQUEST'][$k] = "{$v}";
+        }
+    } 
+{/php}
+
+{if $REQUEST.rvaction=='twofactor'}
+{literal}
+<script type="text/javascript">
+$(function(){
+	$(".main-nav").append('<li class="active-menu"><a class="active-menu" href="index.php?cmd=clientarea&action=rvlist&rvaction=twofactor"><div class="vert-center"><i class="icon-main-knowledgebase"></i><p>RV2Factor</p></div></a></li>');
+});
+</script>
+{/literal}
+{else}
+{literal}
+<script type="text/javascript">
+$(function(){
+	$(".main-nav").append('<li><a href="index.php?cmd=clientarea&action=rvlist&rvaction=twofactor"><div class="vert-center"><i class="icon-main-knowledgebase"></i><p>RV2Factor</p></div></a></li>');
+});
+</script>
+{/literal}
+{/if}
+</rvtwofactorcode>
+

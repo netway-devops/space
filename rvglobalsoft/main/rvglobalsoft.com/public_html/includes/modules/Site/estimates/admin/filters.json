@@ -1,0 +1,40 @@
+{
+  "lastname": {
+    "lang": "clientname",
+    "type": "input"
+  },
+  "date_created": {
+    "lang": "datecreated",
+    "type": "input"
+  },
+  "subject": {
+    "lang": "estsubject",
+    "type": "input"
+  },
+  "status": {
+    "lang": "Status",
+    "type": "select",
+    "options": [
+      {
+        "value": "Draft",
+        "lang": "Draft"
+      },
+      {
+        "value": "Sent",
+        "lang": "Sent"
+      },
+      {
+        "value": "Accepted",
+        "lang": "Accepted"
+      },
+      {
+        "value": "Invoiced",
+        "lang": "Invoiced"
+      },
+      {
+        "value": "Dead",
+        "lang": "Dead"
+      }
+    ]
+  }
+}

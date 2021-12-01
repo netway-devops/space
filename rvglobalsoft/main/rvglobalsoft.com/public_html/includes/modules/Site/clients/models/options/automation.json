@@ -1,0 +1,484 @@
+{
+  "TaxExempt": {
+    "title": "{$lang.taxexempt}",
+    "key": "TaxExempt",
+    "section": "Billing",
+    "type": "select"
+  },
+  "TaxOverrideRate": {
+    "title": "{$lang.taxrateoverride}",
+    "key": "TaxOverrideRate",
+    "type": "custom"
+  },
+  "EmailSwitch": {
+    "title": "{$lang.sendeme}",
+    "key": "EmailSwitch",
+    "items": [
+      {
+        "value": null,
+        "title": "{$lang.Yes}"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.yes}",
+        "description": "{$lang.EmailSwitchd1}"
+      },
+      {
+        "value": "off",
+        "title": "{$lang.no}",
+        "description": "{$lang.EmailSwitchd2}"
+      }
+    ]
+  },
+  "CCChargeAuto": {
+    "title": "{$lang.CCChargeAuto}",
+    "key": "CCChargeAuto",
+    "items": [
+      {
+        "value": "on",
+        "title": "{$lang.yes}",
+        "description": "{$lang.CCChargeAuto_dscr}"
+      },
+      {
+        "value": "off",
+        "title": "{$lang.no}",
+        "description": "{$lang.CCChargeAuto_dscr1}"
+      }
+    ],
+    "related": [
+      "CCDaysBeforeCharge",
+      "CCRetryForDays",
+      "CCAttemptOnce"
+    ]
+  },
+  "CreditAutoApply": {
+    "title": "{$lang.autoapplycredit}",
+    "key": "CreditAutoApply",
+    "items": [
+      {
+        "value": null,
+        "title": "Default"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.yes}",
+        "description": "{$lang.autocredit_yes}"
+      },
+      {
+        "value": "off",
+        "title": "{$lang.no}",
+        "description": "{$lang.autocredit_no}"
+      }
+    ]
+  },
+  "AllowControlInvoiceDelivery": {
+    "title": "{$lang.AllowControlInvoiceDelivery}",
+    "key": "AllowControlInvoiceDelivery",
+    "items": [
+      {
+        "value": "on",
+        "title": "{$lang.yes}"
+      },
+      {
+        "value": "off",
+        "title": "{$lang.no}"
+      }
+    ]
+  },
+  "AttachPDFInvoicePaid": {
+    "title": "{$lang.InvoiceDeliveryMethod}",
+    "key": "AttachPDFInvoicePaid",
+    "items": [
+      {
+        "value": "on",
+        "title": "{$lang.InvoiceDeliveryMethod_descr1}"
+      },
+      {
+        "value": "paper",
+        "title": "{$lang.InvoiceDeliveryMethod_descr3}"
+      },
+      {
+        "value": "paperpdf",
+        "title": "{$lang.InvoiceDeliveryMethod_descr4}"
+      }
+    ]
+  },
+  "AttachPDFInvoice": {
+    "title": "{$lang.InvoiceDeliveryMethod}",
+    "key": "AttachPDFInvoice",
+    "items": [
+      {
+        "value": "on",
+        "title": "{$lang.InvoiceDeliveryMethod_descr1}"
+      },
+      {
+        "value": "paper",
+        "title": "{$lang.InvoiceDeliveryMethod_descr3}"
+      },
+      {
+        "value": "paperpdf",
+        "title": "{$lang.InvoiceDeliveryMethod_descr4}"
+      }
+    ]
+  },
+  "AddToPrintQueue": {
+    "title": "{$lang.AddToPrintQueue}",
+    "key": "AddToPrintQueue",
+    "items": [
+      {
+        "value": "proforma",
+        "title": "{$lang.ProForma}"
+      },
+      {
+        "value": "final",
+        "title": "{$lang.FinalInvoice}"
+      }
+    ]
+  },
+  "ContinueInvoices": {
+    "title": "{$lang.ContinueInvoices}",
+    "key": "ContinueInvoices",
+    "items": [
+      {
+        "value": "on",
+        "title": "{$lang.yes}",
+        "description": "{$lang.ContinueInvoices_descr}"
+      },
+      {
+        "value": "off",
+        "title": "{$lang.no}",
+        "description": "{$lang.ContinueInvoices_descr1}"
+      }
+    ]
+  },
+  "RenewInvoice": {
+    "title": "{$lang.InvoiceGeneration}",
+    "key": "RenewInvoice",
+    "type": "radio",
+    "items": [
+      {
+        "value": "0",
+        "title": "{$lang.no}"
+      },
+      {
+        "value": "1",
+        "title": "{$lang.Yes}",
+        "description": "generate invoices relative to service due date."
+      },
+      {
+        "value": "2",
+        "title": "{$lang.Yes}",
+        "description": "generate invoices on specific day."
+      }
+    ],
+    "related": [
+      "InvoiceGeneration",
+      "InvoiceGenerationDay",
+      "AdvancedDueDate",
+      "InvoiceExpectDays",
+      "InitialDueDays",
+      "MoveDueDays"
+    ]
+  },
+  "GenerateSeparateInvoices": {
+    "title": "{$lang.MergeInvoices}",
+    "key": "GenerateSeparateInvoices",
+    "type": "radio",
+    "items": [
+      {
+        "value": null,
+        "title": "Default"
+      },
+      {
+        "value": "off",
+        "title": "{$lang.yes}",
+        "description": "{$lang.MergeInvoicesCron}"
+      },
+      {
+        "value": "due",
+        "title": "{$lang.yes}",
+        "description": "{$lang.MergeInvoicesDue}"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.no}",
+        "description": "{$lang.MergeInvoiceNone}"
+      }
+    ]
+  },
+  "FinalInvoiceOnPayment": {
+    "title": "{$lang.FinalInvoiceOnPayment}",
+    "key": "FinalInvoiceOnPayment",
+    "type": "radio",
+    "items": [
+      {
+        "value": "on",
+        "title": "{$lang.yes}",
+        "description": "{$lang.FinalInvoiceOnPayment_on}"
+      },
+      {
+        "value": "off",
+        "title": "{$lang.no}",
+        "description": "{$lang.FinalInvoiceOnPayment_off}"
+      }
+    ]
+  },
+  "EnableAutoCreation": {
+    "title": "{$lang.auto_create}",
+    "key": "EnableAutoCreation",
+    "items": [
+      {
+        "value": "0",
+        "title": "{$lang.no}"
+      },
+      {
+        "value": "1",
+        "title": "{$lang.Yes}",
+        "description": "{$lang.whenmanualaccept}"
+      },
+      {
+        "value": "2",
+        "title": "{$lang.Yes}",
+        "description": "{$lang.whenpaymentreceived}"
+      },
+      {
+        "value": "3",
+        "title": "{$lang.Yes}",
+        "description": "{$lang.whenorderplaced}"
+      },
+      {
+        "value": "4",
+        "title": "{$lang.Yes}",
+        "description": "{$lang.procesbycron}"
+      }
+    ]
+  },
+  "EnableAutoUpgrades": {
+    "title": "Automatic Upgrades",
+    "key": "EnableAutoUpgrades",
+    "items": [
+      {
+        "value": "off",
+        "title": "{$lang.no}"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.Yes}"
+      }
+    ]
+  },
+  "EnableAutoRenewService": {
+    "title": "Automatic Renew",
+    "key": "EnableAutoRenewService",
+    "items": [
+      {
+        "value": "off",
+        "title": "{$lang.no}"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.Yes}"
+      }
+    ]
+  },
+  "EnableAutoSuspension": {
+    "title": "Account suspension",
+    "key": "EnableAutoSuspension",
+    "items": [
+      {
+        "value": "off",
+        "title": "{$lang.no}"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.Yes}"
+      }
+    ],
+    "related": [
+      "AutoSuspensionPeriod"
+    ]
+  },
+  "EnableAutoTermination": {
+    "title": "{$lang.new_EnableAutoTermination}",
+    "key": "EnableAutoTermination",
+    "items": [
+      {
+        "value": "off",
+        "title": "{$lang.no}"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.Yes}"
+      }
+    ],
+    "related": [
+      "AutoTerminationPeriod"
+    ]
+  },
+  "EnableAutoRegisterDomain": {
+    "title": "Auto-Register domains",
+    "key": "EnableAutoRegisterDomain",
+    "items": [
+      {
+        "value": "off",
+        "title": "{$lang.no}"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.Yes}"
+      }
+    ],
+    "related": [
+      "AutoRegisterDomainType"
+    ]
+  },
+  "EnableAutoTransferDomain": {
+    "title": "Auto-Transfer domains",
+    "key": "EnableAutoTransferDomain",
+    "items": [
+      {
+        "value": "off",
+        "title": "{$lang.no}"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.Yes}"
+      }
+    ],
+    "related": [
+      "AutoTransferDomainType"
+    ]
+  },
+  "EnableAutoRenewDomain": {
+    "title": "Auto-Renew domains",
+    "key": "EnableAutoRenewDomain",
+    "items": [
+      {
+        "value": "off",
+        "title": "{$lang.no}"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.Yes}"
+      }
+    ],
+    "related": [
+      "RenewOnOrder"
+    ]
+  },
+  "OverdueNotices": {
+    "title": "{$lang.oveduenotices}",
+    "key": "SendPaymentReminderEmails",
+    "items": [
+      {
+        "value": null,
+        "title": "{$lang.yes}"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.yes}"
+      },
+      {
+        "value": "off",
+        "title": "{$lang.no}"
+      }
+    ],
+    "related": [
+      "InvoiceUnpaidReminder",
+      "1OverdueReminder",
+      "2OverdueReminder",
+      "3OverdueReminder"
+    ]
+  },
+  "LateFeeType": {
+    "title": "{$lang.latefees}",
+    "key": "LateFeeType",
+    "related": [
+      "LateFeeValue",
+      "AddLateFeeAfter"
+    ]
+  },
+  "OrderScenario": {
+    "title": "Order scenario",
+    "key": "OrderScenario"
+  },
+  "EnableProRata": {
+    "title": "Pro-rata billing",
+    "key": "EnableProRata",
+    "items": [
+      {
+        "value": "off",
+        "title": "{$lang.no}"
+      },
+      {
+        "value": "on",
+        "title": "{$lang.yes}"
+      }
+    ],
+    "related": [
+      "ProRataDay",
+      "ProRataMonth",
+      "ProRataNextMonth"
+    ]
+  },
+  "UpgradeProratePrecision": {
+    "title": "Upgrade pro-rata",
+    "key": "UpgradeProratePrecision",
+    "items": [
+      {
+        "value": "seconds",
+        "title": "{$lang.seconds}"
+      },
+      {
+        "value": "hours",
+        "title": "{$lang.hours}"
+      },
+      {
+        "value": "days",
+        "title": "{$lang.days}"
+      }
+    ]
+  },
+  "DiscountGlobal": {
+    "title": "Global Discount",
+    "key": "DiscountGlobal",
+    "related": [
+      "DiscountForms"
+    ]
+  },
+  "SupportPriority": {
+    "title": "Ticket priority",
+    "key": "SupportPriority"
+  },
+  "SupportCC": {
+    "title": "Ticket CC emails",
+    "key": "SupportCC"
+  },
+  "SupportRates": {
+    "title": "Support Rates",
+    "key": "SupportRates"
+  },
+  "DefaultTimezone": {
+    "title": "{$lang.timezone}",
+    "key": "DefaultTimezone",
+    "selected": {
+      "title": "Default"
+    },
+    "items": [],
+    "sort": 100,
+    "allow_admin_edit": false
+  },
+  "ClientNotifications": {
+    "title": "{$lang.notify_setting}",
+    "type": "checkbox",
+    "key": "ClientNotifications",
+    "items": [],
+    "allow_admin_edit": false
+  },
+  "DefaultNameservers": {
+    "title": "{$lang.nameservers}",
+    "type": "tpl",
+    "key": "DefaultNameservers",
+    "allow_admin_edit": false
+  }
+}

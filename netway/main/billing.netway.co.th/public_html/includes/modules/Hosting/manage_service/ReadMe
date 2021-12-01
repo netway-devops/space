@@ -1,0 +1,27 @@
+@author Puttipong Pengprakhon <puttipong at rvglobalsoft.com>
+
+
+Now Support Service On Zabbix Agentd
+
+- cpu
+- memory
+- apache
+- mysql
+- raid
+- nginx
+- exim
+
+Component Function
+- MyUpCp 
+    - install external scripts service
+    - run auto registartion zabbix agentd
+- Hostbill
+    - install module manage_service
+
+
+Patch Files
+    - public_html/includes/types/_common/colo_adminarea.tpl
+    - public_html/admin/templates/default/accounts.tpl
+    - public_html/templates/netwaybysidepad/services/service_sidemenu.tpl
+    - public_html/templates/netwaybysidepad/services/service_sidemenu.tpl.php
+    - public_html/admin/templates/default/_common/accounts_multimodules.tpl

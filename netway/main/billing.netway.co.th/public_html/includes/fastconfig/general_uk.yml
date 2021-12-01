@@ -1,0 +1,69 @@
+---
+name: UK-registered business
+description: >
+  This profile is perfect for UK based
+  companies, it sets VAT tax to 20% for all EU
+  customers, enables tax exception for
+  vat-registered entities, sets currency,
+  date format, languages etc.
+settings:
+  DateFormat: DD/MM/YYYY
+  ISOCurrency: GBP
+  CurrencyCode: GBP
+  CurrencySign: £
+  UserLanguage: english
+  UserCountry: GB
+  ContinueInvoices: on
+  AttachPDFInvoice: on
+  CCChargeAuto: on
+  CCDaysBeforeCharge: 1
+  CCAttemptOnce: off
+  CCRetryForDays: 3
+  AutoRegDomains: on
+  1DomainReminder: 50
+  2DomainReminder: 30
+  3DomainReminder: 30
+  4DomainReminder: 10
+  5DomainReminder: 5
+  EnableTax: on
+  CompoundL2: off
+  TaxLateFee: on
+  TaxDomains: on
+  TaxType: exclusive
+tax:
+  -
+    name: VAT
+    level: 1
+    rate: 20
+    countries:
+      - PL
+      - GB
+      - DE
+      - AT
+      - BE
+      - BG
+      - CY
+      - CZ
+      - DK
+      - EE
+      - FI
+      - FR
+      - GR
+      - HU
+      - IE
+      - IT
+      - LV
+      - LT
+      - LU
+      - MT
+      - NL
+      - PT
+      - RO
+      - SK
+      - SI
+      - ES
+      - SE
+    state: 0
+plugins:
+   Other/state_province_select:
+clientfields: clientfields_eugeneral.yml

@@ -1,0 +1,4 @@
+{
+  "name": "CLEVER Network Power Manager (NPM)",
+  "description": "CLEVER Network Power Manager (NPM). Uses SNMP for power/state/current readouts. Uses HTTP interface for toggling outlet state"
+}

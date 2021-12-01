@@ -1,0 +1,1 @@
+UPDATE hb_modules_configuration SET remote='' WHERE filename='class.switch_telnet.php';

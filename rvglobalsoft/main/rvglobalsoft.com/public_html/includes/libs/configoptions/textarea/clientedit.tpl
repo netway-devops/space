@@ -1,0 +1,1 @@
+{foreach from=$c.items item=cit}{if $cit.name}{$cit.name}<br/>{/if}<textarea name="custom[{$kk}][{$cit.id}]" rows="3" cols="60"  class="custom_field">{$c.data[$cit.id]|htmlspecialchars}</textarea> {/foreach}

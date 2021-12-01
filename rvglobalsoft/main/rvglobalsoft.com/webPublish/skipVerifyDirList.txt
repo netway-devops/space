@@ -1,0 +1,5 @@
+/public_html/attachments/*
+/public_html/downloads/*
+/public_html/templates_c/*
+/public_html/MYPayPalReturn.txt
+/public_html/admin/templates/default/js/ckfinder/*

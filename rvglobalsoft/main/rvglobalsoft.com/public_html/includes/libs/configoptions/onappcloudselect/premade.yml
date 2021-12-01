@@ -1,0 +1,8 @@
+name: Cloud Location
+key: cf_cp
+variable: server_id
+description:
+category: server
+type: onappcloudselect
+options: 2
+itemscallback: getOnappServers

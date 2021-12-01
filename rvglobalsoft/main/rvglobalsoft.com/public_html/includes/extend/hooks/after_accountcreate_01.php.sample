@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Account-related module (for ex. cPanel) successfully created account
+ * Following variable is available to use in this file:  $details
+ * $details = array(
+ *   'service' => ACCOUNT DETAILS ARRAY,
+ *   'account_id' => ACCOUNT ID, 'server' => RELATED SERVER DETAILS ARRAY
+ * )
+ */

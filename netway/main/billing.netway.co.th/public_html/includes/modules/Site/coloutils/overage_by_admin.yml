@@ -1,0 +1,26 @@
+---
+- 
+  type: input
+  required: 0
+  name: Overage Rate
+  variable: bw_override
+  description: >
+    This is admin-only field to override
+    default package setting for Overage Rate
+    per 1 unit. Unit can be set in General
+    tab of product config.
+  options: 4
+  config: 
+    conditionals: [ ]
+    minvalue: 1
+    maxvalue: 
+    step: 1
+    initialval: 100
+    dontchargedefault: 1
+  sort_order: 2
+  ftype: input
+  premade: true
+  items: 
+    - 
+      sort_order: 0
+      pricing: 0

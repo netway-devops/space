@@ -1,0 +1,10 @@
+REPLACE INTO `hb_language_locales` (`language_id`,`section`,`keyword`,`value`)
+SELECT id, 'services', 'AfterRegistrarRegistrationFailed','Domain Registration failed' FROM hb_language WHERE target='admin'
+UNION SELECT id, 'services', 'AfterRegistrarRenewalFailed','Domain Renewal failed' FROM hb_language WHERE target='admin'
+UNION SELECT id, 'services', 'AfterRegistrarTransferFailed','Domain Transfer failed' FROM hb_language WHERE target='admin'
+UNION SELECT id, 'global', 'change_ownership','Ownership change' FROM hb_language WHERE target!='admin';
+##########
+INSERT INTO `hb_email_templates` (`tplname`, `group`, `for`, `language_id`, `subject`, `message`, `altmessage`, `send`, `plain`, `system`, `hidden`) VALUES
+('Domain:Register:Failed', 'Domain', 'Client', 1, 'Domain {$domain.name}: Registration failed', '<h3>Dear {$client.firstname} {$client.lastname}</h3>\r\n\r\nAn error occurred while registering the domain {$domain.name}.\r\n\r\n{if $domain.error}Error: "{$domain.error}"{/if}', 'Dear {$client.firstname} {$client.lastname}\r\n\r\nAn error occurred while registering the domain {$domain.name}.\r\n\r\n{if $domain.error}Error: "{$domain.error}"{/if}', 1, 2, 1, 0),
+('Domain:Transfer:Failed', 'Domain', 'Client', 1, 'Domain {$domain.name}: Transfer failed', '<h3>Dear {$client.firstname} {$client.lastname}</h3>\r\n\r\nAn error occurred while transferring the domain {$domain.name}.\r\n\r\n{if $domain.error}Error: "{$domain.error}"{/if}', 'Dear {$client.firstname} {$client.lastname}\r\n\r\nAn error occurred while transferring the domain {$domain.name}.\r\n\r\n{if $domain.error}Error: "{$domain.error}"{/if}', 1, 2, 1, 0),
+('Domain:Renew:Failed', 'Domain', 'Client', 1, 'Domain {$domain.name}: Renewal failed', '<h3>Dear {$client.firstname} {$client.lastname}</h3>\r\n\r\nAn error occurred while renewing domain {$domain.name}.\r\n\r\n{if $domain.error}Error: "{$domain.error}"{/if}', 'Dear {$client.firstname} {$client.lastname}\r\n\r\nAn error occurred while renewing domain {$domain.name}.\r\n\r\n{if $domain.error}Error: "{$domain.error}"{/if}', 1, 2, 1, 0);

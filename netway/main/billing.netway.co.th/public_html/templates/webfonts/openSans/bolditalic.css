@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('OpenSans-BoldItalic-webfont.eot');
+    src: url('OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}

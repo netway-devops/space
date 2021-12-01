@@ -1,0 +1,190 @@
+<?php 
+//require_once HBFDIR_LIBS . 'RvLibs/RvGlobalSoftApi.php';
+//require_once HBFDIR_LIBS . 'RvLibs/oAuth/RSA_SHA1.php';
+
+define("VIP_MOD_DIR","twofactor_authentication");
+define('RVGLOBALSTORE_API_URL', 'http://api.rvglobalsoft.com/apps');
+define('RV_APPS_ID', 'hostbill');
+set_include_path(dirname(__FILE__) . '/' . VIP_MOD_DIR . '/Lib-oAuthConnect/PHP/pear' . PATH_SEPARATOR . dirname(__FILE__) . '/' . VIP_MOD_DIR . '/Lib-oAuthConnect/PHP/RvLibs' . PATH_SEPARATOR . get_include_path());
+require_once 'PEAR.php';
+include_once dirname(__FILE__) . '/' . VIP_MOD_DIR . '/Lib-oAuthConnect/PHP/RvLibs/RvGlobalStoreApi.php';
+
+class twofactor_authentication extends OtherModule
+{
+	protected $info = array(
+			'haveadmin' => true,    //is module accessible from adminarea
+			'haveuser' => true,     //is module accessible from client area
+			'havelang' => false,     //does module support multilanguage
+			'havetpl' => true,      //does module have template
+			'havecron' => false,     //does module support cron calls
+			'haveapi' => false,      //does module have functions accessible via api
+			'needauth' => false,     //does module needs authorisation by clients to use it
+			'isobserver' => false,   //is module an observer - must implement Observer interface!
+			'clients_menu' => false, //should module be listed in adminarea->clients menu
+			'support_menu' => false,  //should module be listed in adminarea->support menu
+			'payment_menu' => false,  // should module be listed in adminarea->payments menu
+			'orders_menu' => false,   //should module be listed in adminarea->orders menu
+			'extras_menu' => true,    //should module be listed in extras menu
+			'mainpage' => false,       //should module be listed in admin home screen and/or clientarea root screen
+			'header_js' => false,     //does module have getHeaderJS function - add header javascript code to admin/clientarea
+	);
+
+	//const NAME = '2factor_authentication';
+
+	protected $filename='class.twofactor_authentication.php';
+	protected $description='2 Factor Authentication by RV Globalsoft & Symantec VIP';
+	protected $modname = '2 Factor Authentication';
+	protected $moddirname = 'twofactor_authentication';
+	
+	private function testAPIConnection()
+	{   
+		
+	}
+	
+	public function show_info($message='')
+	{
+		$this->addInfo($message);	
+	}
+	
+	public function get_connection_result()
+	{
+		// /home/managene/.rvglobalsoft
+			
+		$doc_root = explode("/" , $_SERVER['DOCUMENT_ROOT']);
+		$doc_root_home_cpuser = "/".$doc_root[1]."/".$doc_root[2]."/.rvglobalsoft";
+
+
+
+		$cpuser_id = file_get_contents($doc_root_home_cpuser."/authorizeid.pub");
+		$cp_public_key = file_get_contents($doc_root_home_cpuser."/authorizekey.pub");
+			
+
+			
+			
+		// --- hostbill helper ---
+		$db         = hbm_db();
+
+		//echo "<pre>";
+		//echo $_SESSION['AppSettings']['login']['email'];
+		$oAuth =& RvLibs_RvGlobalStoreApi::singleton();
+		// request_authorizekey
+		$oAuthAPI = RvLibs_RvGlobalStoreApi::request_authorizekey(RVGLOBALSTORE_API_URL, $cpuser_id, $cp_public_key);
+		//print_r($oAuthAPI);
+		$authurize_user_id = $oAuthAPI['authorizeid'];
+		$api_access_key = $oAuthAPI['authorizekey'];
+
+
+		if (($authurize_user_id != '') && ($api_access_key != '')) {
+
+			$date2 = time();
+
+			$sqlt = "UPDATE
+							vip_setting
+				  		SET 
+				  			app_user_id = '".$authurize_user_id."'
+				  			, app_access_key = '".$api_access_key."' 
+				  			, updated_date = ".$date2." 
+				  		WHERE 1 ";
+
+			//echo $sqlt;
+				
+			$db->query($sqlt);
+		}
+
+
+		$sqln = "SELECT * FROM vip_setting WHERE 1";
+		$result = $db->query($sqln)->fetch();
+		$ress = $result;
+			
+		//echo "<pre>"; print_r($ress); echo "</pre>";
+
+		$oUserConnect = RvLibs_RvGlobalStoreApi::connect(RVGLOBALSTORE_API_URL, $ress['app_user_id'], $ress['app_access_key']);
+		//print_r($oUserConnect);
+		$aData = array();
+		$aData['cpuser_id'] = $cpuser_id;
+		$aData['cp_public_key'] = $cp_public_key;
+		
+			
+		$oRes = RvLibs_RvGlobalStoreApi::singleton()->request('get', '/serverinfo', array());
+		//print_r($oRes);
+			
+		if (isset($oRes) && ($oRes != '')) {
+			$conn_res = "<font color='#0B9E1F'><strong>Connected</strong></font>";
+			$save_button = "<input type='Submit' value='Save'  disabled  />";
+			$oRes_cert = RvLibs_RvGlobalStoreApi::singleton()->request('get'
+																		, '/vipuserinfo'
+																		, array( 'action_do' => 'get_cert_file_by_apps' ,
+																		  			'appsuser_id' => $authurize_user_id 																			
+																				));
+				
+
+			$res_c = (array)$oRes_cert;
+				
+			//echo "<pre>res_c data = <br />"; print_r($res_c); echo "</pre>";
+				
+				
+			if ($res_c['status'] == 'success') {
+				
+				$aData['con_result'] = "OK";
+				// save cer file + password to db
+				$sqlcc = "UPDATE
+					vip_setting
+		  		SET 
+		  		    vip_user_prefix = 'vip".$res_c['usr_id']."_'
+		  			, certificate_file_content_p12 = '".$res_c['data_content']."'
+		  			, certificate_file_password_p12 = '".$res_c['cer_password_p12']."' 
+		  		WHERE 1 ";
+
+				//echo "<br />sqlcc=".$sqlcc;
+				$db->query($sqlcc);
+
+				//echo PRO_FILE_PATH."/temp/vip_cert.pem";
+				$PRO_FILE_PATH = dirname(__FILE__) . '/' . $this->moddirname;
+
+				//echo "profilepath=".$PRO_FILE_PATH;
+
+				$path_cer_temp = $PRO_FILE_PATH."/temp";
+				if (!is_dir($path_cer_temp)) {
+					mkdir($path_cer_temp, 0777);
+				}
+
+				$path_cer_file = $PRO_FILE_PATH."/temp/vip_cert.pem";
+
+				if (file_exists($path_cer_file)) {
+					unlink($path_cer_file);
+				}
+
+				$handle = fopen($path_cer_file , 'w');
+				fwrite ($handle, $res_c['data_content_pem']);
+				fclose ($handle);
+
+
+				//echo PRO_FILE_PATH."/temp/vip_cert.pem";
+
+				$path_cer_pass_file = $PRO_FILE_PATH."/temp/cerPasswd.txt";
+
+				if (file_exists($path_cer_pass_file)) {
+					unlink($path_cer_pass_file);
+				}
+
+				$handle = fopen($path_cer_pass_file , 'w');
+				fwrite ($handle, $res_c['cer_password_pem']);
+				fclose ($handle);
+
+				$aData['save_but'] = "&nbsp;";
+
+
+			} else {
+				$aData['con_result'] = "Not connect";
+			}
+				
+				
+		} else {
+			$aData['con_result'] = "Not connect";
+			//$save_button = "<input type='Submit' name='save_cp' value='Save' class='button button-primary' />";
+		}
+
+		return $aData;
+	}
+	
+}

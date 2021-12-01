@@ -1,0 +1,87 @@
+{
+  "trans_id": {
+    "lang": "Transactionid",
+    "type": "input"
+  },
+  "description": {
+    "lang": "Description",
+    "type": "input"
+  },
+  "module": {
+    "lang": "paymethod",
+    "type": "select",
+    "options": []
+  },
+
+  "type": {
+    "lang": "Type",
+    "type": "select",
+    "options": [
+      {
+        "value": "invoice",
+        "name" : "invoice"
+      },
+      {
+        "value": "credit",
+        "name" : "credit"
+      },
+      {
+        "value": "bulk",
+        "name" : "bulk"
+      },
+      {
+        "value": "chargeback",
+        "name" : "chargeback"
+      },
+      {
+        "value": "refund",
+        "name" : "refund"
+      }
+    ]
+  },
+  "status": {
+    "lang": "Status",
+    "type": "select",
+    "options": [
+      {
+        "value": "Processing",
+        "name" : "Processing"
+      },
+      {
+        "value": "Success",
+        "name" : "Success"
+      },
+      {
+        "value": "Refunded",
+        "name" : "Refunded"
+      },
+      {
+        "value": "Chargeback",
+        "name" : "Chargeback"
+      }
+    ]
+  },
+  "lastname": {
+    "lang": "clientname",
+    "type": "input"
+  },
+  "date": {
+    "lang": "transactiondate",
+    "type": "datepicker"
+  },
+  "in": {
+    "lang": "amountin",
+    "type": "number",
+    "datatype": "number"
+  },
+  "out": {
+    "lang": "amountout",
+    "type": "number",
+    "datatype": "number"
+  },
+  "currency_id": {
+    "lang": "currency",
+    "type": "select",
+    "options": []
+  }
+}

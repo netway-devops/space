@@ -1,0 +1,950 @@
+{
+    "product": {
+        "id": "671",
+        "category_id": "25",
+        "type": "6",
+        "name": "Colocation 4U Rack Server",
+        "description": "<ul><li>4U rack server<\/li><li>4 IP address<\/li><li>Data transfer unlimited<\/li><li>Network port speed 100 Mbps<\/li><li>Max. domestic bandwidth 100 Mbps<\/li><li>Max. inter bandwidth 1 Mbps<\/li><li>Network operation center 24 x 7 x 365<\/li><\/ul>\r\n<br>\r\n<font color=\"#0080FF\">*** SPECIAL DISCOUNT ***<br>\r\nGet <b>5% discount<\/b> for order <b>Semi-Annually<\/b><br>\r\nGet <b>10% discount<\/b> for order <b>Annually<\/b><br>\r\n<\/font>\r\n<br>\r\n<font color=\"#0080FF\">\r\n*** SPECIAL OPPORTUNITY ***<br>\r\nGet <b>CloudLinux<\/b> free until December 31, 2015 (regular price 500 \u0e3f\/mo.)<br>\r\n<font size=\"1\">When you purchase CloudLinux + cPanel & WHM, discount will be added after your invoice is generated.<\/font><br>\r\n<\/font>",
+        "visible": "-1",
+        "domain_options": "0",
+        "qty": "0",
+        "autosetup": "2",
+        "subdomain": "",
+        "tax": "1",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "3",
+        "autohostname": "",
+        "p_options": [
+            "0"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": null,
+        "contract_id": "0",
+        "dbcItemType": "",
+        "baseUnitOfMeasureCode": "",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "3",
+        "line_group_id": "1",
+        "codeName": null,
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "Regular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": 0,
+        "m": "8900.00",
+        "q": "26700.00",
+        "s": "50730.00",
+        "a": "96120.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": 0,
+        "ptype": "Colocation",
+        "tlds": null,
+        "periods": null,
+        "category_name": "Colocation Server",
+        "module": "39",
+        "modules": [
+            {
+                "product_id": "671",
+                "main": 1,
+                "modname": "Zabbix",
+                "filename": "class.zabbix.php",
+                "module": "39",
+                "options": false,
+                "default": false,
+                "server": {
+                    "62": "62"
+                }
+            },
+            {
+                "product_id": "671",
+                "module": "124",
+                "main": "0",
+                "server": {
+                    "112": "112"
+                },
+                "options": false,
+                "modname": "Managed Services",
+                "filename": "class.manage_service.php",
+                "default": false
+            }
+        ],
+        "main": "1",
+        "modname": "Zabbix",
+        "filename": "class.zabbix.php",
+        "domain_op": [],
+        "free_domain": "0",
+        "emails": {
+            "AfterModuleTerminate": "0",
+            "ProductAccountCreated": "0",
+            "SuspendAccount": "0",
+            "UnsuspendAccount": "0"
+        },
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Hosting",
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1OverdueReminder": "1",
+            "1ServiceReminder": "0",
+            "2OverdueReminder": "7",
+            "2ServiceReminder": "0",
+            "3OverdueReminder": "15",
+            "3ServiceReminder": "0",
+            "4ServiceReminder": "0",
+            "5ServiceReminder": "0",
+            "AddLateFeeAfter": "6",
+            "AdsjustDatesOnCreation": "on",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidInvoices": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoProcessCancellations": "off",
+            "AutoSuspensionPeriod": "30",
+            "AutoTerminationPeriod": "37",
+            "BillFullMonth": "0",
+            "CancellationPostPaidProrata": "off",
+            "CancellationTypeEndPeriod": "on",
+            "CancellationTypeImmediate": "on",
+            "CreditOnDowngradeOverride": "",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoCreation": "2",
+            "EnableAutoRenewService": "on",
+            "EnableAutoSuspension": "off",
+            "EnableAutoTermination": "off",
+            "EnableAutoUnSuspension": "off",
+            "EnableAutoUpgrades": "on",
+            "EnableProRata": "off",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "3",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "MoveDueDays": "0",
+            "ProRataDay": "1",
+            "ProRataMonth": "disabled",
+            "ProRataNextMonth": "0",
+            "RecurringBillingType": "PrePaid",
+            "RenewInvoice": "1",
+            "ReturnToStockOnTerminate": "0",
+            "SendPaymentReminderEmails": "on",
+            "UpgradeProratePrecision": "seconds"
+        }
+    },
+    "addons": {
+        "12": {
+            "id": "53",
+            "name": "Addon : Premium Managed Colocation Server",
+            "parentmod": ""
+        },
+        "13": {
+            "id": "55",
+            "name": "Addon : Standard Managed Colocation Server",
+            "parentmod": ""
+        },
+        "14": {
+            "id": "56",
+            "name": "Addon : Dedicated Domestic Bandwidth 1 Gbps (Upgrade)",
+            "parentmod": ""
+        },
+        "15": {
+            "id": "57",
+            "name": "Addon : Dedicated Inter Bandwidth 1 Mbps (Upgrade)",
+            "parentmod": ""
+        },
+        "16": {
+            "id": "58",
+            "name": "Addon : Dedicated Inter Bandwidth 2 Mbps (Upgrade)",
+            "parentmod": ""
+        },
+        "17": {
+            "id": "59",
+            "name": "Addon : Dedicated Inter Bandwidth 3 Mbps (Upgrade)",
+            "parentmod": ""
+        },
+        "18": {
+            "id": "60",
+            "name": "Addon : Dedicated Inter Bandwidth 4 Mbps (Upgrade)",
+            "parentmod": ""
+        }
+    },
+    "tasks": [],
+    "widgets": [
+        {
+            "id": "771",
+            "widget": "zabbix_bandwidth",
+            "name": "Bandwidth",
+            "location": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "36",
+            "override_defaults": "0",
+            "target_id": "671",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "772",
+            "widget": "zabbix_monitor",
+            "name": "Notification",
+            "location": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "35",
+            "override_defaults": "0",
+            "target_id": "671",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "773",
+            "widget": "manage_service_notification",
+            "name": "Notification",
+            "location": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_notification\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "58",
+            "override_defaults": "0",
+            "target_id": "671",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "774",
+            "widget": "manage_service_monitor",
+            "name": "Monitor",
+            "location": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/manage_service\/widgets\/manage_service_monitor\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "59",
+            "override_defaults": "0",
+            "target_id": "671",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "775",
+            "widget": "reverse_dns_colo",
+            "name": "Reverse DNS",
+            "location": "includes\/types\/colocation\/widgets\/reverse_dns_colo\/",
+            "ptype": "6",
+            "config": {
+                "smallimg": "includes\/types\/colocation\/widgets\/reverse_dns_colo\/small.png",
+                "bigimg": "includes\/types\/colocation\/widgets\/reverse_dns_colo\/big.png"
+            },
+            "options": "1",
+            "group": "sidemenu",
+            "widget_id": "26",
+            "override_defaults": "0",
+            "target_id": "671",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        }
+    ],
+    "forms": [
+        {
+            "id": "1949",
+            "type": "select",
+            "required": "0",
+            "name": "IP Address",
+            "key": "",
+            "variable": "ip",
+            "description": "",
+            "category": "network",
+            "product_id": "671",
+            "copy_of": "1949",
+            "options": "307",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "2",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "5354",
+                    "category_id": "1949",
+                    "name": "4 IP (free)",
+                    "variable_id": "4",
+                    "copy_of": "5354",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5355",
+                    "category_id": "1949",
+                    "name": "5 IP",
+                    "variable_id": "5",
+                    "sort_order": "1",
+                    "copy_of": "5355",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5356",
+                    "category_id": "1949",
+                    "name": "6 IP",
+                    "variable_id": "6",
+                    "sort_order": "2",
+                    "copy_of": "5356",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5357",
+                    "category_id": "1949",
+                    "name": "7 IP",
+                    "variable_id": "7",
+                    "sort_order": "3",
+                    "copy_of": "5357",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5358",
+                    "category_id": "1949",
+                    "name": "8 IP",
+                    "variable_id": "8",
+                    "sort_order": "4",
+                    "copy_of": "5358",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5972",
+                    "category_id": "1949",
+                    "name": "9 IP",
+                    "variable_id": "9 IP",
+                    "sort_order": "5",
+                    "copy_of": "5972",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5973",
+                    "category_id": "1949",
+                    "name": "10 IP",
+                    "variable_id": "10 IP",
+                    "sort_order": "6",
+                    "copy_of": "5973",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "1947",
+            "type": "select",
+            "required": "0",
+            "name": "Domestic Bandwidth (data transfer unlimited)",
+            "key": "cf_bandwidth",
+            "variable": "bandwidth_dom",
+            "description": "",
+            "category": "network",
+            "product_id": "671",
+            "copy_of": "1947",
+            "options": "275",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "3",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "5352",
+                    "category_id": "1947",
+                    "name": "Max. Domestic Bandwidth 100 Mbps",
+                    "variable_id": "bandwidth_dom_100",
+                    "copy_of": "5352",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "1948",
+            "type": "select",
+            "required": "0",
+            "name": "Inter Bandwidth (data transfer unlimited)",
+            "key": "cf_bandwidth",
+            "variable": "bandwidth_inter",
+            "description": "",
+            "category": "network",
+            "product_id": "671",
+            "copy_of": "1948",
+            "options": "275",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "4",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "5353",
+                    "category_id": "1948",
+                    "name": "Max. inter bandwidth 1 Mbps",
+                    "variable_id": "bandwidth_inter_shared_1",
+                    "copy_of": "5353",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "1950",
+            "type": "select",
+            "required": "0",
+            "name": "Operating System",
+            "key": "cf_os",
+            "variable": "os",
+            "description": "",
+            "category": "software",
+            "product_id": "671",
+            "copy_of": "1950",
+            "options": "259",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "5",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "5359",
+                    "category_id": "1950",
+                    "name": "None",
+                    "variable_id": "No",
+                    "copy_of": "5359",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5360",
+                    "category_id": "1950",
+                    "name": "CentOS",
+                    "variable_id": "Windows 2008 - Standard Edition 32 Bit",
+                    "sort_order": "1",
+                    "copy_of": "5360",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5361",
+                    "category_id": "1950",
+                    "name": "Ubuntu Server",
+                    "variable_id": "Ubuntu Server",
+                    "sort_order": "2",
+                    "copy_of": "5361",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5362",
+                    "category_id": "1950",
+                    "name": "Debian",
+                    "variable_id": "Debian",
+                    "sort_order": "3",
+                    "copy_of": "5362",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5363",
+                    "category_id": "1950",
+                    "name": "Fedora",
+                    "variable_id": "Fedora",
+                    "sort_order": "4",
+                    "copy_of": "5363",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5364",
+                    "category_id": "1950",
+                    "name": "FreeBSD",
+                    "variable_id": "FreeBSD",
+                    "sort_order": "5",
+                    "copy_of": "5364",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5365",
+                    "category_id": "1950",
+                    "name": "CloudLinux",
+                    "variable_id": "CloudLinux",
+                    "sort_order": "6",
+                    "copy_of": "5365",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5366",
+                    "category_id": "1950",
+                    "name": "Windows Server Standard, SPLA (1 processor)",
+                    "variable_id": "Windows 2008 - Standard Edition 64 Bit",
+                    "sort_order": "7",
+                    "copy_of": "5366",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5367",
+                    "category_id": "1950",
+                    "name": "Windows Server Standard, SPLA (2 processor)",
+                    "variable_id": "Windows Server Standard, SPLA (1 processor)",
+                    "sort_order": "8",
+                    "copy_of": "5367",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "1951",
+            "type": "select",
+            "required": "0",
+            "name": "Control Panel",
+            "key": "cf_cp",
+            "variable": "cp",
+            "description": "",
+            "category": "software",
+            "product_id": "671",
+            "copy_of": "1951",
+            "options": "259",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "6",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "5368",
+                    "category_id": "1951",
+                    "name": "None",
+                    "variable_id": "cp_none",
+                    "copy_of": "5368",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5369",
+                    "category_id": "1951",
+                    "name": "cPanel & WHM Dedicated, unlimited domains (+Netway cPanel Skin free!) (Linux)",
+                    "variable_id": "cp_cpanel",
+                    "sort_order": "1",
+                    "copy_of": "5369",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5370",
+                    "category_id": "1951",
+                    "name": "DirectAdmin, internal license, unlimited domains (Linux)",
+                    "variable_id": "cp_directadmin",
+                    "sort_order": "2",
+                    "copy_of": "5370",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5371",
+                    "category_id": "1951",
+                    "name": "Plesk, Web APP edition, up to 5 domains (Windows)",
+                    "variable_id": "Parallels Plesk - Plesk Panel 100 Domains (Windows)",
+                    "sort_order": "3",
+                    "copy_of": "5371",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5372",
+                    "category_id": "1951",
+                    "name": "Plesk, Web PRO edition, up to 30 domains (Windows)",
+                    "variable_id": "Parallels Plesk - Plesk Panel Unlimited Domains (Windows)",
+                    "sort_order": "4",
+                    "copy_of": "5372",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5373",
+                    "category_id": "1951",
+                    "name": "Plesk, Web HOST edition, unlimited domains (Windows)",
+                    "variable_id": "cp_cpanel_cloudlinux",
+                    "sort_order": "5",
+                    "copy_of": "5373",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2002",
+            "type": "select",
+            "required": "0",
+            "name": "Web Server",
+            "key": "",
+            "variable": "software",
+            "description": "",
+            "category": "software",
+            "product_id": "671",
+            "copy_of": "2002",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "6",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "5541",
+                    "category_id": "2002",
+                    "name": "Default",
+                    "copy_of": "5541",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5542",
+                    "category_id": "2002",
+                    "name": "Apache",
+                    "variable_id": "Apache",
+                    "sort_order": "1",
+                    "copy_of": "5542",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5543",
+                    "category_id": "2002",
+                    "name": "Apache Tomcat",
+                    "variable_id": "Apache Tomcat",
+                    "sort_order": "2",
+                    "copy_of": "5543",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5544",
+                    "category_id": "2002",
+                    "name": "Nginx",
+                    "variable_id": "Nginx",
+                    "sort_order": "3",
+                    "copy_of": "5544",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5545",
+                    "category_id": "2002",
+                    "name": "IIS (Windows)",
+                    "variable_id": "IIS (Windows)",
+                    "sort_order": "4",
+                    "copy_of": "5545",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "2003",
+            "type": "select",
+            "required": "0",
+            "name": "Database",
+            "key": "",
+            "variable": "software",
+            "description": "",
+            "category": "software",
+            "product_id": "671",
+            "copy_of": "2003",
+            "options": "258",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "7",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "5546",
+                    "category_id": "2003",
+                    "name": "Default",
+                    "copy_of": "5546",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5547",
+                    "category_id": "2003",
+                    "name": "MySQL with phpMyAdmin",
+                    "variable_id": "Apache",
+                    "sort_order": "1",
+                    "copy_of": "5547",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5548",
+                    "category_id": "2003",
+                    "name": "MariaDB with phpMyAdmin",
+                    "variable_id": "Apache Tomcat",
+                    "sort_order": "2",
+                    "copy_of": "5548",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5549",
+                    "category_id": "2003",
+                    "name": "SQL Server Express (Windows)",
+                    "variable_id": "Nginx",
+                    "sort_order": "3",
+                    "copy_of": "5549",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5550",
+                    "category_id": "2003",
+                    "name": "SQL Server Standard, SPLA (Windows)",
+                    "variable_id": "IIS (Windows)",
+                    "sort_order": "4",
+                    "copy_of": "5550",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2004",
+            "type": "select",
+            "required": "0",
+            "name": "Anti Virus",
+            "key": "",
+            "variable": "software",
+            "description": "",
+            "category": "software",
+            "product_id": "671",
+            "copy_of": "2004",
+            "options": "2",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "8",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "5551",
+                    "category_id": "2004",
+                    "name": "Default",
+                    "copy_of": "5551",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5552",
+                    "category_id": "2004",
+                    "name": "Clamav Anti-virus (free)",
+                    "variable_id": "Apache",
+                    "sort_order": "1",
+                    "copy_of": "5552",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5553",
+                    "category_id": "2004",
+                    "name": "Kaspersky Antivirus Endpoint Security (Windows)",
+                    "variable_id": "Apache Tomcat",
+                    "sort_order": "2",
+                    "copy_of": "5553",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "1952",
+            "type": "checkbox",
+            "required": "0",
+            "name": "Other Software",
+            "key": "",
+            "variable": "software",
+            "description": "",
+            "category": "software",
+            "product_id": "671",
+            "copy_of": "1952",
+            "options": "2",
+            "config": {
+                "minvalue": "",
+                "maxvalue": "99999"
+            },
+            "sort_order": "10",
+            "group_id": "0",
+            "ftype": "checkbox",
+            "premade": true,
+            "items": [
+                {
+                    "id": "5374",
+                    "category_id": "1952",
+                    "name": "Default",
+                    "variable_id": "software_rvskin",
+                    "copy_of": "5374",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5375",
+                    "category_id": "1952",
+                    "name": "Netway SiteBuilder (support cPanel and DirectAdmin)",
+                    "variable_id": "software_rvsitebuilder",
+                    "sort_order": "1",
+                    "copy_of": "5375",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "5376",
+                    "category_id": "1952",
+                    "name": "ownCloud Community Edition",
+                    "variable_id": "ownCloud Community Edition",
+                    "sort_order": "2",
+                    "copy_of": "5376",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "5377",
+                    "category_id": "1952",
+                    "name": "Zimbra Collaboration Open Source Edition",
+                    "variable_id": "Zimbra Collaboration Open Source Edition",
+                    "sort_order": "3",
+                    "copy_of": "5377",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "1953",
+            "type": "checkbox",
+            "required": "0",
+            "name": "Monitoring Services",
+            "key": "",
+            "variable": "managed",
+            "description": "",
+            "category": "management",
+            "product_id": "671",
+            "copy_of": "1953",
+            "options": "259",
+            "config": {
+                "minvalue": "",
+                "maxvalue": "99999"
+            },
+            "sort_order": "11",
+            "group_id": "0",
+            "ftype": "checkbox",
+            "premade": true,
+            "items": [
+                {
+                    "id": "5378",
+                    "category_id": "1953",
+                    "name": "Free monitoring server and bandwidth.",
+                    "variable_id": "managed_free",
+                    "copy_of": "5378",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "1954",
+            "type": "textarea",
+            "required": "0",
+            "name": "Additional Note:",
+            "key": "",
+            "variable": "",
+            "description": "",
+            "category": "",
+            "product_id": "671",
+            "copy_of": "1954",
+            "options": "2",
+            "config": [],
+            "sort_order": "12",
+            "group_id": "0",
+            "ftype": "textarea",
+            "premade": true,
+            "items": [
+                {
+                    "id": "5379",
+                    "category_id": "1954",
+                    "copy_of": "5379",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

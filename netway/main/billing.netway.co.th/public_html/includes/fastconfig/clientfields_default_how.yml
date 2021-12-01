@@ -1,0 +1,55 @@
+name: Default Set of options + How did you hear about us?
+description: Contains default set of registration fields + extra field - "How did you hear about us?"
+fields:
+  -
+    code: firstname
+    name: First Name
+  -
+    code: lastname
+    name: Last Name
+  -
+    code: phonenumber
+    name: Phone
+  -
+    code: email
+    name: Email Address
+  -
+    code: password
+    name: Password
+  -
+    code: password2
+    name: Repeat Password
+  -
+    code: companyname
+    name: Company Name
+  -
+    code: address1
+    name: Address 1
+  -
+    code: address2
+    name: Address 2
+  -
+    code: city
+    name: City
+  -
+    code: state
+    name: State
+  -
+    code: postcode
+    name: Post Code
+  -
+    code: country
+    name: Country
+  -
+    code: type
+    name: Account Type
+  -
+    code: captcha
+    name: Image Verification
+  -
+    code: howdidyou
+    name: How did you hear about us?
+    type: All
+    field_type: Select
+    default_value: Select one;I'm current customer;I'm a former customer;A friend or colleague;On Twitter;On Facebook;A blog post;An article;A footer link;A banner ad;A print ad;Search engine;An event;Other
+    options: 2

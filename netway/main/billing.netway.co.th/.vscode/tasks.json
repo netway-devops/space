@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "pull laradock-multisite netway-dev-env",
+            "type": "shell",
+            "command": "~/gitworks/netway-dev-env/netwaycode.sh",
+            "group": "none",
+            "presentation": {
+              "reveal": "always",
+              "panel": "new"
+            },
+            "runOptions": {
+              "runOn": "folderOpen"
+            }
+        }
+    ]
+  }

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "hampel/synergy-wholesale": "^1.1"
+    }
+}

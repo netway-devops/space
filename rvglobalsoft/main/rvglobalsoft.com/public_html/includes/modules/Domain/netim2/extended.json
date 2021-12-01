@@ -1,0 +1,1251 @@
+{
+  ".us": [
+    {
+      "description": "NEXUS PURPOSE",
+      "name": "NEXUS PURPOSE",
+      "variable": "US_APP_PURPOSE",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "P1",
+          "name": "Business"
+        },
+        {
+          "variable_id": "P2",
+          "name": "Non-profit"
+        },
+        {
+          "variable_id": "P3",
+          "name": "Personal"
+        },
+        {
+          "variable_id": "P4",
+          "name": "Education"
+        },
+        {
+          "variable_id": "P5",
+          "name": "Government"
+        }
+      ]
+    },
+    {
+      "description": "NEXUS CATEGORY",
+      "name": "NEXUS CATEGORY",
+      "variable": "US_CATEGORY",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "C11",
+          "name": "Is a United States citizen"
+        },
+        {
+          "variable_id": "C12",
+          "name": "Is a permanent resident of the USA or any of its posessions or territories"
+        },
+        {
+          "variable_id": "C21",
+          "name": "U.S. Organization incorporated within one of the 50 states or a U.S. Territory"
+        },
+        {
+          "variable_id": "C31",
+          "name": "Regularly engages in lawful activities in the United States"
+        },
+        {
+          "variable_id": "C32",
+          "name": "Entity has an office or other facility in the US"
+        }
+      ]
+    }
+  ],
+  ".aero": [
+     {
+      "description": "AERO ID",
+      "name": "AERO ID",
+      "variable": "AERO_AUTHID",
+      "type": "input",
+      "for": "domain"
+     },
+    {
+      "description": "AERO ID's password",
+      "name": "AERO ID's password",
+      "variable": "AERO_AUTHKEY",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  "asn.au": [
+    {
+      "description": "owner's ID Number",
+      "name": "owner's ID Number",
+      "variable": "AU_REGISTRANT_ID_NUMBER",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "RegistrantEligibilityType",
+      "name": "RegistrantEligibilityType",
+      "variable": "AU_ELIGIBILITY_TYPE",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "Incorporated Association",
+          "name": "Incorporated Association"
+        },
+        {
+          "variable_id": "Club",
+          "name": "Club"
+        },
+        {
+          "variable_id": "C21",
+          "name": "Non-Profit Organisation"
+        }
+
+      ]
+    }
+  ],
+  ".bg": [
+    {
+      "description": "First name of the legal representative of the owner's company",
+      "name": "Legal representative of the owner's company",
+      "variable": "BG_LEGAL_REP_FIRSTNAME",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "Last name of the legal representative of the owner's company",
+      "name": "Legal representative of the owner's company",
+      "variable": "BG_LEGAL_REP_LASTNAME",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".ca": [
+    {
+      "description": "Eligibility CA",
+      "name": "Eligibility CA",
+      "variable": "CA_LEGAL_TYPE",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "ABO",
+          "name": "Aboriginal"
+        },
+        {
+          "variable_id": "ASS",
+          "name": "Canadian Unincorporated Association"
+        },
+        {
+          "variable_id": "CCO",
+          "name": "Canadian Corporation"
+        },
+        {
+          "variable_id": "CCT",
+          "name": "Canadian Citizen"
+        },
+        {
+          "variable_id": "EDU",
+          "name": "Canadian Educational Institution"
+        },
+        {
+          "variable_id": "GOV",
+          "name": "Government or government entity in Canada"
+        },
+        {
+          "variable_id": "HOP",
+          "name": "Canadian Hospital"
+        },
+        {
+          "variable_id": "IND",
+          "name": "Indian Band recognized by the Indian Act of Canada"
+        },
+        {
+          "variable_id": "LAM",
+          "name": "Canadian Library, Archive or Museum"
+        },
+        {
+          "variable_id": "LGR",
+          "name": "Legal Representative of a Canadian Citizen or Permanent Resident"
+        },
+        {
+          "variable_id": "MAJ",
+          "name": "Her Majesty the Queen"
+        },
+        {
+          "variable_id": "OMK",
+          "name": "Official mark registered in Canada"
+        },
+        {
+          "variable_id": "PLT",
+          "name": "Canadian Political Party"
+        },
+        {
+          "variable_id": "PRT",
+          "name": "Partnership Registered in Canada"
+        },
+        {
+          "variable_id": "RES",
+          "name": "Permanent Resident of Canada"
+        },
+        {
+          "variable_id": "TDM",
+          "name": "Trademark registered in Canada (by a non-Canadian owner)"
+        },
+        {
+          "variable_id": "TRD",
+          "name": "Canadian Trade Union"
+        },
+        {
+          "variable_id": "TRS",
+          "name": "Trust"
+        }
+
+      ]
+    },
+    {
+      "description": "Area",
+      "name": "Area",
+      "variable": "area",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "CA-AB",
+          "name": "Alberta"
+        },
+        {
+          "variable_id": "CA-BC",
+          "name": "British Columbia"
+        },
+        {
+          "variable_id": "CA-MB",
+          "name": "Manitoba"
+        },
+        {
+          "variable_id": "CA-NB",
+          "name": "New Brunswick"
+        },
+        {
+          "variable_id": "CA-NL",
+          "name": "Newfoundland and Labrador"
+        },
+        {
+          "variable_id": "CA-NS",
+          "name": "Nova Scotia"
+        },
+        {
+          "variable_id": "CA-ON",
+          "name": "Ontario"
+        },
+        {
+          "variable_id": "CA-PE",
+          "name": "Prince Edward Island"
+        },
+        {
+          "variable_id": "CA-QC",
+          "name": "Quebec"
+        },
+        {
+          "variable_id": "CA-SK",
+          "name": "Saskatchewan"
+        },
+        {
+          "variable_id": "CA-NT",
+          "name": "Northwest Territories"
+        },
+        {
+          "variable_id": "CA-NU",
+          "name": "Nunavut"
+        },
+        {
+          "variable_id": "CA-YT",
+          "name": "Yukon Territory"
+        }
+
+      ]
+    }
+  ],
+  ".cat": [
+    {
+      "description": " Text explaining the intented use",
+      "name": "Text",
+      "variable": "CAT_INTENDED_USE",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".co.hu": [
+    {
+      "description": "Id or Vat number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".com.au": [
+    {
+      "description": "Owner's ID Number",
+      "name": "Owner's ID Number",
+      "variable": "AU_REGISTRANT_ID_NUMBER",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "Registrant Id Type",
+      "name": "Registrant Id Type",
+      "variable": "AU_REGISTRANT_ID_TYPE",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "ACN",
+          "name": "Australian Company Number"
+        },
+        {
+          "variable_id": "ABN",
+          "name": "Australian Business Number"
+        },
+        {
+          "variable_id": "Trademark",
+          "name": "Trademark holder"
+        }
+
+      ]
+    },
+    {
+      "description": "Registrant Eligibility Type",
+      "name": "Registrant Eligibility Type",
+      "variable": "AU_ELIGIBILITY_TYPE",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "Company",
+          "name": "Company"
+        },
+        {
+          "variable_id": "Registered Business",
+          "name": "Registered Business"
+        },
+        {
+          "variable_id": "Sole Trader",
+          "name": "Sole Trader"
+        },
+        {
+          "variable_id": "Trademark Owner",
+          "name": "Trademark Owner"
+        }
+
+      ]
+    }
+
+  ],
+  ".com.cy": [
+    {
+      "description": "Id or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".com.my": [
+    {
+      "description": "Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+
+  ],
+  ".com.sg": [
+    {
+      "description": "ID number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+
+  ],
+  ".dk": [
+    {
+      "description": "Id or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".ee": [
+    {
+      "description": "Id or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".es": [
+    {
+      "description": "Owner type",
+      "name": "Owner type",
+      "variable": "ES_TIPO",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "0",
+          "name": "Foreign"
+        },
+        {
+          "variable_id": "1",
+          "name": "Spanish Citizen or Company"
+        },
+        {
+          "variable_id": "3",
+          "name": "Foreigner living in Spain"
+        }
+
+      ]
+    },
+    {
+      "description": "Personal Identification number or Company number or NIF or NIE",
+      "name": "Owner's ID Number",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".fi": [
+    {
+      "description": "Id or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "Birth date (yyyy-mm-dd)",
+      "name": "Birth Date",
+      "variable": "birth_date",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".hr": [
+    {
+      "description": "OIB or Vat number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".hu": [
+    {
+      "description": "ID or Vat number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".ie": [
+    {
+      "description": "ID or Vat number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "Area code",
+      "name": "Province/State",
+      "variable": "state",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".is": [
+    {
+      "description": "ID or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".it": [
+    {
+      "description": "ID or Vat number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "Area code",
+      "name": "Province/State",
+      "variable": "state",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".jobs": [
+    {
+      "description": "Website URL of the company",
+      "name": "Website URL",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".kr": [
+    {
+      "description": "Document type",
+      "name": "Document type",
+      "variable": "KR_DOC",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "SOCIAL",
+          "name": "Social Security Card"
+        },
+        {
+          "variable_id": "DRIVELIC",
+          "name": "Driver License"
+        },
+        {
+          "variable_id": "PASSPORT",
+          "name": "Passport"
+        },
+        {
+          "variable_id": "BUSINESS",
+          "name": "Business Registration Certificate"
+        },
+        {
+          "variable_id": "TAX",
+          "name": "Tax Registration Certificate"
+        },
+        {
+          "variable_id": "ORG",
+          "name": "Organization Registration Certificate"
+        },
+        {
+          "variable_id": "BRAND",
+          "name": "Brand Name Registration Certificate"
+        }
+
+      ]
+    },
+    {
+      "description": "ID or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".lv": [
+    {
+      "description": "ID or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".mx": [
+    {
+      "description": "State/Province",
+      "name": "State/Province",
+      "variable": "identification_value",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "AG",
+          "name": "Aguascalientes"
+        },
+        {
+          "variable_id": "BN",
+          "name": "Baja California"
+        },
+        {
+          "variable_id": "BS",
+          "name": "Baja California Sur"
+        },
+        {
+          "variable_id": "CM",
+          "name": "Campeche"
+        },
+        {
+          "variable_id": "CP",
+          "name": "Chiapas"
+        },
+        {
+          "variable_id": "CH",
+          "name": "Chihuahua"
+        },
+        {
+          "variable_id": "CA",
+          "name": "Coahuila"
+        },
+        {
+          "variable_id": "CL",
+          "name": "Colima"
+        },
+        {
+          "variable_id": "DU",
+          "name": "Durango"
+        },
+        {
+          "variable_id": "GT",
+          "name": "Guanajuato"
+        },
+        {
+          "variable_id": "GR",
+          "name": "Guerrero"
+        },
+        {
+          "variable_id": "HI",
+          "name": "Hidalgo"
+        },
+        {
+          "variable_id": "JA",
+          "name": "Jalisco"
+        },
+        {
+          "variable_id": "DF",
+          "name": "Mexico City"
+        },
+        {
+          "variable_id": "MC",
+          "name": "Michoacán"
+        },
+        {
+          "variable_id": "MR",
+          "name": "Morelos"
+        },
+        {
+          "variable_id": "NA",
+          "name": "Nayarit"
+        },
+        {
+          "variable_id": "NL",
+          "name": "New Leon"
+        },
+        {
+          "variable_id": "OA",
+          "name": "Oaxaca"
+        },
+        {
+          "variable_id": "PU",
+          "name": "Puebla"
+        },
+        {
+          "variable_id": "QE",
+          "name": "Querétaro"
+        },
+        {
+          "variable_id": "QR",
+          "name": "Quintana Roo"
+        },
+        {
+          "variable_id": "SL",
+          "name": "San Luis Potosí"
+        },
+        {
+          "variable_id": "SI",
+          "name": "Sinaloa"
+        },
+        {
+          "variable_id": "SO",
+          "name": "Sonora"
+        },
+        {
+          "variable_id": "MX",
+          "name": "State of Mexico"
+        },
+        {
+          "variable_id": "TB",
+          "name": "Tabasco"
+        },
+        {
+          "variable_id": "TM",
+          "name": "Tamaulipas"
+        },
+        {
+          "variable_id": "TL",
+          "name": "Tlaxcala"
+        },
+        {
+          "variable_id": "VE",
+          "name": "Veracruz"
+        },
+        {
+          "variable_id": "YU",
+          "name": "Yucatán"
+        },
+        {
+          "variable_id": "ZA",
+          "name": "Zacatecas"
+        },
+        {
+          "variable_id": "US-AL",
+          "name": "Alabama"
+        },
+        {
+          "variable_id": "US-AK",
+          "name": "Alaska"
+        },
+        {
+          "variable_id": "US-AZ",
+          "name": "Arizona"
+        },
+        {
+          "variable_id": "US-AR",
+          "name": "Arkansas"
+        },
+        {
+          "variable_id": "US-CA",
+          "name": "California"
+        },
+        {
+          "variable_id": "US-CO",
+          "name": "Colorado"
+        },
+        {
+          "variable_id": "US-CT",
+          "name": "Connecticut"
+        },
+        {
+          "variable_id": "US-DE",
+          "name": "Delaware"
+        },
+        {
+          "variable_id": "US-FL",
+          "name": "Florida"
+        },
+        {
+          "variable_id": "US-GA",
+          "name": "Georgia"
+        },
+        {
+          "variable_id": "US-HI",
+          "name": "Hawaii"
+        },
+        {
+          "variable_id": "US-ID",
+          "name": "Idaho"
+        },
+        {
+          "variable_id": "US-IL",
+          "name": "Illinois"
+        },
+        {
+          "variable_id": "US-IN",
+          "name": "Indiana"
+        },
+        {
+          "variable_id": "US-IA",
+          "name": "Iowa"
+        },
+        {
+          "variable_id": "US-KS",
+          "name": "Kansas"
+        },
+        {
+          "variable_id": "US-KY",
+          "name": "Kentucky"
+        },
+        {
+          "variable_id": "US-LA",
+          "name": "Louisiana"
+        },
+        {
+          "variable_id": "US-ME",
+          "name": "Maine"
+        },
+        {
+          "variable_id": "US-MD",
+          "name": "Massachusetts"
+        },
+        {
+          "variable_id": "US-MI",
+          "name": "Michigan"
+        },
+        {
+          "variable_id": "US-MN",
+          "name": "Minnesota"
+        },
+        {
+          "variable_id": "US-MS",
+          "name": "Mississippi"
+        },
+        {
+          "variable_id": "US-MO",
+          "name": "Missouri"
+        },
+        {
+          "variable_id": "US-MT",
+          "name": "Montana"
+        },
+        {
+          "variable_id": "US-NE",
+          "name": "Nebraska"
+        },
+        {
+          "variable_id": "US-NV",
+          "name": "Nevada"
+        },
+        {
+          "variable_id": "US-NH",
+          "name": "New Hampshire"
+        },
+        {
+          "variable_id": "US-NJ",
+          "name": "New Jersey"
+        },
+        {
+          "variable_id": "US-NM",
+          "name": "New York"
+        },
+        {
+          "variable_id": "US-NC",
+          "name": "North Carolina"
+        },
+        {
+          "variable_id": "US-ND",
+          "name": "North Dakota"
+        },
+        {
+          "variable_id": "US-OH",
+          "name": "Ohio"
+        },
+        {
+          "variable_id": "US-OK",
+          "name": "Oklahoma"
+        },
+        {
+          "variable_id": "US-OR",
+          "name": "Oregon"
+        },
+        {
+          "variable_id": "US-PA",
+          "name": " Pennsylvania"
+        },
+        {
+          "variable_id": "US-RI",
+          "name": "Rhode Island"
+        },
+        {
+          "variable_id": "US-SC",
+          "name": "South Carolina"
+        },
+        {
+          "variable_id": "US-SD",
+          "name": "South Dakota"
+        },
+        {
+          "variable_id": "US-NC",
+          "name": "Tennessee"
+        },
+        {
+          "variable_id": "US-TX",
+          "name": "Texas"
+        },
+        {
+          "variable_id": "US-UT",
+          "name": "Utah"
+        },
+        {
+          "variable_id": "US-VT",
+          "name": "Vermont"
+        },
+        {
+          "variable_id": "US-VA",
+          "name": "Virginia"
+        },
+        {
+          "variable_id": "US-WA",
+          "name": "Washington"
+        },
+        {
+          "variable_id": "US-WV",
+          "name": "West Virginia"
+        },
+        {
+          "variable_id": "US-WI",
+          "name": " Wisconsin"
+        },
+        {
+          "variable_id": "US-WY",
+          "name": "Wyoming"
+        },
+        {
+          "variable_id": "US-DC",
+          "name": "District of Columbia"
+        },
+        {
+          "variable_id": "US-GU",
+          "name": "Guam"
+        },
+        {
+          "variable_id": "US-MP",
+          "name": " Northern Mariana Islands"
+        },
+        {
+          "variable_id": "US-UM",
+          "name": "United States Minor Outlying Islands"
+        },
+        {
+        "variable_id": "US-VI",
+        "name": " Virgin Islands, U.S."
+        }
+
+      ]
+    }
+  ],
+  ".my": [
+    {
+      "description": "ID or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  "net.au": [
+    {
+      "description": "owner's ID Number",
+      "name": "owner's ID Number",
+      "variable": "AU_REGISTRANT_ID_NUMBER",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "RegistrantEligibilityType",
+      "name": "RegistrantEligibilityType",
+      "variable": "AU_REGISTRANT_ID_TYPE",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "ACN",
+          "name": "Australian Company Number"
+        },
+        {
+          "variable_id": "ABN",
+          "name": "Australian Business Number"
+        },
+        {
+          "variable_id": "Trademark",
+          "name": "Trademark holder"
+        }
+
+      ]
+    },
+    {
+      "description": "RegistrantEligibilityType",
+      "name": "RegistrantEligibilityType",
+      "variable": "AU_ELIGIBILITY_TYPE",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "Company",
+          "name": "Company"
+        },
+        {
+          "variable_id": "Registered Business",
+          "name": "Registered Business"
+        },
+        {
+          "variable_id": "Sole Trader",
+          "name": "Sole Trader"
+        },
+        {
+          "variable_id": "Trademark Owner",
+          "name": "Trademark Owner"
+        }
+
+      ]
+    }
+  ],
+  ".no": [
+    {
+      "description": "ID or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".nu": [
+    {
+      "description": "ID or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  "org.au": [
+    {
+      "description": "owner's ID Number",
+      "name": "owner's ID Number",
+      "variable": "AU_REGISTRANT_ID_NUMBER",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "RegistrantEligibilityType",
+      "name": "RegistrantEligibilityType",
+      "variable": "AU_ELIGIBILITY_TYPE",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "Incorporated Association",
+          "name": "Incorporated Association"
+        },
+        {
+          "variable_id": "Club",
+          "name": "Club"
+        },
+        {
+          "variable_id": "Non-Profit Organisation",
+          "name": "Non-Profit Organisation"
+        }
+
+      ]
+    }
+  ],
+  ".pro": [
+    {
+      "description": "The profession",
+      "name": "Profession",
+      "variable": "profession",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "The name of the certification authority",
+      "name": "The name of the certification authority",
+      "variable": "certification",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "The web adress of the certification authority",
+      "name": "The web adress of the certification authority",
+      "variable": "adress",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "The license number",
+      "name": "The license number",
+      "variable": "license",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".ro": [
+    {
+      "description": "ID or company number",
+      "name": "ID",
+      "variable": "id_value",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "VAT number",
+      "name": "VAT",
+      "variable": "vat_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".ru": [
+    {
+      "description": "ID card or passport number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "Birth date (yyyy-mm-dd)",
+      "name": "Birth Date",
+      "variable": "birth_date",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "ID or Company number (ID - ID card or passport number, Company number syntax = \"Taxpayer identification number\"#\"Territory-linked taxpayer number\")",
+      "name": "Company number",
+      "variable": "company_number",
+      "type": "input",
+      "for": "domain"
+    }
+
+  ],
+  ".se": [
+    {
+      "description": "ID or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "VAT number",
+      "name": "VAT",
+      "variable": "vat_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".sg": [
+    {
+      "description": "ID or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".sk": [
+    {
+      "description": "ID or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".swiss": [
+    {
+      "description": "Company number (syntax = CHE.NNN-NNN-NNN)",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "Text explaining the intented use",
+      "name": "Intented use",
+      "variable": "SWISS_INTENDED_USE",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".ua": [
+    {
+      "description": "Trademark name",
+      "name": "Trademark name",
+      "variable": "UA_TRADEMARK_NAME",
+      "type": "input",
+      "for": "domain"
+    },
+    {
+      "description": "Trademark number",
+      "name": "Trademark number",
+      "variable": "UA_TRADEMARK_NUMBER",
+      "type": "input",
+      "for": "domain"
+    }
+  ],
+  ".uk": [
+    {
+      "description": "Category",
+      "name": "Category",
+      "variable": "UK_CATEGORY",
+      "options": 2,
+      "type": "select",
+      "for": "domain",
+      "items": [
+        {
+          "variable_id": "LTD",
+          "name": "Limited Company"
+        },
+        {
+          "variable_id": "PLC",
+          "name": "Public Limited Company"
+        },
+        {
+          "variable_id": "PTNR",
+          "name": "Partnership"
+        },
+        {
+          "variable_id": "STRA",
+          "name": "Sole Trader"
+        },
+        {
+          "variable_id": "LLP",
+          "name": "Limited Liability Partnership"
+        },
+        {
+          "variable_id": "IP",
+          "name": "Industrial/Provident Registered Company"
+        },
+        {
+          "variable_id": "SCH",
+          "name": "School"
+        },
+        {
+          "variable_id": "RCHAR",
+          "name": "Registered Charity"
+        },
+        {
+          "variable_id": "GOV",
+          "name": "Government Body"
+        },
+        {
+          "variable_id": "CRC",
+          "name": "Corporation by Royal Charter"
+        },
+        {
+          "variable_id": "STAT",
+          "name": "Statutory Body"
+        },
+        {
+          "variable_id": "OTHER",
+          "name": "Other Entity (e.g. clubs, associations, many universities)"
+        }
+
+
+      ]
+    },
+    {
+      "description": "ID or Company number",
+      "name": "ID",
+      "variable": "identification_value",
+      "type": "input",
+      "for": "domain"
+    }
+  ]
+}
+  

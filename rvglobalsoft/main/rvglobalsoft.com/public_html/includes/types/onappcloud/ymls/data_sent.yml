@@ -1,0 +1,17 @@
+type: slider
+name: 'Data Sent [GB/h]'
+key: cf_bandwidth
+variable: data_sent
+description:
+category: network
+options: 50
+config:
+  minvalue: 1
+  maxvalue: 20
+  step: 1
+  initialval: 1
+items:
+  -
+    name:
+    m: 0.40
+    pricing: 1

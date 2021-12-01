@@ -1,0 +1,19 @@
+<h4 class="ui header">Orders ( <a href="javascript:void(0);" onclick="oRv.topbarListClientOrder({{clientId}});"> {{totalOrder}} </a> )</h4>
+
+<div class="ui list">
+    {{#orders}}
+    <div class="item"><a href="javascript:void(0);" onclick="oRv.topbarShowOrderDetail({{id}});">#{{id}}</a>  
+        
+        {{#ifvalue status equals="Active"}}
+            <a class="ui mini green tag label">{{status}} </a>
+        {{else ifvalue status equals="Pending"}}
+            <a class="ui mini red tag label">{{status}} </a>
+        {{else}}
+            <a class="ui mini tag label">{{status}} </a>
+        {{/ifvalue}}
+        
+        = {{total}} 
+        <small>@{{date}}</small>
+    </div>
+    {{/orders}}
+</div>

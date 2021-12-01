@@ -1,0 +1,1183 @@
+{
+    "name": "2019 theme",
+    "version": "202110111353",
+    "src": {
+        "path_scss": "src/scss/",
+        "app_scss": "src/scss/app.scss"
+    },
+    "sections": {
+        "images": {
+            "name": "Images / Logo",
+            "show_default": true,
+            "options": {
+                "logo_big": {
+                    "type": "input",
+                    "default": "dist/images/hb_logo.png",
+                    "name": "Logo big (for white background)",
+                    "description": "Location of your big logo replacement (for white background) in template dir",
+                    "export": true,
+                    "value": "dist/images/hb_netway_logo.png",
+                    "value_darkmode": null
+                },
+                "logo_big_inverse": {
+                    "type": "input",
+                    "default": "dist/images/hb_logo_white.png",
+                    "name": "Logo big (for black background)",
+                    "description": "Location of your big logo replacement (for black background) in template dir",
+                    "export": true,
+                    "value": "dist/images/netway_white.png",
+                    "value_darkmode": null
+                },
+                "logo_small": {
+                    "type": "input",
+                    "default": "dist/images/hb_logo.png",
+                    "name": "Logo small (for white background)",
+                    "description": "Location of your small logo replacement (for white background) in template dir",
+                    "export": true,
+                    "value": "dist/images/hb_netway_logo.png",
+                    "value_darkmode": null
+                },
+                "logo_small_inverse": {
+                    "type": "input",
+                    "default": "dist/images/hb_logo_white.png",
+                    "name": "Logo small (for black background)",
+                    "description": "Location of your small logo replacement (for black background) in template dir",
+                    "export": true,
+                    "value": "dist/images/hb_logo_white.png",
+                    "value_darkmode": null
+                },
+                "favicon_16": {
+                    "type": "input",
+                    "default": "",
+                    "name": "Favicon 16x16 px",
+                    "description": "Location of your favicon 16x16 px in template dir",
+                    "export": true,
+                    "value": "",
+                    "value_darkmode": null
+                },
+                "favicon_32": {
+                    "type": "input",
+                    "default": "",
+                    "name": "Favicon 32x32 px",
+                    "description": "Location of your favicon 32x32 px in template dir",
+                    "export": true,
+                    "value": "",
+                    "value_darkmode": null
+                },
+                "favicon_96": {
+                    "type": "input",
+                    "default": "",
+                    "name": "Favicon 96x96 px",
+                    "description": "Location of your favicon 96x96 px in template dir",
+                    "export": true,
+                    "value": "",
+                    "value_darkmode": null
+                },
+                "favicon_192": {
+                    "type": "input",
+                    "default": "",
+                    "name": "Favicon 192x192 px",
+                    "description": "Location of your favicon 192x192 px in template dir",
+                    "export": true,
+                    "value": "",
+                    "value_darkmode": null
+                },
+                "favicon_apple_72": {
+                    "type": "input",
+                    "default": "",
+                    "name": "Favicon 72x72 px (Apple)",
+                    "description": "Location of your favicon 72x72 px in template dir",
+                    "export": true,
+                    "value": "",
+                    "value_darkmode": null
+                },
+                "favicon_apple_144": {
+                    "type": "input",
+                    "default": "",
+                    "name": "Favicon 144x144 px (Apple)",
+                    "description": "Location of your favicon 144x144 px in template dir",
+                    "export": true,
+                    "value": "",
+                    "value_darkmode": null
+                },
+                "favicon_apple_180": {
+                    "type": "input",
+                    "default": "",
+                    "name": "Favicon 180x180 px (Apple)",
+                    "description": "Location of your favicon 180x180 px in template dir",
+                    "export": true,
+                    "value": "",
+                    "value_darkmode": null
+                }
+            }
+        },
+        "styles": {
+            "name": "Template styles",
+            "show_default": true,
+            "export_vars": false,
+            "options": {
+                "enable-preloader": {
+                    "name": "Enable loading animation",
+                    "default": 1,
+                    "variable": "enable-preloader",
+                    "type": "check",
+                    "tab": "Main",
+                    "preview": "enable-preloader.png",
+                    "export": false,
+                    "value": 1,
+                    "value_darkmode": null
+                },
+                "enable-transitions": {
+                    "name": "Enable transitions",
+                    "default": 1,
+                    "variable": "enable-transitions",
+                    "type": "check",
+                    "tab": "Main",
+                    "preview": false,
+                    "export": false,
+                    "value": 1,
+                    "value_darkmode": null
+                },
+                "enable-rounded": {
+                    "name": "Enable rounded style",
+                    "default": 1,
+                    "variable": "enable-rounded",
+                    "type": "check",
+                    "tab": "Main",
+                    "preview": "enable-rounded.png",
+                    "export": false,
+                    "value": 1,
+                    "value_darkmode": null
+                },
+                "gravatars-tickets": {
+                    "name": "Use gravatars in ticket replies",
+                    "default": 0,
+                    "variable": "gravatars-tickets",
+                    "type": "check",
+                    "tab": "Main",
+                    "preview": "gravatars-tickets.png",
+                    "export": true,
+                    "value": 0,
+                    "value_darkmode": null
+                },
+                "sidebar-state": {
+                    "name": "Initial sidebar state",
+                    "default": "visible",
+                    "variable": "sidebar-state",
+                    "type": "select",
+                    "options": {
+                        "visible": "Visible",
+                        "hidden": "Hidden"
+                    },
+                    "tab": "Main",
+                    "preview": "menu-bg.png",
+                    "export": true,
+                    "value": "visible",
+                    "value_darkmode": null
+                },
+                "position-popups": {
+                    "name": "Position of info/error popups",
+                    "default": "topright",
+                    "variable": "position-popups",
+                    "type": "select",
+                    "options": {
+                        "topright": "Top right",
+                        "topcenter": "Top center",
+                        "topleft": "Top left",
+                        "bottomleft": "Bottom left",
+                        "bottomright": "Bottom right",
+                        "modal": "Modal"
+                    },
+                    "tab": "Main",
+                    "preview": "position-popups.png",
+                    "export": true,
+                    "value": "topright",
+                    "value_darkmode": null
+                },
+                "font-family-base": {
+                    "name": "Base font family",
+                    "default": "\"Rubik\", Arial, sans-serif !important",
+                    "variable": "font-family-base",
+                    "type": "input",
+                    "tab": "Main",
+                    "preview": "font-family-base.png",
+                    "export": false,
+                    "value": "\"Rubik\", Arial, sans-serif !important",
+                    "value_darkmode": null
+                },
+                "font-size-base": {
+                    "name": "Base font size",
+                    "default": "1rem",
+                    "variable": "font-size-base",
+                    "type": "input",
+                    "tab": "Main",
+                    "preview": "font-size-base.png",
+                    "export": false,
+                    "value": "1rem",
+                    "value_darkmode": null
+                },
+                "body-bg": {
+                    "name": "Body background color",
+                    "default": "#ffffff",
+                    "variable": "body-bg",
+                    "type": "colorpicker",
+                    "tab": "Main",
+                    "preview": "body-bg.png",
+                    "export": false,
+                    "value": "#ffffff",
+                    "value_darkmode": null
+                },
+                "body-color": {
+                    "name": "Body text color",
+                    "default": "#373a3c",
+                    "variable": "body-color",
+                    "type": "colorpicker",
+                    "tab": "Main",
+                    "preview": "body-color.png",
+                    "export": false,
+                    "value": "#373a3c",
+                    "value_darkmode": null
+                },
+                "section-main-max-width": {
+                    "name": "Main section max-width",
+                    "default": "1400px",
+                    "variable": "section-main-max-width",
+                    "type": "input",
+                    "tab": "Main",
+                    "preview": "section-main-max-width.png",
+                    "export": false,
+                    "value": "1400px",
+                    "value_darkmode": null
+                },
+                "border-width": {
+                    "name": "Border width",
+                    "default": "1px",
+                    "variable": "border-width",
+                    "type": "input",
+                    "tab": "Main",
+                    "preview": "border.png",
+                    "export": false,
+                    "value": "1px",
+                    "value_darkmode": null
+                },
+                "border-radius": {
+                    "name": "Border radius",
+                    "default": "6px",
+                    "variable": "border-radius",
+                    "type": "input",
+                    "tab": "Main",
+                    "preview": "border.png",
+                    "export": false,
+                    "value": "6px",
+                    "value_darkmode": null
+                },
+                "border-color": {
+                    "name": "Border color",
+                    "default": "#EBECF0",
+                    "variable": "border-color",
+                    "type": "colorpicker",
+                    "tab": "Main",
+                    "preview": "border.png",
+                    "export": false,
+                    "value": "#EBECF0",
+                    "value_darkmode": null
+                },
+                "brand-primary": {
+                    "name": "Brand primary color",
+                    "default": "#3891F2",
+                    "variable": "brand-primary",
+                    "type": "colorpicker",
+                    "tab": "Brand colors",
+                    "preview": "brand-primary.png",
+                    "export": false,
+                    "value": "#3891F2",
+                    "value_darkmode": null
+                },
+                "brand-secondary": {
+                    "name": "Brand secondary color",
+                    "default": "#9BA0B3",
+                    "variable": "brand-secondary",
+                    "type": "colorpicker",
+                    "tab": "Brand colors",
+                    "preview": "brand-secondary.png",
+                    "export": false,
+                    "value": "#9BA0B3",
+                    "value_darkmode": null
+                },
+                "brand-success": {
+                    "name": "Brand success color",
+                    "default": "#2DC76B",
+                    "variable": "brand-success",
+                    "type": "colorpicker",
+                    "tab": "Brand colors",
+                    "preview": "brand-success.png",
+                    "export": false,
+                    "value": "#2DC76B",
+                    "value_darkmode": null
+                },
+                "brand-info": {
+                    "name": "Brand info color",
+                    "default": "#3891F2",
+                    "variable": "brand-info",
+                    "type": "colorpicker",
+                    "tab": "Brand colors",
+                    "preview": false,
+                    "export": false,
+                    "value": "#3891F2",
+                    "value_darkmode": null
+                },
+                "brand-warning": {
+                    "name": "Brand warning color",
+                    "default": "#F6BB42",
+                    "variable": "brand-warning",
+                    "type": "colorpicker",
+                    "tab": "Brand colors",
+                    "preview": "brand-warning.png",
+                    "export": false,
+                    "value": "#F6BB42",
+                    "value_darkmode": null
+                },
+                "brand-danger": {
+                    "name": "Brand danger color",
+                    "default": "#D9252E",
+                    "variable": "brand-danger",
+                    "type": "colorpicker",
+                    "tab": "Brand colors",
+                    "preview": "brand-danger.png",
+                    "export": false,
+                    "value": "#D9252E",
+                    "value_darkmode": null
+                },
+                "link-color": {
+                    "name": "Link color",
+                    "default": "#3891f2",
+                    "variable": "link-color",
+                    "type": "colorpicker",
+                    "tab": "Brand colors",
+                    "preview": "link-color.png",
+                    "export": false,
+                    "value": "#3891f2",
+                    "value_darkmode": null
+                },
+                "navbar-height": {
+                    "name": "Navbar height",
+                    "default": "70px",
+                    "variable": "navbar-height",
+                    "type": "input",
+                    "tab": "Navbar",
+                    "preview": "navbar-height.png",
+                    "export": false,
+                    "value": "70px",
+                    "value_darkmode": null
+                },
+                "navbar-bg": {
+                    "name": "Navbar background color",
+                    "default": "#ffffff",
+                    "variable": "navbar-bg",
+                    "type": "colorpicker",
+                    "tab": "Navbar",
+                    "preview": "navbar-bg.png",
+                    "export": false,
+                    "value": "#ffffff",
+                    "value_darkmode": null
+                },
+                "navbar-border-color": {
+                    "name": "Navbar border color",
+                    "default": "#EBECF0",
+                    "variable": "navbar-border-color",
+                    "type": "colorpicker",
+                    "tab": "Navbar",
+                    "preview": "navbar-border.png",
+                    "export": false,
+                    "value": "#EBECF0",
+                    "value_darkmode": null
+                },
+                "navbar-border-width": {
+                    "name": "Navbar border width",
+                    "default": "1px",
+                    "variable": "navbar-border-width",
+                    "type": "input",
+                    "tab": "Navbar",
+                    "preview": "navbar-border.png",
+                    "export": false,
+                    "value": "1px",
+                    "value_darkmode": null
+                },
+                "navbar-item-color": {
+                    "name": "Navbar text color",
+                    "default": "#AFB2C1",
+                    "variable": "navbar-item-color",
+                    "type": "colorpicker",
+                    "tab": "Navbar",
+                    "preview": "navbar-item-color.png",
+                    "export": false,
+                    "value": "#AFB2C1",
+                    "value_darkmode": null
+                },
+                "menu-width": {
+                    "name": "Left menu width",
+                    "default": "270px",
+                    "variable": "menu-width",
+                    "type": "input",
+                    "tab": "Sidebar",
+                    "preview": "menu-width.png",
+                    "export": false,
+                    "value": "270px",
+                    "value_darkmode": null
+                },
+                "menu-bg": {
+                    "name": "Left menu background color",
+                    "default": "#464851",
+                    "variable": "menu-bg",
+                    "type": "colorpicker",
+                    "tab": "Sidebar",
+                    "preview": "menu-bg.png",
+                    "export": false,
+                    "value": "#464851",
+                    "value_darkmode": null
+                },
+                "menu-item-color": {
+                    "name": "Left menu items color",
+                    "default": "#9ba0b3",
+                    "variable": "menu-item-color",
+                    "type": "colorpicker",
+                    "tab": "Sidebar",
+                    "preview": "menu-item-color.png",
+                    "export": false,
+                    "value": "#9ba0b3",
+                    "value_darkmode": null
+                }
+            }
+        },
+        "css": {
+            "name": "Custom CSS",
+            "show_default": false,
+            "export_vars": true,
+            "options": {
+                "custom_css": {
+                    "name": "Custom CSS",
+                    "description": "Enter your custom css here, it will be added to all theme pages",
+                    "type": "css",
+                    "export": true,
+                    "value": "/*--edit Checkbox color--*/\r\ninput[type=checkbox]:checked:after,\r\ninput[type=checkbox]:checked::after,\r\ninput[type=radio]:checked:after,\r\ninput[type=radio]:checked::after {\r\n  background: #0379f0 !important ;\r\n  border: 1px solid #ced4da !important ;\r\n}\r\n/* --Edit size font and Color -- */\r\nh3, .h3 {\r\n    font-size: 1.29rem;\r\n    color: #0379f0 !important;\r\n}",
+                    "value_darkmode": null
+                }
+            }
+        },
+        "js": {
+            "name": "Custom JS",
+            "show_default": false,
+            "export_vars": true,
+            "options": {
+                "custom_js": {
+                    "name": "Custom JS",
+                    "description": "Enter your custom JS here, it will be added to all theme pages",
+                    "type": "js",
+                    "export": true,
+                    "value": "",
+                    "value_darkmode": null
+                }
+            }
+        },
+        "analytics": {
+            "name": "Analytics",
+            "show_default": false,
+            "export_vars": true,
+            "options": {
+                "gtm_head": {
+                    "name": "Google Tag Manager. <br/>Code in head section",
+                    "description": "Enter your Google Tag Manager code here, it will be added to head section",
+                    "type": "html",
+                    "export": true,
+                    "value": "<!-- include script Analyrtics and script google tag \u0e17\u0e35\u0e48 header_google_analytics_tag.tpl -->\r\n\r\n<script type=\"text/javascript\" src=\"/vendor/netway/js/node_modules/dompurify/dist/purify.min.js\"></script>\r\n<script type=\"text/javascript\" src=\"/templates/2019/dist/js/customClientUI.js\"></script>",
+                    "value_darkmode": null
+                },
+                "gtm_body": {
+                    "name": "Google Tag Manager. <br/>Code in body section",
+                    "description": "Enter your Google Tag Manager code here, it will be added to body section",
+                    "type": "html",
+                    "export": true,
+                    "value": "<!--include script Analyrtics and script google tag \u0e17\u0e35\u0e48 header_google_analytics_tag.tpl -->",
+                    "value_darkmode": null
+                },
+                "gtm_send_to": {
+                    "name": "Google Tag Manager. <br/>send_to value for gtag conversion event",
+                    "description": "",
+                    "type": "input",
+                    "export": true,
+                    "value": "",
+                    "value_darkmode": null
+                }
+            }
+        },
+        "left_menu": {
+            "name": "Left menu editor",
+            "show_default": false,
+            "export_vars": true,
+            "icons_url": "https://material.io/resources/icons/?style=baseline",
+            "sections": [
+                {
+                    "name": "{$lang.Managee}",
+                    "id": "manage",
+                    "type": "section",
+                    "conditions": {
+                        "customers": {
+                            "name": "Type of customers",
+                            "type": "select",
+                            "default": "0",
+                            "options": {
+                                "0": "For all customers",
+                                "1": "Only for authorized customers",
+                                "-1": "Only for not authorized customers"
+                            }
+                        }
+                    },
+                    "options": [],
+                    "is_open": true,
+                    "children": [
+                        {
+                            "name": "{$lang.dashboard}",
+                            "id": "dashboard",
+                            "type": "link",
+                            "icon": "home",
+                            "url": "clientarea/",
+                            "url_type": "system",
+                            "options": {
+                                "new_tab": {
+                                    "name": "Open in a new tab",
+                                    "type": "checkbox",
+                                    "default": "0"
+                                }
+                            },
+                            "conditions": {
+                                "customers": {
+                                    "name": "Type of customers",
+                                    "type": "select",
+                                    "default": "0",
+                                    "options": {
+                                        "0": "For all customers",
+                                        "1": "Only for authorized customers",
+                                        "-1": "Only for not authorized customers"
+                                    }
+                                },
+                                "enabled_feature": {
+                                    "name": "Show if knowledgebase feature is enabled",
+                                    "feature": "kb",
+                                    "type": "checkbox",
+                                    "default": "1"
+                                }
+                            }
+                        },
+                        {
+                            "name": "{$lang.services}",
+                            "id": "services",
+                            "type": "list",
+                            "list": "services",
+                            "icon": "portrait",
+                            "url": "services/",
+                            "url_type": "system",
+                            "options": {
+                                "open": {
+                                    "name": "Keep menu open",
+                                    "type": "checkbox",
+                                    "default": "0"
+                                },
+                                "label": {
+                                    "name": "Show the number of active services",
+                                    "type": "checkbox",
+                                    "default": "1"
+                                },
+                                "new_tab": {
+                                    "name": "Open in a new tab",
+                                    "type": "checkbox",
+                                    "default": "0"
+                                }
+                            },
+                            "conditions": {
+                                "customers": {
+                                    "name": "Type of customers",
+                                    "type": "select",
+                                    "default": "1",
+                                    "options": {
+                                        "0": "For all customers",
+                                        "1": "Only for authorized customers",
+                                        "-1": "Only for not authorized customers"
+                                    }
+                                },
+                                "enabled_feature": {
+                                    "name": "Show if support feature is enabled",
+                                    "feature": "support",
+                                    "type": "checkbox",
+                                    "default": "1"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "{$lang.account}",
+                    "id": "account",
+                    "type": "section",
+                    "conditions": {
+                        "customers": {
+                            "name": "Type of customers",
+                            "type": "select",
+                            "default": "0",
+                            "options": {
+                                "0": "For all customers",
+                                "1": "Only for authorized customers",
+                                "-1": "Only for not authorized customers"
+                            },
+                            "value": "1"
+                        }
+                    },
+                    "options": [],
+                    "is_open": true,
+                    "children": [
+                        {
+                            "name": "{$lang.accountdetails}",
+                            "id": "editdetails",
+                            "type": "link",
+                            "icon": "person",
+                            "url": "clientarea/details/",
+                            "url_type": "system",
+                            "options": {
+                                "new_tab": {
+                                    "name": "Open in a new tab",
+                                    "type": "checkbox",
+                                    "default": "0",
+                                    "value": 0
+                                }
+                            },
+                            "conditions": {
+                                "customers": {
+                                    "name": "Type of customers",
+                                    "type": "select",
+                                    "default": "1",
+                                    "options": {
+                                        "0": "For all customers",
+                                        "1": "Only for authorized customers",
+                                        "-1": "Only for not authorized customers"
+                                    },
+                                    "value": "1"
+                                },
+                                "enabled_feature": {
+                                    "name": "Show if knowledgebase feature is enabled",
+                                    "feature": "kb",
+                                    "type": "checkbox",
+                                    "default": "1",
+                                    "value": 1
+                                }
+                            }
+                        },
+                        {
+                            "name": "{$lang.managecontacts}",
+                            "id": "contacts",
+                            "type": "link",
+                            "icon": "contacts",
+                            "url": "profiles/",
+                            "url_type": "system",
+                            "options": {
+                                "new_tab": {
+                                    "name": "Open in a new tab",
+                                    "type": "checkbox",
+                                    "default": "0"
+                                }
+                            },
+                            "conditions": {
+                                "customers": {
+                                    "name": "Type of customers",
+                                    "type": "select",
+                                    "default": "1",
+                                    "options": {
+                                        "0": "For all customers",
+                                        "1": "Only for authorized customers",
+                                        "-1": "Only for not authorized customers"
+                                    }
+                                },
+                                "enabled_feature": {
+                                    "name": "Show if support feature is enabled",
+                                    "feature": "support",
+                                    "type": "checkbox",
+                                    "default": "1"
+                                }
+                            }
+                        },
+                        {
+                            "name": "{$lang.billing}",
+                            "id": "billing",
+                            "type": "link",
+                            "icon": "attach_money",
+                            "url": "clientarea/invoices/",
+                            "url_type": "system",
+                            "options": {
+                                "new_tab": {
+                                    "name": "Open in a new tab",
+                                    "type": "checkbox",
+                                    "default": "0"
+                                }
+                            },
+                            "conditions": {
+                                "customers": {
+                                    "name": "Type of customers",
+                                    "type": "select",
+                                    "default": "1",
+                                    "options": {
+                                        "0": "For all customers",
+                                        "1": "Only for authorized customers",
+                                        "-1": "Only for not authorized customers"
+                                    }
+                                },
+                                "enabled_feature": {
+                                    "name": "Show if downloads feature is enabled",
+                                    "feature": "downloads",
+                                    "type": "checkbox",
+                                    "default": "1"
+                                }
+                            }
+                        },
+                        {
+                            "name": "{$lang.security}",
+                            "id": "security",
+                            "type": "link",
+                            "icon": "security",
+                            "url": "clientarea/ipaccess/",
+                            "url_type": "system",
+                            "options": {
+                                "new_tab": {
+                                    "name": "Open in a new tab",
+                                    "type": "checkbox",
+                                    "default": "0"
+                                }
+                            },
+                            "conditions": {
+                                "enabled_feature": {
+                                    "name": "Show if affiliates feature is enabled",
+                                    "feature": "affiliates",
+                                    "type": "checkbox",
+                                    "default": "0"
+                                },
+                                "customers": {
+                                    "name": "Type of customers",
+                                    "type": "select",
+                                    "options": {
+                                        "0": "For all customers",
+                                        "1": "Only for authorized customers",
+                                        "-1": "Only for not authorized customers"
+                                    },
+                                    "default": "1"
+                                }
+                            }
+                        },
+                        {
+                            "name": "{$lang.userhistory}",
+                            "id": "userhistory",
+                            "type": "link",
+                            "icon": "history",
+                            "url": "clientarea/emails/",
+                            "url_type": "system",
+                            "options": {
+                                "new_tab": {
+                                    "name": "Open in a new tab",
+                                    "type": "checkbox",
+                                    "default": "0",
+                                    "value": 0
+                                }
+                            },
+                            "conditions": {
+                                "customers": {
+                                    "name": "Type of customers",
+                                    "type": "select",
+                                    "default": "1",
+                                    "options": {
+                                        "0": "For all customers",
+                                        "1": "Only for authorized customers",
+                                        "-1": "Only for not authorized customers"
+                                    },
+                                    "value": "1"
+                                },
+                                "enabled_feature": {
+                                    "name": "Show if Network Status feature is enabled",
+                                    "feature": "netstat",
+                                    "type": "checkbox",
+                                    "default": "1",
+                                    "value": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "{$lang.Help}",
+                    "id": "help",
+                    "type": "section",
+                    "conditions": {
+                        "customers": {
+                            "name": "Type of customers",
+                            "type": "select",
+                            "default": "0",
+                            "options": {
+                                "0": "For all customers",
+                                "1": "Only for authorized customers",
+                                "-1": "Only for not authorized customers"
+                            }
+                        }
+                    },
+                    "options": [],
+                    "is_open": true,
+                    "children": [
+                        {
+                            "name": "{$lang.knowledgebase}",
+                            "id": "knowledgebase",
+                            "type": "link",
+                            "icon": "note",
+                            "url": "knowledgebase/",
+                            "url_type": "system",
+                            "options": {
+                                "new_tab": {
+                                    "name": "Open in a new tab",
+                                    "type": "checkbox",
+                                    "default": "0"
+                                }
+                            },
+                            "conditions": {
+                                "enabled_feature": {
+                                    "name": "Show if knowledgebase feature is enabled",
+                                    "feature": "kb",
+                                    "type": "checkbox",
+                                    "default": "1"
+                                },
+                                "customers": {
+                                    "name": "Type of customers",
+                                    "type": "select",
+                                    "default": "1",
+                                    "options": {
+                                        "0": "For all customers",
+                                        "1": "Only for authorized customers",
+                                        "-1": "Only for not authorized customers"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "{$lang.tickets}",
+                            "id": "tickets",
+                            "type": "link",
+                            "icon": "style",
+                            "url": "https://support.netway.co.th/hc/th/requests/new",
+                            "url_type": "custom",
+                            "options": {
+                                "new_tab": {
+                                    "name": "Open in a new tab",
+                                    "type": "checkbox",
+                                    "default": "0",
+                                    "value": 1
+                                }
+                            },
+                            "conditions": {
+                                "enabled_feature": {
+                                    "name": "Show if support feature is enabled",
+                                    "feature": "support",
+                                    "type": "checkbox",
+                                    "default": "1",
+                                    "value": 1
+                                },
+                                "customers": {
+                                    "name": "Type of customers",
+                                    "type": "select",
+                                    "default": "0",
+                                    "options": {
+                                        "0": "For all customers",
+                                        "1": "Only for authorized customers",
+                                        "-1": "Only for not authorized customers"
+                                    },
+                                    "value": "0"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "footer": {
+            "name": "Footer editor",
+            "show_default": false,
+            "export_vars": true,
+            "options": {
+                "show_info": {
+                    "name": "Show information with current year and business name",
+                    "default": 1,
+                    "value": "1",
+                    "value_darkmode": null
+                }
+            },
+            "menu": [
+                {
+                    "name": "Cookies  ",
+                    "id": "footer_homepage",
+                    "url": "https://netway.co.th/cookies",
+                    "url_type": "custom",
+                    "options": {
+                        "new_tab": {
+                            "name": "Open in a new tab",
+                            "type": "checkbox",
+                            "default": "0",
+                            "value": 0
+                        }
+                    },
+                    "conditions": {
+                        "enabled_feature": [],
+                        "customers": {
+                            "name": "Type of customers",
+                            "type": "select",
+                            "default": "0",
+                            "options": {
+                                "0": "For all customers",
+                                "1": "Only for authorized customers",
+                                "-1": "Only for not authorized customers"
+                            },
+                            "value": "0"
+                        }
+                    }
+                },
+                {
+                    "name": "Do Not Sell ",
+                    "id": "footer_order",
+                    "url": "https://netway.co.th/do-not-sell",
+                    "url_type": "custom",
+                    "options": {
+                        "new_tab": {
+                            "name": "Open in a new tab",
+                            "type": "checkbox",
+                            "default": "0",
+                            "value": 0
+                        }
+                    },
+                    "conditions": {
+                        "enabled_feature": [],
+                        "customers": {
+                            "name": "Type of customers",
+                            "type": "select",
+                            "default": "0",
+                            "options": {
+                                "0": "For all customers",
+                                "1": "Only for authorized customers",
+                                "-1": "Only for not authorized customers"
+                            },
+                            "value": "0"
+                        }
+                    }
+                },
+                {
+                    "name": "PDPA Statement ",
+                    "id": "footer_knowledgebase",
+                    "url": "https://netway.co.th/pdpa-statement",
+                    "url_type": "custom",
+                    "options": {
+                        "new_tab": {
+                            "name": "Open in a new tab",
+                            "type": "checkbox",
+                            "default": "0",
+                            "value": 0
+                        }
+                    },
+                    "conditions": {
+                        "enabled_feature": {
+                            "name": "Show if support feature is enabled",
+                            "feature": "kb",
+                            "type": "checkbox",
+                            "default": "1",
+                            "value": 1
+                        },
+                        "customers": {
+                            "name": "Type of customers",
+                            "type": "select",
+                            "default": "0",
+                            "options": {
+                                "0": "For all customers",
+                                "1": "Only for authorized customers",
+                                "-1": "Only for not authorized customers"
+                            },
+                            "value": "0"
+                        }
+                    }
+                },
+                {
+                    "name": " Privacy ",
+                    "id": "footer_clientarea",
+                    "url": "https://netway.co.th/privacy",
+                    "url_type": "custom",
+                    "options": {
+                        "new_tab": {
+                            "name": "Open in a new tab",
+                            "type": "checkbox",
+                            "default": "0",
+                            "value": 0
+                        }
+                    },
+                    "conditions": {
+                        "enabled_feature": [],
+                        "customers": {
+                            "name": "Type of customers",
+                            "type": "select",
+                            "default": "0",
+                            "options": {
+                                "0": "For all customers",
+                                "1": "Only for authorized customers",
+                                "-1": "Only for not authorized customers"
+                            },
+                            "value": "0"
+                        }
+                    }
+                },
+                {
+                    "name": "Terms",
+                    "id": 1633414835268,
+                    "options": {
+                        "new_tab": {
+                            "name": "Open in a new tab",
+                            "type": "checkbox",
+                            "default": "0",
+                            "value": 0
+                        }
+                    },
+                    "conditions": {
+                        "customers": {
+                            "name": "Type of customers",
+                            "type": "select",
+                            "options": {
+                                "0": "For all customers",
+                                "1": "Only for authorized customers",
+                                "-1": "Only for not authorized customers"
+                            },
+                            "value": "0"
+                        }
+                    },
+                    "url": "https://netway.co.th/terms-of-service",
+                    "url_type": "custom"
+                }
+            ]
+        },
+        "overrides": {
+            "name": "File overrides",
+            "show_default": false,
+            "export_vars": false,
+            "options": []
+        },
+        "orderpages": {
+            "name": "Orderpages",
+            "show_default": false,
+            "export_vars": false,
+            "options": {
+                "1": {
+                    "id": "1",
+                    "icon": "Domain Names.svg"
+                },
+                "10": {
+                    "id": "10",
+                    "icon": "Managed Server Services.svg"
+                },
+                "15": {
+                    "id": "15",
+                    "icon": "DNS Services.svg"
+                },
+                "23": {
+                    "id": "23",
+                    "icon": "SSL Certificates.svg"
+                },
+                "25": {
+                    "id": "25",
+                    "icon": "Colocation Server.svg"
+                },
+                "52": {
+                    "id": "52",
+                    "icon": "Reseller Domain.svg"
+                },
+                "95": {
+                    "id": "95",
+                    "icon": "Restore domain.svg"
+                },
+                "101": {
+                    "id": "101",
+                    "icon": "Netway.Site.svg"
+                },
+                "121": {
+                    "id": "121",
+                    "icon": "Internationalized Domain Names.svg"
+                },
+                "125": {
+                    "id": "125",
+                    "icon": "Internal.svg"
+                },
+                "127": {
+                    "id": "127",
+                    "icon": "MS License Check-up.svg"
+                },
+                "134": {
+                    "id": "134",
+                    "icon": ""
+                },
+                "138": {
+                    "id": "138",
+                    "icon": "Software License.svg"
+                },
+                "139": {
+                    "id": "139",
+                    "icon": "MS License Check-up.svg"
+                },
+                "140": {
+                    "id": "140",
+                    "icon": "MS License Check-up.svg"
+                },
+                "141": {
+                    "id": "141",
+                    "icon": "SSL Certificates.svg"
+                },
+                "143": {
+                    "id": "143",
+                    "icon": "google workspace.svg"
+                },
+                "144": {
+                    "id": "144",
+                    "icon": "Dynamics365.svg"
+                },
+                "146": {
+                    "id": "146",
+                    "icon": "Microsoft 365.svg"
+                },
+                "147": {
+                    "id": "147",
+                    "icon": "MS License Check-up.svg"
+                },
+                "152": {
+                    "id": "152",
+                    "icon": "007-cloud server.svg"
+                },
+                "155": {
+                    "id": "155",
+                    "icon": "Azure token.svg"
+                },
+                "166": {
+                    "id": "166",
+                    "icon": "MS License Check-up.svg"
+                },
+                "171": {
+                    "id": "171",
+                    "icon": "022-hosting.svg"
+                },
+                "172": {
+                    "id": "172",
+                    "icon": "041-hosting.svg"
+                },
+                "186": {
+                    "id": "186",
+                    "icon": "002-unauthorized person.svg"
+                },
+                "187": {
+                    "id": "187",
+                    "icon": "004-cloud network.svg"
+                }
+            }
+        }
+    }
+}

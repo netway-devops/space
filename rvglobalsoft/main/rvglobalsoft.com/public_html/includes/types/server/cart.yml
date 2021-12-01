@@ -1,0 +1,35 @@
+---
+imgpreview:
+  value: '../includes/types/server/config.png'
+  name: View editable areas
+  type: link
+header1:
+  value: Ram
+  name: First header
+  description: This text is describing first column of product features
+  type: input
+header2:
+  value: Storage Space
+  name: Second header
+  description: This text is describing second column of product features
+  type: input
+header3:
+  value: Bandwidth
+  name: Third header
+  description: This text is describing third column of product features
+  type: input
+footerheader:
+  value: About company
+  name: Footer header
+  description: This is a header for Footer text,
+  type: input
+footertext:
+  value: You can change this text in Settings &raquo; Products & Services &raquo; [Orderpage] &raquo; Edit &raquo; Customize. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  name: Footer text
+  description: This phrase will be displayed in the footer section
+  type: textarea
+copyright:
+  value: Copyright © Your Business Name 2012. All rights reserved
+  name: Footer
+  description: Last line on the page, for example a copyright info
+  type: input

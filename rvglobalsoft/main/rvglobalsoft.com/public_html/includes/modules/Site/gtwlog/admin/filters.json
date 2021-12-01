@@ -1,0 +1,42 @@
+{
+  "result": {
+    "lang": "Result",
+    "type": "select",
+    "options": [
+      {
+        "value": "Successfull",
+        "lang": "Successfull"
+      },
+      {
+        "value": "Pending",
+        "lang": "Pending"
+      },
+      {
+        "value": "Failure",
+        "lang": "Failure"
+      },
+      {
+        "value": "Chargeback",
+        "lang": "Chargeback"
+      },
+      {
+        "value": "Info",
+        "lang": "Info"
+      }
+    ]
+  },
+  "output": {
+    "lang": "Output",
+    "type": "input",
+    "datatype": "string"
+  },
+  "module": {
+    "lang": "Gateway",
+    "type": "select",
+    "options": []
+  },
+  "date": {
+    "lang": "Date",
+    "type": "input"
+  }
+}

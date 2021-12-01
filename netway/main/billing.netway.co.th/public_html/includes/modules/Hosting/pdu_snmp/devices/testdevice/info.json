@@ -1,0 +1,4 @@
+{
+  "name": "Test Device",
+  "description": "Use this device for testing how admin/client features works for simple PDU integration. It does not connect to any real device. Outlet states are stored in temp files."
+}

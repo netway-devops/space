@@ -1,0 +1,9 @@
+country: AU
+tax:
+  -
+    name: GST
+    level: 1
+    rate: 10
+    countries:
+      - AU
+    state: 0

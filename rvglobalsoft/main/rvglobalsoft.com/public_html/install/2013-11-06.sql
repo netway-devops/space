@@ -1,0 +1,1 @@
+UPDATE hb_error_log SET entry=REPLACE(REPLACE(entry,'>','&gt;'),'<','&lt;') WHERE entry LIKE "%script%";

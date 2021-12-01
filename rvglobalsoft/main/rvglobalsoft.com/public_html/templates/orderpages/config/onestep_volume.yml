@@ -1,0 +1,13 @@
+---
+imgpreview:
+  value: '../templates/orderpages/onestep_volume/howto.png'
+  name: View editable areas
+  type: link
+header:
+  value: Setup your <span>dream server</span>
+  name: Header
+  type: input
+subheader:
+  value: Pick your best option. 60 second setup. Free to go!
+  name: Sub-header
+  type: input

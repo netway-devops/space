@@ -1,0 +1,480 @@
+{
+    "product": {
+        "id": "1086",
+        "category_id": "113",
+        "type": "3",
+        "name": "LB Standard Plan 1",
+        "description": "<ul><\/ul>",
+        "visible": "1",
+        "domain_options": "0",
+        "qty": "0",
+        "autosetup": "2",
+        "subdomain": "",
+        "tax": "1",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "0",
+        "hostname": "1",
+        "autohostname": "",
+        "p_options": [
+            "64"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": "LB Standard Plan 1",
+        "contract_id": "0",
+        "dbcItemType": "Inventory",
+        "baseUnitOfMeasureCode": "MONTH",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "3",
+        "line_group_id": "5",
+        "codeName": "LBB1",
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "Regular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": 0,
+        "m": "599.00",
+        "q": "1797.00",
+        "s": "3414.30",
+        "a": "6469.20",
+        "b": "12938.40",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": 0,
+        "ptype": "Dedicated",
+        "tlds": null,
+        "periods": null,
+        "category_name": "Loadbalancer Basic",
+        "module": "156",
+        "main": "1",
+        "modname": "Virtualizor",
+        "filename": "class.virtualizor.php",
+        "domain_op": [],
+        "free_domain": "0",
+        "emails": {
+            "AfterModuleTerminate": "0",
+            "after_accountinsert": "0",
+            "ProductAccountCreated": "167",
+            "SuspendAccount": "162",
+            "UnsuspendAccount": "9"
+        },
+        "a_upgrade": "0.00",
+        "b_upgrade": "0.00",
+        "m_upgrade": "0.00",
+        "q_upgrade": "0.00",
+        "s_upgrade": "0.00",
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Hosting",
+        "modules": [
+            {
+                "product_id": "1086",
+                "main": 1,
+                "modname": "Virtualizor",
+                "filename": "class.virtualizor.php",
+                "module": "156",
+                "options": {
+                    "type": "single",
+                    "vpstype": "kvm",
+                    "vpsplan": "3",
+                    "num_vs": "",
+                    "cpus": "",
+                    "vm_cores": "",
+                    "cpu_percent": "",
+                    "memory": "",
+                    "swap": "2048",
+                    "disksize": "",
+                    "server": [
+                        "21"
+                    ],
+                    "servergroup": [
+                        "Array"
+                    ],
+                    "num_users": "",
+                    "option4": "100029",
+                    "ips": "1",
+                    "ips6": "",
+                    "ips6_subnet": "",
+                    "portspeed": "",
+                    "upload_speed": "",
+                    "bandwidth": "0",
+                    "nic_type": "default",
+                    "vif_type": "netfront",
+                    "ippoolid": ""
+                },
+                "default": {
+                    "type": "single",
+                    "vpstype": "kvm",
+                    "vpsplan": "3",
+                    "num_vs": "",
+                    "cpus": "",
+                    "vm_cores": "",
+                    "cpu_percent": "",
+                    "memory": "",
+                    "swap": "2048",
+                    "disksize": "",
+                    "server": [
+                        "21"
+                    ],
+                    "servergroup": [
+                        "Array"
+                    ],
+                    "num_users": "",
+                    "option4": "100029",
+                    "ips": "1",
+                    "ips6": "",
+                    "ips6_subnet": "",
+                    "portspeed": "",
+                    "upload_speed": "",
+                    "bandwidth": "0",
+                    "nic_type": "default",
+                    "vif_type": "netfront",
+                    "ippoolid": ""
+                },
+                "server": {
+                    "144": "144"
+                }
+            }
+        ],
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1OverdueReminder": "1",
+            "1ServiceReminder": "0",
+            "2OverdueReminder": "5",
+            "2ServiceReminder": "0",
+            "3OverdueReminder": "0",
+            "3ServiceReminder": "0",
+            "4ServiceReminder": "0",
+            "5ServiceReminder": "0",
+            "AddLateFeeAfter": "6",
+            "AdsjustDatesOnCreation": "on",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidInvoices": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoProcessCancellations": "off",
+            "AutoSuspensionPeriod": "15",
+            "AutoTerminationPeriod": "30",
+            "BillFullMonth": "0",
+            "CancellationPostPaidProrata": "off",
+            "CancellationTypeEndPeriod": "on",
+            "CancellationTypeImmediate": "on",
+            "CreditOnDowngradeOverride": "",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoCreation": "2",
+            "EnableAutoRenewService": "on",
+            "EnableAutoSuspension": "on",
+            "EnableAutoTermination": "off",
+            "EnableAutoUnSuspension": "on",
+            "EnableAutoUpgrades": "on",
+            "EnableProRata": "off",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "7",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "MoveDueDays": "0",
+            "ProRataDay": "1",
+            "ProRataMonth": "disabled",
+            "ProRataNextMonth": "0",
+            "RecurringBillingType": "PrePay",
+            "RenewInvoice": "1",
+            "ReturnToStockOnTerminate": "0",
+            "SendPaymentReminderEmails": "on",
+            "UpgradeProratePrecision": "seconds",
+            "InvoiceCustomReminder": null,
+            "StockProductVisibility": "follow"
+        }
+    },
+    "addons": {
+        "5": {
+            "id": "52",
+            "name": "Addon : Premium Managed",
+            "parentmod": ""
+        }
+    },
+    "tasks": [],
+    "widgets": [
+        {
+            "id": "1091",
+            "widget": "virtualizor_access",
+            "name": "Control Panel",
+            "location": "includes\/modules\/Hosting\/virtualizor\/widgets\/virtualizor_access\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/types\/widgets\/accesscpanel\/small.png",
+                "bigimg": "includes\/types\/widgets\/accesscpanel\/small.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "105",
+            "override_defaults": "0",
+            "target_id": "1086",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "1106",
+            "widget": "virtualizor_installcp",
+            "name": "Install Control Panel",
+            "location": "includes\/modules\/Hosting\/virtualizor\/widgets\/virtualizor_installcp\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/types\/widgets\/accesscpanel\/small.png",
+                "bigimg": "includes\/types\/widgets\/accesscpanel\/small.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "106",
+            "override_defaults": "0",
+            "target_id": "1086",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        }
+    ],
+    "forms": [
+        {
+            "id": "3155",
+            "type": "slider",
+            "required": "0",
+            "name": "Disk Size [GB]",
+            "key": "cf_hdd",
+            "variable": "disk_size",
+            "description": "",
+            "category": "server",
+            "product_id": "1086",
+            "copy_of": "3155",
+            "options": "50",
+            "config": {
+                "conditionals": [],
+                "minvalue": "30",
+                "maxvalue": "100",
+                "step": "10",
+                "initialval": "30",
+                "dontchargedefault": "1"
+            },
+            "sort_order": "0",
+            "group_id": "0",
+            "ftype": "slider",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8214",
+                    "category_id": "3155",
+                    "copy_of": "8214",
+                    "pricing": true,
+                    "paytype": "Resources",
+                    "scheme": "tiered",
+                    "prices": [
+                        {
+                            "id": "859",
+                            "item_id": "8214",
+                            "qty": "30",
+                            "qty_max": "100",
+                            "m_setup": "0.00",
+                            "q_setup": "0.00",
+                            "s_setup": "0.00",
+                            "a_setup": "0.00",
+                            "b_setup": "0.00",
+                            "t_setup": "0.00",
+                            "p4_setup": "0.00",
+                            "p5_setup": "0.00",
+                            "d_setup": "0.00",
+                            "w_setup": "0.00",
+                            "h_setup": "0.00",
+                            "m": "0.00",
+                            "q": "0.00",
+                            "s": "0.00",
+                            "a": "0.00",
+                            "b": "0.00",
+                            "t": "0.00",
+                            "p4": "0.00",
+                            "p5": "0.00",
+                            "d": "0.00",
+                            "w": "0.00",
+                            "h": "0.00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3156",
+            "type": "slider",
+            "required": "0",
+            "name": "CPU Cores",
+            "key": "cf_cpu",
+            "variable": "cpu_cores",
+            "description": "",
+            "category": "server",
+            "product_id": "1086",
+            "copy_of": "3156",
+            "options": "50",
+            "config": {
+                "conditionals": [],
+                "minvalue": "1",
+                "maxvalue": "8",
+                "step": "1",
+                "initialval": "1",
+                "dontchargedefault": "1"
+            },
+            "sort_order": "1",
+            "group_id": "0",
+            "ftype": "slider",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8215",
+                    "category_id": "3156",
+                    "copy_of": "8215",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "3163",
+            "type": "slider",
+            "required": "0",
+            "name": "RAM [GB]",
+            "key": "cf_memory",
+            "variable": "memory",
+            "description": "",
+            "category": "server",
+            "product_id": "1086",
+            "copy_of": "3163",
+            "options": "50",
+            "config": {
+                "conditionals": [],
+                "minvalue": "1",
+                "maxvalue": "16",
+                "step": "1",
+                "initialval": "1",
+                "dontchargedefault": "1"
+            },
+            "sort_order": "2",
+            "group_id": "0",
+            "ftype": "slider",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8222",
+                    "category_id": "3163",
+                    "copy_of": "8222",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "3150",
+            "type": "input",
+            "required": "0",
+            "name": "Max concurrent",
+            "key": "",
+            "variable": "max_concurrent",
+            "description": "",
+            "category": "",
+            "product_id": "1086",
+            "copy_of": "3150",
+            "options": "2",
+            "config": {
+                "initialval": ""
+            },
+            "sort_order": "3",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8208",
+                    "category_id": "3150",
+                    "copy_of": "8208"
+                }
+            ]
+        },
+        {
+            "id": "3145",
+            "type": "input",
+            "required": "0",
+            "name": "Additional IP Address",
+            "key": "",
+            "variable": "additional_ip_address",
+            "description": "",
+            "category": "",
+            "product_id": "1086",
+            "copy_of": "3145",
+            "options": "0",
+            "config": {
+                "initialval": ""
+            },
+            "sort_order": "4",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8189",
+                    "category_id": "3145",
+                    "copy_of": "8189"
+                }
+            ]
+        },
+        {
+            "id": "3141",
+            "type": "select",
+            "required": "0",
+            "name": "\u0e02\u0e2d\u0e07 Internal Netway \u0e40\u0e2d\u0e07",
+            "key": "",
+            "variable": "netway",
+            "description": "",
+            "category": "",
+            "product_id": "1086",
+            "copy_of": "3141",
+            "options": "5",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "5",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8184",
+                    "category_id": "3141",
+                    "name": "\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48",
+                    "copy_of": "8184"
+                },
+                {
+                    "id": "8185",
+                    "category_id": "3141",
+                    "name": "\u0e43\u0e0a\u0e48",
+                    "variable_id": "1",
+                    "sort_order": "1",
+                    "copy_of": "8185"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

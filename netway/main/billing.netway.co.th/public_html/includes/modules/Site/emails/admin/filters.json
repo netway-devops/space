@@ -1,0 +1,14 @@
+{
+  "lastname": {
+    "lang": "clientname",
+    "type": "input"
+  },
+  "subject": {
+    "lang": "Subject",
+    "type": "input"
+  },
+  "message": {
+    "lang": "Message",
+    "type": "input"
+  }
+}

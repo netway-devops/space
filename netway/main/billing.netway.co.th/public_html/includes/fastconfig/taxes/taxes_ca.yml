@@ -1,0 +1,30 @@
+country: CA
+tax:
+  -
+    name: GST
+    level: 1
+    rate: 12
+    countries:
+      - CA
+    state: British Columbia
+  -
+    name: GST
+    level: 1
+    rate: 13
+    countries:
+      - CA
+    state: Ontario, New Brunswick, Newfoundland
+  -
+    name: GST
+    level: 1
+    rate: 15
+    countries:
+      - CA
+    state: Nova Scotia
+  -
+    name: GST
+    level: 1
+    rate: 5
+    countries:
+      - CA
+    state: Alberta,Manitoba,Northwest Territories,Nunavut,Prince Edward Island,Quebec,Saskatchewan,Yukon Territory

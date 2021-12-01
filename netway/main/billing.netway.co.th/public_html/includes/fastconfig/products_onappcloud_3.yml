@@ -1,0 +1,145 @@
+---
+name: Flexible,DIY Cloud Hosting Package
+description: With this set of options your customer will be able to set his cloud based on his own needs- resource can be set by configuration options (sliders) during order process, you can decide which options should be defined by client.
+items:
+  -
+    name: Flexible Cloud
+    paytype: Regular
+    m: 1.0
+    module: class.onapp.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 10
+      AutoSuspensionPeriod: 1
+      EnableAutoUnSuspension: on
+      EnableAutoSuspension: on
+      SendPaymentReminderEmails: on
+    options:
+      option1: 2
+      option3: 256
+      option4: 1
+      option5: 20
+      option6: 20
+      option7:
+      option8: 1
+      option9: 20
+      option10: Multiple Machines, full management
+      option11: No
+      option12: 1
+      option13: 1
+      option14: 10
+      option15: 5
+      option16: 2
+      option18: 2
+      option17: 5
+    customs:
+      -
+        type: slider
+        name: CPUs
+        key: cf_cpu
+        variable: cpu
+        description:
+        category: server
+        options: 2
+        config:
+          minvalue: 1
+          maxvalue: 12
+          step: 1
+          initialval: 1
+        items:
+          -
+            name:
+            m: 15.00
+            pricing: 1
+      -
+        type: slider
+        name: 'RAM [MB]'
+        key: cf_memory
+        variable: memory
+        description:
+        category: server
+        options: 2
+        config:
+          minvalue: 256
+          maxvalue: 16384
+          step: 256
+          initialval: 512
+        items:
+          -
+            name:
+            m: 0.01
+            pricing: 1
+      -
+        type: slider
+        name: 'Disk Size [GB]'
+        key: cf_hdd
+        variable: disk_size
+        description:
+        category: server
+        options: 2
+        config:
+          minvalue: 5
+          maxvalue: 500
+          step: 5
+          initialval: 20
+        items:
+          -
+            name:
+            m: 0.40
+            pricing: 1
+      -
+        type: slider
+        name: 'Port Speed [Mbps]'
+        key: cf_bandwidth
+        variable: rate
+        description:
+        category: network
+        options: 2
+        config:
+          minvalue: 10
+          maxvalue: 500
+          step: 10
+          initialval: 20
+        items:
+          -
+            name:
+            m: 1.00
+            pricing: 1
+      -
+        type: slider
+        name: IP Addresses
+        key: cf_ip
+        variable: ip_address
+        description:
+        category: network
+        options: 2
+        config:
+          minvalue: 1
+          maxvalue: 50
+          step: 1
+          initialval: 1
+        items:
+          -
+            name:
+            m: 1.00
+            pricing: 1
+      -
+        type: slider
+        name: 'Backup Space [GB]'
+        key: cf_hdd
+        variable: storage_disk_size
+        description:
+        category: server
+        options: 2
+        config:
+          minvalue: 5
+          maxvalue: 500
+          step: 5
+          initialval: 20
+        items:
+          -
+            name:
+            m: 0.40
+            pricing: 1

@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * HostBill failed to delete domain at registry
+ * Following variable is available to use in this file:  $details
+ *
+ * $details = array('id'=>RELATED DOMAIN ID IN HOSTBILL,
+ * 'name'=>DOMAIN NAME
+ * 'error'=> 'Error from module if any');
+ */

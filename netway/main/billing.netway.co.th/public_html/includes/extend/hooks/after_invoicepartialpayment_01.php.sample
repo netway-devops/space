@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * Partial payment to invoice has been applied
+ * NOTE: Applying partial payment doesnt mean that invoice was fully paid.
+ * Following variable is available to use in this file:  $details This variable keeps invoice id that payment was applied for
+ */

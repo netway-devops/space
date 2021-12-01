@@ -1,0 +1,39 @@
+{
+  "number": {
+    "lang": "ordernumber",
+    "type": "input"
+  },
+  "date_created": {
+    "lang": "Date",
+    "type": "datepicker"
+  },
+  "lastname": {
+    "lang": "clientname",
+    "type": "input"
+  },
+  "balance": {
+    "lang": "paymentstatus",
+    "type": "select",
+    "options": [
+      {
+        "value": "Incomplete",
+        "lang": "Incomplete"
+      },
+      {
+        "value": "Completed",
+        "lang": "Completed"
+      }
+    ]
+  },
+  "payment_module": {
+    "lang": "paymethod",
+    "type": "select",
+    "options": []
+  },
+  "staff_member_id": {
+    "lang": "staffownership",
+    "type": "select",
+    "options": [],
+    "class": "chosenedge"
+  }
+}

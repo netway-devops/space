@@ -1,0 +1,129 @@
+---
+name: 4 VPS packages
+description: 4 premade VPS packages for single-machine type of products. One order = 1 virtual machine, client can pick OS template during checkout.
+items:
+  -
+    name: VPS 512
+    paytype: Regular
+    m: 5.95
+    module: class.onapp.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 10
+      EnableAutoUnSuspension: on
+      AutoSuspensionPeriod: 1
+      EnableAutoSuspension: on
+      SendPaymentReminderEmails: on
+    options:
+      option1: 2
+      option3: 512
+      option4: 1
+      option5: 1
+      option6: 20
+      option7:
+      option8: 1
+      option9: 10
+      option10: Single Machine, autocreation
+      option11: No
+      option12: 1
+      option13: 1
+      option14: 1
+      option15: 5
+      option16: 2
+      option18: 2
+      option17: 1
+  -
+    name: VPS 1024
+    paytype: Regular
+    m: 9.95
+    module: class.onapp.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 10
+      AutoSuspensionPeriod: 1
+      EnableAutoSuspension: on
+      SendPaymentReminderEmails: on
+    options:
+      option1: 2
+      option3: 1024
+      option4: 1
+      option5: 2
+      option6: 30
+      option7:
+      option8: 1
+      option9: 20
+      option10: Single Machine, autocreation
+      option11: No
+      option12: 1
+      option13: 1
+      option14: 1
+      option15: 5
+      option16: 2
+      option18: 2
+      option17: 1
+  -
+    name: VPS 2048
+    paytype: Regular
+    m: 19.95
+    module: class.onapp.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 10
+      AutoSuspensionPeriod: 1
+      EnableAutoSuspension: on
+      SendPaymentReminderEmails: on
+    options:
+      option1: 2
+      option3: 2048
+      option4: 2
+      option5: 4
+      option6: 100
+      option7:
+      option8: 1
+      option9: 100
+      option10: Single Machine, autocreation
+      option11: No
+      option12: 1
+      option13: 2
+      option14: 1
+      option15: 5
+      option16: 2
+      option18: 2
+      option17: 1
+  -
+    name: VPS 3072
+    paytype: Regular
+    m: 39.95
+    module: class.onapp.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 10
+      AutoSuspensionPeriod: 1
+      EnableAutoSuspension: on
+      SendPaymentReminderEmails: on
+    options:
+      option1: 2
+      option3: 3072
+      option4: 3
+      option5: 6
+      option6: 200
+      option7:
+      option8: 1
+      option9: 500
+      option10: Single Machine, autocreation
+      option11: No
+      option12: 1
+      option13: 2
+      option14: 1
+      option15: 5
+      option16: 2
+      option18: 2
+      option17: 1

@@ -1,0 +1,45 @@
+.f-span{
+    margin-left: 5px;
+    padding-top: 1px;
+}
+.f-textarea{
+    min-width: 425px;
+    max-width: 425px;
+}
+.change_div > label{
+    padding: 3px;
+}
+.autoreply-number{
+    width: 40px !important;
+}
+.alias_label{
+    padding: 3px;
+}
+.alias_remove{
+    margin-left: 7px;
+    cursor: pointer;
+}
+.column1{
+    width: 30%;
+    text-align: right;
+    display: inline-block;
+}
+.column2{
+    width: 70%;
+}
+.column2 >input[type='password']{
+    width: 50%;
+}
+.label_row{
+    width: 100%;
+}
+.autoreply-text{
+    min-width: 285px;
+    max-width: 285px;
+    min-height: 145px;
+}
+#text_forwarding{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+

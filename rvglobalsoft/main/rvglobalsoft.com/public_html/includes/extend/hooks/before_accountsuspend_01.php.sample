@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Account is about to be suspended
+ * Throw exception here to stop it from suspending
+ * Following variable is available to use in this file:  $details An array with following keys/values:
+ * $details['id'] - account id
+ * $details['account'] - account data from hb_accounts table
+ */

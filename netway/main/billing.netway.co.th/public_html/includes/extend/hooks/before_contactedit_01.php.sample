@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * Client triest to update contact in his profile. return false here (boolean) to stop saving contact (block it)
+ *
+ * Following variable is available to use in this file:  $details Contains posted form fields values. Its keys may vary depending on your registration fields
+ * Some of keys available (note: if you have custom registration fields they may differ):
+ * $details['firstname']; //
+ * $details['lastname']; //
+ * $details['password']; //
+ * $details['password2']; //
+ * $details['email']; //
+ * $details['address1']; //
+ * $details['address2']; //
+ * $details['city']; //
+ * $details['state']; //
+ * $details['postcode']; //
+ * $details['country']; //
+ * $details['phonenumber']; //
+ */

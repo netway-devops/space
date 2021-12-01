@@ -1,0 +1,22 @@
+{
+  "used": "Used",
+  "Free": "Free",
+  "utilised": "Utilised",
+  "disk_total": "Disk Total",
+  "disk_usage": "Disk Usage",
+  "inode_total": "Total Inodes",
+  "inode_usage": "Inode Usage",
+  "memory_usage": "Memory Usage",
+  "burstable_ram": "Burstable RAM",
+  "cpu_usage": "CPU Usage",
+  "cpu_total": "Total CPU",
+  "networkcharts": "Network Usage",
+  "bandwidth_total": "Total Bandwidth",
+  "bandwidth_in": "In",
+  "bandwidth_out": "Out",
+  "netspeed_total": "Total speed",
+  "netspeed_in": "Download speed",
+  "netspeed_out": "Upload speed",
+  "netspeedavg_in": "Average Download Speed",
+  "netspeedavg_out": "Average Upload Speed"
+}

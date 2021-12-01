@@ -1,0 +1,36 @@
+name: Small set of fields
+description: To speed-up signup process you can use this profile with minimum required set of options
+fields:
+  -
+    code: firstname
+    name: First Name
+  -
+    code: lastname
+    name: Last Name
+  -
+    code: phonenumber
+    name: Phone
+  -
+    code: companyname
+    name: Company Name
+  -
+    code: email
+    name: Email Address
+  -
+    code: password
+    name: Password
+  -
+    code: address1
+    name: Address 1
+  -
+    code: city
+    name: City
+  -
+    code: state
+    name: State
+  -
+    code: postcode
+    name: Post Code
+  -
+    code: country
+    name: Country

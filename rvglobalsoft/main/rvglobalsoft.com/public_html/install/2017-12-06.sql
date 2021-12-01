@@ -1,0 +1,2 @@
+REPLACE INTO `hb_language_locales` (`language_id`,`section`,`keyword`,`value`)
+  SELECT id, 'global', 'payment_already_submitted', 'Payment for this invoice has already started. It may take a little while to process. If the process will not be completed within 5 min, please try again' FROM hb_language WHERE target='user'

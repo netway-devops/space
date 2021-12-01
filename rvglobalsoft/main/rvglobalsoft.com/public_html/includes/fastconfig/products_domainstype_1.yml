@@ -1,0 +1,85 @@
+---
+name: Popular domain extensions
+description: 'Creates list of 10 most popular domain extensions. Note: You can set-up one extension pricing/automation and duplicate it to other extensions with one click'
+items:
+  -
+    name: .com
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .net
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .org
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .me
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .mobi
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .us
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .co
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .biz
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95
+  -
+    name: .co.uk
+    paytype: DomainRegular
+    autosetup: 2
+    periods:
+      1:
+        register: 9.95
+        transfer: 9.95
+        renew: 9.95

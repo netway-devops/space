@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Customer rated ticket
+ * $details = array(
+ * 'ticket_number'=>RELATED TICKET NUMBER,
+ * 'client_id'=>CLIENT ID,
+ * 'rating'=> RATING
+ * 'comment'=>RATING COMMENT)
+ * Following variable is available to use in this file:  $details
+ */

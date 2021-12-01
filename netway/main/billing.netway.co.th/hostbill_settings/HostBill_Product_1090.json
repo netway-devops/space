@@ -1,0 +1,376 @@
+{
+    "product": {
+        "id": "1090",
+        "category_id": "114",
+        "type": "21",
+        "name": "LB High (HA) Plan 2",
+        "description": "<ul><\/ul>",
+        "visible": "1",
+        "domain_options": "0",
+        "qty": "0",
+        "autosetup": "2",
+        "subdomain": "",
+        "tax": "1",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "1",
+        "autohostname": "",
+        "p_options": [
+            "64"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": "LB High (HA) Plan 2",
+        "contract_id": "0",
+        "dbcItemType": "Inventory",
+        "baseUnitOfMeasureCode": "MONTH",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "3",
+        "line_group_id": "5",
+        "codeName": "LBV2",
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "Regular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": 0,
+        "m": "2000.00",
+        "q": "6000.00",
+        "s": "11400.00",
+        "a": "21600.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": 0,
+        "ptype": "vmware5type",
+        "tlds": null,
+        "periods": null,
+        "category_name": "Loadbalancer VMware",
+        "module": "157",
+        "main": "1",
+        "modname": "VMware 5",
+        "filename": "class.vmware5.php",
+        "domain_op": [],
+        "free_domain": "0",
+        "emails": {
+            "AfterModuleTerminate": "0",
+            "ProductAccountCreated": "0",
+            "SuspendAccount": "162",
+            "UnsuspendAccount": "9"
+        },
+        "a_upgrade": "0.00",
+        "m_upgrade": "0.00",
+        "q_upgrade": "0.00",
+        "s_upgrade": "0.00",
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Hosting",
+        "modules": [
+            {
+                "product_id": "1090",
+                "main": 1,
+                "modname": "VMware 5",
+                "filename": "class.vmware5.php",
+                "module": "157",
+                "options": {
+                    "userRole": "Admin",
+                    "datacenterName": "NW-DC",
+                    "datastoreName": "Prod-01",
+                    "hostName": "203.78.107.46",
+                    "resourcePoolName": "Resources",
+                    "guestOs": "CentOS 4\/5\/6\/7 (64-bit)",
+                    "isoDatastorePath": "",
+                    "numCPUs": "2",
+                    "memoryMB": "2048",
+                    "diskSpaceGB": "30",
+                    "dataStoreFolder": "",
+                    "vmTemplate": "CentOS7-Loadbalancer4000"
+                },
+                "default": {
+                    "userRole": "Admin",
+                    "datacenterName": "NW-DC",
+                    "datastoreName": "Prod-01",
+                    "hostName": "203.78.107.46",
+                    "resourcePoolName": "Resources",
+                    "guestOs": "CentOS 4\/5\/6\/7 (64-bit)",
+                    "isoDatastorePath": "",
+                    "numCPUs": "2",
+                    "memoryMB": "2048",
+                    "diskSpaceGB": "30",
+                    "dataStoreFolder": "",
+                    "vmTemplate": "CentOS7-Loadbalancer4000"
+                },
+                "server": {
+                    "151": "151"
+                }
+            }
+        ],
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1OverdueReminder": "1",
+            "1ServiceReminder": "0",
+            "2OverdueReminder": "5",
+            "2ServiceReminder": "0",
+            "3OverdueReminder": "0",
+            "3ServiceReminder": "0",
+            "4ServiceReminder": "0",
+            "5ServiceReminder": "0",
+            "AddLateFeeAfter": "6",
+            "AdsjustDatesOnCreation": "on",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidInvoices": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoProcessCancellations": "off",
+            "AutoSuspensionPeriod": "15",
+            "AutoTerminationPeriod": "30",
+            "BillFullMonth": "0",
+            "CancellationPostPaidProrata": "off",
+            "CancellationTypeEndPeriod": "on",
+            "CancellationTypeImmediate": "on",
+            "CreditOnDowngradeOverride": "",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoCreation": "2",
+            "EnableAutoRenewService": "on",
+            "EnableAutoSuspension": "on",
+            "EnableAutoTermination": "off",
+            "EnableAutoUnSuspension": "on",
+            "EnableAutoUpgrades": "on",
+            "EnableProRata": "off",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "7",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "MoveDueDays": "0",
+            "ProRataDay": "1",
+            "ProRataMonth": "disabled",
+            "ProRataNextMonth": "0",
+            "RecurringBillingType": "PrePay",
+            "RenewInvoice": "1",
+            "ReturnToStockOnTerminate": "0",
+            "SendPaymentReminderEmails": "on",
+            "UpgradeProratePrecision": "seconds",
+            "InvoiceCustomReminder": null,
+            "StockProductVisibility": "follow"
+        }
+    },
+    "addons": {
+        "5": {
+            "id": "52",
+            "name": "Addon : Premium Managed",
+            "parentmod": ""
+        }
+    },
+    "tasks": [],
+    "widgets": [],
+    "forms": [
+        {
+            "id": "3170",
+            "type": "slider",
+            "required": "0",
+            "name": "Disk Size [GB]",
+            "key": "cf_hdd",
+            "variable": "disk_size",
+            "description": "",
+            "category": "server",
+            "product_id": "1090",
+            "copy_of": "3170",
+            "options": "50",
+            "config": {
+                "conditionals": [],
+                "minvalue": "30",
+                "maxvalue": "100",
+                "step": "10",
+                "initialval": "30",
+                "dontchargedefault": "1"
+            },
+            "sort_order": "1",
+            "group_id": "0",
+            "ftype": "slider",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8230",
+                    "category_id": "3170",
+                    "copy_of": "8230",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "3171",
+            "type": "slider",
+            "required": "0",
+            "name": "CPU Cores",
+            "key": "cf_cpu",
+            "variable": "cpu_cores",
+            "description": "",
+            "category": "server",
+            "product_id": "1090",
+            "copy_of": "3171",
+            "options": "50",
+            "config": {
+                "conditionals": [],
+                "minvalue": "1",
+                "maxvalue": "8",
+                "step": "1",
+                "initialval": "2",
+                "dontchargedefault": "1"
+            },
+            "sort_order": "2",
+            "group_id": "0",
+            "ftype": "slider",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8231",
+                    "category_id": "3171",
+                    "copy_of": "8231",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "3172",
+            "type": "slider",
+            "required": "0",
+            "name": "RAM [GB]",
+            "key": "cf_memory",
+            "variable": "memory",
+            "description": "",
+            "category": "server",
+            "product_id": "1090",
+            "copy_of": "3172",
+            "options": "50",
+            "config": {
+                "conditionals": [],
+                "minvalue": "1",
+                "maxvalue": "16",
+                "step": "1",
+                "initialval": "2",
+                "dontchargedefault": "1"
+            },
+            "sort_order": "3",
+            "group_id": "0",
+            "ftype": "slider",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8232",
+                    "category_id": "3172",
+                    "copy_of": "8232",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "3173",
+            "type": "input",
+            "required": "0",
+            "name": "Max concurrent",
+            "key": "",
+            "variable": "max_concurrent",
+            "description": "",
+            "category": "",
+            "product_id": "1090",
+            "copy_of": "3173",
+            "options": "2",
+            "config": {
+                "initialval": ""
+            },
+            "sort_order": "4",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8233",
+                    "category_id": "3173",
+                    "copy_of": "8233"
+                }
+            ]
+        },
+        {
+            "id": "3174",
+            "type": "input",
+            "required": "0",
+            "name": "Additional IP Address",
+            "key": "",
+            "variable": "additional_ip_address",
+            "description": "",
+            "category": "",
+            "product_id": "1090",
+            "copy_of": "3174",
+            "options": "0",
+            "config": {
+                "initialval": ""
+            },
+            "sort_order": "5",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8234",
+                    "category_id": "3174",
+                    "copy_of": "8234"
+                }
+            ]
+        },
+        {
+            "id": "3175",
+            "type": "select",
+            "required": "0",
+            "name": "\u0e02\u0e2d\u0e07 Internal Netway \u0e40\u0e2d\u0e07",
+            "key": "",
+            "variable": "netway",
+            "description": "",
+            "category": "",
+            "product_id": "1090",
+            "copy_of": "3175",
+            "options": "5",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "6",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8235",
+                    "category_id": "3175",
+                    "name": "\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48",
+                    "variable_id": "\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48",
+                    "copy_of": "8235"
+                },
+                {
+                    "id": "8236",
+                    "category_id": "3175",
+                    "name": "\u0e43\u0e0a\u0e48",
+                    "variable_id": "1",
+                    "sort_order": "1",
+                    "copy_of": "8236"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

@@ -1,0 +1,42 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/cart_premade/img/howto.png'
+  name: View editable areas
+  type: link
+premade:
+  value: 
+  name: Premade configuration
+  type: premade
+features:
+  value: Hot features
+  name: Features header
+  type: input
+footer1head:
+  value: Complete
+  name: Left block header
+  description: This phrase will be displayed below package list
+  type: input
+footer1text:
+  name: Left block text
+  type: textarea
+  value: Over 2000 companies around the globe including hosting companies, Cloud/IaaS/VPS Solutions Providers, Domain name and SSL Resellers use HostBill to manage their online business.
+footer2head:
+  value: Hosting Automation
+  name: Middle block header
+  description: This phrase will be displayed below package list
+  type: input
+footer2text:
+  name: Middle block text
+  type: textarea
+  value: With HostBill you can create, suspend, unsuspend and terminate accounts automatically. We support more than 30 Hosting Control Panels.
+footer3head:
+  value: 70+ payment gateways
+  name: Right block header
+  description: This phrase will be displayed below package list
+  type: input
+footer3text:
+  name: Right block text
+  type: textarea
+  value: Enable Payment Processor. Create invoice and send to client. HostBill supports more than 70+ payment gateways 

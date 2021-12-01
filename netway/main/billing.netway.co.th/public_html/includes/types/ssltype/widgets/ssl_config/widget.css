@@ -1,0 +1,54 @@
+.csr-textarea{
+    min-width: 38em;
+    min-height: 310px;
+    background: #f3f5f3;
+    font-family: monospace;
+    font-size: 1em;
+    resize: vertical;
+}
+
+.widget-container {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.widget-container::after{
+    content:" ";
+    display: table;
+    clear: both;
+}
+.widget-container [class^=grid-]{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.widget-container .grid-6 {
+    width: 50%;
+}
+.widget-container .grid-12 {
+    width: 100%;
+}
+.widget-container .form-control {
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+}
+.widget-container .contacts{
+    margin-bottom: 25px;
+}
+.form-group.required label::after{
+    content:"*";
+    color: red;
+}
+
+@media (max-width: 767px){
+    .widget-container [class^=grid-]{
+        width: 100%;
+    }
+    .widget-container{
+        margin: 15px 0 0;
+    }
+}

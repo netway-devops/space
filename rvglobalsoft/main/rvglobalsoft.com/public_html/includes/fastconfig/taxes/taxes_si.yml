@@ -1,0 +1,90 @@
+country: SI
+tax:
+  -
+    name: VAT
+    level: 1
+    rate: 23
+    countries:
+      - PL
+      - PT
+      - IE
+    state: 0
+  -
+    name: VAT
+    level: 1
+    rate: 21
+    countries:
+      - BE
+      - CZ
+      - ES
+      - LV
+      - LT
+      - NL
+    state: 0
+  -
+    name: VAT
+    level: 1
+    rate: 22
+    countries:
+      - IT
+      - SI
+    state: 0
+  -
+    name: VAT
+    level: 1
+    rate: 19
+    countries:
+      - DE
+      - CY
+      - RO
+    state: 0
+  -
+    name: VAT
+    level: 1
+    rate: 17
+    countries:
+      - LU
+    state: 0
+  -
+    name: VAT
+    level: 1
+    rate: 25
+    countries:
+      - DK
+      - HR
+      - SE
+    state: 0
+  -
+    name: VAT
+    level: 1
+    rate: 24
+    countries:
+      - FI
+      - GR
+    state: 0
+  -
+    name: VAT
+    level: 1
+    rate: 27
+    countries:
+      - HU
+    state: 0
+  -
+    name: VAT
+    level: 1
+    rate: 18
+    countries:
+      - MT
+    state: 0
+  -
+    name: VAT
+    level: 1
+    rate: 20
+    countries:
+      - GB
+      - BG
+      - EE
+      - FR
+      - AT
+      - SK
+    state: 0

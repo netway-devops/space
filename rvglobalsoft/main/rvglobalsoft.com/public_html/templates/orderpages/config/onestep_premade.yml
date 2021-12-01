@@ -1,0 +1,11 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/onestep_premade/howto.png'
+  name: View editable areas
+  type: link
+premade:
+  value: 
+  name: Premade configuration
+  type: premade

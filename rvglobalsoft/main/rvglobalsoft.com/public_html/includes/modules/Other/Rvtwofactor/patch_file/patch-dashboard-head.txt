@@ -1,0 +1,22 @@
+<rvtwofactorcode>
+{php}
+    if (isset($_GET)) {
+        foreach ($_GET as $k => $v) {
+           $this->_tpl_vars['REQUEST'][$k] = "{$v}";
+        }
+    }
+    
+    if(isset($_POST)) {
+        foreach ($_POST as $k => $v) {
+           $this->_tpl_vars['REQUEST'][$k] = "{$v}";
+        }
+    } 
+{/php}
+
+{if $REQUEST.rvaction=='twofactor'}
+	{php}
+		include_once $this->template_dir . 'twofactor/twofactor-list.tpl.php';
+	{/php}
+{else}
+</rvtwofactorcode>
+

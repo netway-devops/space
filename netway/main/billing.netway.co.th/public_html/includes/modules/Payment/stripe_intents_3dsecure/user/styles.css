@@ -1,0 +1,225 @@
+.payform_card-element {
+    margin: 10px 0;
+    box-sizing: border-box;
+    height: auto !important;
+    max-width: 600px;
+    padding: 10px 12px !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+    background-color: white !important;
+    box-shadow: 0 1px 3px 0 #babec3 !important;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+}
+
+.payform_card-element:last-child {
+    margin-bottom: 30px;
+}
+
+input.payform_card-element {
+    outline: 0;
+}
+
+input.payform_card-element:focus {
+    color: #424770;
+}
+
+input.payform_card-element::placeholder {
+    color: #9BACC8;
+}
+
+input.payform_card-element:focus::placeholder {
+    color: #CFD7DF;
+}
+
+input.payform_card-element {
+    margin-bottom: 20px;
+}
+
+.stripe-box .stripe-error {
+    display: none;
+    margin: 20px 0;
+}
+
+.stripe-box .stripe-error.visible {
+    display: block;
+}
+
+.stripe-box .stripe-error svg {
+    margin-right: 10px;
+}
+
+.stripe-box .stripe-error svg .base {
+    fill: #e25950;
+}
+
+.stripe-box .stripe-error svg .glyph {
+    fill: #f6f9fc;
+}
+
+.stripe-box .stripe-error .stripe-error-message {
+    color: #e25950;
+}
+
+.stripe-box .stripe-success .icon .border {
+    stroke: #3397dc;
+}
+
+.stripe-box .stripe-success .icon .checkmark {
+    stroke: #0073b1;
+}
+
+.stripe-box .stripe-success .title {
+    color: #32325d;
+}
+
+.stripe-box .stripe-success .message {
+    color: #8898aa;
+}
+
+.stripe-box .stripe-success .reset path {
+    fill: #d782d9;
+}
+
+.stripe-box .stripe-success {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stripe-box .stripe-success > * {
+    transition-property: opacity, transform;
+    transition-duration: 0.35s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.stripe-box .stripe-success .icon {
+    margin: 15px 0 30px;
+    transform: translateY(70px) scale(0.75);
+}
+
+.stripe-box .stripe-success .icon svg {
+    will-change: transform;
+}
+
+.stripe-box .stripe-success .icon .border {
+    stroke-dasharray: 251;
+    stroke-dashoffset: 62.75;
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation: spin 1s linear infinite;
+}
+
+.stripe-box .stripe-success .icon .checkmark {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 60;
+    transition: stroke-dashoffset 0.35s cubic-bezier(0.165, 0.84, 0.44, 1) 0.35s;
+}
+
+.stripe-box .stripe-success .title {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.stripe-box .stripe-success .message {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 1.6em;
+}
+
+.stripe-box .stripe-success .message span {
+    font-size: inherit;
+}
+
+.stripe-box .stripe-success .reset:active {
+    transition-duration: 0.15s;
+    transition-delay: 0s;
+    opacity: 0.65;
+}
+
+.stripe-box .stripe-success .reset svg {
+    will-change: transform;
+}
+
+.stripe-box.submitted .stripe-success,
+.stripe-box.submitting .stripe-success {
+    display: flex;
+}
+
+.stripe-box.submitted form,
+.stripe-box.submitting form {
+    opacity: 0;
+    transform: scale(0.9);
+    pointer-events: none;
+}
+
+.stripe-box.submitted .stripe-success,
+.stripe-box.submitting .stripe-success {
+    pointer-events: all;
+}
+
+.stripe-box.submitting .stripe-success .icon {
+    opacity: 1;
+}
+
+.stripe-box.submitted .stripe-success > * {
+    opacity: 1;
+    transform: none !important;
+}
+
+.stripe-box.submitted .stripe-success > :nth-child(2) {
+    transition-delay: 0.1s;
+}
+
+.stripe-box.submitted .stripe-success > :nth-child(3) {
+    transition-delay: 0.2s;
+}
+
+.stripe-box.submitted .stripe-success > :nth-child(4) {
+    transition-delay: 0.3s;
+}
+
+.stripe-box.submitted .stripe-success .icon .border,
+.stripe-box.submitted .stripe-success .icon .checkmark {
+    opacity: 1;
+    stroke-dashoffset: 0 !important;
+}
+
+.btn-paynow2 {
+    display: block;
+    width: 100%;
+    height: 37px;
+    background-color: #2ECC71;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-paynow2[disabled] {
+    background-color: #bbb;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes void-animation-out {
+    0%, to {
+        opacity: 1;
+    }
+}

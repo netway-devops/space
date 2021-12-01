@@ -1,0 +1,747 @@
+---
+- 
+  type: select
+  required: 0
+  name: Billing Method
+  variable: bandwidth_method
+  options: 2
+  config: 
+    conditionals: 
+      1: 
+        val: 2780
+        action: hide
+        target: 128
+        targetname: Burstable Bandwidth
+        targetval: 
+      2: 
+        val: 2780
+        action: hide
+        target: 129
+        targetname: Unmetered Bandwidth
+        targetval: 
+      3: 
+        val: 2781
+        action: hide
+        target: 127
+        targetname: Metered Bandwidth
+        targetval: 
+      4: 
+        val: 2781
+        action: hide
+        target: 129
+        targetname: Unmetered Bandwidth
+        targetval: 
+      5: 
+        val: 2782
+        action: hide
+        target: 127
+        targetname: Metered Bandwidth
+        targetval: 
+      6: 
+        val: 2782
+        action: hide
+        target: 128
+        targetname: Burstable Bandwidth
+        targetval: 
+  sort_order: 1
+  ftype: select
+  premade: true
+  items: 
+    - 
+      name: Metered
+      variable_id: total
+      sort_order: 0
+      pricing: 0
+    - 
+      name: Burstable (95th Percentile)
+      variable_id: 95th
+      sort_order: 1
+      pricing: 0
+    - 
+      name: Unmetered
+      variable_id: average
+      sort_order: 2
+      pricing: 0
+- 
+  type: select
+  required: 0
+  name: Metered Bandwidth
+  key: 
+  variable: bandwidth_metered
+  description: 
+  sort_order: 2
+  options: 50
+  ftype: select
+  premade: true
+  items: 
+    - 
+      name: 500 GB
+      variable_id: 500 GB
+      sort_order: 0
+      pricing: 0
+    - 
+      name: 1000 GB
+      variable_id: 1000 GB
+      sort_order: 1
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 2.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 2000 GB
+      variable_id: 2000 GB
+      sort_order: 2
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 7.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 4000 GB
+      variable_id: 4000 GB
+      sort_order: 3
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 15.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 6000 GB
+      variable_id: 6000 GB
+      sort_order: 4
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 25.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 8000 GB
+      variable_id: 8000 GB
+      sort_order: 5
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 35.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 10 TB
+      variable_id: 10 TB
+      sort_order: 6
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 40.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 15 TB
+      variable_id: 15 TB
+      sort_order: 7
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 65.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 20 TB
+      variable_id: 20 TB
+      sort_order: 8
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 90.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 25 TB
+      variable_id: 25 TB
+      sort_order: 9
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 110.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 50 TB
+      variable_id: 50 TB
+      sort_order: 10
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 220.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+- 
+  type: select
+  required: 0
+  name: Burstable Bandwidth
+  key: 
+  variable: bandwidth_burstable
+  description: 
+  options: 50
+  config: 
+    conditionals: [ ]
+  sort_order: 3
+  ftype: select
+  premade: true
+  items: 
+    - 
+      name: 10 Mbps
+      variable_id: 10 Mbps
+      sort_order: 0
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 0.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 25 Mbps
+      variable_id: 25 Mbps
+      sort_order: 1
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 20.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 50 Mbps
+      variable_id: 50 Mbps
+      sort_order: 2
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 55.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 100 Mbps
+      variable_id: 100 Mbps
+      sort_order: 3
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 120.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 250 Mbps
+      variable_id: 250 Mbps
+      sort_order: 4
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 325.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 500 Mbps
+      variable_id: 500 Mbps
+      sort_order: 5
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 700.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 1000 Mbps
+      variable_id: 1000 Mbps
+      sort_order: 6
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 1200.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+- 
+  type: select
+  required: 0
+  name: Unmetered Bandwidth
+  key: 
+  variable: bandwidth_unmetered
+  description: 
+  options: 50
+  config: 
+    conditionals: [ ]
+  sort_order: 4
+  ftype: select
+  premade: true
+  items: 
+    - 
+      name: 100 Mbps
+      variable_id: 100 Mbps
+      sort_order: 0
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 0.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 250 Mbps
+      variable_id: 250 Mbps
+      sort_order: 1
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 170.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 500 Mbps
+      variable_id: 500 Mbps
+      sort_order: 2
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 450.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 1000 Mbps
+      variable_id: 1000 Mbps
+      sort_order: 3
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 1000.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1
+    - 
+      name: 2000 Mbps
+      variable_id: 2000 Mbps
+      sort_order: 4
+      rel: Config
+      paytype: Regular
+      m_setup: 0.00
+      q_setup: 0.00
+      s_setup: 0.00
+      a_setup: 0.00
+      b_setup: 0.00
+      t_setup: 0.00
+      p4_setup: 0.00
+      p5_setup: 0.00
+      d_setup: 0.00
+      w_setup: 0.00
+      h_setup: 0.00
+      m: 2000.00
+      q: 0.00
+      s: 0.00
+      a: 0.00
+      b: 0.00
+      t: 0.00
+      p4: 0.00
+      p5: 0.00
+      d: 0.00
+      w: 0.00
+      h: 0.00
+      pricing: 1

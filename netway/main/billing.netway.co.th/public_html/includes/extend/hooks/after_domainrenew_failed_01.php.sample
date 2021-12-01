@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * HostBill failed to renew domain
+ * Following variable is available to use in this file:  $details
+ *
+ * $details = array('id'=>RELATED DOMAIN ID IN HOSTBILL,
+ * 'name'=>DOMAIN NAME
+ * 'error'=> 'Error from module if any');
+ */

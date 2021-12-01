@@ -1,0 +1,30 @@
+.text-right{
+    text-align: right;
+}
+.currency[data-sign],
+.percent{
+    display: block;
+    position: relative;
+}
+.currency[data-sign]::before,
+.percent::after{
+    position: absolute;
+    content: attr(data-sign);
+    height: 1.5em;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 5px;
+}
+.currency[data-sign] input{
+    padding-left: 1.2em;
+}
+
+.percent::after{
+    content: "%";
+    left: auto;
+    right: 5px;
+}
+.percent input{
+    padding-right: 1.2em;
+}

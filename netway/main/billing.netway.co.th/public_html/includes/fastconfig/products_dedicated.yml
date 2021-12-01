@@ -1,0 +1,52 @@
+---
+name: 4 VPS packages
+description: 4 premade VPS packages
+items:
+  -
+    name: VPS 512
+    paytype: Regular
+    m: 5.95
+    autosetup: 2
+    domain_options: 0
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 10
+      AutoSuspensionPeriod: 1
+      EnableAutoSuspension: on
+      SendPaymentReminderEmails: on
+  -
+    name: VPS 1024
+    paytype: Regular
+    m: 9.95
+    autosetup: 2
+    domain_options: 0
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 10
+      AutoSuspensionPeriod: 1
+      EnableAutoSuspension: on
+      SendPaymentReminderEmails: on
+  -
+    name: VPS 2048
+    paytype: Regular
+    m: 19.95
+    autosetup: 2
+    domain_options: 0
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 10
+      AutoSuspensionPeriod: 1
+      EnableAutoSuspension: on
+      SendPaymentReminderEmails: on
+  -
+    name: VPS 3072
+    paytype: Regular
+    m: 39.95
+    autosetup: 2
+    domain_options: 0
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 10
+      AutoSuspensionPeriod: 1
+      EnableAutoSuspension: on
+      SendPaymentReminderEmails: on

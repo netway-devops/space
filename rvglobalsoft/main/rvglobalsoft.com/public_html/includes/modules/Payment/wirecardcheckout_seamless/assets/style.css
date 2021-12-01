@@ -1,0 +1,143 @@
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.list-group-item-heading {
+    font-weight: bold;
+}
+
+#modalDialog .modal-content, .modal-dialog {
+    width: 425px;
+}
+
+
+#processingDiv {
+    padding: 0px;
+    margin: 0px;
+    height: 425px;
+    overflow: hidden;
+}
+
+.jumbotron h3 {
+    margin-top: 0px;
+}
+
+
+.selection-payment-type {
+    height: 90px;
+}
+
+.selection-payment-type:hover,  .selected-payment-type:hover {
+    text-decoration: none;
+}
+
+
+.warnings {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.warnings .alert {
+    border-radius: 0;
+}
+
+.panel-selected {
+    background-image: -webkit-linear-gradient(top, #428bca 0%, #2d6ca2 100%);
+    background-image:         linear-gradient(to bottom, #428bca 0%, #2d6ca2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff2d6ca2', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-color: #2b669a;
+    color: #ffffff;
+}
+
+.selected-payment-method .thumbnail {
+    border-color: #428bca;
+}
+
+#processingDiv {
+    height: 445px;
+}
+
+.modal-content iframe {
+    height: 440px;
+}
+
+.form-group {
+    margin-bottom: 6px;
+}
+
+.thumbnail {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom:15px;
+}
+
+#SOFORTUEBERWEISUNG .caption {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#payment-form-CCARD > .container {
+    margin-bottom: 2px;
+}
+
+#payment-form-EPS > .container, #payment-form-IDL > .container, #payment-form-TRUSTPAY > .container {
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+#payment-form-SEPA-DD > .container {
+    margin-top: 20px;
+    margin-bottom: 21px;
+}
+
+#payment-form-PBX > .container, #payment-form-VOUCHER > .container {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+#payment-form-GIROPAY > .container {
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #modalDialog .modal-content, .modal-dialog {
+        width: 98%;
+    }
+    .modal-content iframe {
+        width: 98%;
+        height: 520px;
+    }
+
+    #processingDiv {
+        height: 525px;
+    }
+
+}
+
+#div_TRUSTPAY:not(.selected-payment-method) {
+    float: left !important;
+}
+
+a:focus {
+    outline: none;
+}
+
+@media (max-height: 767px) and (min-width: 767px) {
+    .modal-content iframe {
+        width: 99%;
+        height: 520px;
+    }
+
+    #processingDiv {
+        height: 525px;
+    }
+}

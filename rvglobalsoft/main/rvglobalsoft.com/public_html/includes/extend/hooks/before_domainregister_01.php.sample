@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * HostBill is about to take an attempt to register domain
+ * $details = array('id'=>RELATED DOMAIN ID IN HOSTBILL,
+ * 'name'=>DOMAIN NAME);
+ * Throw exception here to stop domain registration
+ * Following variable is available to use in this file:  $details
+ */

@@ -1,0 +1,2 @@
+REPLACE INTO `hb_language_locales` (`language_id`,`section`,`keyword`,`value`)
+SELECT id, 'services', 'importformsnotice', 'You can import files (.json, .yml) generated from other HostBill product to speed up configuration process' FROM hb_language WHERE target!='user';

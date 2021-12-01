@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Client was activated as an affiiate
+ * Following variable is available to use in this file:  $details contains previous and currend details.
+ * Sample $details keys available:
+ * $details['client_id']; //related client id
+ * $details['affiliate_id']; //new affiliate id
+ * $details['bonus']; //monetary bonus for becoming an affiliate, if any
+ * $details['parent_id']; //parent affiliate_id, if any
+ * $details['withdraw']; //Selected affiliate withdraw method
+ * $details['sendreport']; //Should monthly report be sent 1/0
+ */

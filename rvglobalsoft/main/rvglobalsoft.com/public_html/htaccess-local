@@ -1,0 +1,65 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^(include/misc/mod_paypal|mod_paypal)/paypal_return\.inc\.php$ paypal_return.inc.php [NC,L]
+RewriteRule ^downloads/?$ ?cmd=downloads [NC,L]
+RewriteRule ^changelog\/whmcs\_resellerbilling http://www.rvskin.com/index.php?page=public/whmcs_resellerbilling_changelog [L,R=301]
+
+# Referrer redirect
+#RewriteCond %{HTTP_REFERER} ^http://(www.)?rvsitebuilder.com/.*
+#RewriteRule .* https://rvglobalsoft.com/kb/rvsitebuilder [R=301,L]
+
+# Redirect aupport to kb
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} ^/support/
+RewriteRule .* http://hostbill.rvglobalsoft.net/knowledgebase/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/support/?$
+RewriteRule .* http://hostbill.rvglobalsoft.net/knowledgebase/ [R=301,L]
+
+# KB Redirect
+RewriteCond %{REQUEST_URI} ^/kb/
+RewriteRule ssl\-certificates http://hostbill.rvglobalsoft.net/knowledgebase/category/4/ssl/ [L,R=301]
+RewriteCond %{REQUEST_URI} ^/kb/
+RewriteRule cpanel\-license http://hostbill.rvglobalsoft.net/knowledgebase/category/3/general-questions/ [L,R=301]
+RewriteCond %{REQUEST_URI} ^/kb/
+RewriteRule rvsitebuilder http://hostbill.rvglobalsoft.net/knowledgebase/category/31/rvsitebuilder/ [L,R=301]
+RewriteCond %{REQUEST_URI} ^/kb/
+RewriteRule rvskin http://hostbill.rvglobalsoft.net/knowledgebase/category/22/rvskin/ [L,R=301]
+RewriteCond %{REQUEST_URI} ^/kb/
+RewriteRule vdo http://hostbill.rvglobalsoft.net/knowledgebase/category/33/the-use-of-rvsitebuilder-program/ [L,R=301]
+
+RewriteCond %{REQUEST_URI} ^/kb/
+RewriteRule rvssl http://hostbill.rvglobalsoft.net/knowledgebase/category/4/rvssl/ [L,R=301]
+RewriteCond %{REQUEST_URI} ^/kb/
+RewriteRule rvlogin http://hostbill.rvglobalsoft.net/knowledgebase/category/47/rvlogin/ [L,R=301]
+RewriteCond %{REQUEST_URI} ^/kb/
+RewriteRule rv2factor http://hostbill.rvglobalsoft.net/knowledgebase/category/9/rv2factor/ [L,R=301]
+
+
+# For RV2Factor
+RewriteCond %{REQUEST_URI} ^/installation/whm
+RewriteRule whm http://hostbill.rvglobalsoft.net/installation/ [L]
+RewriteCond %{REQUEST_URI} ^/installation/
+RewriteRule wordpress http://hostbill.rvglobalsoft.net/wordpress/ [L]
+RewriteCond %{REQUEST_URI} ^/installation/
+RewriteRule hostbill http://hostbill.rvglobalsoft.net/hostbill/ [L]
+
+
+RewriteCond %{DOCUMENT_ROOT}/templates/netwaybysidepad/%{REQUEST_URI}.orderpage -f
+RewriteRule ^(.*)$ index.php?/cart/$1 [L]
+RewriteCond %{DOCUMENT_ROOT}/templates/netwaybysidepad/%{REQUEST_URI}.tpl -f
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_URI} !^/cart$
+RewriteRule ^(.*)$ pages.php [L]
+RewriteCond $1 !\.(gif|jpe?g|png|js|css|ico|woff|ttf)$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+
+</IfModule>
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>

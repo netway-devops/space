@@ -1,0 +1,2 @@
+#เช็คการสร้าง Deal ว่าสำเร็จหรือไม่ หลังจากที่มีการสร้าง invoice หากสร้าง deal ได้ก็จะมี Deal ID อัพเดตที่ deal_Id
+ALTER TABLE `hb_invoices` ADD `deal_id` VARCHAR(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT 'เช็คการสร้าง Deal ว่าสำเร็จหรือไม่หลังจาก create invoice' AFTER `is_skip_deal`;

@@ -1,0 +1,29 @@
+{
+    "status": {
+        "lang": "Status",
+        "type": "select",
+        "options": [
+            {"value": "0", "name": "Draft"},
+            {"value": "1", "name": "Billed"},
+            {"value": "2", "name": "Pending"},
+            {"value": "3", "name": "Cancelled"}
+        ]
+    },
+    "name": {
+        "lang": "submitername",
+        "type": "input"
+    },
+    "email": {
+        "type": "input"
+    },
+    "ticket_number": {
+        "lang": "ticketnum",
+        "type": "input"
+    },
+    "rate_id": {
+        "type": "select",
+        "options": [],
+        "name": "Suppport Rate",
+        "class": "chosenedge"
+    }
+}

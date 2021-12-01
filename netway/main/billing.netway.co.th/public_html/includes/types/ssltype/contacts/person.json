@@ -1,0 +1,58 @@
+{
+    "OrgName": {
+        "lang": "en_orgname",
+        "prefill": ["company", "O"]
+    },
+    "JobTitle": {
+        "lang": "en_jobtitle",
+        "required": false
+    },
+    "Fname": {
+        "lang": "firstname",
+        "prefill": ["firstname"]
+    },
+    "LName": {
+        "lang": "lastname",
+        "prefill": ["lastname"]
+    },
+    "Address1": {
+        "lang": "address",
+        "prefill": ["address", "streetAddress"]
+    },
+    "Address2": {
+        "lang": "address2",
+        "required": false,
+        "prefill": ["address2", "streetAddress"]
+    },
+    "City": {
+        "lang": "city",
+        "prefill": ["city", "L"]
+    },
+    "State": {
+        "lang": "state",
+        "prefill": ["state", "province", "region", "S"]
+    },
+    "PostalCode": {
+        "lang": "postcode",
+        "prefill": ["postcode", "postalcode", "zip", "zipcode", "postalCode"]
+    },
+    "Country": {
+        "lang": "country",
+        "type": "select",
+        "options": [],
+        "prefill": ["country", "C"]
+    },
+    "EmailAddress": {
+        "lang": "email",
+        "prefill": ["email"]
+    },
+    "Phone": {
+        "lang": "phone",
+        "prefill": ["phonenumber"]
+    },
+    "Fax": {
+        "lang": "phone",
+        "required": false,
+        "prefill": ["fax"]
+    }
+}

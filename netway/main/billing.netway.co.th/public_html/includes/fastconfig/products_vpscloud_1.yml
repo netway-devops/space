@@ -1,0 +1,232 @@
+---
+name: 6 VPS packages
+description: 6 premade VPS packages set from 1-6 vps.net nodes.
+items:
+  -
+    name: VPS 376
+    description: 'Dedicated CPU: <b>0,6GHz</b><br/>RAM: <b>376MB</b><br/>Storage: <b>10GB</b><br/>Bandwidth: <b>250GB</b>'
+    paytype: Regular
+    m: 20.00
+    module: class.vpsnet.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      InvoiceGeneration: 7
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 14
+      AutoSuspensionPeriod: 1
+      AutoProcessCancellations: on
+      EnableAutoSuspension: on
+      1OverdueReminder: 1
+      2OverdueReminder: 0
+      3OverdueReminder: 0
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+    options:
+      option1: 1
+    customs:
+      -
+        name: Location
+        key:
+        variable: location
+        type: select
+        description:
+        category: server
+        options: 2
+        items:
+          -
+            name: London
+          -
+            name: Chicago
+          -
+            name: SLC
+  -
+    name: VPS 752
+    description: 'Dedicated CPU: <b>1,2GHz</b><br/>RAM: <b>752MB</b><br/>Storage: <b>20GB</b><br/>Bandwidth: <b>500GB</b>'
+    paytype: Regular
+    m: 38.00
+    module: class.vpsnet.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      InvoiceGeneration: 7
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 14
+      AutoSuspensionPeriod: 1
+      AutoProcessCancellations: on
+      EnableAutoSuspension: on
+      1OverdueReminder: 1
+      2OverdueReminder: 0
+      3OverdueReminder: 0
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+    options:
+      option1: 2
+    customs:
+      -
+        name: Location
+        key:
+        variable: location
+        type: select
+        description:
+        category: server
+        options: 2
+        items:
+          -
+            name: London
+          -
+            name: Chicago
+          -
+            name: SLC
+  -
+    name: VPS 1128
+    description: 'Dedicated CPU: <b>1,8GHz</b><br/>RAM: <b>1128MB</b><br/>Storage: <b>30GB</b><br/>Bandwidth: <b>750GB</b>'
+    paytype: Regular
+    m: 54.00
+    module: class.vpsnet.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      InvoiceGeneration: 7
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 14
+      AutoSuspensionPeriod: 1
+      AutoProcessCancellations: on
+      EnableAutoSuspension: on
+      1OverdueReminder: 1
+      2OverdueReminder: 0
+      3OverdueReminder: 0
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+    options:
+      option1: 3
+    customs:
+      -
+        name: Location
+        key:
+        variable: location
+        type: select
+        description:
+        category: server
+        options: 2
+        items:
+          -
+            name: London
+          -
+            name: Chicago
+          -
+            name: SLC
+  -
+    name: VPS 1504
+    description: 'Dedicated CPU: <b>2,4GHz</b><br/>RAM: <b>1504MB</b><br/>Storage: <b>40GB</b><br/>Bandwidth: <b>1000GB</b>'
+    paytype: Regular
+    m: 68.00
+    module: class.vpsnet.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      InvoiceGeneration: 7
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 14
+      AutoSuspensionPeriod: 1
+      AutoProcessCancellations: on
+      EnableAutoSuspension: on
+      1OverdueReminder: 1
+      2OverdueReminder: 0
+      3OverdueReminder: 0
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+    options:
+      option1: 4
+    customs:
+      -
+        name: Location
+        key:
+        variable: location
+        type: select
+        description:
+        category: server
+        options: 2
+        items:
+          -
+            name: London
+          -
+            name: Chicago
+          -
+            name: SLC
+  -
+    name: VPS 1880
+    description: 'Dedicated CPU: <b>3GHz</b><br/>RAM: <b>1880MB</b><br/>Storage: <b>50GB</b><br/>Bandwidth: <b>1250GB</b>'
+    paytype: Regular
+    m: 80.00
+    module: class.vpsnet.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      InvoiceGeneration: 7
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 14
+      AutoSuspensionPeriod: 1
+      AutoProcessCancellations: on
+      EnableAutoSuspension: on
+      1OverdueReminder: 1
+      2OverdueReminder: 0
+      3OverdueReminder: 0
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+    options:
+      option1: 5
+    customs:
+      -
+        name: Location
+        key:
+        variable: location
+        type: select
+        description:
+        category: server
+        options: 2
+        items:
+          -
+            name: London
+          -
+            name: Chicago
+          -
+            name: SLC
+  -
+    name: VPS 2256
+    description: 'Dedicated CPU: <b>3,6GHz</b><br/>RAM: <b>2256MB</b><br/>Storage: <b>60GB</b><br/>Bandwidth: <b>1500GB</b>'
+    paytype: Regular
+    m: 90.00
+    module: class.vpsnet.php
+    autosetup: 2
+    domain_options: 0
+    config:
+      InvoiceGeneration: 7
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 14
+      AutoSuspensionPeriod: 1
+      AutoProcessCancellations: on
+      EnableAutoSuspension: on
+      1OverdueReminder: 1
+      2OverdueReminder: 0
+      3OverdueReminder: 0
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+    options:
+      option1: 6
+    customs:
+      -
+        name: Location
+        key:
+        variable: location
+        type: select
+        description:
+        category: server
+        options: 2
+        items:
+          -
+            name: London
+          -
+            name: Chicago
+          -
+            name: SLC

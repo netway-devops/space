@@ -1,0 +1,34 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/cart_bookshelf/howto.png'
+  name: View editable areas
+  type: link 
+highlighted:
+  value: 2
+  name: Highlighted plan
+  description: Value between 0 - 3, where 0 represents first package
+  type: input
+whyus:
+  value: Why us?
+  name: Section header
+  type: input
+footer1head:
+  value: Order Pages
+  name: Left block header
+  description: This phrase will be displayed below package list
+  type: input
+footer1text:
+  name: Left block text
+  type: textarea
+  value: HostBill lets you choose a template for every order page you have. You can create your own Order Page template or use one from default templates that come with HostBill..
+footer2head:
+  value: Live Support
+  name: Right block header
+  description: This phrase will be displayed below package list
+  type: input
+footer2text:
+  name: Right block text
+  type: textarea
+  value: HostBill, an All-In-One billing & Support solution, comes with built-in Live Chat & Real-Time visitor monitoring to connect you to your website visitors and clients. Turn visitors into customers with few mouse clicks!.

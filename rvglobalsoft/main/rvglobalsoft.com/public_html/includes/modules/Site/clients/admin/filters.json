@@ -1,0 +1,75 @@
+{
+    "firstname": {
+        "type": "input"
+    },
+    "lastname": {
+        "type": "input"
+    },
+    "companyname": {
+        "lang": "company",
+        "type": "input"
+    },
+    "email": {
+        "type": "input"
+    },
+    "country": {
+        "type": "select",
+        "options": [],
+        "class": "chosenedge"
+    },
+    "state": {
+        "type": "input"
+    },
+    "city": {
+        "type": "input"
+    },
+    "address1": {
+        "lang": "address",
+        "type": "input"
+    },
+    "address2": {
+        "type": "input"
+    },
+    "phonenumber": {
+        "lang": "phone",
+        "type": "input"
+    },
+    "status": {
+        "lang": "Status",
+        "type": "select",
+        "options": [{
+                "value": "Active",
+                "lang": "Active"
+            }, {
+                "value": "Closed",
+                "lang": "Closed"
+            }]
+    },
+    "company": {
+        "type": "select",
+        "options": [{
+                "value": "0",
+                "lang": "Private"
+            }, {
+                "value": "1",
+                "lang": "Company"
+            }],
+        "name": "Account type"
+    },
+    "ip": {
+        "type": "input",
+        "name": "Login IP"
+    },
+    "group_id": {
+        "type": "select",
+        "options": [],
+        "name": "Group",
+        "class": "chosenedge"
+    },
+    "currency_id": {
+        "type": "select",
+        "options": [],
+        "name": "Currency"
+    }
+}
+

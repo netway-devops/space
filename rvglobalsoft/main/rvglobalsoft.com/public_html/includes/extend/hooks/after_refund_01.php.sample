@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Refund from admin interface was successfull
+ * Following variable is available to use in this file:  $details Array contains
+ * client_id - related client id
+ * invoice_id - related invoice id
+ * transaction_id - original transaction id that was subject of refund
+ * amount - amount refunded
+ */

@@ -1,0 +1,8 @@
+name: Select Server Group
+key: cf_cp
+variable: server_group_id
+description:
+category: server
+type: servergroupselector
+options: 2
+itemscallback: getServers

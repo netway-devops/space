@@ -1,0 +1,6 @@
+<?php
+
+/**
+ * This event is called when adminarea header is rendered -
+ * use this to inject your custom scripts/meta tags etc.
+ */

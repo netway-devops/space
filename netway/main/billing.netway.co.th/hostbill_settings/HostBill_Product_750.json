@@ -1,0 +1,1003 @@
+{
+    "product": {
+        "id": "750",
+        "category_id": "24",
+        "type": "3",
+        "name": "XEN VPS Hosting - 125GB",
+        "description": "<ul><li>Hard Disk 125 GB<\/li><li>RAM 1 GB<\/li><li>CPU 4 core<\/li><li>Free 2 IP addresses<\/li><\/ul>",
+        "visible": "-1",
+        "domain_options": "0",
+        "stock": "1",
+        "qty": "1",
+        "autosetup": "2",
+        "subdomain": "",
+        "tax": "1",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "15",
+        "autohostname": "",
+        "p_options": [
+            "0"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": null,
+        "contract_id": "0",
+        "dbcItemType": "",
+        "baseUnitOfMeasureCode": "",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "3",
+        "line_group_id": "1",
+        "codeName": null,
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "Regular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": 0,
+        "m": "4500.00",
+        "q": "13500.00",
+        "s": "25650.00",
+        "a": "48600.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": 0,
+        "ptype": "Dedicated",
+        "tlds": null,
+        "periods": null,
+        "category_name": "VPS Hosting",
+        "module": "39",
+        "main": "1",
+        "modname": "Zabbix",
+        "filename": "class.zabbix.php",
+        "domain_op": [],
+        "free_domain": "0",
+        "emails": {
+            "AfterModuleTerminate": "0",
+            "ProductAccountCreated": "0",
+            "SuspendAccount": "0",
+            "UnsuspendAccount": "0"
+        },
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Hosting",
+        "modules": [
+            {
+                "product_id": "750",
+                "main": 1,
+                "modname": "Zabbix",
+                "filename": "class.zabbix.php",
+                "module": "39",
+                "options": false,
+                "default": false,
+                "server": {
+                    "62": "62"
+                }
+            }
+        ],
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1OverdueReminder": "1",
+            "1ServiceReminder": "0",
+            "2OverdueReminder": "2",
+            "2ServiceReminder": "0",
+            "3OverdueReminder": "3",
+            "3ServiceReminder": "0",
+            "4ServiceReminder": "0",
+            "5ServiceReminder": "0",
+            "AddLateFeeAfter": "6",
+            "AdsjustDatesOnCreation": "on",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidInvoices": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoProcessCancellations": "off",
+            "AutoSuspensionPeriod": "10",
+            "AutoTerminationPeriod": "30",
+            "BillFullMonth": "0",
+            "CancellationPostPaidProrata": "off",
+            "CancellationTypeEndPeriod": "on",
+            "CancellationTypeImmediate": "on",
+            "CreditOnDowngradeOverride": "",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoCreation": "2",
+            "EnableAutoRenewService": "on",
+            "EnableAutoSuspension": "off",
+            "EnableAutoTermination": "off",
+            "EnableAutoUnSuspension": "on",
+            "EnableAutoUpgrades": "on",
+            "EnableProRata": "on",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "0",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "MoveDueDays": "0",
+            "ProRataDay": "1",
+            "ProRataMonth": "disabled",
+            "ProRataNextMonth": "0",
+            "RecurringBillingType": "PrePaid",
+            "RenewInvoice": "1",
+            "ReturnToStockOnTerminate": "0",
+            "SendPaymentReminderEmails": "off",
+            "UpgradeProratePrecision": "seconds"
+        }
+    },
+    "addons": [],
+    "tasks": [],
+    "widgets": [
+        {
+            "id": "796",
+            "widget": "zabbix_monitor",
+            "name": "Notification",
+            "location": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_monitor\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "35",
+            "override_defaults": "0",
+            "target_id": "750",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        },
+        {
+            "id": "797",
+            "widget": "zabbix_bandwidth",
+            "name": "Bandwidth",
+            "location": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/",
+            "ptype": "0",
+            "config": {
+                "smallimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/small.png",
+                "bigimg": "includes\/modules\/Hosting\/zabbix\/widgets\/zabbix_bandwidth\/big.png"
+            },
+            "options": "3",
+            "group": "sidemenu",
+            "widget_id": "36",
+            "override_defaults": "0",
+            "target_id": "750",
+            "sort_order": "0",
+            "assigned": "1",
+            "unique": true,
+            "configurable": false
+        }
+    ],
+    "forms": [
+        {
+            "id": "2333",
+            "type": "select",
+            "required": "0",
+            "name": "CPU Cores",
+            "key": "",
+            "variable": "cpu",
+            "description": "",
+            "category": "server",
+            "product_id": "750",
+            "copy_of": "2333",
+            "options": "275",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "3",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6395",
+                    "category_id": "2333",
+                    "name": "1 core",
+                    "variable_id": "cpu_quad_1",
+                    "copy_of": "6395",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6396",
+                    "category_id": "2333",
+                    "name": "2 cores",
+                    "variable_id": "cpu_six_1",
+                    "sort_order": "1",
+                    "copy_of": "6396",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6397",
+                    "category_id": "2333",
+                    "name": "3 cores",
+                    "variable_id": "cpu_quad_2",
+                    "sort_order": "2",
+                    "copy_of": "6397",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6398",
+                    "category_id": "2333",
+                    "name": "4 cores",
+                    "variable_id": "cpu_six_2",
+                    "sort_order": "3",
+                    "copy_of": "6398",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2334",
+            "type": "select",
+            "required": "0",
+            "name": "RAM",
+            "key": "cf_memory",
+            "variable": "ram",
+            "description": "",
+            "category": "server",
+            "product_id": "750",
+            "copy_of": "2334",
+            "options": "275",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "4",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6399",
+                    "category_id": "2334",
+                    "name": "1GB",
+                    "variable_id": "ram_1",
+                    "copy_of": "6399",
+                    "pricing": true
+                },
+                {
+                    "id": "6400",
+                    "category_id": "2334",
+                    "name": "2GB",
+                    "variable_id": "ram_2",
+                    "sort_order": "1",
+                    "copy_of": "6400",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6401",
+                    "category_id": "2334",
+                    "name": "3GB",
+                    "variable_id": "ram_3",
+                    "sort_order": "2",
+                    "copy_of": "6401",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6402",
+                    "category_id": "2334",
+                    "name": "4GB",
+                    "variable_id": "ram_4",
+                    "sort_order": "3",
+                    "copy_of": "6402",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2335",
+            "type": "select",
+            "required": "0",
+            "name": "Domestic Bandwidth",
+            "key": "cf_bandwidth",
+            "variable": "bandwidth_dom",
+            "description": "",
+            "category": "network",
+            "product_id": "750",
+            "copy_of": "2335",
+            "options": "51",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "12",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6403",
+                    "category_id": "2335",
+                    "name": "unlimited domestic dedicated 10 Mbps (inter max 1 Mbps)",
+                    "variable_id": "bandwidth_dom_10",
+                    "copy_of": "6403",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6404",
+                    "category_id": "2335",
+                    "name": "unlimited domestic dedicated 100 Mbps (inter max 1 Mbps)",
+                    "variable_id": "bandwidth_dom_100",
+                    "sort_order": "1",
+                    "copy_of": "6404",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6405",
+                    "category_id": "2335",
+                    "name": "unlimited domestic dedicated 1000 Mbps (inter max 1 Mbps)",
+                    "variable_id": "bandwidth_dom_1000",
+                    "sort_order": "2",
+                    "copy_of": "6405",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2336",
+            "type": "select",
+            "required": "0",
+            "name": "Inbound Internation Bandwidth",
+            "key": "cf_bandwidth",
+            "variable": "bandwidth_inter",
+            "description": "",
+            "category": "network",
+            "product_id": "750",
+            "copy_of": "2336",
+            "options": "19",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "13",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6406",
+                    "category_id": "2336",
+                    "name": "Unlimited inbound international shared bandwidth 1 Mbps",
+                    "variable_id": "bandwidth_inter_shared_1",
+                    "copy_of": "6406",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6407",
+                    "category_id": "2336",
+                    "name": "Unlimited inbound international dedicated bandwidth 1 Mbps",
+                    "variable_id": "bandwidth_inter_dedicated_1",
+                    "sort_order": "1",
+                    "copy_of": "6407",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6408",
+                    "category_id": "2336",
+                    "name": "Unlimited inbound international dedicated bandwidth 2 Mbps",
+                    "variable_id": "bandwidth_inter_dedicated_2",
+                    "sort_order": "2",
+                    "copy_of": "6408",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6409",
+                    "category_id": "2336",
+                    "name": "Unlimited inbound international dedicated bandwidth 3 Mbps",
+                    "variable_id": "bandwidth_inter_dedicated_3",
+                    "sort_order": "3",
+                    "copy_of": "6409",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2337",
+            "type": "select",
+            "required": "0",
+            "name": "IP Address",
+            "key": "",
+            "variable": "ip",
+            "description": "",
+            "category": "network",
+            "product_id": "750",
+            "copy_of": "2337",
+            "options": "307",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "14",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6410",
+                    "category_id": "2337",
+                    "name": "2 (free)",
+                    "variable_id": "2",
+                    "copy_of": "6410",
+                    "pricing": true
+                },
+                {
+                    "id": "6411",
+                    "category_id": "2337",
+                    "name": "3",
+                    "variable_id": "3",
+                    "sort_order": "1",
+                    "copy_of": "6411",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6412",
+                    "category_id": "2337",
+                    "name": "4",
+                    "variable_id": "4",
+                    "sort_order": "2",
+                    "copy_of": "6412",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6413",
+                    "category_id": "2337",
+                    "name": "5",
+                    "variable_id": "5",
+                    "sort_order": "3",
+                    "copy_of": "6413",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6414",
+                    "category_id": "2337",
+                    "name": "6",
+                    "variable_id": "6",
+                    "sort_order": "4",
+                    "copy_of": "6414",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2338",
+            "type": "select",
+            "required": "0",
+            "name": "Operating System",
+            "key": "cf_os",
+            "variable": "os",
+            "description": "",
+            "category": "software",
+            "product_id": "750",
+            "copy_of": "2338",
+            "options": "3",
+            "config": {
+                "conditionals": {
+                    "1": {
+                        "val": "1930",
+                        "action": "hide",
+                        "target": "2339",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "2": {
+                        "val": "1931",
+                        "action": "hide",
+                        "target": "2339",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "3": {
+                        "val": "1932",
+                        "action": "hide",
+                        "target": "2339",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "4": {
+                        "val": "1933",
+                        "action": "hide",
+                        "target": "2339",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "5": {
+                        "val": "1934",
+                        "action": "hide",
+                        "target": "2339",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "6": {
+                        "val": "1935",
+                        "action": "hide",
+                        "target": "2339",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "7": {
+                        "val": "1936",
+                        "action": "hide",
+                        "target": "2339",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "8": {
+                        "val": "1937",
+                        "action": "hide",
+                        "target": "2339",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "9": {
+                        "val": "1938",
+                        "action": "hide",
+                        "target": "2339",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "10": {
+                        "val": "1939",
+                        "action": "hide",
+                        "target": "2339",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    },
+                    "11": {
+                        "val": "1940",
+                        "action": "hide",
+                        "target": "2339",
+                        "targetname": "MSSQL",
+                        "targetval": ""
+                    }
+                }
+            },
+            "sort_order": "15",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6415",
+                    "category_id": "2338",
+                    "name": "Cent OS 6 - 32 Bit",
+                    "variable_id": "Cent OS 6 - 32 Bit",
+                    "copy_of": "6415",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6416",
+                    "category_id": "2338",
+                    "name": "Cent OS 6 - 64 Bit",
+                    "variable_id": "Cent OS 6 - 64 Bit",
+                    "sort_order": "1",
+                    "copy_of": "6416",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6417",
+                    "category_id": "2338",
+                    "name": "Cent OS 5 - 32 Bit",
+                    "variable_id": "Cent Os 5 - 32 Bit",
+                    "sort_order": "2",
+                    "copy_of": "6417",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6418",
+                    "category_id": "2338",
+                    "name": "Cent OS 5 - 64 Bit",
+                    "variable_id": "Cent Os 5 - 64 Bit",
+                    "sort_order": "3",
+                    "copy_of": "6418",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6419",
+                    "category_id": "2338",
+                    "name": "Ubuntu 10.04 - 32 Bit",
+                    "variable_id": "Ubuntu 10.04 - 32 Bit",
+                    "sort_order": "4",
+                    "copy_of": "6419",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6420",
+                    "category_id": "2338",
+                    "name": "Ubuntu 10.04 - 64 Bit",
+                    "variable_id": "Ubuntu 10.04 - 64 Bit",
+                    "sort_order": "5",
+                    "copy_of": "6420",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6421",
+                    "category_id": "2338",
+                    "name": "Fedora Core 13 - 32 Bit",
+                    "variable_id": "Fedora Core 13 - 32 Bit",
+                    "sort_order": "6",
+                    "copy_of": "6421",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6422",
+                    "category_id": "2338",
+                    "name": "Fedora Core 13 - 64 Bit",
+                    "variable_id": "Fedora Core 13 - 64 Bit",
+                    "sort_order": "7",
+                    "copy_of": "6422",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6423",
+                    "category_id": "2338",
+                    "name": "FreeBSD 8 - 32 Bit",
+                    "variable_id": "FreeBSD 8 - 32 Bit",
+                    "sort_order": "8",
+                    "copy_of": "6423",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6424",
+                    "category_id": "2338",
+                    "name": "FreeBSD 8 - 64 Bit",
+                    "variable_id": "FreeBSD 8 - 64 Bit",
+                    "sort_order": "9",
+                    "copy_of": "6424",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6425",
+                    "category_id": "2338",
+                    "name": "Xen Server 5 - 64 Bit",
+                    "variable_id": "Xen Server 5 - 64 Bit",
+                    "sort_order": "10",
+                    "copy_of": "6425",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6426",
+                    "category_id": "2338",
+                    "name": "VMware ESXi 4 - 64 Bit",
+                    "variable_id": "VMware ESXi 4 - 64 Bit",
+                    "sort_order": "11",
+                    "copy_of": "6426",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6427",
+                    "category_id": "2338",
+                    "name": "VMware ESXi 3.5 - 32 Bit",
+                    "variable_id": "VMware ESXi 3.5 - 32 Bit",
+                    "sort_order": "12",
+                    "copy_of": "6427",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6428",
+                    "category_id": "2338",
+                    "name": "Windows 2008 - Standard Edition 32 Bit",
+                    "variable_id": "Windows 2008 - Standard Edition 32 Bit",
+                    "sort_order": "13",
+                    "copy_of": "6428",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6429",
+                    "category_id": "2338",
+                    "name": "Windows 2008 - Standard Edition 64 Bit",
+                    "variable_id": "Windows 2008 - Standard Edition 64 Bit",
+                    "sort_order": "14",
+                    "copy_of": "6429",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2339",
+            "type": "qty",
+            "required": "0",
+            "name": "MSSQL",
+            "key": "",
+            "variable": "mssql",
+            "description": "",
+            "category": "software",
+            "product_id": "750",
+            "copy_of": "2339",
+            "options": "50",
+            "config": {
+                "conditionals": [],
+                "minvalue": 0,
+                "maxvalue": 99999
+            },
+            "sort_order": "16",
+            "group_id": "0",
+            "ftype": "qty",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6430",
+                    "category_id": "2339",
+                    "copy_of": "6430",
+                    "pricing": true,
+                    "paytype": "Resources",
+                    "scheme": "tiered",
+                    "prices": [
+                        {
+                            "id": "403",
+                            "item_id": "6430",
+                            "qty": "0",
+                            "qty_max": "99999",
+                            "m_setup": "0.00",
+                            "q_setup": "0.00",
+                            "s_setup": "0.00",
+                            "a_setup": "0.00",
+                            "b_setup": "0.00",
+                            "t_setup": "0.00",
+                            "p4_setup": "0.00",
+                            "p5_setup": "0.00",
+                            "d_setup": "0.00",
+                            "w_setup": "0.00",
+                            "h_setup": "0.00",
+                            "m": "1000.00",
+                            "q": "0.00",
+                            "s": "0.00",
+                            "a": "12000.00",
+                            "b": "0.00",
+                            "t": "0.00",
+                            "p4": "0.00",
+                            "p5": "0.00",
+                            "d": "0.00",
+                            "w": "0.00",
+                            "h": "0.00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2340",
+            "type": "select",
+            "required": "0",
+            "name": "Control Panel",
+            "key": "cf_cp",
+            "variable": "cp",
+            "description": "",
+            "category": "software",
+            "product_id": "750",
+            "copy_of": "2340",
+            "options": "259",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "17",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6431",
+                    "category_id": "2340",
+                    "name": "cPanel\/WHM for VPS - Unlimited Domains (Linux Only)",
+                    "variable_id": "cp_cpanel",
+                    "copy_of": "6431",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6432",
+                    "category_id": "2340",
+                    "name": "cPanel\/WHM+CloudLinux for VPS - Unlimited Domains (Linux Only)",
+                    "variable_id": "cp_cpanel_cloudlinux",
+                    "sort_order": "1",
+                    "copy_of": "6432",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6433",
+                    "category_id": "2340",
+                    "name": "None",
+                    "variable_id": "cp_none",
+                    "sort_order": "2",
+                    "copy_of": "6433",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "2341",
+            "type": "checkbox",
+            "required": "0",
+            "name": "Software",
+            "key": "",
+            "variable": "software",
+            "description": "",
+            "category": "software",
+            "product_id": "750",
+            "copy_of": "2341",
+            "options": "2",
+            "config": {
+                "minvalue": "",
+                "maxvalue": 99999
+            },
+            "sort_order": "18",
+            "group_id": "0",
+            "ftype": "checkbox",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6434",
+                    "category_id": "2341",
+                    "name": "Netway cPanel Skin (\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22)",
+                    "variable_id": "software_rvskin",
+                    "copy_of": "6434",
+                    "pricing": true,
+                    "paytype": "Regular"
+                },
+                {
+                    "id": "6435",
+                    "category_id": "2341",
+                    "name": "Netway Site Builder (support cPanel and DirectAdmin)",
+                    "variable_id": "software_rvsitebuilder",
+                    "sort_order": "1",
+                    "copy_of": "6435",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2342",
+            "type": "checkbox",
+            "required": "0",
+            "name": "Managed Services",
+            "key": "",
+            "variable": "managed",
+            "description": "",
+            "category": "management",
+            "product_id": "750",
+            "copy_of": "2342",
+            "options": "259",
+            "config": {
+                "minvalue": "",
+                "maxvalue": "99999"
+            },
+            "sort_order": "19",
+            "group_id": "0",
+            "ftype": "checkbox",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6436",
+                    "category_id": "2342",
+                    "name": "Free Monitoring",
+                    "variable_id": "managed_free",
+                    "copy_of": "6436",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6437",
+                    "category_id": "2342",
+                    "name": "Netway 'worry free' server management services (CentOS) - We handle everything for you, updates, security, monitoring, and more",
+                    "variable_id": "managed_paid",
+                    "sort_order": "1",
+                    "copy_of": "6437",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2343",
+            "type": "textarea",
+            "required": "0",
+            "name": "Additional Note:",
+            "key": "",
+            "variable": "",
+            "description": "",
+            "category": "",
+            "product_id": "750",
+            "copy_of": "2343",
+            "options": "2",
+            "config": [],
+            "sort_order": "22",
+            "group_id": "0",
+            "ftype": "textarea",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6438",
+                    "category_id": "2343",
+                    "copy_of": "6438",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        },
+        {
+            "id": "2344",
+            "type": "select",
+            "required": "0",
+            "name": "\u0e02\u0e2d\u0e07 Internal Netway \u0e40\u0e2d\u0e07",
+            "key": "",
+            "variable": "netway",
+            "description": "",
+            "category": "",
+            "product_id": "750",
+            "copy_of": "2344",
+            "options": "4",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "23",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6439",
+                    "category_id": "2344",
+                    "name": "\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48",
+                    "copy_of": "6439",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "6440",
+                    "category_id": "2344",
+                    "name": "\u0e43\u0e0a\u0e48",
+                    "variable_id": "1",
+                    "sort_order": "1",
+                    "copy_of": "6440",
+                    "pricing": true,
+                    "paytype": "Free"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}

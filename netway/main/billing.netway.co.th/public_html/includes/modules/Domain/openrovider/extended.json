@@ -1,0 +1,1359 @@
+{
+    ".fr": [
+        {
+            "name":"Domicile",
+            "variable": "useDomicile",
+            "type": "checkbox",
+            "for": "domain",
+            "items": [
+                {
+                    "variable_id": "1",
+                    "name": "Use the domicile address of Openprovider for this domain",
+                    "pricing": 1,
+                    "paytype": "Regular",
+                    "a": 5
+                }
+            ]
+        }
+    ],
+    ".de": [
+        {
+            "name":"Use the domicile address of Openprovider for this domain",
+            "variable": "useDomicile",
+            "type": "checkbox",
+            "for": "domain",
+            "items": [
+                {
+                    "variable_id": "useDomicile",
+                    "name": "",
+                    "pricing": 1,
+                    "paytype": "Regular",
+                    "a": 5
+                }
+            ]
+        }
+    ],
+    ".es": [
+        {
+            "name": "Company Registration Number",
+            "variable": "companyRegistrationNumber",
+            "type": "input",
+            "for": "contact",
+            "options": 2,
+            "description": "Required in case if domain requester is a legal entity"
+        },
+        {
+            "name": "Social Security Number",
+            "variable": "socialSecurityNumber",
+            "type": "input",
+            "for": "contact",
+            "options": 2,
+            "description": "Required in case if domain requester is a private individual"
+        }
+    ],
+    ".au": [
+        {
+            "name": "eligibilityTypeRelationship",
+            "variable": "eligibilityTypeRelationship",
+            "options": 2,
+            "type": "select",
+            "for": "domain",
+            "items": [
+                {
+                    "variable_id": "1",
+                    "name": "1"
+                },
+                {
+                    "variable_id": "2",
+                    "name": "2"
+                }
+            ]
+        },
+        {
+            "variable": "eligibilityType",
+            "name": "eligibilityType",
+            "type": "select",
+            "for": "domain",
+            "items": [
+                {
+                    "variable_id": "Company",
+                    "name": "Company"
+                },
+                {
+                    "variable_id": "RegisteredBusiness",
+                    "name": "RegisteredBusiness"
+                },
+                {
+                    "variable_id": "SoleTrader",
+                    "name": "SoleTrader"
+                },
+                {
+                    "variable_id": "Partnership",
+                    "name": "Partnership"
+                },
+                {
+                    "variable_id": "TrademarkOwner",
+                    "name": "TrademarkOwner"
+                },
+                {
+                    "variable_id": "PendingTMOwner",
+                    "name": "PendingTMOwner"
+                },
+                {
+                    "variable_id": "CitizenResident",
+                    "name": "CitizenResident"
+                },
+                {
+                    "variable_id": "IncorporatedAssociation",
+                    "name": "IncorporatedAssociation"
+                },
+                {
+                    "variable_id": "Club",
+                    "name": "Club"
+                },
+                {
+                    "variable_id": "NonProfitOrganisation",
+                    "name": "NonProfitOrganisation"
+                },
+                {
+                    "variable_id": "Charity",
+                    "name": "Charity"
+                },
+                {
+                    "variable_id": "TradeUnion",
+                    "name": "TradeUnion"
+                },
+                {
+                    "variable_id": "IndustryBody",
+                    "name": "IndustryBody"
+                },
+                {
+                    "variable_id": "CommercialStatutoryBody",
+                    "name": "CommercialStatutoryBody"
+                },
+                {
+                    "variable_id": "PoliticalParty",
+                    "name": "PoliticalParty"
+                },
+                {
+                    "variable_id": "Other",
+                    "name": "Other"
+                },
+                {
+                    "variable_id": "Non-profit",
+                    "name": "Non-profit"
+                },
+                {
+                    "variable_id": "Organisation",
+                    "name": "Organisation"
+                },
+                {
+                    "variable_id": "Charity",
+                    "name": "Charity"
+                },
+                {
+                    "variable_id": "Citizen/Resident",
+                    "name": "Citizen/Resident"
+                }
+            ]
+        }
+    ],
+    ".ca": [
+        {
+            "variable": "legalType",
+            "name": "legalType",
+            "type": "select",
+            "for": "domain",
+            "items": [
+                {
+                    "variable_id": "ABO",
+                    "name": "ABO"
+                },
+                {
+                    "variable_id": "ASS",
+                    "name": "ASS"
+                },
+                {
+                    "variable_id": "CCO",
+                    "name": "CCO"
+                },
+                {
+                    "variable_id": "CCT",
+                    "name": "CCT"
+                },
+                {
+                    "variable_id": "EDU",
+                    "name": "EDU"
+                },
+                {
+                    "variable_id": "GOV",
+                    "name": "GOV"
+                },
+                {
+                    "variable_id": "HOP",
+                    "name": "HOP"
+                },
+                {
+                    "variable_id": "INB",
+                    "name": "INB"
+                },
+                {
+                    "variable_id": "LAM",
+                    "name": "LAM"
+                },
+                {
+                    "variable_id": "LGR",
+                    "name": "LGR"
+                },
+                {
+                    "variable_id": "MAJ",
+                    "name": "MAJ"
+                },
+                {
+                    "variable_id": "OMK",
+                    "name": "OMK"
+                },
+                {
+                    "variable_id": "PLT",
+                    "name": "PLT"
+                },
+                {
+                    "variable_id": "PRT",
+                    "name": "PRT"
+                },
+                {
+                    "variable_id": "RES",
+                    "name": "RES"
+                },
+                {
+                    "variable_id": "TDM",
+                    "name": "TDM"
+                },
+                {
+                    "variable_id": "TRD",
+                    "name": "TRD"
+                },
+                {
+                    "variable_id": "TRS",
+                    "name": "TRS"
+                }
+            ]
+        }
+    ],
+    ".archi": [
+        {
+            "name": "archiAcceptance",
+            "variable": "archiAcceptance",
+            "options": 2,
+            "type": "select",
+            "items": [
+                {
+                    "variable_id": "1",
+                    "name": "Yes"
+                }
+            ]
+        }
+    ],
+    ".bio": [
+        {
+            "name": "bioAcceptance",
+            "variable": "bioAcceptance",
+            "options": 2,
+            "type": "select",
+            "items": [
+                {
+                    "variable_id": "1",
+                    "name": "Yes"
+                }
+            ]
+        }
+    ],
+    ".com": [
+        {
+            "name": "Language",
+            "variable": "idnScript",
+            "options": 2,
+            "type": "select",
+            "for": "domain",
+            "items": [
+                {
+                    "variable_id": "AFR",
+                    "name": "AFR"
+                },
+                {
+                    "variable_id": "ALB",
+                    "name": "ALB"
+                },
+                {
+                    "variable_id": "ARA",
+                    "name": "ARA"
+                },
+                {
+                    "variable_id": "ARG",
+                    "name": "ARG"
+                },
+                {
+                    "variable_id": "ARM",
+                    "name": "ARM"
+                },
+                {
+                    "variable_id": "ASM",
+                    "name": "ASM"
+                },
+                {
+                    "variable_id": "AST",
+                    "name": "AST"
+                },
+                {
+                    "variable_id": "AVE",
+                    "name": "AVE"
+                },
+                {
+                    "variable_id": "AWA",
+                    "name": "AWA"
+                },
+                {
+                    "variable_id": "AZE",
+                    "name": "AZE"
+                },
+                {
+                    "variable_id": "BAN",
+                    "name": "BAN"
+                },
+                {
+                    "variable_id": "BAL",
+                    "name": "BAL"
+                },
+                {
+                    "variable_id": "BAS",
+                    "name": "BAS"
+                },
+                {
+                    "variable_id": "BAK",
+                    "name": "BAK"
+                },
+                {
+                    "variable_id": "BAQ",
+                    "name": "BAQ"
+                },
+                {
+                    "variable_id": "BEL",
+                    "name": "BEL"
+                },
+                {
+                    "variable_id": "BEN",
+                    "name": "BEN"
+                },
+                {
+                    "variable_id": "BHO",
+                    "name": "BHO"
+                },
+                {
+                    "variable_id": "BOS",
+                    "name": "BOS"
+                },
+                {
+                    "variable_id": "BUL",
+                    "name": "BUL"
+                },
+                {
+                    "variable_id": "BUR",
+                    "name": "BUR"
+                },
+                {
+                    "variable_id": "CAR",
+                    "name": "CAR"
+                },
+                {
+                    "variable_id": "CAT",
+                    "name": "CAT"
+                },
+                {
+                    "variable_id": "CHE",
+                    "name": "CHE"
+                },
+                {
+                    "variable_id": "CHI",
+                    "name": "CHI"
+                },
+                {
+                    "variable_id": "CHV",
+                    "name": "CHV"
+                },
+                {
+                    "variable_id": "COP",
+                    "name": "COP"
+                },
+                {
+                    "variable_id": "COS",
+                    "name": "COS"
+                },
+                {
+                    "variable_id": "SCR",
+                    "name": "SCR"
+                },
+                {
+                    "variable_id": "CZE",
+                    "name": "CZE"
+                },
+                {
+                    "variable_id": "DAN",
+                    "name": "DAN"
+                },
+                {
+                    "variable_id": "DIV",
+                    "name": "DIV"
+                },
+                {
+                    "variable_id": "DOI",
+                    "name": "DOI"
+                },
+                {
+                    "variable_id": "DUT",
+                    "name": "DUT"
+                },
+                {
+                    "variable_id": "ENG",
+                    "name": "ENG"
+                },
+                {
+                    "variable_id": "EST",
+                    "name": "EST"
+                },
+                {
+                    "variable_id": "FAO",
+                    "name": "FAO"
+                },
+                {
+                    "variable_id": "FIJ",
+                    "name": "FIJ"
+                },
+                {
+                    "variable_id": "FIN",
+                    "name": "FIN"
+                },
+                {
+                    "variable_id": "FRE",
+                    "name": "FRE"
+                },
+                {
+                    "variable_id": "FRY",
+                    "name": "FRY"
+                },
+                {
+                    "variable_id": "GLA",
+                    "name": "GLA"
+                },
+                {
+                    "variable_id": "GEO",
+                    "name": "GEO"
+                },
+                {
+                    "variable_id": "GER",
+                    "name": "GER"
+                },
+                {
+                    "variable_id": "GON",
+                    "name": "GON"
+                },
+                {
+                    "variable_id": "GRE",
+                    "name": "GRE"
+                },
+                {
+                    "variable_id": "GUJ",
+                    "name": "GUJ"
+                },
+                {
+                    "variable_id": "HEB",
+                    "name": "HEB"
+                },
+                {
+                    "variable_id": "HIN",
+                    "name": "HIN"
+                },
+                {
+                    "variable_id": "HUN",
+                    "name": "HUN"
+                },
+                {
+                    "variable_id": "ICE",
+                    "name": "ICE"
+                },
+                {
+                    "variable_id": "INC",
+                    "name": "INC"
+                },
+                {
+                    "variable_id": "IND",
+                    "name": "IND"
+                },
+                {
+                    "variable_id": "INH",
+                    "name": "INH"
+                },
+                {
+                    "variable_id": "GLE",
+                    "name": "GLE"
+                },
+                {
+                    "variable_id": "ITA",
+                    "name": "ITA"
+                },
+                {
+                    "variable_id": "JPN",
+                    "name": "JPN"
+                },
+                {
+                    "variable_id": "JAV",
+                    "name": "JAV"
+                },
+                {
+                    "variable_id": "KAS",
+                    "name": "KAS"
+                },
+                {
+                    "variable_id": "KAZ",
+                    "name": "KAZ"
+                },
+                {
+                    "variable_id": "KHM",
+                    "name": "KHM"
+                },
+                {
+                    "variable_id": "KIR",
+                    "name": "KIR"
+                },
+                {
+                    "variable_id": "KOR",
+                    "name": "KOR"
+                },
+                {
+                    "variable_id": "KUR",
+                    "name": "KUR"
+                },
+                {
+                    "variable_id": "LAO",
+                    "name": "LAO"
+                },
+                {
+                    "variable_id": "LAV",
+                    "name": "LAV"
+                },
+                {
+                    "variable_id": "LIT",
+                    "name": "LIT"
+                },
+                {
+                    "variable_id": "LTZ",
+                    "name": "LTZ"
+                },
+                {
+                    "variable_id": "MAC",
+                    "name": "MAC"
+                },
+                {
+                    "variable_id": "MAL",
+                    "name": "MAL"
+                },
+                {
+                    "variable_id": "MAY",
+                    "name": "MAY"
+                },
+                {
+                    "variable_id": "MLT",
+                    "name": "MLT"
+                },
+                {
+                    "variable_id": "MAO",
+                    "name": "MAO"
+                },
+                {
+                    "variable_id": "MOL",
+                    "name": "MOL"
+                },
+                {
+                    "variable_id": "MON",
+                    "name": "MON"
+                },
+                {
+                    "variable_id": "NEP",
+                    "name": "NEP"
+                },
+                {
+                    "variable_id": "NOR",
+                    "name": "NOR"
+                },
+                {
+                    "variable_id": "ORI",
+                    "name": "ORI"
+                },
+                {
+                    "variable_id": "OSS",
+                    "name": "OSS"
+                },
+                {
+                    "variable_id": "PAN",
+                    "name": "PAN"
+                },
+                {
+                    "variable_id": "PER",
+                    "name": "PER"
+                },
+                {
+                    "variable_id": "POL",
+                    "name": "POL"
+                },
+                {
+                    "variable_id": "POR",
+                    "name": "POR"
+                },
+                {
+                    "variable_id": "PUS",
+                    "name": "PUS"
+                },
+                {
+                    "variable_id": "RAJ",
+                    "name": "RAJ"
+                },
+                {
+                    "variable_id": "RUM",
+                    "name": "RUM"
+                },
+                {
+                    "variable_id": "RUS",
+                    "name": "RUS"
+                },
+                {
+                    "variable_id": "SMO",
+                    "name": "SMO"
+                },
+                {
+                    "variable_id": "SAN",
+                    "name": "SAN"
+                },
+                {
+                    "variable_id": "SRD",
+                    "name": "SRD"
+                },
+                {
+                    "variable_id": "SCC",
+                    "name": "SCC"
+                },
+                {
+                    "variable_id": "SCR",
+                    "name": "SCR"
+                },
+                {
+                    "variable_id": "SND",
+                    "name": "SND"
+                },
+                {
+                    "variable_id": "SIN",
+                    "name": "SIN"
+                },
+                {
+                    "variable_id": "SLO",
+                    "name": "SLO"
+                },
+                {
+                    "variable_id": "SLV",
+                    "name": "SLV"
+                },
+                {
+                    "variable_id": "SOM",
+                    "name": "SOM"
+                },
+                {
+                    "variable_id": "SPA",
+                    "name": "SPA"
+                },
+                {
+                    "variable_id": "SWA",
+                    "name": "SWA"
+                },
+                {
+                    "variable_id": "SWE",
+                    "name": "SWE"
+                },
+                {
+                    "variable_id": "SYR",
+                    "name": "SYR"
+                },
+                {
+                    "variable_id": "TGK",
+                    "name": "TGK"
+                },
+                {
+                    "variable_id": "TAM",
+                    "name": "TAM"
+                },
+                {
+                    "variable_id": "TEL",
+                    "name": "TEL"
+                },
+                {
+                    "variable_id": "THA",
+                    "name": "THA"
+                },
+                {
+                    "variable_id": "TIB",
+                    "name": "TIB"
+                },
+                {
+                    "variable_id": "TUR",
+                    "name": "TUR"
+                },
+                {
+                    "variable_id": "UKR",
+                    "name": "UKR"
+                },
+                {
+                    "variable_id": "URD",
+                    "name": "URD"
+                },
+                {
+                    "variable_id": "UZB",
+                    "name": "UZB"
+                },
+                {
+                    "variable_id": "VIE",
+                    "name": "VIE"
+                },
+                {
+                    "variable_id": "WEL",
+                    "name": "WEL"
+                },
+                {
+                    "variable_id": "YID",
+                    "name": "YID"
+                }
+            ]
+        }
+    ],
+    ".net": [
+        {
+            "name": "Language",
+            "variable": "idnScript",
+            "options": 2,
+            "type": "select",
+            "for": "domain",
+            "items": [
+                {
+                    "variable_id": "AFR",
+                    "name": "AFR"
+                },
+                {
+                    "variable_id": "ALB",
+                    "name": "ALB"
+                },
+                {
+                    "variable_id": "ARA",
+                    "name": "ARA"
+                },
+                {
+                    "variable_id": "ARG",
+                    "name": "ARG"
+                },
+                {
+                    "variable_id": "ARM",
+                    "name": "ARM"
+                },
+                {
+                    "variable_id": "ASM",
+                    "name": "ASM"
+                },
+                {
+                    "variable_id": "AST",
+                    "name": "AST"
+                },
+                {
+                    "variable_id": "AVE",
+                    "name": "AVE"
+                },
+                {
+                    "variable_id": "AWA",
+                    "name": "AWA"
+                },
+                {
+                    "variable_id": "AZE",
+                    "name": "AZE"
+                },
+                {
+                    "variable_id": "BAN",
+                    "name": "BAN"
+                },
+                {
+                    "variable_id": "BAL",
+                    "name": "BAL"
+                },
+                {
+                    "variable_id": "BAS",
+                    "name": "BAS"
+                },
+                {
+                    "variable_id": "BAK",
+                    "name": "BAK"
+                },
+                {
+                    "variable_id": "BAQ",
+                    "name": "BAQ"
+                },
+                {
+                    "variable_id": "BEL",
+                    "name": "BEL"
+                },
+                {
+                    "variable_id": "BEN",
+                    "name": "BEN"
+                },
+                {
+                    "variable_id": "BHO",
+                    "name": "BHO"
+                },
+                {
+                    "variable_id": "BOS",
+                    "name": "BOS"
+                },
+                {
+                    "variable_id": "BUL",
+                    "name": "BUL"
+                },
+                {
+                    "variable_id": "BUR",
+                    "name": "BUR"
+                },
+                {
+                    "variable_id": "CAR",
+                    "name": "CAR"
+                },
+                {
+                    "variable_id": "CAT",
+                    "name": "CAT"
+                },
+                {
+                    "variable_id": "CHE",
+                    "name": "CHE"
+                },
+                {
+                    "variable_id": "CHI",
+                    "name": "CHI"
+                },
+                {
+                    "variable_id": "CHV",
+                    "name": "CHV"
+                },
+                {
+                    "variable_id": "COP",
+                    "name": "COP"
+                },
+                {
+                    "variable_id": "COS",
+                    "name": "COS"
+                },
+                {
+                    "variable_id": "SCR",
+                    "name": "SCR"
+                },
+                {
+                    "variable_id": "CZE",
+                    "name": "CZE"
+                },
+                {
+                    "variable_id": "DAN",
+                    "name": "DAN"
+                },
+                {
+                    "variable_id": "DIV",
+                    "name": "DIV"
+                },
+                {
+                    "variable_id": "DOI",
+                    "name": "DOI"
+                },
+                {
+                    "variable_id": "DUT",
+                    "name": "DUT"
+                },
+                {
+                    "variable_id": "ENG",
+                    "name": "ENG"
+                },
+                {
+                    "variable_id": "EST",
+                    "name": "EST"
+                },
+                {
+                    "variable_id": "FAO",
+                    "name": "FAO"
+                },
+                {
+                    "variable_id": "FIJ",
+                    "name": "FIJ"
+                },
+                {
+                    "variable_id": "FIN",
+                    "name": "FIN"
+                },
+                {
+                    "variable_id": "FRE",
+                    "name": "FRE"
+                },
+                {
+                    "variable_id": "FRY",
+                    "name": "FRY"
+                },
+                {
+                    "variable_id": "GLA",
+                    "name": "GLA"
+                },
+                {
+                    "variable_id": "GEO",
+                    "name": "GEO"
+                },
+                {
+                    "variable_id": "GER",
+                    "name": "GER"
+                },
+                {
+                    "variable_id": "GON",
+                    "name": "GON"
+                },
+                {
+                    "variable_id": "GRE",
+                    "name": "GRE"
+                },
+                {
+                    "variable_id": "GUJ",
+                    "name": "GUJ"
+                },
+                {
+                    "variable_id": "HEB",
+                    "name": "HEB"
+                },
+                {
+                    "variable_id": "HIN",
+                    "name": "HIN"
+                },
+                {
+                    "variable_id": "HUN",
+                    "name": "HUN"
+                },
+                {
+                    "variable_id": "ICE",
+                    "name": "ICE"
+                },
+                {
+                    "variable_id": "INC",
+                    "name": "INC"
+                },
+                {
+                    "variable_id": "IND",
+                    "name": "IND"
+                },
+                {
+                    "variable_id": "INH",
+                    "name": "INH"
+                },
+                {
+                    "variable_id": "GLE",
+                    "name": "GLE"
+                },
+                {
+                    "variable_id": "ITA",
+                    "name": "ITA"
+                },
+                {
+                    "variable_id": "JPN",
+                    "name": "JPN"
+                },
+                {
+                    "variable_id": "JAV",
+                    "name": "JAV"
+                },
+                {
+                    "variable_id": "KAS",
+                    "name": "KAS"
+                },
+                {
+                    "variable_id": "KAZ",
+                    "name": "KAZ"
+                },
+                {
+                    "variable_id": "KHM",
+                    "name": "KHM"
+                },
+                {
+                    "variable_id": "KIR",
+                    "name": "KIR"
+                },
+                {
+                    "variable_id": "KOR",
+                    "name": "KOR"
+                },
+                {
+                    "variable_id": "KUR",
+                    "name": "KUR"
+                },
+                {
+                    "variable_id": "LAO",
+                    "name": "LAO"
+                },
+                {
+                    "variable_id": "LAV",
+                    "name": "LAV"
+                },
+                {
+                    "variable_id": "LIT",
+                    "name": "LIT"
+                },
+                {
+                    "variable_id": "LTZ",
+                    "name": "LTZ"
+                },
+                {
+                    "variable_id": "MAC",
+                    "name": "MAC"
+                },
+                {
+                    "variable_id": "MAL",
+                    "name": "MAL"
+                },
+                {
+                    "variable_id": "MAY",
+                    "name": "MAY"
+                },
+                {
+                    "variable_id": "MLT",
+                    "name": "MLT"
+                },
+                {
+                    "variable_id": "MAO",
+                    "name": "MAO"
+                },
+                {
+                    "variable_id": "MOL",
+                    "name": "MOL"
+                },
+                {
+                    "variable_id": "MON",
+                    "name": "MON"
+                },
+                {
+                    "variable_id": "NEP",
+                    "name": "NEP"
+                },
+                {
+                    "variable_id": "NOR",
+                    "name": "NOR"
+                },
+                {
+                    "variable_id": "ORI",
+                    "name": "ORI"
+                },
+                {
+                    "variable_id": "OSS",
+                    "name": "OSS"
+                },
+                {
+                    "variable_id": "PAN",
+                    "name": "PAN"
+                },
+                {
+                    "variable_id": "PER",
+                    "name": "PER"
+                },
+                {
+                    "variable_id": "POL",
+                    "name": "POL"
+                },
+                {
+                    "variable_id": "POR",
+                    "name": "POR"
+                },
+                {
+                    "variable_id": "PUS",
+                    "name": "PUS"
+                },
+                {
+                    "variable_id": "RAJ",
+                    "name": "RAJ"
+                },
+                {
+                    "variable_id": "RUM",
+                    "name": "RUM"
+                },
+                {
+                    "variable_id": "RUS",
+                    "name": "RUS"
+                },
+                {
+                    "variable_id": "SMO",
+                    "name": "SMO"
+                },
+                {
+                    "variable_id": "SAN",
+                    "name": "SAN"
+                },
+                {
+                    "variable_id": "SRD",
+                    "name": "SRD"
+                },
+                {
+                    "variable_id": "SCC",
+                    "name": "SCC"
+                },
+                {
+                    "variable_id": "SCR",
+                    "name": "SCR"
+                },
+                {
+                    "variable_id": "SND",
+                    "name": "SND"
+                },
+                {
+                    "variable_id": "SIN",
+                    "name": "SIN"
+                },
+                {
+                    "variable_id": "SLO",
+                    "name": "SLO"
+                },
+                {
+                    "variable_id": "SLV",
+                    "name": "SLV"
+                },
+                {
+                    "variable_id": "SOM",
+                    "name": "SOM"
+                },
+                {
+                    "variable_id": "SPA",
+                    "name": "SPA"
+                },
+                {
+                    "variable_id": "SWA",
+                    "name": "SWA"
+                },
+                {
+                    "variable_id": "SWE",
+                    "name": "SWE"
+                },
+                {
+                    "variable_id": "SYR",
+                    "name": "SYR"
+                },
+                {
+                    "variable_id": "TGK",
+                    "name": "TGK"
+                },
+                {
+                    "variable_id": "TAM",
+                    "name": "TAM"
+                },
+                {
+                    "variable_id": "TEL",
+                    "name": "TEL"
+                },
+                {
+                    "variable_id": "THA",
+                    "name": "THA"
+                },
+                {
+                    "variable_id": "TIB",
+                    "name": "TIB"
+                },
+                {
+                    "variable_id": "TUR",
+                    "name": "TUR"
+                },
+                {
+                    "variable_id": "UKR",
+                    "name": "UKR"
+                },
+                {
+                    "variable_id": "URD",
+                    "name": "URD"
+                },
+                {
+                    "variable_id": "UZB",
+                    "name": "UZB"
+                },
+                {
+                    "variable_id": "VIE",
+                    "name": "VIE"
+                },
+                {
+                    "variable_id": "WEL",
+                    "name": "WEL"
+                },
+                {
+                    "variable_id": "YID",
+                    "name": "YID"
+                }
+            ]
+        }
+    ],
+    ".org": [
+        {
+            "name": "Language",
+            "variable": "idnScript",
+            "options": 2,
+            "type": "select",
+            "for": "domain",
+            "items": [
+                {
+                    "variable_id": "ZH-TW",
+                    "name": "ZH-TW"
+                },
+                {
+                    "variable_id": "ZH-CN",
+                    "name": "ZH-CN"
+                },
+                {
+                    "variable_id": "DA",
+                    "name": "DA"
+                },
+                {
+                    "variable_id": "DE",
+                    "name": "DE"
+                },
+                {
+                    "variable_id": "HU",
+                    "name": "HU"
+                },
+                {
+                    "variable_id": "IS",
+                    "name": "IS"
+                },
+                {
+                    "variable_id": "KO",
+                    "name": "KO"
+                },
+                {
+                    "variable_id": "LV",
+                    "name": "LV"
+                },
+                {
+                    "variable_id": "LT",
+                    "name": "LT"
+                },
+                {
+                    "variable_id": "PL",
+                    "name": "PL"
+                },
+                {
+                    "variable_id": "ES",
+                    "name": "ES"
+                },
+                {
+                    "variable_id": "SV",
+                    "name": "SV"
+                },
+                {
+                    "variable_id": "BS",
+                    "name": "BS"
+                },
+                {
+                    "variable_id": "BG",
+                    "name": "BG"
+                },
+                {
+                    "variable_id": "BE",
+                    "name": "BE"
+                },
+                {
+                    "variable_id": "MK",
+                    "name": "MK"
+                },
+                {
+                    "variable_id": "RU",
+                    "name": "RU"
+                },
+                {
+                    "variable_id": "SR",
+                    "name": "SR"
+                },
+                {
+                    "variable_id": "UK",
+                    "name": "UK"
+                }
+            ]
+        }
+    ],
+    ".it": [
+        {
+            "name": "The passport or ID number of the customer",
+            "variable": "passportNumber",
+            "type": "input",
+            "for": "contact"
+        }
+    ],
+    ".us" : [
+        {
+            "name": "Nexus Category",
+            "variable": "nexusCategory",
+            "options": 2,
+            "type": "input",
+            "for": "contact",
+            "items": [
+                {
+                    "variable_id": "C11",
+                    "name": "A natural person who is a United States citizen"
+                },
+                {
+                    "variable_id": "C12",
+                    "name": "A natural person who is a permanent resident of the United States of America, or any of its possessions or territories"
+                },
+                {
+                    "variable_id": "C21",
+                    "name": "A US-based organisation or company formed within one of the fifty (50) U.S. states, the District of Columbia, or any of the United States possessions or territories, or organized or otherwise constituted under the laws of a state of the United States of America, the District of Columbia or any of its possessions or territories or a U.S. federal, state, or local government entity or a political subdivision thereof."
+                },
+                {
+                    "variable_id": "C31",
+                    "name": "A foreign entity or organization that has a bona fide presence in the United States of America or any of its possessions or territories who regularly engages in lawful activities (sales of goods or services or other business, commercial or non-commercial, including not-for-profit relations in the United States"
+                },
+                {
+                    "variable_id": "C32",
+                    "name": "A foreign entity or organization that has an office or other facility in the United States"
+                }
+            ]
+        },
+        {
+            "name": "Two-letter country-code of the registrant in case of a for foreign entity", 
+            "variable": "nexusValidator",
+            "options": 2,
+            "type": "input",
+            "for": "contact"
+        },
+        {
+            "name": "Purpose",
+            "variable": "nexusAppPurpose",
+            "options": 2,
+            "type": "select",
+            "for": "domain",
+            "items": [
+                {
+                    "variable_id": "P1",
+                    "name": "Business use for profit"
+                },
+                {
+                    "variable_id": "P2",
+                    "name": "Non-profit business, club, association, religious organization, etc"
+                },
+                {
+                    "variable_id": "P3",
+                    "name": "Personal use"
+                },
+                {
+                    "variable_id": "P4",
+                    "name": "Education purposes"
+                },
+                {
+                    "variable_id": "P5",
+                    "name": "Government purposes"
+                }
+            ]
+        }
+    ]
+}

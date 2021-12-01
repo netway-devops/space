@@ -1,0 +1,84 @@
+---
+name: 4 Shared Hosting Packages
+description: 4 premade Shared Hosting Packages
+items:
+  -
+    name: Starter Hosting
+    paytype: Regular
+    m: 4.95
+    module: 0
+    autosetup: 2
+    domain_options: 1
+    owndomain: 1
+    welcome_email_id: 20
+    suspend_email_id: 8
+    unsuspend_email_id: 9
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 15
+      AutoSuspensionPeriod: 7
+      1OverdueReminder: 1
+      EnableAutoSuspension: on
+      AutoProcessCancellations: on
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+  -
+    name: Business Hosting
+    paytype: Regular
+    m: 8.95
+    module: 0
+    autosetup: 2
+    domain_options: 1
+    owndomain: 1
+    welcome_email_id: 20
+    suspend_email_id: 8
+    unsuspend_email_id: 9
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 15
+      AutoSuspensionPeriod: 7
+      1OverdueReminder: 1
+      EnableAutoSuspension: on
+      AutoProcessCancellations: on
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+  -
+    name: Premium Hosting
+    paytype: Regular
+    m: 12.95
+    module: 0
+    autosetup: 2
+    domain_options: 1
+    owndomain: 1
+    welcome_email_id: 20
+    suspend_email_id: 8
+    unsuspend_email_id: 9
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 15
+      AutoSuspensionPeriod: 7
+      1OverdueReminder: 1
+      EnableAutoSuspension: on
+      AutoProcessCancellations: on
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4
+  -
+    name: Ultimate Hosting
+    paytype: Regular
+    m: 19.95
+    module: 0
+    autosetup: 2
+    domain_options: 1
+    owndomain: 1
+    welcome_email_id: 20
+    suspend_email_id: 8
+    unsuspend_email_id: 9
+    config:
+      EnableAutoTermination: on
+      AutoTerminationPeriod: 15
+      AutoSuspensionPeriod: 7
+      1OverdueReminder: 1
+      EnableAutoSuspension: on
+      AutoProcessCancellations: on
+      SendPaymentReminderEmails: on
+      InvoiceUnpaidReminder: 4

@@ -1,0 +1,515 @@
+{
+   ".aero":[
+      {
+         "description":".AERO ID",
+         "name":"x-aero-ens-authid",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":".AERO Password",
+         "name":"x-aero-ens-authkey",
+         "type":"input",
+         "option":false
+      }
+   ],
+   ".asia":[
+      {
+         "description":"Maintainer URL",
+         "name":"x-asia-maintainerurl",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"CED Contact",
+         "name":"x-asia-ced-contact",
+         "type":"input",
+         "option":false
+      }
+   ],
+   ".ca":[
+      {
+         "description":"Legal Type",
+         "name":"x-ca-legaltype",
+         "type":"select",
+         "option":[
+            {
+               "value":"CCO",
+               "title":"Corporation"
+            },
+            {
+               "value":"CCT",
+               "title":"Canadian citizen"
+            },
+            {
+               "value":"RES",
+               "title":"Permanent Resident of Canada"
+            },
+            {
+               "value":"GOV",
+               "title":"Government or government entity in Canada"
+            },
+            {
+               "value":"EDU",
+               "title":"Canadian Educational Institution"
+            },
+            {
+               "value":"ASS",
+               "title":"Canadian Unincorporated Association"
+            },
+            {
+               "value":"HOP",
+               "title":"Canadian Hospital"
+            },
+            {
+               "value":"PRT",
+               "title":"Partnership Registered in Canada"
+            },
+            {
+               "value":"TDM",
+               "title":"Trade-mark registered in Canada"
+            },
+            {
+               "value":"TRD",
+               "title":"Canadian Trade Union"
+            },
+            {
+               "value":"PLT",
+               "title":"Canadian Political Party"
+            },
+            {
+               "value":"LAM",
+               "title":"Canadian Library, Archive or Museum"
+            },
+            {
+               "value":"TRS",
+               "title":"Trust established in Canada"
+            },
+            {
+               "value":"ABO",
+               "title":"Aboriginal Peoples (individuals or groups) indigenous to Canada"
+            },
+            {
+               "value":"INB",
+               "title":"Indian Band recognized by the Indian Act of Canada"
+            },
+            {
+               "value":"LGR",
+               "title":"Legal Representative of a Canadian Citizen or Permanent Resident"
+            },
+            {
+               "value":"OMK",
+               "title":"Official mark registered in Canada"
+            },
+            {
+               "value":"MAJ",
+               "title":"Her Majesty the Queen"
+            }
+         ]
+      }
+   ],
+   ".dk":[
+      {
+         "description":"Vat Identification Number",
+         "name":"x-dk-vatid",
+         "type":"input",
+         "option":false
+      }
+   ],
+   ".eu":[
+      {
+         "description":"Use Trustee Contact service",
+         "name":"x-eu-accept-trustee-tac",
+         "type":"checkbox",
+         "option":false
+      },
+      {
+         "description":"Registrant Language",
+         "name":"x-eu-registrant-lang",
+         "type":"select",
+         "option":[
+            {
+               "value":"cs",
+               "title":"Czech"
+            },
+            {
+               "value":"da",
+               "title":"Danish"
+            },
+            {
+               "value":"de",
+               "title":"German"
+            },
+            {
+               "value":"el",
+               "title":"Greek"
+            },
+            {
+               "value":"en",
+               "title":"English"
+            },
+            {
+               "value":"es",
+               "title":"Spanish"
+            },
+            {
+               "value":"et",
+               "title":"Estonian"
+            },
+            {
+               "value":"fi",
+               "title":"Finnish"
+            },
+            {
+               "value":"fr",
+               "title":"French"
+            },
+            {
+               "value":"hu",
+               "title":"Hungarian"
+            },
+            {
+               "value":"it",
+               "title":"Italian"
+            },
+            {
+               "value":"lt",
+               "title":"Latvian"
+            },
+            {
+               "value":"lv",
+               "title":"Lithuanian"
+            },
+            {
+               "value":"mt",
+               "title":"Maltese"
+            },
+            {
+               "value":"nl",
+               "title":"Dutch"
+            },
+            {
+               "value":"pl",
+               "title":"Polish"
+            }
+         ]
+      }
+   ],
+   ".fr":[
+      {
+         "description":".FR Trustee Solution",
+         "name":"x-fr-accepttrustee-tac",
+         "type":"checkbox",
+         "option":false
+      },
+      {
+         "description":"Owner birth date",
+         "name":"x-fr-registrantbirth-date",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Owner birth place",
+         "name":"x-fr-registrantbirth-place",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Registered Trademark Registration Number",
+         "name":"x-fr-registrant-trademark-number",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Entity Legal Form",
+         "name":"x-fr-registrant-legal-form",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Registrant ID",
+         "name":"x-fr-registrant-legal-id",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Date of the declaration of the trademark registration JO",
+         "name":"x-fr-registrant-jo-date-declaration",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Number of the trademark date registration JO",
+         "name":"x-fr-registrant-jo-date-number",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Page of the trademark date registration JO",
+         "name":"x-fr-registrant-jo-date-page",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Date of publication of the trademark registration JO",
+         "name":"x-fr-registrant-jo-date-publication",
+         "type":"input",
+         "option":false
+      }
+   ],
+   ".it":[
+      {
+         "description":"Taxpayer Number (PIN)",
+         "name":"x-it-pin",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Declarations and assumptions of liability",
+         "name":"X-IT-ACCEPT-LIABILITY-TAC",
+         "type":"checkbox",
+         "option":false
+      },
+      {
+         "description":"Consent to the processing of personal data for registration",
+         "name":"X-IT-ACCEPT-REGISTRATION-TAC",
+         "type":"checkbox",
+         "option":false
+      },
+      {
+         "description":"Consent to the processing of personal data for diffusion and accessibility via the internet",
+         "name":"X-IT-ACCEPT-DIFFUSION-AND-ACCESSIBILITY-TAC",
+         "type":"checkbox",
+         "option":false
+      },
+      {
+         "description":"Explicit acceptance of the following points",
+         "name":"X-IT-ACCEPT-EXPLICIT-TAC",
+         "type":"checkbox",
+         "option":false
+      }
+   ],
+   ".jobs":[
+      {
+         "description":"Company URL",
+         "name":"x-jobs-companyurl",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Industry Classification",
+         "name":"x-jobs-industryclassification",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Human Resources Association name",
+         "name":"x-jobs-hraname",
+         "type":"input",
+         "option":false
+      }
+   ],
+   ".nl":[
+      {
+         "description":"Use Trustee Contact Service",
+         "name":"x-nl-accept-trustee-tac",
+         "type":"checkbox",
+         "option":false
+      }
+   ],
+   ".se":[
+      {
+         "description":"Personal Identity Number",
+         "name":"x-nicse-idnumber",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Vat ID",
+         "name":"x-nicse-vatid",
+         "type":"input",
+         "option":false
+      }
+   ],
+   ".nu":[
+      {
+         "description":"Personal Identity Number",
+         "name":"x-registrant-idnumber",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Vat ID",
+         "name":"x-vatid",
+         "type":"input",
+         "option":false
+      }
+   ],
+   ".sg":[
+      {
+         "description":"Company Registration Number",
+         "name":"x-sg-rcbid",
+         "type":"input",
+         "option":false
+      }
+   ],
+   ".travel":[
+      {
+         "description":"Unique identification Number",
+         "name":"x-travel-uin",
+         "type":"input",
+         "option":false
+      }
+   ],
+   ".us":[
+      {
+         "name":"x-us-nexus-category",
+         "description":"Nexus Category",
+         "type":"select",
+         "option":[
+            {
+               "value":"C11",
+               "title":"US Citizen"
+            },
+            {
+               "value":"C12",
+               "title":"Permanent Resident"
+            },
+            {
+               "value":"C21",
+               "title":"Business Entity"
+            },
+            {
+               "value":"C31",
+               "title":"Foreign Entity"
+            },
+            {
+               "value":"C32",
+               "title":"US Based Office"
+            }
+         ]
+      },
+      {
+         "name":"x-us-nexus-apppurpose",
+         "description":"Application Purpose",
+         "type":"select",
+         "option":[
+            {
+               "value":"P1",
+               "title":"For Profit"
+            },
+            {
+               "value":"P2",
+               "title":"Non-profit"
+            },
+            {
+               "value":"P3",
+               "title":"Personal"
+            },
+            {
+               "value":"P4",
+               "title":"Educational"
+            },
+            {
+               "value":"P5",
+               "title":"Government"
+            }
+         ]
+      },
+      {
+         "description":"Nexus-Validator (2 letter code)",
+         "name":"x-us-nexus-validator",
+         "type":"input",
+         "option":false
+      }
+   ],
+   ".hk":[
+      {
+         "description":"Chinese company",
+         "name":"x-hk-registrant-chinese-company",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Document type",
+         "name":"X-HK-REGISTRANT-DOCUMENT-TYPE",
+         "type":"select",
+         "option":[
+            {
+               "value":"HKID",
+               "title":"Hong Kong Identity Number"
+            },
+            {
+               "value":"OTHID",
+               "title":"Other's Country Identity Number"
+            },
+            {
+               "value":"PASSNO",
+               "title":"Passport No."
+            },
+            {
+               "value":"BIRTHCERT",
+               "title":"Birth Certificate "
+            },
+            {
+               "value":"OTHIDV",
+               "title":"Others Individual Document"
+            },
+            {
+               "value":"BR",
+               "title":"Business Registration Certificate "
+            },
+            {
+               "value":"CI",
+               "title":"Certificate of Incorporation"
+            },
+            {
+               "value":"CRS",
+               "title":"Certificate of Registration of a School"
+            },
+            {
+               "value":"HKSARG",
+               "title":"Hong Kong Special Administrative Region Government Department"
+            },
+            {
+               "value":"HKORDINANCE",
+               "title":"Ordinance of Hong Kong "
+            },
+            {
+               "value":"OTHORG",
+               "title":"Others Organization Document"
+            }
+         ]
+      },
+      {
+         "description":"Other document type",
+         "name":"x-hk-registrant-other-document-type",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Registrant document number",
+         "name":"x-hk-registrant-document-number",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Registrant document origin country (2 letter code)",
+         "name":"x-hk-registrant-document-origin-country",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Registrant birth date",
+         "name":"x-hk-registrant-birth-date",
+         "type":"input",
+         "option":false
+      },
+      {
+         "description":"Accept individual registration tac",
+         "name":"x-hk-accept-individual-registration-tac",
+         "type":"checkbox",
+         "option":false
+      }
+   ]
+}

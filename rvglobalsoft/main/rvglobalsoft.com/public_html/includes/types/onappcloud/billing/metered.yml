@@ -1,0 +1,119 @@
+---
+variables:
+  memory:
+    name: Memory
+    scheme: unit
+    hideschemes: true
+    group: resources
+    unit_name: MB
+    description: Total memory used in last hour by client's virtual machines
+  cpus:
+    name: CPU Cores
+    scheme: unit
+    hideschemes: true
+    group: resources
+    unit_name:
+    description: CPU Cores count used in last hour by client's virtual machines
+  cpu_shares:
+    name: CPU Share
+    scheme: unit
+    hideschemes: true
+    group: resources
+    unit_name: %
+    description: CPU Shares reserved in last hour by customer's VMs
+  disk_size:
+    name: Disk Size
+    scheme: unit
+    hideschemes: true
+    group: resources
+    unit_name: GB
+    description: Total disk size used in last hour by client's VMs
+  ip_addresses:
+    name: IP Addresses
+    scheme: unit
+    hideschemes: true
+    group: resources
+    unit_name: IP
+    description: Total IP count assigned in last hour to client's VMs
+  data_read:
+    name: Disk data read
+    group: usage
+    scheme: tiered
+    unit_name: GBs
+    description: Amount of data read from client's VMs disks, measured in billing period
+  data_written:
+    name: Disk data write
+    group: usage
+    scheme: tiered
+    unit_name: GBs
+    description: Amount of data written client's VMs disks, measured in billing period
+  reads_completed:
+    name: Disk data reads completed
+    group: usage
+    scheme: tiered
+    unit_name: M operations
+    description: Number of disk reads (in millions) in current billing period
+  writes_completed:
+    name: Disk data writes completed
+    group: usage
+    scheme: tiered
+    unit_name: M operations
+    description: Number of disk writes (in millions) in current billing period
+  data_sent:
+    name: Data sent
+    group: usage
+    scheme: tiered
+    unit_name: GBs
+    description: Amount of data sent from client VMs in current billing period
+  data_received:
+    name: Data received
+    group: usage
+    scheme: tiered
+    unit_name: GBs
+    description: Amount of data received by client VMs in current billing period
+  cpu_usage:
+    name: CPU usage
+    group: usage
+    scheme: tiered
+    unit_name: %
+    description: Usage of CPU by client's vms in billing period
+  memory_off:
+    name: Memory Off
+    scheme: unit
+    hideschemes: true
+    options: 6
+    group: resources_off
+    unit_name: MB
+    description: Memory reserved but unused (powered off) client's virtual machines
+  cpus_off:
+    name: CPU Cores Off
+    scheme: unit
+    hideschemes: true
+    options: 6
+    group: resources_off
+    unit_name:
+    description: CPU Cores count reserved by  unused (powered off) client's virtual machines
+  cpu_shares_off:
+    name: CPU Share Off
+    scheme: unit
+    hideschemes: true
+    options: 6
+    group: resources_off
+    unit_name: %
+    description: CPU Shares reserved  by  unused (powered off) client's virtual machines
+  disk_size_off:
+    name: Disk Size Off
+    scheme: unit
+    hideschemes: true
+    options: 6
+    group: resources_off
+    unit_name: GB
+    description: Total disk size reserverd by  unused (powered off) client's virtual machines
+  ip_addresses_off:
+    name: IP Addresses Off
+    scheme: unit
+    hideschemes: true
+    options: 6
+    group: resources_off
+    unit_name: IP
+    description: Total IP count reserved by unused (powered off) client's virtual machines

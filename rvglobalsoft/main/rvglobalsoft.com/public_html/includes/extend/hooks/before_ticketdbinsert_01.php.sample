@@ -1,0 +1,35 @@
+<?php
+
+/**
+
+ New ticket is about to be inserted into database.
+ Note: $details array is passed by reference - if you'll modify its values it will go into db as such.
+ Following $details array keys are available:
+$details['parent_id']; // Id of ticket's parent in db hb_tickets.parent_id
+$details['date']; // Creation date
+$details['lastreply']; // Last reply date
+$details['lastupdate']; // Last ticket change date
+$details['ticket_number']; // Ticket's number
+$details['acc_hash']; // Access hash, used to access ticket without login
+$details['dept_id']; // Ticket's Department id
+$details['client_id']; // Client id
+$details['creator_id']; // ID of ticket creator, either admin or client id
+$details['name']; // Name of ticket submitter
+$details['email']; // Email ticket notifications will be sent to
+$details['cc']; // CC list
+$details['bcc']; // BCC List
+$details['subject']; // Ticket subject
+$details['body']; // Ticket message body
+$details['status']; // Ticket status
+$details['priority']; // Priority
+$details['flags']; // Flags
+$details['tags']; // Tags flag
+$details['admin_read']; // Flag indicating if last ticket reply was reaad by admin
+$details['client_read']; // Flag indicating if last ticket reply was read by client
+$details['type']; // Who opened ticket ('Client','Admin','Email','Unregistered')
+$details['request_type']; // One of: 'General','Incident','Problem','Task','Question'
+$details['senderip']; // IP where ticket was submitted froms
+$details['start_date']; // Ticket creation date/time
+$details['resolve_date']; // Ticket resolution date/time
+$details['owner_id']; // Ticket owner id (staff id)
+*/

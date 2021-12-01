@@ -1,0 +1,9 @@
+country: ZA
+tax:
+  -
+    name: VAT
+    level: 1
+    rate: 15
+    countries:
+      - ZA
+    state: 0

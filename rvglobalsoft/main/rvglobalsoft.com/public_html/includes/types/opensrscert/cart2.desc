@@ -1,0 +1,7 @@
+{*
+@@name:: SSL Certificates order v2
+@@description:: This template has been created especially for SSL Certificates products,
+it allows your clients to configure SSL certificates at order time, so after payment it can be automatically issued.
+@@thumb:: ../../../templates/orderpages/sslcertificates/thumb.png
+@@img:: ../../../templates/orderpages/sslcertificates/preview.png
+*}

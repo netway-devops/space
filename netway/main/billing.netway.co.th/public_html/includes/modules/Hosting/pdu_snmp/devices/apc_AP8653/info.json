@@ -1,0 +1,4 @@
+{
+  "name": "APC AP8653",
+  "description": "Generic SNMP driver for APC PDU model: AP8653.  Power billing use/require HostBill PowerCollector module."
+}

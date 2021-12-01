@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'SourceSansProSemiboldItalic';
+    src: url('SourceSansPro-SemiboldIt-webfont.eot');
+    src: url('SourceSansPro-SemiboldIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SourceSansPro-SemiboldIt-webfont.woff') format('woff'),
+         url('SourceSansPro-SemiboldIt-webfont.ttf') format('truetype'),
+         url('SourceSansPro-SemiboldIt-webfont.svg#SourceSansProSemiboldItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+
+}

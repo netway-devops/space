@@ -1,0 +1,6 @@
+---
+name: 14 Days Free trial, suspend afterwards
+task: suspendAccount
+event: AccountCreate
+when: after
+interval: 14

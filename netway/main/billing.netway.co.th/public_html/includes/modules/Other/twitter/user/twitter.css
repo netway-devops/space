@@ -1,0 +1,32 @@
+#tweets {
+    margin: 24px;
+}
+#tweets p {
+    margin: 3px 0px 18px 0px;
+    color: #222;
+}
+#tweets div {
+    margin: 0px 0px 24px 0px;
+    text-align: right;
+    width: 100%;
+}
+#tweets .act a {
+    margin: auto 6px auto 6px;
+    display: inline-block !important;
+    font-size: 11px;
+    text-decoration: none;
+}
+#tweets a.twitter {
+    margin: auto 0px auto 8px;
+    text-decoration: underline;
+}
+#tweetsh span {
+    color: #097bfb;
+    font-weigth: 700;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    padding-left: 6px;
+    vertical-align: middle;
+
+}

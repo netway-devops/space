@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/netway-vendor/hostbill.git
+	branch = main
+	commit = 690f45ddb37cbb08e9e895d0b498e9fc4e9ab7c9
+	parent = 74cd6dddbd9dfa17740f313774c66c88de586a96
+	method = merge
+	cmdver = 0.4.3

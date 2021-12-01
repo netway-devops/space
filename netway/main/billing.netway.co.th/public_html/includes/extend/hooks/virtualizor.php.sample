@@ -1,0 +1,33 @@
+<?php
+
+// vm was created:
+HBEventManager::addProceduralObserver('after_vmdeploy',function($data){
+
+
+    $account_id = $data['account_id'];
+    $vm_id = $data['vm_id'];
+    $name = $data['name'];
+    $hostname = $data['hostname'];
+    $cpu = $data['cpu'];
+    $memory = $data['memory'];
+    $disk = $data['disk'];
+    $template_id = $data['template_id'];
+
+    /** @var Virtualizor $module */
+    $module = $data['module'];
+    
+
+    
+});
+
+
+HBEventManager::addProceduralObserver('virtualizor_ip_event',function($data){
+
+    if($data['action'] === 'delete') {
+        //vm got destroyed
+
+        $account_id = $data['account_id'];
+        $vm_id = $data['vm_id'];
+    }
+   
+});

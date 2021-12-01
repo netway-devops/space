@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * NOTE: You will need to rename this file to whois-custom.php, otherwise configuration added in this
+ * file will not have any effect.
+ *
+ * Array below contains list of tlds and related whois servers.
+ * Example:
+ * array element:
+ * '.co' => array(
+ *   'server' => 'whois.nic.co',
+ *   'available' => 'Not found:'
+ * )
+ *
+ * Informs HostBill core that:
+ * 1. if domain to lookup have .co extension than:
+ *  - connect with whois.nic.co over port 43
+ *  - provide domain to lookup
+ *  - check response, if it will contain string "Not found:"
+ * (as described in 'available' section) it means that domain is available
+ * for registration
+ *
+ * 2. If 'server' part begin with http:// HostBill will perform lookup using
+ * port 80 (http request)
+ */
+
+return array (
+    '.example' =>
+        array (
+            'server' => 'whois.nic.af',
+            'available' => 'No Object Found',
+        ),
+);

@@ -1,0 +1,69 @@
+---
+id: 1
+paid_id: 1
+status: Unpaid
+total: 100.00
+grandtotal: 100.00
+client_id: 0
+currency_id: 0
+date: 2011-01-01
+duedate: 2011-01-07
+datepaid: 0000-00-00
+subtotal: 100.00
+credit: 0
+tax: 0
+taxrate: 0
+tax2: 0
+taxrate2: 0
+payment_module: 1
+rate: 1
+rate2: 0.30
+rate3: 0.30
+notes: 'Invoice notes'
+items:
+  -
+    id: 1
+    invoice_id: 1
+    item_id: 1
+    type: Hosting
+    qty: 1
+    taxed: 1
+    tax_rate: 20.00
+    tax: 10.00
+    amount: 50.00
+    description: 'cPanel Hosting Basic - mydomain.com '
+  -
+    id: 2
+    invoice_id: 1
+    item_id: 2
+    type: Addon
+    qty: 1
+    taxed: 0
+    amount: 25.00
+    description: 'Addon - Extra Disk Space '
+  -
+    id: 3
+    invoice_id: 1
+    item_id: 3
+    type: Addon
+    qty: 1
+    taxed: 0
+    amount: 25.00
+    description: 'Addon - Dedicated IP Address '
+client:
+  id: 1
+  firstname: John
+  lastname: Doe
+  companyname: 
+  address1: Doe Street #1
+  address2:
+  city: New York
+  state: NY
+  postcode: 1N7 1A
+  country: US
+  phonenumber: 1-234-56-1
+  datecreated: 2011-01-01
+  notes:
+  company: 0
+  currency_id: 0
+  language: english

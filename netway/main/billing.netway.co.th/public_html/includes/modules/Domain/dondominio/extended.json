@@ -1,0 +1,500 @@
+{
+    ".aero": [
+        {
+            "name": "ENS Identifier",
+            "variable": "aeroId",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "ENS Password",
+            "variable": "aeroPass",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".cat": [
+        {
+            "name": "Indended use for the domain",
+            "variable": "domainIntentedUse",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".pl": [
+        {
+            "name": "Indended use for the domain",
+            "variable": "domainIntentedUse",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".scot": [
+        {
+            "name": "Indended use for the domain",
+            "variable": "domainIntentedUse",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".eus": [
+        {
+            "name": "Indended use for the domain",
+            "variable": "domainIntentedUse",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".gal": [
+        {
+            "name": "Indended use for the domain",
+            "variable": "domainIntentedUse",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".quebec": [
+        {
+            "name": "Indended use for the domain",
+            "variable": "domainIntentedUse",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".coop": [
+        {
+            "name": "CVC Code ( Cooperative Verficiation Code ) provided by www.nic.coop",
+            "variable": "coopCVC",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".fr": [
+        {
+            "name": "Date of birth of the owner contact",
+            "variable": "ownerDateOfBirth",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "You may provide a Trademark Number if the owner contact is an organization",
+            "variable": "frTradeMark",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "You may provide a SIREN number if the owner contact is an organization",
+            "variable": "frSirenNumber",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".hk": [
+        {
+            "name": "Date of birth of the owner contact",
+            "variable": "ownerDateOfBirth",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".it": [
+        {
+            "name": "Date of birth of the owner contact",
+            "variable": "ownerDateOfBirth",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Place of birth of the owner contact",
+            "variable": "ownerPlaceOfBirth",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".law": [
+        {
+            "name": "Accreditation number of the person soliciting the domain",
+            "variable": "lawaccid",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Official name of the accreditation body",
+            "variable": "lawaccbody",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Year of accreditation",
+            "variable": "lawaccyear",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Country of accreditation",
+            "variable": "lawaccjurcc",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "State/Province of accreditation",
+            "variable": "lawaccjurst",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".abogado": [
+        {
+            "name": "Accreditation number of the person soliciting the domain",
+            "variable": "lawaccid",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Official name of the accreditation body",
+            "variable": "lawaccbody",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Year of accreditation",
+            "variable": "lawaccyear",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Country of accreditation",
+            "variable": "lawaccjurcc",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "State/Province of accreditation",
+            "variable": "lawaccjurst",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".lawyer": [
+        {
+            "name": "Contact information of competent bodies for complain and abuse notification",
+            "variable": "coreContactInfo",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".attorney": [
+        {
+            "name": "Contact information of competent bodies for complain and abuse notification",
+            "variable": "coreContactInfo",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".dentist": [
+        {
+            "name": "Contact information of competent bodies for complain and abuse notification",
+            "variable": "coreContactInfo",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".airforce": [
+        {
+            "name": "Contact information of competent bodies for complain and abuse notification",
+            "variable": "coreContactInfo",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".army": [
+        {
+            "name": "Contact information of competent bodies for complain and abuse notification",
+            "variable": "coreContactInfo",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".navy": [
+        {
+            "name": "Contact information of competent bodies for complain and abuse notification",
+            "variable": "coreContactInfo",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".ltda": [
+        {
+            "name": "Authority who certifies the owner's profession",
+            "variable": "ltdaAuthority",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Owner's licenser number",
+            "variable": "ltdaLicenseNumber",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".moscow": [
+        {
+            "name": "Date of birth of the owner contact",
+            "variable": "ownerDateOfBirth",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".pro": [
+        {
+            "name": "Owner's profession",
+            "variable": "proProfession",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Authority who certifies the owner's profession",
+            "variable": "proAuthority",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Website of certifying authority",
+            "variable": "proAuthorityWebsite",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Owner's license number",
+            "variable": "proLicenseNumber",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".ru": [
+        {
+            "name": "Date of birth of the owner contact",
+            "variable": "ownerDateOfBirth",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Issuer of owner's certification",
+            "variable": "ruIssuer",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Certification date of issuing",
+            "variable": "ruIssuerDate",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".travel": [
+        {
+            "name": "UIN number provided by www.travel.travel",
+            "variable": "travelUIN",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".xxx": [
+        {
+            "name": "Type of user in the .xxx community",
+            "variable": "xxxClass",
+            "options": 2,
+            "type": "select",
+            "items": [
+                {
+                    "variable_id": "default",
+                    "name": "Non-member"
+                },
+                {
+                    "variable_id": "membership",
+                    "name": "Member of the .xxx community"
+                },
+                {
+                    "variable_id": "nonResolver",
+                    "name": "Domain will not resolve DNS"
+                }
+            ]
+        },
+        {
+            "name": "First and last name for .xxx community registration",
+            "variable": "xxxName",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "Email for .xxx community registration",
+            "variable": "xxxEmail",
+            "options": 2,
+            "type": "input"
+        },
+        {
+            "name": "ICM Registry ID (.xxx Community ID)",
+            "variable": "xxxId",
+            "options": 2,
+            "type": "input"
+        }
+    ],
+    ".es": [
+        {
+            "name": "Organization type",
+            "variable": "ContactOrgType",
+            "options": 2,
+            "type": "select",
+            "items": [
+                {
+                    "variable_id": 39,
+                    "name": "Agrupación de Interés Económico"
+                },
+                {
+                    "variable_id": 47,
+                    "name": "Asociación"
+                },
+                {
+                    "variable_id": 59,
+                    "name": "Asocicación Deportiva"
+                },
+                {
+                    "variable_id": 68,
+                    "name": "Asocicación Gremial"
+                },
+                {
+                    "variable_id": 124,
+                    "name": "Caja de Ahorros"
+                },
+                {
+                    "variable_id": 150,
+                    "name": "Comunidad de Bienes"
+                },
+                {
+                    "variable_id": 152,
+                    "name": "Comunidad de Propietarios"
+                },
+                {
+                    "variable_id": 164,
+                    "name": "Congregación o Instición Religiosa"
+                },
+                {
+                    "variable_id": 878,
+                    "name": "Consejo Regulador de Denominación de Origen"
+                },
+                {
+                    "variable_id": 181,
+                    "name": "Consulado"
+                },
+                {
+                    "variable_id": 197,
+                    "name": "Corporación de Derecho Público"
+                },
+                {
+                    "variable_id": 203,
+                    "name": "Embajada"
+                },
+                {
+                    "variable_id": 229,
+                    "name": "Entidad Local"
+                },
+                {
+                    "variable_id": 269,
+                    "name": "Federación Deportiva"
+                },
+                {
+                    "variable_id": 286,
+                    "name": "Fundación"
+                },
+                {
+                    "variable_id": 365,
+                    "name": "Mutua de Seguros"
+                },
+                {
+                    "variable_id": 879,
+                    "name": "Organismo Gestor de Espacio Natural"
+                },
+                {
+                    "variable_id": 745,
+                    "name": "Organismo Público Autonómico"
+                },
+                {
+                    "variable_id": 746,
+                    "name": "Organismo Público Estatal"
+                },
+                {
+                    "variable_id": 747,
+                    "name": "Organismo Público Local"
+                },
+                {
+                    "variable_id": 434,
+                    "name": "Órgano de la Administración Autonómica"
+                },
+                {
+                    "variable_id": 436,
+                    "name": "Órgano de la Administración del Estado"
+                },
+                {
+                    "variable_id": 877,
+                    "name": "Otras"
+                },
+                {
+                    "variable_id": 439,
+                    "name": "Partido Político"
+                },
+                {
+                    "variable_id": 476,
+                    "name": "Sindicato"
+                },
+                {
+                    "variable_id": 510,
+                    "name": "Sociedad Agraria de Transformación"
+                },
+                {
+                    "variable_id": 524,
+                    "name": "Sociedad Anónima"
+                },
+                {
+                    "variable_id": 525,
+                    "name": "Sociedad Anónima Deportiva"
+                },
+                {
+                    "variable_id": 744,
+                    "name": "Sociedad Anónima Laboral"
+                },
+                {
+                    "variable_id": 554,
+                    "name": "Sociedad Civil"
+                },
+                {
+                    "variable_id": 560,
+                    "name": "Sociedad Colectiva"
+                },
+                {
+                    "variable_id": 562,
+                    "name": "Sociedad Comanditaria"
+                },
+                {
+                    "variable_id": 566,
+                    "name": "Sociedad Cooperativa"
+                },
+                {
+                    "variable_id": 608,
+                    "name": "Sociedad Laboral Limitada"
+                },
+                {
+                    "variable_id": 612,
+                    "name": "Sociedad Limitada"
+                },
+                {
+                    "variable_id": 713,
+                    "name": "Sucursal en España"
+                },
+                {
+                    "variable_id": 717,
+                    "name": "Unión Temporal de Empresas"
+                }
+            ]
+        }
+    ]
+}

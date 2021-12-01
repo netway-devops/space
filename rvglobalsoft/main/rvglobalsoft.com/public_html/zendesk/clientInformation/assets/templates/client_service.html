@@ -1,0 +1,23 @@
+<h4 class="ui header">Service</h4>
+<!--
+<div>Domain ( <a href="javascript:void(0);" onclick="oRv.topbarListClientDomain({{clientId}});"> {{totalDomain}} </a> )</div>
+<div class="ui list">
+    {{#domains}}
+    <div class="item">
+        <a href="javascript:void(0);" onclick="oRv.topbarShowDomainDetail({{id}});">#{{id}} {{name}}</a>
+        <small> <a class="ui mini grey label">{{expire}}</a> </small>
+    </div>
+    {{/domains}}
+</div>
+-->
+
+<div>Account ( <a href="javascript:void(0);" onclick="oRv.topbarListClientAccount({{clientId}});"> {{totalAccount}} </a> )</div>
+<div class="ui list">
+    {{#accounts}}
+    <div class="item">
+        <a href="javascript:void(0);" onclick="oRv.topbarShowAccountDetail({{id}});">#{{id}} {{domain}}</a>
+        <small> {{name}} <a class="ui mini grey label">{{expire}}</a> </small>
+        
+    </div>
+    {{/accounts}}
+</div>

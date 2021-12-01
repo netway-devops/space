@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * New client profile (contact) has been registered in database,
+ * Following variable is available to use in this file:  $details contains informations that were stored.
+ * Some of keys available (note: if you have custom registration fields they may differ):
+ * $details['id']; // new client ID
+ * $details['type']; // Personal or Organization account
+ * $details['companyname']; // Supplied company name
+ * $details['firstname']; //
+ * $details['lastname']; //
+ * $details['password']; //
+ * $details['password2']; //
+ * $details['email']; //
+ * $details['address1']; //
+ * $details['address2']; //
+ * $details['city']; //
+ * $details['state']; //
+ * $details['postcode']; //
+ * $details['country']; //
+ * $details['phonenumber']; //
+ */

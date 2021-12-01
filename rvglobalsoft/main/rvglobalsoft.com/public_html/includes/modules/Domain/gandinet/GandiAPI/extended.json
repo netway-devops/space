@@ -1,0 +1,641 @@
+{
+    ".fr": [
+        {
+            "variable": "birth_city",
+            "name": "City of birth",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "birth_country",
+            "name": "Birth country",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "birth_date",
+            "name": "Birth date (YYYY-MM-DD)",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "birth_department",
+            "name": "Birth department",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "brand_number",
+            "name": "Brand number",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "name": "Data Universal Numbering System",
+            "variable": "duns",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "waldec",
+            "name": "Waldec ID",
+            "type": "input",
+            "options": 2
+        }
+    ],
+    ".aero": [{
+            "variable": "x-aero_ens_authid",
+            "name": "Aero id (you can apply for an .aero id on http://www.information.aero/)",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-aero_ens_authkey",
+            "name": "Aero password",
+            "type": "input",
+            "options": 2
+        }],
+    ".au": [{
+            "variable": "x-au_registrant_id_number",
+            "name": "ID Number",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-au_registrant_id_type",
+            "name": "ID Type",
+            "type": "select",
+            "items": [
+                {
+                    "variable_id": "ABN",
+                    "name": "ABN"
+                },
+                {
+                    "variable_id": "ACN",
+                    "name": "ACN"
+                }
+            ],
+            "options": 2
+        }],
+    ".ca": [{
+            "variable": "x-ca_legaltype",
+            "name": "Legal type",
+            "type": "select",
+            "items": [
+                {
+                    "variable_id": "CCO",
+                    "name": "CCO"
+                },
+                {
+                    "variable_id": "CCT",
+                    "name": "CCT"
+                },
+                {
+                    "variable_id": "RES",
+                    "name": "RES"
+                },
+                {
+                    "variable_id": "GOV",
+                    "name": "GOV"
+                },
+                {
+                    "variable_id": "EDU",
+                    "name": "EDU"
+                },
+                {
+                    "variable_id": "ASS",
+                    "name": "ASS"
+                },
+                {
+                    "variable_id": "HOP",
+                    "name": "HOP"
+                },
+                {
+                    "variable_id": "TDM",
+                    "name": "TDM"
+                },
+                {
+                    "variable_id": "PRT",
+                    "name": "PRT"
+                },
+                {
+                    "variable_id": "TRD",
+                    "name": "TRD"
+                },
+                {
+                    "variable_id": "PLT",
+                    "name": "PLT"
+                },
+                {
+                    "variable_id": "LAM",
+                    "name": "LAM"
+                },
+                {
+                    "variable_id": "TRS",
+                    "name": "TRS"
+                },
+                {
+                    "variable_id": "ABO",
+                    "name": "ABO"
+                },
+                {
+                    "variable_id": "INB",
+                    "name": "INB"
+                },
+                {
+                    "variable_id": "LGR",
+                    "name": "LGR"
+                },
+                {
+                    "variable_id": "OMK",
+                    "name": "OMK"
+                },
+                {
+                    "variable_id": "MAJ",
+                    "name": "MAJ"
+                }
+            ],
+            "options": 2
+        },
+        {
+            "variable": "x-ca_owner_name",
+            "name": "Owner name",
+            "type": "input",
+            "options": 2
+        }],
+    ".coop": [{
+            "variable": "x-coop_sponsor",
+            "name": "Coop Verification Code obtained on the coop registry website (see http://www.nic.coop/preverification)",
+            "type": "input",
+            "options": 2
+        }],
+    ".cy": [{
+            "variable": "x-cy_reg_identity_no",
+            "name": "Id card number or passport number if physical",
+            "type": "input",
+            "options": 2
+        }],
+    ".fi": [{
+            "variable": "x-fi_based_on_person_name",
+            "name": "Whether or not domain is based on a physical or moral person",
+            "type": "select",
+            "items": [
+                {
+                    "variable_id": "0",
+                    "name": "No"
+                },
+                {
+                    "variable_id": "1",
+                    "name": "Yes"
+                }
+            ],
+            "options": 2
+        },
+        {
+            "variable": "x-fi_business_number",
+            "name": "Registrant’s identification number for a moral person",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-fi_ident_number",
+            "name": "Registrant’s identification number for a physical person",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-fi_name_registration_id",
+            "name": "Identifier of the register where the name is recorded if based on a moral person’s nam",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-fi_name_registration_number",
+            "name": "Number of the record in the register where the name is recorded if based on a moral person’s name",
+            "type": "input",
+            "options": 2
+        }],
+    ".hk": [{
+            "variable": "x-hk_registrant_birth_date",
+            "name": "Owner’s birth date (YYYY-MM-DD)",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-hk_registrant_document_number",
+            "name": "number of the above document",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-hk_registrant_document_origin_country",
+            "name": "Country code (FR, GB, US...) of the origin country of the above document",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-hk_registrant_document_type",
+            "name": "owner’s document type",
+            "type": "select",
+            "items": [
+                {
+                    "variable_id": "HKID",
+                    "name": "Hong Kong Identity Number"
+                },
+                {
+                    "variable_id": "OTHID",
+                    "name": "Other's Country Identity Number"
+                },
+                {
+                    "variable_id": "PASSNO",
+                    "name": "Passport No."
+                },
+                {
+                    "variable_id": "BIRTHCERT",
+                    "name": "Birth Certificate "
+                },
+                {
+                    "variable_id": "OTHIDV",
+                    "name": "Others Individual Document"
+                },
+                {
+                    "variable_id": "BR",
+                    "name": "Business Registration Certificate "
+                },
+                {
+                    "variable_id": "CI",
+                    "name": "Certificate of Incorporation"
+                },
+                {
+                    "variable_id": "CRS",
+                    "name": "Certificate of Registration of a School"
+                },
+                {
+                    "variable_id": "HKSARG",
+                    "name": "Hong Kong Special Administrative Region Government Department"
+                },
+                {
+                    "variable_id": "HKORDINANCE",
+                    "name": "Ordinance of Hong Kong "
+                },
+                {
+                    "variable_id": "OTHORG",
+                    "name": "Others Organization Document"
+                }
+            ],
+            "options": 2
+        },
+        {
+            "variable": "x-hk_registrant_other_document_type",
+            "name": "Mandatory if document type is Other",
+            "type": "input",
+            "options": 2
+        }],
+    ".hu": [
+        {
+            "variable": "x-hu_idnumber",
+            "name": "id card number or passport number of the physical person",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-hu_owner_vatid",
+            "name": "vatid of the moral person",
+            "type": "input",
+            "options": 2
+        }],
+    ".ir": [{
+            "variable": "x-ir_login_id",
+            "name": "Registrant’s login id",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-ir_login_password",
+            "name": "Registrant’s login password",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-it_pin",
+            "name": "owner’s Italian fiscal code or the number of an identity document",
+            "type": "input",
+            "options": 2
+        }],
+    ".kr": [{
+            "variable": "x-kr_reg_identity_no",
+            "name": "Registrant’s Business Certificate",
+            "type": "input",
+            "options": 2
+        }],
+    ".my": [{
+            "variable": "x-my_admin_contact_password",
+            "name": "Admin contact password record",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-my_admin_contact_username",
+            "name": "Admin contact username as per Whois",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-my_business_number",
+            "name": "Registrant’s Business Number",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-my_organization_type",
+            "name": "Registrant’s Organization Type",
+            "type": "select",
+            "items": [
+                {
+                    "variable_id": "ota000001",
+                    "name": "architect firm"
+                }, {
+                    "variable_id": "ota000002",
+                    "name": "audit firm"
+                }, {
+                    "variable_id": "ota000003",
+                    "name": "business pursuant to business registration act(rob)"
+                }, {
+                    "variable_id": "ota000004",
+                    "name": "business pursuant to commercial license ordinance"
+                }, {
+                    "variable_id": "ota000005",
+                    "name": "company pursuant to companies act(roc)"
+                }, {
+                    "variable_id": "ota000006",
+                    "name": "educational institution accredited/registered by relevant government department/agency"
+                }, {
+                    "variable_id": "ota000007",
+                    "name": "farmers organisation"
+                }, {
+                    "variable_id": "ota000008",
+                    "name": "federal government department or agency"
+                }, {
+                    "variable_id": "ota000009",
+                    "name": "foreign embassy"
+                }, {
+                    "variable_id": "ota000010",
+                    "name": "foreign office"
+                }, {
+                    "variable_id": "ota000011",
+                    "name": "government aided primary and/or secondary school"
+                }, {
+                    "variable_id": "ota000012",
+                    "name": "law firm"
+                }, {
+                    "variable_id": "ota000013",
+                    "name": "lembaga (board)"
+                }, {
+                    "variable_id": "ota000014",
+                    "name": "local authority department or agency"
+                }, {
+                    "variable_id": "ota000015",
+                    "name": "maktab rendah sains mara (mrsm) under the administration of mara"
+                }, {
+                    "variable_id": "ota000016",
+                    "name": "ministry of defences department or agency"
+                }, {
+                    "variable_id": "ota000017",
+                    "name": "offshore company"
+                }, {
+                    "variable_id": "ota000018",
+                    "name": "parents teachers association"
+                }, {
+                    "variable_id": "ota000019",
+                    "name": "polytechnic under ministry of education administration"
+                }, {
+                    "variable_id": "ota000020",
+                    "name": "private higher educational institution"
+                }, {
+                    "variable_id": "ota000021",
+                    "name": "private school"
+                }, {
+                    "variable_id": "ota000022",
+                    "name": "regional office"
+                }, {
+                    "variable_id": "ota000023",
+                    "name": "religious entity"
+                }, {
+                    "variable_id": "ota000024",
+                    "name": "representative office"
+                }, {
+                    "variable_id": "ota000025",
+                    "name": "society pursuant to societies act(ros)"
+                }, {
+                    "variable_id": "ota000026",
+                    "name": "sports organisation"
+                }, {
+                    "variable_id": "ota000027",
+                    "name": "state government department or agency"
+                }, {
+                    "variable_id": "ota000028",
+                    "name": "trade union"
+                }, {
+                    "variable_id": "ota000029",
+                    "name": "trustee"
+                }, {
+                    "variable_id": "ota000030",
+                    "name": "university under the administration of ministry of"
+                }, {
+                    "variable_id": "ota000031",
+                    "name": "valuer, appraiser and estate agent firm"
+                }
+            ],
+            "options": 2
+        }],
+    ".no": [{
+            "variable": "x-no_registrant_identity",
+            "name": "organization number of the Norwegian organization (consisting of exactly 9 digits)",
+            "type": "input",
+            "options": 2
+        }],
+    ".nu": [{
+            "variable": "x-nu_registrant_idnumber",
+            "name": "Registrant’s id number or organization number",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-nu_registrant_vatid",
+            "name": "vatid of the moral person",
+            "type": "input",
+            "options": 2
+        }],
+    ".pro": [{
+            "variable": "x-pro_authority",
+            "name": "authority where the contact is registred",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-pro_authoritywebsite",
+            "name": "link to the registration authority",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-pro_licensenumber",
+            "name": "licence number",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-pro_profession",
+            "name": "contact profession",
+            "type": "input",
+            "options": 2
+        }],
+    ".pt": [{
+            "variable": "x-pt_arbitration",
+            "name": "Whether or not the registry arbitration is accepted",
+            "type": "select",
+            "items": [
+                {
+                    "variable_id": "0",
+                    "name": "No"
+                },
+                {
+                    "variable_id": "1",
+                    "name": "Yes"
+                }
+            ],
+            "options": 2
+        },
+        {
+            "variable": "x-pt_registrant_vatid",
+            "name": "owner’s VAT for company or ID card number for individual",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-pt_roid",
+            "name": "roid of the domain (in transfer process only)",
+            "type": "input",
+            "options": 2
+        }],
+    ".ro": [{
+            "variable": "x-ro_registrant_idnumber",
+            "name": "id card number or passport number id",
+            "type": "input",
+            "options": 2
+        }],
+    ".rs": [{
+            "variable": "x-rs_reg_identity_no",
+            "name": "Registrant’s Business Certificate",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-rs_reg_tax_no",
+            "name": "Registrant’s GST/VAT number",
+            "type": "input",
+            "options": 2
+        }],
+    ".ru": [{
+            "variable": "x-ru_registrant_passport_data",
+            "name": "owner’s passport number",
+            "type": "input",
+            "options": 2
+        }],
+    ".se": [{
+            "variable": "x-se_ident_number",
+            "name": "Swedish personal identity or organisational number or passport number, or id card number for individuals outside of Sweden",
+            "type": "input",
+            "options": 2
+        }],
+    ".sg": [{
+            "variable": "x-sg_idnumber",
+            "name": "Registrant’s id number",
+            "type": "input",
+            "options": 2
+        }],
+    ".sk": [{
+            "variable": "x-sk_registrant_idnumber",
+            "name": "id card number or passport number id",
+            "type": "input",
+            "options": 2
+        }],
+    ".travel": [{
+            "variable": "x-travel_uin",
+            "name": "an Unique Identification Number",
+            "type": "input",
+            "options": 2
+        }],
+    ".xxx": [{
+            "variable": "x-xxx_membership_contact",
+            "name": "owner contact membership ID, obtained on the xxx registry website",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-xxx_sponsored_community",
+            "name": "Adult Industry Sponsored Community",
+            "type": "input",
+            "options": 2
+        }],
+    ".other": [{
+            "variable": "birth_city",
+            "name": "contact birth cit",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "birth_country",
+            "name": "contact birth countr",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "birth_date",
+            "name": "contact birth date (YYYY-MM-DD",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "birth_department",
+            "name": "contact birth departmen",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "brand_number",
+            "name": "company brand numbe",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "duns",
+            "name": "contact duns numbe",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "waldec",
+            "name": "contact waldec numbe",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-document_country",
+            "name": "Registrant’s country which issued the documen",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-document_type",
+            "name": "Registrant’s document typ",
+            "type": "input",
+            "options": 2
+        },
+        {
+            "variable": "x-document_value",
+            "name": "Registrant’s document numbe",
+            "type": "input",
+            "options": 2
+        }]
+}

@@ -1,0 +1,391 @@
+<?php
+
+
+/**
+ * Tested on: LibreNMS 1.60 - Tue Feb 04 2020
+ * ***************************************************************************
+ *
+ * HostBill-LibreNMS API file.
+ * Copyright (c) 2010-2017 HostBill All Rights Reserved.
+ *
+ *  This software is furnished under a license and may be used and copied
+ * only  in  accordance  with  the  terms  of such  license and with the
+ * inclusion of the above copyright notice.  This software  or any other
+ * copies thereof may not be provided or otherwise made available to any
+ * other person.  No title to and  ownership of the  software is  hereby
+ * transferred.
+ *
+ *                  HostBill IS NOT FREE SOFTWARE
+ * ***************************************************************************
+ *
+ * This file is part of LibreNMS module for HostBill it should be placed in main
+ * LibreNMS html directory (accessible from web).
+ *
+ * ***************************************************************************
+ */
+
+error_reporting(0);
+ini_set('display_errors', 0);
+
+
+use LibreNMS\Config;
+use Phpass\PasswordHash;
+
+$init_modules = array('web', 'graphs');
+require realpath(__DIR__ . '/..') . '/includes/init.php';
+
+if (!isset($config['install_dir'])) {
+    $config['install_dir'] = realpath(dirname(__FILE__)) . '/..';
+}
+
+
+function hb_get_image($port_id, $from = false, $to = false, $width = 1075, $height = 300) {
+    global $debug;
+
+    ob_start();
+    $vars = array(
+        'from' => $from,
+        'to' => $to,
+        'id' => $port_id,
+        'height' => 300,
+        'width' => 1075,
+        'type' => 'port_bits'
+    );
+    foreach ($vars as $k => $v) {
+        $_GET[$k] = $v;
+    }
+
+    $rrd_options = "";
+    $auth = "1";
+    $debug = false;
+
+    rrdtool_initialize(false);
+    require Config::get('install_dir') . '/includes/html/graphs/graph.inc.php';
+    rrdtool_close();
+}
+
+function hb_get_data($port_id, $from = false, $to = false, $n95th = false) {
+    global $debug;
+    $to = min($to, time() - 1);
+
+    $vars = array(
+        'from' => $from,
+        'to' => $to,
+        'id' => $port_id,
+        'height' => 300,
+        'width' => 1075,
+        'type' => 'port_bits',
+    );
+
+    foreach ($vars as $k => $v) {
+        $_GET[$k] = $v;
+    }
+
+    $debug = true;
+    $rrd_options = '';
+
+    //used in includes
+    $auth = 1;
+    $format = 'bits';
+    if ($n95th) {
+        Config::set('rrdgraph_real_percentile', true);
+    }
+
+    $dir = Config::get('install_dir');
+
+    rrdtool_initialize(false);
+    require $dir . "/includes/html/graphs/port/auth.inc.php";
+    require $dir . "/includes/html/graphs/port/bits.inc.php";
+
+    try {
+        if ($n95th) {
+            return rrdtool_95thgraph_xport($rrd_options);
+        }
+
+        return rrdtool_graph_xport($rrd_options);
+    } finally {
+        rrdtool_close();
+    }
+
+}
+
+function rrdtool_graph_xport($options) {
+    if (!preg_match_all('/(?:--start|--end|-s|-e) \d+|\sDEF:[^\s]+/', $options, $matches)) {
+        return null;
+    }
+
+    $options = []; //--json is broken
+    foreach ($matches[0] as $match) {
+        $options[] = trim($match);
+
+        if (strpos($match, 'DEF:') !== false) {
+            $name = substr($match, 5, strpos($match, '=') - 5);
+            $options[] = "XPORT:" . $name . ":" . "\"" . str_replace(":", "", $name) . "\"";
+        }
+    }
+
+    $options = implode(' ', $options);
+    $data = _rrdtool_cmd('xport', '', $options);
+
+    $valid_json = json_encode(simplexml_load_string($data));
+
+    return json_decode($valid_json, true);
+}
+
+function rrdtool_95thgraph_xport($options) {
+    if (!preg_match_all('/(?:--start|--end|-s|-e) \d+|\s(DEF|CDEF|VDEF|GPRINT):[^\s]+/', $options, $matches)) {
+        return null;
+    }
+
+    $options = [];
+    foreach ($matches[0] as $match) {
+        $match = trim($match);
+        if (strpos($match, 'GPRINT:') !== false) {
+            $parts = preg_split('/(?<!\\\\):/', $match);
+            $def = implode(':', array_slice($parts, 1, -1));
+            $name = '"' . str_replace(":", "_", $def) . '\\:"%30.2lf';
+            $options[] = "PRINT:" . $def . ":" . strtolower($name);
+        } else {
+            $options[] = trim($match);
+        }
+    }
+
+    $options = implode(' ', $options);
+    $out = _rrdtool_cmd('graph', '/dev/null', $options);
+
+    $data = [];
+    foreach (explode("\n", $out) as $line) {
+        if (strpos($line, ':') !== false) {
+            list($key, $value) = explode(':', $line, 2);
+            $data[$key] = trim($value);
+        }
+    }
+    return $data;
+}
+
+
+function _rrdtool_cmd($cmd, $file, $options) {
+    global $debug;
+
+    $cmd = rrdtool_build_command($cmd, $file, $options);
+    //LibreNMS\Proc or $rrd_sync_process has issues with buffer size, do not use
+    $proc = new Symfony\Component\Process\Process('rrdtool ' . $cmd);
+
+    $proc->run();
+    $output = $proc->getOutput();
+
+    if ($debug) {
+        echo "<p>$cmd</p>";
+        echo "<p>command returned ($output)</p>";
+    }
+
+    return $output;
+}
+
+
+class HB_LibreNMSAPI {
+
+
+    /**
+     * Check if given hash credentials are ok
+     * @param string $hash
+     * @return boolean
+     */
+    public function verifyLogin($hash) {
+        $hash = preg_replace("/[^a-zA-Z0-9_=]/", "", $hash);
+        $hash = explode('_', $hash, 2);
+        $id = dbFetchRow("SELECT password,user_id FROM users WHERE MD5(MD5(`username`)) = '" . $hash[0] . "' LIMIT 1");
+
+        if (!$id)
+            return false;
+        if ($id['password'] == crypt(base64_decode($hash[1]), $id['password'])) {
+            return true;
+        }
+        $hasher = new PasswordHash();
+        if ($hasher->CheckPassword(base64_decode($hash[1]), $id['password'])) {
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * List switches/devices defined with 'Interface - Traffic' data source.
+     * If possible fetch corresponding ports for each switch
+     * @return array
+     */
+    public function listSwitches() {
+
+        $query = "SELECT device_id, hostname FROM devices";
+
+        $switches = dbFetchRows($query);
+        if (!$switches)
+            return false;
+
+        foreach ($switches as &$switch) {
+            $switch['ports'] = $this->listPorts($switch['device_id']);
+        }
+        return $switches;
+    }
+
+
+    public function listDeviceGraphs($device_id) {
+
+        $device_id = (int) $device_id;
+        $out = dbFetchRows("SELECT DISTINCT graph  FROM device_graphs WHERE device_id='{$device_id}' ");
+
+        if (!$out)
+            return array();
+
+        $graphs = array();
+        foreach ($out as $v) {
+            $graphs[$v['graph']] = $v['graph'];
+        }
+        return $graphs;
+    }
+
+    /**
+     * List ports available for given device
+     * @param integer $host_id Device ID in LibreNMS
+     * @return array ie.:
+     * array('11'=>array('ifDescr'=>'Ethernet ...','ifName'=>'1/0/1'))
+     */
+    private function listPorts($host_id) {
+
+
+        $poout = dbFetchRows("SELECT port_id, ifDescr, ifName FROM ports WHERE device_id='{$host_id}' AND `deleted` !=1");
+
+        if (!$poout)
+            return array();
+
+        $ports = array();
+        //transpose rows to cols
+        foreach ($poout as $v) {
+            $ports[$v['port_id']] = $v['ifDescr'];
+        }
+        return $ports;
+    }
+
+    /**
+     * Output interface utilisation graph for given switch & ports
+     * @param integer $switch
+     * @param integer $port
+     * @param array $data graph data, allowed keys:
+     * from - plot graph from
+     * to - plot graph to
+     * width - graph width
+     * heigth - graph heigth
+     * @return png image
+     * @see function rrdtool_function_graph in lib/rrd.php
+     */
+    public function getGraphImage($switch, $port, $data = array()) {
+        hb_get_image($port, $data['from'], $data['to'], $data['width'], $data['height']);
+    }
+
+    /**
+     * Fetch RRDtool graph data for given switch/port
+     * @param integer $switch Switch to look graph of. ID in host table
+     * @param integer $port Port to look graph of. snmp_index in host_snmp_cache
+     * @param string $from Date to collect data from (unix timestamp)
+     * @param string $to Date to collect data to (unix timestamp)
+     * @return array Output from rrdtool_function_xport
+     *
+     */
+    public function getGraphData($switch, $port, $from, $to, $n = false) {
+        //small sanitization
+        $from = intval($from);
+        $to = intval($to);
+
+
+        //2nd use rrdtool_function_xport on this graph
+        return hb_get_data($port, $from, $to, $n);
+    }
+
+}
+
+class HB_LibreNMSAPI_Response {
+
+    private static $errors = array();
+    private static $output = array();
+
+    /**
+     * Add error to be sent with output
+     * @param <type> $error
+     */
+    public static function addError($error) {
+        self::$errors[] = $error;
+    }
+
+    /**
+     * We're expecting JSON headers/response
+     * Sometimes image though.
+     */
+    private static function sendHeaders($type = 'json') {
+        if ($type == 'json')
+            header('Content-type: text/json; charset=UTF-8');
+        else
+            header("Content-type: image/png");
+    }
+
+    /**
+     * Send output
+     */
+    private static function sendOutput() {
+        if (!empty(self::$errors))
+            self::$output['errors'] = self::$errors;
+
+        die(json_encode(self::$output));
+    }
+
+    /**
+     * Process incoming request
+     * @param array $request
+     */
+    public static function processRequest($request) {
+
+        $api = new HB_LibreNMSAPI();
+
+        //verify hash
+        if (!isset($request['hash'])) {
+            self::addError('Access hash is missing from request');
+        } elseif (!$api->verifyLogin($request['hash'])) {
+            self::addError('Login credentials provided are not valid');
+        } else {
+            switch ($request['cmd']) {
+                case 'listswitches':
+                    self::$output['switches'] = $api->listSwitches();
+                    break;
+
+                case 'listdevicegraphs':
+                    self::$output['graphs'] = $api->listDeviceGraphs($request['device_id']);
+                    break;
+                case 'getgraph':
+                    $api->getGraphImage($request['switch'], $request['port'], array('from' => $request['from'], 'to' => $request['to'], 'width' => $request['width'], 'height' => $request['height']));
+                    exit;
+                    break;
+
+                case 'getgraphdata':
+                    self::$output['data'] = $api->getGraphData($request['switch'], $request['port'], $request['from'], $request['to']);
+                    break;
+
+                case 'getgraphdata95th':
+                    self::$output['data'] = $api->getGraphData($request['switch'], $request['port'], $request['from'], $request['to'], true);
+                    break;
+
+                case 'testconnection':
+                    self::$output['success'] = true;
+                    break;
+
+
+                default:
+                    self::addError('API function is missing/not supported');
+                    break;
+            }
+        }
+
+        self::sendHeaders();
+        self::sendOutput();
+    }
+
+}
+
+HB_LibreNMSAPI_Response::processRequest($_REQUEST);

@@ -1,0 +1,1 @@
+<a href="?cmd=wirecardcheckout_seamless&action=paynow&invoice_id={$invoice.id}&security_token={$security_token}" class="btn btn-sm btn-info" onclick="return confirm('Are you sure?');">Charge existing Wirecard reference</a>

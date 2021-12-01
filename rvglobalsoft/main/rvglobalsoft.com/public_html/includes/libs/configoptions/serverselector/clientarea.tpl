@@ -1,0 +1,1 @@
+ {foreach from=$cst.items item=cit}{if $cit.name}{$cit.name}{/if}  {if $cit.price>0}( {$cit.price|price:$currency:1:1} ){/if}<br/>{/foreach}

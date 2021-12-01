@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "acaed126a4f2c0361bfd294329f811ab",
+    "packages": [
+        {
+            "name": "oxil/kinikit-core",
+            "version": "0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OxfordInfoLabs/kinikit-core.git",
+                "reference": "5c4a94841e35ecea50f45e2319129d12ba4f2d30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OxfordInfoLabs/kinikit-core/zipball/5c4a94841e35ecea50f45e2319129d12ba4f2d30",
+                "reference": "5c4a94841e35ecea50f45e2319129d12ba4f2d30",
+                "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "php": "^5.6|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kinikit\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Kinikit - PHP Application development framework",
+            "homepage": "https://kinikit.com",
+            "keywords": [
+                "application",
+                "json webservices",
+                "mvc",
+                "orm",
+                "persistence framework",
+                "php",
+                "webservices"
+            ],
+            "time": "2019-02-27T10:38:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

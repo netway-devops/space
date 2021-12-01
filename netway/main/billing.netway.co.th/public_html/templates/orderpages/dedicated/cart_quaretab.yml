@@ -1,0 +1,22 @@
+---
+productfeatures:
+  value: ulli+features
+imgpreview:
+  value: '../templates/orderpages/slidersquaretab/cart_slidersquare_howto.png'
+  name: View editable areas
+  type: link
+chooseplantext:
+  value: Select your plan
+  name: Select plan text
+  description: This phrase will be displayed above available packages
+  type: input
+promotext:
+  value: 'Use promo code: <span>XXXXXXX</span> to get 50% off for 1 year signup* '
+  name: Promotion text
+  description: Its a good place to put promotional code.
+  type: input
+redstriptext:
+  value: '<span class="tab-or1">50%</span><span class="tab-or2">off <br>1 year</span>'
+  name: Red strip text
+  description: Use this to draw more attention to your plan
+  type: input

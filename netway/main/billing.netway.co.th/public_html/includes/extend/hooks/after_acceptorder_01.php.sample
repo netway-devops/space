@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * Order has been accepted by administartor
+ * Variable available in this hook :  $details  - contains related order details from hb_orders table, like
+ * $details[id] $details[client_id] etc.
+ */

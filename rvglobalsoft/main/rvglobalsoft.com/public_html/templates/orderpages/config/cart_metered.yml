@@ -1,0 +1,8 @@
+---
+productfeatures:
+  value: ulli+description
+defaultselect:
+  value: '1'
+  name: Default plan selection
+  description: Use this specify wich plan should be selected at start, to select first plan enter '1', second '2' ...
+  type: input

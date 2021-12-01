@@ -1,0 +1,20 @@
+{
+  "lastname": {
+    "lang": "clientname",
+    "type": "input"
+  },
+  "invoice_id": {
+    "name": "Invoice ID",
+    "type": "input"
+  },
+  "trans_id": {
+    "name": "Transaction ID",
+    "type": "input"
+  },
+  "admin_name": {
+    "name": "Staff",
+    "type": "select",
+    "options": [],
+    "class": "chosenedge"
+  }
+}

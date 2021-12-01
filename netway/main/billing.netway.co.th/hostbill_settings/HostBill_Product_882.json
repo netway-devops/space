@@ -1,0 +1,1526 @@
+{
+    "product": {
+        "id": "882",
+        "category_id": "83",
+        "type": "3",
+        "name": "Flexible",
+        "description": "<ul><li>...<dl><dd>...<\/dd><\/dl><\/li><\/ul>",
+        "visible": "1",
+        "domain_options": "0",
+        "qty": "0",
+        "autosetup": "2",
+        "subdomain": "",
+        "tax": "1",
+        "tax_group_id": "1",
+        "upgrades": [],
+        "sort_order": "0",
+        "hostname": "1",
+        "autohostname": "",
+        "p_options": [
+            "64"
+        ],
+        "reg_document": "",
+        "reg_document_kb": "",
+        "code": "",
+        "contract_id": "0",
+        "dbcItemType": "Service",
+        "baseUnitOfMeasureCode": "MONTH",
+        "dbcItemId": "",
+        "baseUnitOfMeasureId": "",
+        "revenue_group": "1",
+        "line_group_id": "4",
+        "codeName": "LVPS",
+        "layout": "left",
+        "rel": "Product",
+        "paytype": "Regular",
+        "m_setup": "0.00",
+        "q_setup": "0.00",
+        "s_setup": "0.00",
+        "a_setup": "0.00",
+        "b_setup": "0.00",
+        "t_setup": "0.00",
+        "p4_setup": "0.00",
+        "p5_setup": "0.00",
+        "d_setup": "0.00",
+        "w_setup": "0.00",
+        "h_setup": 0,
+        "m": "499.00",
+        "q": "1497.00",
+        "s": "2994.00",
+        "a": "5988.00",
+        "b": "0.00",
+        "t": "0.00",
+        "p4": "0.00",
+        "p5": "0.00",
+        "d": "0.00",
+        "w": "0.00",
+        "h": 0,
+        "ptype": "Dedicated",
+        "tlds": null,
+        "periods": null,
+        "category_name": "Linux VPS",
+        "module": "156",
+        "modules": [
+            {
+                "product_id": "882",
+                "main": 1,
+                "modname": "Virtualizor",
+                "filename": "class.virtualizor.php",
+                "module": "156",
+                "options": {
+                    "type": "single",
+                    "vpstype": "kvm",
+                    "vpsplan": "3",
+                    "num_vs": "",
+                    "cpus": "",
+                    "vm_cores": "",
+                    "cpu_percent": "",
+                    "memory": "",
+                    "swap": "2048",
+                    "disksize": "",
+                    "server": [
+                        "30"
+                    ],
+                    "servergroup": [
+                        "-1",
+                        "1"
+                    ],
+                    "num_users": "",
+                    "option4": "",
+                    "ips": "1",
+                    "ips6": "",
+                    "ips6_subnet": "",
+                    "portspeed": "",
+                    "upload_speed": "",
+                    "bandwidth": "0",
+                    "nic_type": "default",
+                    "vif_type": "netfront",
+                    "ippoolid": ""
+                },
+                "default": {
+                    "type": "single",
+                    "vpstype": "kvm",
+                    "vpsplan": "3",
+                    "num_vs": "",
+                    "cpus": "",
+                    "vm_cores": "",
+                    "cpu_percent": "",
+                    "memory": "",
+                    "swap": "2048",
+                    "disksize": "",
+                    "server": [
+                        "30"
+                    ],
+                    "servergroup": [
+                        "-1",
+                        "1"
+                    ],
+                    "num_users": "",
+                    "option4": "",
+                    "ips": "1",
+                    "ips6": "",
+                    "ips6_subnet": "",
+                    "portspeed": "",
+                    "upload_speed": "",
+                    "bandwidth": "0",
+                    "nic_type": "default",
+                    "vif_type": "netfront",
+                    "ippoolid": ""
+                },
+                "server": {
+                    "144": "144"
+                }
+            },
+            {
+                "product_id": "882",
+                "module": "73",
+                "main": "0",
+                "server": {
+                    "80": "80"
+                },
+                "options": false,
+                "modname": "cloudlinux",
+                "filename": "class.cloudlinux.php",
+                "default": false
+            }
+        ],
+        "main": "1",
+        "modname": "Virtualizor",
+        "filename": "class.virtualizor.php",
+        "domain_op": [],
+        "free_domain": "0",
+        "emails": {
+            "AfterModuleTerminate": "0",
+            "after_accountinsert": "0",
+            "ProductAccountCreated": "146",
+            "SuspendAccount": "162",
+            "UnsuspendAccount": "9"
+        },
+        "a_upgrade": "0.00",
+        "m_upgrade": "0.00",
+        "q_upgrade": "0.00",
+        "s_upgrade": "0.00",
+        "tags": [],
+        "out_of_stock": false,
+        "service_type": "Hosting",
+        "block_cancellation_day": 0,
+        "0": true,
+        "config": {
+            "1OverdueReminder": "1",
+            "1ServiceReminder": "0",
+            "2OverdueReminder": "5",
+            "2ServiceReminder": "0",
+            "3OverdueReminder": "0",
+            "3ServiceReminder": "0",
+            "4ServiceReminder": "0",
+            "5ServiceReminder": "0",
+            "AddLateFeeAfter": "6",
+            "AdsjustDatesOnCreation": "on",
+            "AdvancedDueDate": "off",
+            "AutoCancelUnpaidInvoices": "off",
+            "AutoCancelUnpaidOrdersPeriod": "30",
+            "AutoProcessCancellations": "off",
+            "AutoSuspensionPeriod": "1",
+            "AutoTerminationPeriod": "30",
+            "BillFullMonth": "0",
+            "CancellationPostPaidProrata": "off",
+            "CancellationTypeEndPeriod": "on",
+            "CancellationTypeImmediate": "on",
+            "CreditOnDowngradeOverride": "",
+            "EnableAutoCancelUnpaidOrders": "off",
+            "EnableAutoCreation": "2",
+            "EnableAutoRenewService": "on",
+            "EnableAutoSuspension": "on",
+            "EnableAutoTermination": "off",
+            "EnableAutoUnSuspension": "on",
+            "EnableAutoUpgrades": "on",
+            "EnableProRata": "off",
+            "InitialDueDays": "0",
+            "InvoiceExpectDays": "0",
+            "InvoiceGeneration": "30",
+            "InvoiceUnpaidReminder": "7",
+            "LateFeeType": "0",
+            "LateFeeValue": "0",
+            "MoveDueDays": "0",
+            "ProRataDay": "1",
+            "ProRataMonth": "disabled",
+            "ProRataNextMonth": "0",
+            "RecurringBillingType": "PrePay",
+            "RenewInvoice": "1",
+            "ReturnToStockOnTerminate": "0",
+            "SendPaymentReminderEmails": "on",
+            "UpgradeProratePrecision": "seconds",
+            "InvoiceCustomReminder": null,
+            "StockProductVisibility": "follow"
+        }
+    },
+    "addons": {
+        "0": {
+            "id": "42",
+            "name": "Cloud Linux",
+            "parentmod": "class.cloudlinux.php"
+        },
+        "1": {
+            "id": "76",
+            "name": "KernelCare",
+            "parentmod": ""
+        },
+        "3": {
+            "id": "67",
+            "name": "Addon : Managed Server Services",
+            "parentmod": ""
+        },
+        "6": {
+            "id": "52",
+            "name": "Addon : Premium Managed",
+            "parentmod": ""
+        },
+        "7": {
+            "id": "54",
+            "name": "Addon : Standard Managed",
+            "parentmod": ""
+        },
+        "9": {
+            "id": "68",
+            "name": "Addon : Backup Services",
+            "parentmod": ""
+        }
+    },
+    "tasks": [],
+    "widgets": [],
+    "forms": [
+        {
+            "id": "3258",
+            "type": "select",
+            "required": "0",
+            "name": "OS Template",
+            "key": "",
+            "variable": "",
+            "description": "",
+            "category": "",
+            "product_id": "882",
+            "copy_of": "3258",
+            "options": "259",
+            "config": {
+                "conditionals": [],
+                "addemptyoption": 0
+            },
+            "sort_order": "0",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "8341",
+                    "category_id": "3258",
+                    "name": "centos-6.9-x86_64",
+                    "variable_id": "626",
+                    "copy_of": "8341"
+                },
+                {
+                    "id": "8579",
+                    "category_id": "3258",
+                    "name": "CentOS 6.9 (32Bit)",
+                    "variable_id": "625",
+                    "sort_order": "1",
+                    "copy_of": "8579"
+                },
+                {
+                    "id": "8578",
+                    "category_id": "3258",
+                    "name": "CentOS 6.10 (64Bit)",
+                    "variable_id": "848",
+                    "sort_order": "2",
+                    "copy_of": "8578"
+                },
+                {
+                    "id": "8344",
+                    "category_id": "3258",
+                    "name": "centos-7.5-x86_64",
+                    "variable_id": "870",
+                    "sort_order": "3",
+                    "copy_of": "8344",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "8346",
+                    "category_id": "3258",
+                    "name": "centos-7.6-x86_64",
+                    "variable_id": "870",
+                    "sort_order": "4",
+                    "copy_of": "8346",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "8577",
+                    "category_id": "3258",
+                    "name": "CentOS 7.7 (64Bit)",
+                    "variable_id": "883",
+                    "sort_order": "5",
+                    "copy_of": "8577"
+                },
+                {
+                    "id": "8638",
+                    "category_id": "3258",
+                    "name": "CentOs 7.9 (64Bit)",
+                    "variable_id": "961",
+                    "sort_order": "6",
+                    "copy_of": "8638"
+                },
+                {
+                    "id": "8340",
+                    "category_id": "3258",
+                    "name": "ubuntu-16.04-x86_64",
+                    "variable_id": "446",
+                    "sort_order": "7",
+                    "copy_of": "8340"
+                },
+                {
+                    "id": "8342",
+                    "category_id": "3258",
+                    "name": "ubuntu-17-10-x86_64",
+                    "variable_id": "781",
+                    "sort_order": "8",
+                    "copy_of": "8342"
+                },
+                {
+                    "id": "8343",
+                    "category_id": "3258",
+                    "name": "ubuntu-18.04-x86_64",
+                    "variable_id": "812",
+                    "sort_order": "9",
+                    "copy_of": "8343",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "8581",
+                    "category_id": "3258",
+                    "name": "Ubuntu 18.04 (32Bit)",
+                    "variable_id": "817",
+                    "sort_order": "10",
+                    "copy_of": "8581"
+                },
+                {
+                    "id": "8345",
+                    "category_id": "3258",
+                    "name": "ubuntu-18.10-x86_64",
+                    "variable_id": "860",
+                    "sort_order": "11",
+                    "copy_of": "8345",
+                    "pricing": true,
+                    "paytype": "Free"
+                },
+                {
+                    "id": "8580",
+                    "category_id": "3258",
+                    "name": "Ubuntu 19.04 (64Bit)",
+                    "variable_id": "889",
+                    "sort_order": "12",
+                    "copy_of": "8580"
+                },
+                {
+                    "id": "10336",
+                    "category_id": "3258",
+                    "name": "Ubuntu 20.04 (64Bit)",
+                    "variable_id": "909",
+                    "sort_order": "13",
+                    "copy_of": "10336"
+                },
+                {
+                    "id": "8583",
+                    "category_id": "3258",
+                    "name": "Debian 9.4 (64Bit)",
+                    "variable_id": "771",
+                    "sort_order": "14",
+                    "copy_of": "8583"
+                },
+                {
+                    "id": "8584",
+                    "category_id": "3258",
+                    "name": "Debian 9.4 (32Bit)",
+                    "variable_id": "776",
+                    "sort_order": "15",
+                    "copy_of": "8584"
+                },
+                {
+                    "id": "8582",
+                    "category_id": "3258",
+                    "name": "Debian 10 (64Bit)",
+                    "variable_id": "878",
+                    "sort_order": "16",
+                    "copy_of": "8582"
+                },
+                {
+                    "id": "8587",
+                    "category_id": "3258",
+                    "name": "Fedora 20 (64Bit)",
+                    "variable_id": "278",
+                    "sort_order": "17",
+                    "copy_of": "8587"
+                },
+                {
+                    "id": "8588",
+                    "category_id": "3258",
+                    "name": "Fedora 20 (32Bit)",
+                    "variable_id": "277",
+                    "sort_order": "18",
+                    "copy_of": "8588"
+                },
+                {
+                    "id": "8586",
+                    "category_id": "3258",
+                    "name": "Fedora 21 (64Bit)",
+                    "variable_id": "390",
+                    "sort_order": "19",
+                    "copy_of": "8586"
+                },
+                {
+                    "id": "8585",
+                    "category_id": "3258",
+                    "name": "Fedora 27 (64Bit)",
+                    "variable_id": "796",
+                    "sort_order": "20",
+                    "copy_of": "8585"
+                },
+                {
+                    "id": "8347",
+                    "category_id": "3258",
+                    "name": "CentOS7-DirectAdmin",
+                    "variable_id": "100021",
+                    "sort_order": "21",
+                    "copy_of": "8347",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "1200.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "100.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "300.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "600.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8353",
+                    "category_id": "3258",
+                    "name": "CentOS6-DirectAdmin",
+                    "variable_id": "100032",
+                    "sort_order": "22",
+                    "copy_of": "8353",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "1200.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "100.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "300.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "600.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8454",
+                    "category_id": "3258",
+                    "name": "CentOS7 DirectAdmin",
+                    "variable_id": "100021",
+                    "sort_order": "23",
+                    "copy_of": "8454",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "3600.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "300.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "900.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "1800.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8355",
+                    "category_id": "3258",
+                    "name": "CentOS6-cPanel76",
+                    "variable_id": "100034",
+                    "sort_order": "24",
+                    "copy_of": "8355",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "7200.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "600.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "1800.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "3600.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8349",
+                    "category_id": "3258",
+                    "name": "CentOS7-cPanel76",
+                    "variable_id": "100028",
+                    "sort_order": "25",
+                    "copy_of": "8349",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "7200.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "600.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "1800.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "3600.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8442",
+                    "category_id": "3258",
+                    "name": "CentOS7-cPanel82",
+                    "variable_id": "100053",
+                    "sort_order": "26",
+                    "copy_of": "8442",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "7200.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "600.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "1800.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "3600.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8446",
+                    "category_id": "3258",
+                    "name": "CentOS7 cPanel84 (Admin Up to 5 Account)",
+                    "variable_id": "100053",
+                    "sort_order": "27",
+                    "options": "1",
+                    "copy_of": "8446",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "7800.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "650.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "1950.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "3900.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8447",
+                    "category_id": "3258",
+                    "name": "CentOS7 cPanel84 (Pro Up to 30 Account)",
+                    "variable_id": "100053",
+                    "sort_order": "28",
+                    "options": "1",
+                    "copy_of": "8447",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "10800.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "900.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "2700.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "5400.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8448",
+                    "category_id": "3258",
+                    "name": "CentOS7 cPanel84 (Plus Up to 50 Account)",
+                    "variable_id": "100053",
+                    "sort_order": "29",
+                    "options": "1",
+                    "copy_of": "8448",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "16800.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "1400.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "4200.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "8400.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8452",
+                    "category_id": "3258",
+                    "name": "CentOS7 cPanel84 (Premier 100 Account)",
+                    "variable_id": "100053",
+                    "sort_order": "30",
+                    "options": "1",
+                    "copy_of": "8452",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "18600.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "1550.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "4650.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "9300.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8549",
+                    "category_id": "3258",
+                    "name": "CentOS7 Plesk (Web Admin Up to 10 Account)",
+                    "variable_id": "100055",
+                    "sort_order": "31",
+                    "options": "1",
+                    "copy_of": "8549",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "6240.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "520.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "1560.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "3120.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8550",
+                    "category_id": "3258",
+                    "name": "CentOS7 Plesk (Web Pro Up to 30 Account)",
+                    "variable_id": "100055",
+                    "sort_order": "32",
+                    "options": "1",
+                    "copy_of": "8550",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "9000.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "750.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "2250.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "4500.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8551",
+                    "category_id": "3258",
+                    "name": "CentOS7 Plesk (Web Host Unlimited Account)",
+                    "variable_id": "100055",
+                    "sort_order": "33",
+                    "options": "1",
+                    "copy_of": "8551",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "13800.00",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "1150.00",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "3450.00",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "6900.00",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                },
+                {
+                    "id": "8658",
+                    "category_id": "3258",
+                    "name": "CentOS7 Nextcloud18 (64Bit)",
+                    "variable_id": "100056",
+                    "sort_order": "34",
+                    "copy_of": "8658"
+                },
+                {
+                    "id": "8659",
+                    "category_id": "3258",
+                    "name": "CentOS7 ownCloud10 (64Bit)",
+                    "variable_id": "100057",
+                    "sort_order": "35",
+                    "copy_of": "8659"
+                },
+                {
+                    "id": "9618",
+                    "category_id": "3258",
+                    "name": "SUSE Linux Enterprise Server 12 SP3 (64Bit)",
+                    "variable_id": "SUSE Linux Enterprise Server 12 SP3",
+                    "sort_order": "36",
+                    "options": "1",
+                    "copy_of": "9618"
+                },
+                {
+                    "id": "10333",
+                    "category_id": "3258",
+                    "name": "debian-8.7-x86_64",
+                    "variable_id": "623",
+                    "sort_order": "37",
+                    "options": "1",
+                    "copy_of": "10333"
+                },
+                {
+                    "id": "10334",
+                    "category_id": "3258",
+                    "name": "centos-7.5-x86_64",
+                    "variable_id": "840",
+                    "sort_order": "38",
+                    "options": "1",
+                    "copy_of": "10334"
+                },
+                {
+                    "id": "10335",
+                    "category_id": "3258",
+                    "name": "centos-8-x86_64",
+                    "variable_id": "895",
+                    "sort_order": "39",
+                    "options": "1",
+                    "copy_of": "10335"
+                },
+                {
+                    "id": "10337",
+                    "category_id": "3258",
+                    "name": "suse-15.1-x86_64",
+                    "variable_id": "929",
+                    "sort_order": "40",
+                    "copy_of": "10337"
+                },
+                {
+                    "id": "10338",
+                    "category_id": "3258",
+                    "name": "centos-7.8-x86_64",
+                    "variable_id": "955",
+                    "sort_order": "41",
+                    "copy_of": "10338"
+                },
+                {
+                    "id": "10339",
+                    "category_id": "3258",
+                    "name": "Centos7-64bit-lb20000",
+                    "variable_id": "100031",
+                    "sort_order": "42",
+                    "copy_of": "10339"
+                },
+                {
+                    "id": "10340",
+                    "category_id": "3258",
+                    "name": "windows-2012r2",
+                    "variable_id": "100037",
+                    "sort_order": "43",
+                    "copy_of": "10340"
+                },
+                {
+                    "id": "10341",
+                    "category_id": "3258",
+                    "name": "windows-2016",
+                    "variable_id": "100038",
+                    "sort_order": "44",
+                    "copy_of": "10341"
+                },
+                {
+                    "id": "10342",
+                    "category_id": "3258",
+                    "name": "windows-2012r2-sqlexpress",
+                    "variable_id": "100042",
+                    "sort_order": "45",
+                    "copy_of": "10342"
+                },
+                {
+                    "id": "10343",
+                    "category_id": "3258",
+                    "name": "windows-2016-mssql",
+                    "variable_id": "100044",
+                    "sort_order": "46",
+                    "copy_of": "10343"
+                },
+                {
+                    "id": "10344",
+                    "category_id": "3258",
+                    "name": "windows-2016-sqlexpress",
+                    "variable_id": "100045",
+                    "sort_order": "47",
+                    "copy_of": "10344"
+                },
+                {
+                    "id": "10345",
+                    "category_id": "3258",
+                    "name": "windows-2016-plesk",
+                    "variable_id": "100046",
+                    "sort_order": "48",
+                    "copy_of": "10345"
+                },
+                {
+                    "id": "10346",
+                    "category_id": "3258",
+                    "name": "windows-2016-plesk-sqlexpress",
+                    "variable_id": "100047",
+                    "sort_order": "49",
+                    "copy_of": "10346"
+                },
+                {
+                    "id": "10347",
+                    "category_id": "3258",
+                    "name": "CentOS7-cPanel80",
+                    "variable_id": "100050",
+                    "sort_order": "50",
+                    "options": "1",
+                    "copy_of": "10347"
+                },
+                {
+                    "id": "10348",
+                    "category_id": "3258",
+                    "name": "Laravel-CentOS75",
+                    "variable_id": "100051",
+                    "sort_order": "51",
+                    "copy_of": "10348"
+                },
+                {
+                    "id": "10349",
+                    "category_id": "3258",
+                    "name": "CentOS7.6",
+                    "variable_id": "100054",
+                    "sort_order": "52",
+                    "copy_of": "10349"
+                },
+                {
+                    "id": "10350",
+                    "category_id": "3258",
+                    "name": "rs2.netwaygroup.com",
+                    "variable_id": "100058",
+                    "sort_order": "53",
+                    "copy_of": "10350"
+                },
+                {
+                    "id": "10351",
+                    "category_id": "3258",
+                    "name": "Nextcloud20",
+                    "variable_id": "100061",
+                    "sort_order": "54",
+                    "copy_of": "10351"
+                },
+                {
+                    "id": "10352",
+                    "category_id": "3258",
+                    "name": "Nextcloud20",
+                    "variable_id": "100062",
+                    "sort_order": "55",
+                    "copy_of": "10352"
+                },
+                {
+                    "id": "10353",
+                    "category_id": "3258",
+                    "name": "eza.netway.co.th",
+                    "variable_id": "100063",
+                    "sort_order": "56",
+                    "copy_of": "10353"
+                },
+                {
+                    "id": "10354",
+                    "category_id": "3258",
+                    "name": "Template01-CentOS7.9-x64",
+                    "variable_id": "100064",
+                    "sort_order": "57",
+                    "copy_of": "10354"
+                }
+            ]
+        },
+        {
+            "id": "2691",
+            "type": "slider",
+            "required": "0",
+            "name": "RAM [MB]",
+            "key": "cf_memory",
+            "variable": "memory",
+            "description": "",
+            "category": "server",
+            "product_id": "882",
+            "copy_of": "2691",
+            "options": "50",
+            "config": {
+                "minvalue": "1024",
+                "maxvalue": "16384",
+                "upgradefee": "0.00",
+                "downgradefee": "0.00",
+                "step": "1024",
+                "initialval": "1024",
+                "dontchargedefault": "1",
+                "conditionals": []
+            },
+            "sort_order": "1",
+            "group_id": "0",
+            "ftype": "slider",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6990",
+                    "category_id": "2691",
+                    "copy_of": "6990",
+                    "pricing": true,
+                    "paytype": "Regular",
+                    "a": "1.20",
+                    "a_setup": "0.00",
+                    "a_upgrade": "0.00",
+                    "m": "0.10",
+                    "m_setup": "0.00",
+                    "m_upgrade": "0.00",
+                    "q": "0.30",
+                    "q_setup": "0.00",
+                    "q_upgrade": "0.00",
+                    "s": "0.60",
+                    "s_setup": "0.00",
+                    "s_upgrade": "0.00"
+                }
+            ]
+        },
+        {
+            "id": "2688",
+            "type": "slider",
+            "required": "0",
+            "name": "Disk Size [GB]",
+            "key": "cf_hdd",
+            "variable": "disk_size",
+            "description": "",
+            "category": "server",
+            "product_id": "882",
+            "copy_of": "2688",
+            "options": "50",
+            "config": {
+                "conditionals": [],
+                "minvalue": "50",
+                "maxvalue": "500",
+                "step": "10",
+                "initialval": "50",
+                "dontchargedefault": "1"
+            },
+            "sort_order": "2",
+            "group_id": "0",
+            "ftype": "slider",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6977",
+                    "category_id": "2688",
+                    "copy_of": "6977",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2689",
+            "type": "slider",
+            "required": "0",
+            "name": "CPU Cores",
+            "key": "cf_cpu",
+            "variable": "cpu_cores",
+            "description": "",
+            "category": "server",
+            "product_id": "882",
+            "copy_of": "2689",
+            "options": "50",
+            "config": {
+                "conditionals": [],
+                "minvalue": "1",
+                "maxvalue": "8",
+                "step": "1",
+                "initialval": "1",
+                "dontchargedefault": "1"
+            },
+            "sort_order": "3",
+            "group_id": "0",
+            "ftype": "slider",
+            "premade": true,
+            "items": [
+                {
+                    "id": "6978",
+                    "category_id": "2689",
+                    "copy_of": "6978",
+                    "pricing": true,
+                    "paytype": "Regular"
+                }
+            ]
+        },
+        {
+            "id": "2697",
+            "type": "input",
+            "required": "0",
+            "name": "Additional IP Address",
+            "key": "",
+            "variable": "additional_ip_address",
+            "description": "",
+            "category": "",
+            "product_id": "882",
+            "copy_of": "2697",
+            "options": "0",
+            "config": {
+                "initialval": ""
+            },
+            "sort_order": "4",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "7006",
+                    "category_id": "2697",
+                    "copy_of": "7006"
+                }
+            ]
+        },
+        {
+            "id": "2698",
+            "type": "input",
+            "required": "0",
+            "name": "Control Panel Username",
+            "key": "",
+            "variable": "control_panel_username",
+            "description": "",
+            "category": "",
+            "product_id": "882",
+            "copy_of": "2698",
+            "options": "0",
+            "config": {
+                "initialval": ""
+            },
+            "sort_order": "5",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "7007",
+                    "category_id": "2698",
+                    "copy_of": "7007"
+                }
+            ]
+        },
+        {
+            "id": "2699",
+            "type": "input",
+            "required": "0",
+            "name": "Control Panel Password",
+            "key": "",
+            "variable": "control_panel_password",
+            "description": "",
+            "category": "",
+            "product_id": "882",
+            "copy_of": "2699",
+            "options": "0",
+            "config": {
+                "initialval": ""
+            },
+            "sort_order": "6",
+            "group_id": "0",
+            "ftype": "input",
+            "premade": true,
+            "items": [
+                {
+                    "id": "7008",
+                    "category_id": "2699",
+                    "copy_of": "7008",
+                    "pricing": true
+                }
+            ]
+        },
+        {
+            "id": "2822",
+            "type": "select",
+            "required": "0",
+            "name": "\u0e02\u0e2d\u0e07 Internal Netway \u0e40\u0e2d\u0e07",
+            "key": "",
+            "variable": "netway",
+            "description": "",
+            "category": "",
+            "product_id": "882",
+            "copy_of": "2822",
+            "options": "4",
+            "config": {
+                "conditionals": []
+            },
+            "sort_order": "7",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "7210",
+                    "category_id": "2822",
+                    "name": "\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48",
+                    "copy_of": "7210"
+                },
+                {
+                    "id": "7211",
+                    "category_id": "2822",
+                    "name": "\u0e43\u0e0a\u0e48",
+                    "variable_id": "1",
+                    "sort_order": "1",
+                    "copy_of": "7211"
+                }
+            ]
+        },
+        {
+            "id": "4212",
+            "type": "select",
+            "required": "0",
+            "name": "OS Template",
+            "key": "",
+            "variable": "os",
+            "description": "",
+            "category": "software",
+            "product_id": "882",
+            "copy_of": "4212",
+            "options": "3",
+            "config": {
+                "conditionals": [],
+                "addemptyoption": 0
+            },
+            "sort_order": "8",
+            "group_id": "0",
+            "ftype": "select",
+            "premade": true,
+            "items": [
+                {
+                    "id": "10355",
+                    "category_id": "4212",
+                    "name": "ubuntu-16.04-x86_64",
+                    "variable_id": "446",
+                    "copy_of": "10355"
+                },
+                {
+                    "id": "10356",
+                    "category_id": "4212",
+                    "name": "debian-8.7-x86_64",
+                    "variable_id": "623",
+                    "sort_order": "1",
+                    "copy_of": "10356"
+                },
+                {
+                    "id": "10357",
+                    "category_id": "4212",
+                    "name": "centos-6.9-x86",
+                    "variable_id": "625",
+                    "sort_order": "2",
+                    "copy_of": "10357"
+                },
+                {
+                    "id": "10358",
+                    "category_id": "4212",
+                    "name": "centos-6.9-x86_64",
+                    "variable_id": "626",
+                    "sort_order": "3",
+                    "copy_of": "10358"
+                },
+                {
+                    "id": "10359",
+                    "category_id": "4212",
+                    "name": "debian-9.4-x86_64",
+                    "variable_id": "771",
+                    "sort_order": "4",
+                    "copy_of": "10359"
+                },
+                {
+                    "id": "10360",
+                    "category_id": "4212",
+                    "name": "debian-9.4-x86",
+                    "variable_id": "776",
+                    "sort_order": "5",
+                    "copy_of": "10360"
+                },
+                {
+                    "id": "10361",
+                    "category_id": "4212",
+                    "name": "ubuntu-17-10-x86_64",
+                    "variable_id": "781",
+                    "sort_order": "6",
+                    "copy_of": "10361"
+                },
+                {
+                    "id": "10362",
+                    "category_id": "4212",
+                    "name": "ubuntu-18.04-x86_64",
+                    "variable_id": "812",
+                    "sort_order": "7",
+                    "copy_of": "10362"
+                },
+                {
+                    "id": "10363",
+                    "category_id": "4212",
+                    "name": "ubuntu-18.04-x86",
+                    "variable_id": "817",
+                    "sort_order": "8",
+                    "copy_of": "10363"
+                },
+                {
+                    "id": "10364",
+                    "category_id": "4212",
+                    "name": "centos-7.5-x86_64",
+                    "variable_id": "840",
+                    "sort_order": "9",
+                    "copy_of": "10364"
+                },
+                {
+                    "id": "10365",
+                    "category_id": "4212",
+                    "name": "centos-6.10-x86_64",
+                    "variable_id": "848",
+                    "sort_order": "10",
+                    "copy_of": "10365"
+                },
+                {
+                    "id": "10366",
+                    "category_id": "4212",
+                    "name": "ubuntu-18.10-x86_64",
+                    "variable_id": "860",
+                    "sort_order": "11",
+                    "copy_of": "10366"
+                },
+                {
+                    "id": "10367",
+                    "category_id": "4212",
+                    "name": "centos-7.6-x86_64",
+                    "variable_id": "870",
+                    "sort_order": "12",
+                    "copy_of": "10367"
+                },
+                {
+                    "id": "10368",
+                    "category_id": "4212",
+                    "name": "debian-10-x86_64",
+                    "variable_id": "878",
+                    "sort_order": "13",
+                    "copy_of": "10368"
+                },
+                {
+                    "id": "10369",
+                    "category_id": "4212",
+                    "name": "centos-7.7-x86_64",
+                    "variable_id": "883",
+                    "sort_order": "14",
+                    "copy_of": "10369"
+                },
+                {
+                    "id": "10370",
+                    "category_id": "4212",
+                    "name": "ubuntu-19.04-x86_64",
+                    "variable_id": "889",
+                    "sort_order": "15",
+                    "copy_of": "10370"
+                },
+                {
+                    "id": "10371",
+                    "category_id": "4212",
+                    "name": "centos-8-x86_64",
+                    "variable_id": "895",
+                    "sort_order": "16",
+                    "copy_of": "10371"
+                },
+                {
+                    "id": "10372",
+                    "category_id": "4212",
+                    "name": "ubuntu-20.04-x86_64",
+                    "variable_id": "909",
+                    "sort_order": "17",
+                    "copy_of": "10372"
+                },
+                {
+                    "id": "10373",
+                    "category_id": "4212",
+                    "name": "suse-15.1-x86_64",
+                    "variable_id": "929",
+                    "sort_order": "18",
+                    "copy_of": "10373"
+                },
+                {
+                    "id": "10374",
+                    "category_id": "4212",
+                    "name": "centos-7.8-x86_64",
+                    "variable_id": "955",
+                    "sort_order": "19",
+                    "copy_of": "10374"
+                },
+                {
+                    "id": "10375",
+                    "category_id": "4212",
+                    "name": "centos-7.9-x86_64",
+                    "variable_id": "961",
+                    "sort_order": "20",
+                    "copy_of": "10375"
+                },
+                {
+                    "id": "10376",
+                    "category_id": "4212",
+                    "name": "CentOS7-DirectAdmin",
+                    "variable_id": "100021",
+                    "sort_order": "21",
+                    "copy_of": "10376"
+                },
+                {
+                    "id": "10377",
+                    "category_id": "4212",
+                    "name": "Centos7-64bit-lb20000",
+                    "variable_id": "100031",
+                    "sort_order": "22",
+                    "copy_of": "10377"
+                },
+                {
+                    "id": "10378",
+                    "category_id": "4212",
+                    "name": "windows-2012r2",
+                    "variable_id": "100037",
+                    "sort_order": "23",
+                    "copy_of": "10378"
+                },
+                {
+                    "id": "10379",
+                    "category_id": "4212",
+                    "name": "windows-2016",
+                    "variable_id": "100038",
+                    "sort_order": "24",
+                    "copy_of": "10379"
+                },
+                {
+                    "id": "10380",
+                    "category_id": "4212",
+                    "name": "windows-2012r2-sqlexpress",
+                    "variable_id": "100042",
+                    "sort_order": "25",
+                    "copy_of": "10380"
+                },
+                {
+                    "id": "10381",
+                    "category_id": "4212",
+                    "name": "windows-2016-mssql",
+                    "variable_id": "100044",
+                    "sort_order": "26",
+                    "copy_of": "10381"
+                },
+                {
+                    "id": "10382",
+                    "category_id": "4212",
+                    "name": "windows-2016-sqlexpress",
+                    "variable_id": "100045",
+                    "sort_order": "27",
+                    "copy_of": "10382"
+                },
+                {
+                    "id": "10383",
+                    "category_id": "4212",
+                    "name": "windows-2016-plesk",
+                    "variable_id": "100046",
+                    "sort_order": "28",
+                    "copy_of": "10383"
+                },
+                {
+                    "id": "10384",
+                    "category_id": "4212",
+                    "name": "windows-2016-plesk-sqlexpress",
+                    "variable_id": "100047",
+                    "sort_order": "29",
+                    "copy_of": "10384"
+                },
+                {
+                    "id": "10385",
+                    "category_id": "4212",
+                    "name": "CentOS7-cPanel80",
+                    "variable_id": "100050",
+                    "sort_order": "30",
+                    "copy_of": "10385"
+                },
+                {
+                    "id": "10386",
+                    "category_id": "4212",
+                    "name": "Laravel-CentOS75",
+                    "variable_id": "100051",
+                    "sort_order": "31",
+                    "copy_of": "10386"
+                },
+                {
+                    "id": "10387",
+                    "category_id": "4212",
+                    "name": "CentOS7-cPanel82",
+                    "variable_id": "100053",
+                    "sort_order": "32",
+                    "copy_of": "10387"
+                },
+                {
+                    "id": "10388",
+                    "category_id": "4212",
+                    "name": "CentOS7.6",
+                    "variable_id": "100054",
+                    "sort_order": "33",
+                    "copy_of": "10388"
+                },
+                {
+                    "id": "10389",
+                    "category_id": "4212",
+                    "name": "Nextcloud18",
+                    "variable_id": "100056",
+                    "sort_order": "34",
+                    "copy_of": "10389"
+                },
+                {
+                    "id": "10390",
+                    "category_id": "4212",
+                    "name": "ownCloud10",
+                    "variable_id": "100057",
+                    "sort_order": "35",
+                    "copy_of": "10390"
+                },
+                {
+                    "id": "10391",
+                    "category_id": "4212",
+                    "name": "rs2.netwaygroup.com",
+                    "variable_id": "100058",
+                    "sort_order": "36",
+                    "copy_of": "10391"
+                },
+                {
+                    "id": "10392",
+                    "category_id": "4212",
+                    "name": "Nextcloud20",
+                    "variable_id": "100061",
+                    "sort_order": "37",
+                    "copy_of": "10392"
+                },
+                {
+                    "id": "10393",
+                    "category_id": "4212",
+                    "name": "Nextcloud20",
+                    "variable_id": "100062",
+                    "sort_order": "38",
+                    "copy_of": "10393"
+                },
+                {
+                    "id": "10394",
+                    "category_id": "4212",
+                    "name": "eza.netway.co.th",
+                    "variable_id": "100063",
+                    "sort_order": "39",
+                    "copy_of": "10394"
+                },
+                {
+                    "id": "10395",
+                    "category_id": "4212",
+                    "name": "Template01-CentOS7.9-x64",
+                    "variable_id": "100064",
+                    "sort_order": "40",
+                    "copy_of": "10395"
+                }
+            ]
+        }
+    ],
+    "metrics": []
+}
