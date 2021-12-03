@@ -15,6 +15,6 @@
     "service": "workspace",
     "workspaceFolder": "/var/www/domains/netwaymain",
     "shutdownAction": "stopCompose",
-    "postStartCommand": ". /var/www/domains/netwaymain/devscript.sh; npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th; npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th/frontend; npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th/frontend;",
+    "postStartCommand": ". /var/www/domains/netwaymain/devscript.sh;",
     "postCreateCommand": "unlink /var/www/domains/main; ln -s /var/www/domains/netwaymain /var/www/domains/main;",
 }
