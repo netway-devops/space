@@ -10,5 +10,4 @@ fi
 
 npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th
 npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th/frontend
-npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th/frontend
-
+#npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th/frontend
