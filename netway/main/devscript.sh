@@ -9,6 +9,25 @@ then
 fi
 
 npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th
-npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th/frontend
-npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th/frontend
+npm install pm2@latest -g
 
+if [ -d "/var/www/domains/netwaymain/billing.netway.co.th/frontend-server" ];
+then
+cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main-key.pem /var/www/domains/netwaymain/billing.netway.co.th/frontend-server/ssl/;
+cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main.pem /var/www/domains/netwaymain/billing.netway.co.th/frontend-server/ssl/;
+
+npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th/frontend-server
+pm2 start "npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th/frontend-server" --name frontend-server
+
+fi
+
+if [ -d "/var/www/domains/netwaymain/billing.netway.co.th/hypernova-server" ];
+then
+
+cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main-key.pem /var/www/domains/netwaymain/billing.netway.co.th/hypernova-server/src/ssl/;
+cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main.pem /var/www/domains/netwaymain/billing.netway.co.th/hypernova-server/src/ssl/;
+
+npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th/hypernova-server
+pm2 start "npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th/hypernova-server" --name hypernove-server
+
+fi
