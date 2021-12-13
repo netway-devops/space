@@ -6,6 +6,7 @@
         "apache2",
         "php-fpm",
         "mysql",
+        "redis",
         "phpmyadmin",
         "workspace",
         "docker-in-docker",
