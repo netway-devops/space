@@ -6,7 +6,6 @@
     "apache2",
     "php-fpm",
     "mysql",
-    "mariadb",
     "phpmyadmin",
     "workspace",
     "docker-in-docker",

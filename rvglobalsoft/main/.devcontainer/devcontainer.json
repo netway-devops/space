@@ -6,7 +6,6 @@
         "apache2",
         "php-fpm",
         "mysql",
-        "mariadb",
         "phpmyadmin",
         "docker-in-docker",
         "workspace",
@@ -16,5 +15,5 @@
     "workspaceFolder": "/var/www/domains/rvglobalsoftmain",
     "shutdownAction": "stopCompose",
     "postStartCommand": ". /var/www/domains/rvglobalsoftmain/devscript.sh",
-    "postCreateCommand": "unlink /var/www/domains/main; ln -s /var/www/domains/rvglobalsoftmain /var/www/domains/main;",
+    // "postCreateCommand": "unlink /var/www/domains/main; ln -s /var/www/domains/rvglobalsoftmain /var/www/domains/main;",
 }
