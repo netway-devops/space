@@ -14,6 +14,5 @@
   "service": "workspace",
   "workspaceFolder": "/home/laradock/rvsitebuildercms",
   "shutdownAction": "stopCompose",
-  "preCreateCommand": "cd ../../../../laradock-multisite/; ./local-ssl-certs-gen.sh",
   "postCreateCommand": "unlink /home/laradock/main; ln -s /home/laradock/rvsitebuildercms /home/laradock/main; npm install -g npm@6;",
 }
