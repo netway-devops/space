@@ -6,7 +6,7 @@
         "apache2",
         "php-fpm",
         "mysql",
-        "mariadb",
+        "redis",
         "phpmyadmin",
         "workspace",
         "docker-in-docker",
@@ -16,5 +16,4 @@
     "workspaceFolder": "/var/www/domains/netwaymain",
     "shutdownAction": "stopCompose",
     "postStartCommand": ". /var/www/domains/netwaymain/devscript.sh;",
-    "postCreateCommand": "unlink /var/www/domains/main; ln -s /var/www/domains/netwaymain /var/www/domains/main;",
 }
