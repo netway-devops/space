@@ -39,3 +39,24 @@ cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/client.netway
 npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th/hypernova-server
 pm2 start "npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th/hypernova-server" --name hypernove-server
 fi
+
+#start nodejs api-billing
+local-ssl-certs/billing.netway.co.th.main-key.pem
+if [ -d "/var/www/domains/netwaymain/billing.netway.co.th/api-server" ];
+then
+cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main-key.pem /var/www/domains/netwaymain/billing.netway.co.th/api-server/ssl/;
+cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main.pem /var/www/domains/netwaymain/billing.netway.co.th/api-server/ssl/;
+
+npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th/api-server
+pm2 start "npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th/api-server" --name api-server --watch
+fi
+
+#start nodejs api-3rdpart
+if [ -d "/var/www/domains/netwaymain/billing.netway.co.th/3rdpart-api-server" ];
+then
+cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main-key.pem /var/www/domains/netwaymain/billing.netway.co.th/3rdpart-api-server/ssl/;
+cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main.pem /var/www/domains/netwaymain/billing.netway.co.th/3rdpart-api-server/ssl/;
+
+npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th/3rdpart-api-server
+pm2 start "npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th/3rdpart-api-server" --name 3rdpart-api-server --watch
+fi
