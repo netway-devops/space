@@ -26,6 +26,12 @@ then
 cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main-key.pem /var/www/domains/netwaymain/billing.netway.co.th/frontend-server/ssl/;
 cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main.pem /var/www/domains/netwaymain/billing.netway.co.th/frontend-server/ssl/;
 
+#copy env-example to .env
+if [ ! -f "/var/www/domains/netwaymain/billing.netway.co.th/frontend-server/.env" ];
+then
+cp -a /var/www/domains/netwaymain/billing.netway.co.th/frontend-server/.env.example /var/www/domains/netwaymain/billing.netway.co.th/frontend-server/.env
+fi
+
 npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th/frontend-server
 pm2 start "npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th/frontend-server" --name frontend-server
 fi
@@ -36,6 +42,12 @@ if [ -d "/var/www/domains/netwaymain/billing.netway.co.th/api-server" ];
 then
 cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main-key.pem /var/www/domains/netwaymain/billing.netway.co.th/api-server/ssl/;
 cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main.pem /var/www/domains/netwaymain/billing.netway.co.th/api-server/ssl/;
+
+#copy env-example to .env
+if [ ! -f "/var/www/domains/netwaymain/billing.netway.co.th/api-server/.env" ];
+then
+cp -a /var/www/domains/netwaymain/billing.netway.co.th/api-server/.env.example /var/www/domains/netwaymain/billing.netway.co.th/api-server/.env
+fi
 
 npm install --prefix /var/www/domains/netwaymain/billing.netway.co.th/api-server
 pm2 start "npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th/api-server" --name api-server --watch
