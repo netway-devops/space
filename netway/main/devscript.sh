@@ -37,7 +37,6 @@ pm2 start "npm run dev --prefix /var/www/domains/netwaymain/billing.netway.co.th
 fi
 
 #start nodejs api-billing
-local-ssl-certs/billing.netway.co.th.main-key.pem
 if [ -d "/var/www/domains/netwaymain/billing.netway.co.th/api-server" ];
 then
 cp -a /var/www/gitworks/laradock-multisite/apache2/local-ssl-certs/billing.netway.co.th.main-key.pem /var/www/domains/netwaymain/billing.netway.co.th/api-server/ssl/;
