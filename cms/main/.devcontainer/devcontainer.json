@@ -14,4 +14,5 @@
   "service": "workspace",
   "workspaceFolder": "/home/laradock/rvsitebuildercms",
   "shutdownAction": "stopCompose",
+  "postStartCommand": "npm install -g lerna",
 }
